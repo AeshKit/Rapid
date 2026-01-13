@@ -1,6 +1,6 @@
 <p align="center">
   <img 
-    src="https://raw.githubusercontent.com/AeshKit/Rapid/v1.0/resources/drawables/ClockModern.png"
+    src="https://raw.githubusercontent.com/AeshKit/Rapid/main/CoverImage500x500.png"
     width="112"
     style="image-rendering: pixelated;">
 </p>
@@ -44,7 +44,7 @@ While the game is paused, the screen is split into four quadrants as such
 
 <p>
   <img 
-    src="https://raw.githubusercontent.com/AeshKit/Rapid/v1.0/resources/drawables/CircleCross.png"
+    src="https://raw.githubusercontent.com/AeshKit/Rapid/main/CircleCross500x500.png"
     width="100"
     style="image-rendering: pixelated;">
 </p>
@@ -77,7 +77,7 @@ And, due to the limitations of the hardware, the timer can be inaccurate by up t
 
 This will make the current time displayed incorrect until the user switches sides. This is because while the timer is dynamically changing, the app uses System.getTimer() to keep track of the time. This function outputs the amount of milliseconds that the watch has been on for.
 
-## -- Liscense --
+## -- License --
 
 ```
 Copyright (C) 2026  Kaiden Santos
