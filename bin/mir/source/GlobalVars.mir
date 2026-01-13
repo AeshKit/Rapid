@@ -1,0 +1,13 @@
+[ @file = "/home/aesh/VSCodium-Projects/Rapid/source/GlobalVars.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/aesh/VSCodium-Projects/Rapid/source/GlobalVars.mc"; @line = 3; @symbol_moduledef = [globalVars,3,7,17]; ]
+module globalVars {
+    [ @file = "/home/aesh/VSCodium-Projects/Rapid/source/GlobalVars.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/home/aesh/VSCodium-Projects/Rapid/source/GlobalVars.mc"; @line = 4; @position = 8; @symbol_vardef = [gameStarted,4,8,19]; @symbol_type<0> = [Boolean,4,23,30]; ]
+    var gameStarted as Boolean = false;
+}
+[ @file = "/home/aesh/VSCodium-Projects/Rapid/source/GlobalVars.mc"; @line = 1; ]
+<init> {
+}

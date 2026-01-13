@@ -1,0 +1,38 @@
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Activity,1,14,22]; ]
+import Toybox.Activity;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Sensor,2,14,20]; ]
+import Toybox.Sensor;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+import Toybox.System;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Attention,4,14,23]; ]
+import Toybox.Attention;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [FitContributor,5,14,28]; ]
+import Toybox.FitContributor;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [ActivityRecording,6,14,31]; ]
+import Toybox.ActivityRecording;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Timer,7,14,19]; ]
+import Toybox.Timer;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 9; @symbol_usingdef<0> = [Toybox,9,6,12]; @symbol_usingdef<1> = [WatchUi,9,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 11; @symbol_classdef = [Model,11,6,11]; ]
+class Model {
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 11; ]
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 11; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 13; @symbol_functiondef = [initialize,13,13,23]; ]
+    function initialize() as Void {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 16; @symbol_functiondef = [start,16,13,18]; ]
+    function start() {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 19; @symbol_functiondef = [stop,19,13,17]; ]
+    function stop() {
+    }
+}
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Model.mc"; @line = 1; ]
+<init> {
+}

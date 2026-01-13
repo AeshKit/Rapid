@@ -1,0 +1,65 @@
+<strings>
+    <string id="app_name">Rapid</string>
+
+    <string id="decimal_separator">.</string>
+
+    <string id="white_time_out">White Time-Out!</string>
+    <string id="black_time_out">Black Time-Out!</string>
+    <string id="turns">Turns: </string>
+    <string id="time_left">Time Left: </string>
+
+    <string id="total_time">Total Time: </string>
+    <string id="white_time">White Time: </string>
+    <string id="black_time">Black Time: </string>
+    <string id="white_time_no_space">White Time:</string>
+    <string id="black_time_no_space">Black Time:</string>
+    <string id="increment">Increment:</string>
+    <string id="white_increment">White Increment:</string>
+    <string id="black_increment">Black Increment:</string>
+    <string id="starting_time">Starting Time:</string>
+
+    <!-- Checkbox Menu Strings -->
+    <string id="haptics_string">Haptics</string>
+    <string id="progress_ring">Progress Ring</string>
+    <string id="toggle_backlight">Backlight</string>
+    <string id="scaling_time_out">Scaling Time-Out</string>
+    <string id="use_menu1">Use Menu1</string>
+    <string id="use_legacy_view">Use Legacy View</string>
+
+    <string id="uses_battery">*Uses Battery</string>
+    <string id="legacy_menu">Legacy Menu</string>
+
+    <!-- Menu2 Strings -->
+    <string id="settings">Settings</string>
+    <string id="opens_settings_menu">Opens Settings Menu</string>
+    <string id="white_time_setting">White Time</string>
+    <string id="white_increment_setting">White Increment</string>
+    <string id="black_time_setting">Black Time</string>
+    <string id="black_increment_setting">Black Increment</string>
+
+    <string id="starting_time_setting">Starting Time</string>
+    <string id="increment_setting">Increment</string>
+
+    <string id="change_starting_time">Change Starting Time</string>
+    <string id="change_increment">Change Increment</string>
+    <string id="kill_app">Kill App</string>
+
+    <!-- Menu1 Strings -->
+    <string id="white_increment_short">White Inc.</string>
+    <string id="black_increment_short">Black Inc.</string>
+    <string id="starting_increment_short">Increment</string>
+    <string id="use_modern_menu">Use Modern Menu</string>
+    <string id="haptics_on">Haptics [Y]</string>
+    <string id="haptics_off">Haptics [N]</string>
+    <string id="backlight_on">Backlight [Y]</string>
+    <string id="backlight_off">Backlight [N]</string>
+    <string id="ring_on">Ring [Y]</string>
+    <string id="ring_off">Ring [N]</string>
+    <string id="modern_view_on">Modern View [Y]</string>
+    <string id="modern_view_off">Modern View [N]</string>
+
+    <string id="switch_sides">Switch Sides</string>
+
+    <string id="time_indicator_white">White Time:</string>
+    <string id="time_indicator_black">Black Time:</string>
+</strings>

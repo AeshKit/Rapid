@@ -1,0 +1,173 @@
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 3; @symbol_moduledef = [Constants,3,7,16]; ]
+module Constants {
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 4; @position = 10; @symbol_constdef = [UINT32_MAX,4,10,20]; ]
+    const UINT32_MAX = 0xFFFFFFFF;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 5; @position = 10; @symbol_constdef = [DEFAULT_SECONDS_TIMES_20,5,10,34]; ]
+    const DEFAULT_SECONDS_TIMES_20 = 12100;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 7; @position = 10; @symbol_constdef = [vivoactive6PartNumber,7,10,31]; @symbol_type<0> = [String,7,39,45]; ]
+    const vivoactive6PartNumber as String = "006-B4625-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 8; @position = 10; @symbol_constdef = [fenix8solar51mmPartNumber,8,10,35]; @symbol_type<0> = [String,8,39,45]; ]
+    const fenix8solar51mmPartNumber as String = "006-B4533-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 9; @position = 10; @symbol_constdef = [fenix8solar47mmPartNumber,9,10,35]; @symbol_type<0> = [String,9,39,45]; ]
+    const fenix8solar47mmPartNumber as String = "006-B4532-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 10; @position = 10; @symbol_constdef = [fenixchronosPartNumber,10,10,32]; @symbol_type<0> = [String,10,39,45]; ]
+    const fenixchronosPartNumber as String = "006-B2432-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 11; @position = 10; @symbol_constdef = [fr55PartNumber,11,10,24]; @symbol_type<0> = [String,11,39,45]; ]
+    const fr55PartNumber as String = "006-B3869-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 12; @position = 10; @symbol_constdef = [fr230PartNumber,12,10,25]; @symbol_type<0> = [String,12,39,45]; ]
+    const fr230PartNumber as String = "006-B2157-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 13; @position = 10; @symbol_constdef = [fr235PartNumber,13,10,25]; @symbol_type<0> = [String,13,39,45]; ]
+    const fr235PartNumber as String = "006-B2431-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 14; @position = 10; @symbol_constdef = [fr245PartNumber,14,10,25]; @symbol_type<0> = [String,14,39,45]; ]
+    const fr245PartNumber as String = "006-B3076-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 15; @position = 10; @symbol_constdef = [fr245mPartNumber,15,10,26]; @symbol_type<0> = [String,15,39,45]; ]
+    const fr245mPartNumber as String = "006-B3077-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 16; @position = 10; @symbol_constdef = [fr255PartNumber,16,10,25]; @symbol_type<0> = [String,16,39,45]; ]
+    const fr255PartNumber as String = "006-B3992-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 17; @position = 10; @symbol_constdef = [fr255sPartNumber,17,10,26]; @symbol_type<0> = [String,17,39,45]; ]
+    const fr255sPartNumber as String = "006-B3993-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 18; @position = 10; @symbol_constdef = [fr255mPartNumber,18,10,26]; @symbol_type<0> = [String,18,39,45]; ]
+    const fr255mPartNumber as String = "006-B3990-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 19; @position = 10; @symbol_constdef = [fr255smPartNumber,19,10,27]; @symbol_type<0> = [String,19,39,45]; ]
+    const fr255smPartNumber as String = "006-B3991-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 20; @position = 10; @symbol_constdef = [fr630PartNumber,20,10,25]; @symbol_type<0> = [String,20,39,45]; ]
+    const fr630PartNumber as String = "006-B2156-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 21; @position = 10; @symbol_constdef = [fr645PartNumber,21,10,25]; @symbol_type<0> = [String,21,39,45]; ]
+    const fr645PartNumber as String = "006-B2886-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 22; @position = 10; @symbol_constdef = [fr645mPartNumber,22,10,26]; @symbol_type<0> = [String,22,39,45]; ]
+    const fr645mPartNumber as String = "006-B2888-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 23; @position = 10; @symbol_constdef = [fr735xtPartNumber,23,10,27]; @symbol_type<0> = [String,23,39,45]; ]
+    const fr735xtPartNumber as String = "006-B2158-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 24; @position = 10; @symbol_constdef = [fr745PartNumber,24,10,25]; @symbol_type<0> = [String,24,39,45]; ]
+    const fr745PartNumber as String = "006-B3589-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 25; @position = 10; @symbol_constdef = [fr935PartNumber,25,10,25]; @symbol_type<0> = [String,25,39,45]; ]
+    const fr935PartNumber as String = "006-B2691-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 26; @position = 10; @symbol_constdef = [fr945PartNumber,26,10,25]; @symbol_type<0> = [String,26,39,45]; ]
+    const fr945PartNumber as String = "006-B3113-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 27; @position = 10; @symbol_constdef = [fr945ltePartNumber,27,10,28]; @symbol_type<0> = [String,27,39,45]; ]
+    const fr945ltePartNumber as String = "006-B3652-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 28; @position = 10; @symbol_constdef = [epix,28,10,14]; @symbol_type<0> = [String,28,39,45]; ]
+    const epix as String = "006-B1988-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 29; @position = 10; @symbol_constdef = [approachs50PartNumber,29,10,31]; @symbol_type<0> = [String,29,39,45]; ]
+    const approachs50PartNumber as String = "006-B4656-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 30; @position = 10; @symbol_constdef = [approachs60PartNumber,30,10,31]; @symbol_type<0> = [String,30,39,45]; ]
+    const approachs60PartNumber as String = "006-B2656-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 31; @position = 10; @symbol_constdef = [approachs62PartNumber,31,10,31]; @symbol_type<0> = [String,31,39,45]; ]
+    const approachs62PartNumber as String = "006-B3393-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 32; @position = 10; @symbol_constdef = [approachs7042mmPartNumber,32,10,35]; @symbol_type<0> = [String,32,39,45]; ]
+    const approachs7042mmPartNumber as String = "006-B4233-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 33; @position = 10; @symbol_constdef = [approachs7047mmPartNumber,33,10,35]; @symbol_type<0> = [String,33,39,45]; ]
+    const approachs7047mmPartNumber as String = "006-B4234-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 34; @position = 10; @symbol_constdef = [d2airPartNumber,34,10,25]; @symbol_type<0> = [String,34,39,45]; ]
+    const d2airPartNumber as String = "006-B2187-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 35; @position = 10; @symbol_constdef = [d2airx10PartNumber,35,10,28]; @symbol_type<0> = [String,35,39,45]; ]
+    const d2airx10PartNumber as String = "006-B4125-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 36; @position = 10; @symbol_constdef = [d2bravoPartNumber,36,10,27]; @symbol_type<0> = [String,36,39,45]; ]
+    const d2bravoPartNumber as String = "006-B2262-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 37; @position = 10; @symbol_constdef = [d2bravo_titPartNumber,37,10,31]; @symbol_type<0> = [String,37,39,45]; ]
+    const d2bravo_titPartNumber as String = "006-B2547-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 38; @position = 10; @symbol_constdef = [d2charliePartNumber,38,10,29]; @symbol_type<0> = [String,38,39,45]; ]
+    const d2charliePartNumber as String = "006-B2819-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 39; @position = 10; @symbol_constdef = [d2deltaPartNumber,39,10,27]; @symbol_type<0> = [String,39,39,45]; ]
+    const d2deltaPartNumber as String = "006-B3197-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 40; @position = 10; @symbol_constdef = [d2deltapxPartNumber,40,10,29]; @symbol_type<0> = [String,40,39,45]; ]
+    const d2deltapxPartNumber as String = "006-B3198-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 41; @position = 10; @symbol_constdef = [d2deltasPartNumber,41,10,28]; @symbol_type<0> = [String,41,39,45]; ]
+    const d2deltasPartNumber as String = "006-B3196-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 42; @position = 10; @symbol_constdef = [descentg2PartNumber,42,10,29]; @symbol_type<0> = [String,42,39,45]; ]
+    const descentg2PartNumber as String = "006-B4588-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 43; @position = 10; @symbol_constdef = [descentmk1PartNumber,43,10,30]; @symbol_type<0> = [String,43,39,45]; ]
+    const descentmk1PartNumber as String = "006-B2859-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 44; @position = 10; @symbol_constdef = [descentmk2PartNumber,44,10,30]; @symbol_type<0> = [String,44,39,45]; ]
+    const descentmk2PartNumber as String = "006-B3258-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 45; @position = 10; @symbol_constdef = [descentmk2sPartNumber,45,10,31]; @symbol_type<0> = [String,45,39,45]; ]
+    const descentmk2sPartNumber as String = "006-B3542-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 46; @position = 10; @symbol_constdef = [enduroPartNumber,46,10,26]; @symbol_type<0> = [String,46,39,45]; ]
+    const enduroPartNumber as String = "006-B3638-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 47; @position = 10; @symbol_constdef = [fenix3PartNumber,47,10,26]; @symbol_type<0> = [String,47,39,45]; ]
+    const fenix3PartNumber as String = "006-B2050-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 48; @position = 10; @symbol_constdef = [fenix3hrPartNumber,48,10,28]; @symbol_type<0> = [String,48,39,45]; ]
+    const fenix3hrPartNumber as String = "006-B2413-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 49; @position = 10; @symbol_constdef = [fenix5PartNumber,49,10,26]; @symbol_type<0> = [String,49,39,45]; ]
+    const fenix5PartNumber as String = "006-B2697-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 50; @position = 10; @symbol_constdef = [fenix5plusPartNumber,50,10,30]; @symbol_type<0> = [String,50,39,45]; ]
+    const fenix5plusPartNumber as String = "006-B3110-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 51; @position = 10; @symbol_constdef = [fenix5sPartNumber,51,10,27]; @symbol_type<0> = [String,51,39,45]; ]
+    const fenix5sPartNumber as String = "006-B2544-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 52; @position = 10; @symbol_constdef = [fenix5splusPartNumber,52,10,31]; @symbol_type<0> = [String,52,39,45]; ]
+    const fenix5splusPartNumber as String = "006-B2900-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 53; @position = 10; @symbol_constdef = [fenix5xPartNumber,53,10,27]; @symbol_type<0> = [String,53,39,45]; ]
+    const fenix5xPartNumber as String = "006-B2604-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 54; @position = 10; @symbol_constdef = [fenix5xplusPartNumber,54,10,31]; @symbol_type<0> = [String,54,39,45]; ]
+    const fenix5xplusPartNumber as String = "006-B3111-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 55; @position = 10; @symbol_constdef = [fenix6PartNumber,55,10,26]; @symbol_type<0> = [String,55,39,45]; ]
+    const fenix6PartNumber as String = "006-B3289-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 56; @position = 10; @symbol_constdef = [fenix6proPartNumber,56,10,29]; @symbol_type<0> = [String,56,39,45]; ]
+    const fenix6proPartNumber as String = "006-B3290-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 57; @position = 10; @symbol_constdef = [fenix6sPartNumber,57,10,27]; @symbol_type<0> = [String,57,39,45]; ]
+    const fenix6sPartNumber as String = "006-B3287-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 58; @position = 10; @symbol_constdef = [fenix6sproPartNumber,58,10,30]; @symbol_type<0> = [String,58,39,45]; ]
+    const fenix6sproPartNumber as String = "006-B3288-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 59; @position = 10; @symbol_constdef = [fenix6xproPartNumber,59,10,30]; @symbol_type<0> = [String,59,39,45]; ]
+    const fenix6xproPartNumber as String = "006-B3291-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 60; @position = 10; @symbol_constdef = [instinct345mmPartNumber,60,10,33]; @symbol_type<0> = [String,60,39,45]; ]
+    const instinct345mmPartNumber as String = "006-B4586-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 61; @position = 10; @symbol_constdef = [instinct350mmPartNumber,61,10,33]; @symbol_type<0> = [String,61,39,45]; ]
+    const instinct350mmPartNumber as String = "006-B4587-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 62; @position = 10; @symbol_constdef = [venuPartNumber,62,10,24]; @symbol_type<0> = [String,62,39,45]; ]
+    const venuPartNumber as String = "006-B3226-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 63; @position = 10; @symbol_constdef = [venu2PartNumber,63,10,25]; @symbol_type<0> = [String,63,39,45]; ]
+    const venu2PartNumber as String = "006-B3703-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 64; @position = 10; @symbol_constdef = [venu2plusPartNumber,64,10,29]; @symbol_type<0> = [String,64,39,45]; ]
+    const venu2plusPartNumber as String = "006-B3851-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 65; @position = 10; @symbol_constdef = [venu2sPartNumber,65,10,26]; @symbol_type<0> = [String,65,39,45]; ]
+    const venu2sPartNumber as String = "006-B3704-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 66; @position = 10; @symbol_constdef = [venudPartNumber,66,10,25]; @symbol_type<0> = [String,66,39,45]; ]
+    const venudPartNumber as String = "006-B3740-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 67; @position = 10; @symbol_constdef = [marq2PartNumber,67,10,25]; @symbol_type<0> = [String,67,39,45]; ]
+    const marq2PartNumber as String = "006-B4105-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 68; @position = 10; @symbol_constdef = [marq2aPartNumber,68,10,26]; @symbol_type<0> = [String,68,39,45]; ]
+    const marq2aPartNumber as String = "006-B4124-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 69; @position = 10; @symbol_constdef = [marqadenturerPartNumber,69,10,33]; @symbol_type<0> = [String,69,39,45]; ]
+    const marqadenturerPartNumber as String = "006-B3624-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 70; @position = 10; @symbol_constdef = [marqathletePartNumber,70,10,31]; @symbol_type<0> = [String,70,39,45]; ]
+    const marqathletePartNumber as String = "006-B3251-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 71; @position = 10; @symbol_constdef = [marqaviatorPartNumber,71,10,31]; @symbol_type<0> = [String,71,39,45]; ]
+    const marqaviatorPartNumber as String = "006-B3247-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 72; @position = 10; @symbol_constdef = [marqcaptainPartNumber,72,10,31]; @symbol_type<0> = [String,72,39,45]; ]
+    const marqcaptainPartNumber as String = "006-B3248-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 73; @position = 10; @symbol_constdef = [marqcommanderPartNumber,73,10,33]; @symbol_type<0> = [String,73,39,45]; ]
+    const marqcommanderPartNumber as String = "006-B3249-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 74; @position = 10; @symbol_constdef = [marqdriverPartNumber,74,10,30]; @symbol_type<0> = [String,74,39,45]; ]
+    const marqdriverPartNumber as String = "006-B3246-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 75; @position = 10; @symbol_constdef = [marqexpeditionPartNumber,75,10,34]; @symbol_type<0> = [String,75,39,45]; ]
+    const marqexpeditionPartNumber as String = "006-B3250-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 76; @position = 10; @symbol_constdef = [marqgolferPartNumber,76,10,30]; @symbol_type<0> = [String,76,39,45]; ]
+    const marqgolferPartNumber as String = "006-B3739-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 77; @position = 10; @symbol_constdef = [vivoactive4PartNumber,77,10,31]; @symbol_type<0> = [String,77,39,45]; ]
+    const vivoactive4PartNumber as String = "006-B3225-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 78; @position = 10; @symbol_constdef = [vivoactive4sPartNumber,78,10,32]; @symbol_type<0> = [String,78,39,45]; ]
+    const vivoactive4sPartNumber as String = "006-B3224-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 79; @position = 10; @symbol_constdef = [vivoactive5PartNumber,79,10,31]; @symbol_type<0> = [String,79,39,45]; ]
+    const vivoactive5PartNumber as String = "006-B4426-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 80; @position = 10; @symbol_constdef = [sagareyPartNumber,80,10,27]; @symbol_type<0> = [String,80,39,45]; ]
+    const sagareyPartNumber as String = "006-B3498-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 81; @position = 10; @symbol_constdef = [darthvaderPartNumber,81,10,30]; @symbol_type<0> = [String,81,39,45]; ]
+    const darthvaderPartNumber as String = "006-B3499-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 82; @position = 10; @symbol_constdef = [captainmarvelPartNumber,82,10,33]; @symbol_type<0> = [String,82,39,45]; ]
+    const captainmarvelPartNumber as String = "006-B3500-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 83; @position = 10; @symbol_constdef = [firstavengerPartNumber,83,10,32]; @symbol_type<0> = [String,83,39,45]; ]
+    const firstavengerPartNumber as String = "006-B3501-00";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 87; @position = 10; @symbol_constdef = [SETTINGS_STRING_EN,87,10,28]; ]
+    const SETTINGS_STRING_EN = "Settings";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 88; @position = 10; @symbol_constdef = [SETTINGS_STRING_ES,88,10,28]; ]
+    const SETTINGS_STRING_ES = "Ajustes";
+}
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Constants.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,860 @@
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Application,4,13,24]; @symbol_usingdef<2> = [Storage,4,25,32]; @symbol_usingAlias = [Disk,4,36,40]; ]
+using Toybox.Application.Storage as :Disk;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [WatchUi,5,13,20]; @symbol_usingAlias = [Ui,5,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 7; @symbol_importdef<0> = [Rez,7,7,10]; @symbol_importdef<1> = [Strings,7,11,18]; ]
+import Rez.Strings;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 8; @symbol_importdef<0> = [Constants,8,7,16]; ]
+import Constants;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 10; @symbol_classdef = [RapidMenuDelegate,10,6,23]; @symbol_extends<0> = [Ui,10,32,34]; @symbol_extends<1> = [Menu2InputDelegate,10,35,53]; ]
+class RapidMenuDelegate extends Ui.Menu2InputDelegate {
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 10; ]
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 12; @position = 8; @symbol_vardef = [checkboxMenu,12,8,20]; @symbol_type<0> = [Boolean,12,24,31]; ]
+    var checkboxMenu as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 14; @symbol_functiondef = [initialize,14,13,23]; ]
+    function initialize() as Void {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_14_26_16_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 15 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 15 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 15 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_14_26_16_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 18; @symbol_functiondef = [onMenu,18,13,19]; ]
+    function onMenu() {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_18_22_96_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 19 8 ]
+        [ "_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_18_22_96_4_start" "_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_18_22_96_4_stop" ]
+        %menu.1 = local;
+        symbol [ menu %menu.1 19 12 16 ];
+        symbol [ Ui %tmp.3 19 23 25 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ CheckboxMenu %tmp.4 19 26 38 ];
+        %tmp.4 = getv function ? %tmp.3 :CheckboxMenu;
+        %tmp.5 = newd 1;
+        %tmp.7 = const :title;
+        symbol [ title %tmp.7 19 41 46 const ];
+        %tmp.8 = self;
+        symbol [ loadResource %tmp.9 19 48 60 ];
+        %tmp.9 = getv function %tmp.8 :loadResource;
+        symbol [ Strings %tmp.10 19 61 68 ];
+        %tmp.10 = getm $.Rez.Strings;
+        symbol [ settings %tmp.11 19 69 77 ];
+        %tmp.11 = getv %tmp.10 :settings;
+        %tmp.12 = invoke %tmp.8 %tmp.9(%tmp.11);
+        %tmp.13 = dup %tmp.5;
+        %tmp.14 = aputv %tmp.13 %tmp.7 %tmp.12;
+        %tmp.1 = newc %tmp.4 (%tmp.14);
+        lputv %menu.1 %tmp.1;
+        symbol [ menu %menu.1 19 12 16 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 20 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_20_8_22_8_if_stmt:
+        symbol [ Disk %tmp.15 20 11 15 ];
+        %tmp.15 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.16 20 16 24 ];
+        %tmp.16 = getv function %tmp.15 :getValue;
+        %tmp.17 = "haptics";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        %tmp.19 = null;
+        %tmp.20 = eq %tmp.18 %tmp.19;
+        bf %tmp.20 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_20_8_22_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_20_8_22_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_20_45_22_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 21 12 ]
+        symbol [ Disk %tmp.21 21 12 16 ];
+        %tmp.21 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.22 21 17 25 ];
+        %tmp.22 = getv function %tmp.21 :setValue;
+        %tmp.23 = "haptics";
+        symbol [ Attention %tmp.25 21 37 46 ];
+        %tmp.25 = getv ? :Attention;
+        %tmp.27 = const :vibrate;
+        symbol [ vibrate %tmp.27 21 52 59 const ];
+        %tmp.28 = canhazplz %tmp.25 %tmp.27;
+        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.28);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_20_45_22_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_20_8_22_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_20_8_22_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 23 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_23_8_25_8_if_stmt:
+        symbol [ Disk %tmp.29 23 11 15 ];
+        %tmp.29 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.30 23 16 24 ];
+        %tmp.30 = getv function %tmp.29 :getValue;
+        %tmp.31 = "progress_ring";
+        %tmp.32 = null;
+        %tmp.33 = eq %tmp.31 %tmp.32;
+        %tmp.34 = invoke %tmp.29 %tmp.30(%tmp.33);
+        bf %tmp.34 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_23_8_25_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_23_8_25_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_23_51_25_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 24 12 ]
+        symbol [ Disk %tmp.35 24 12 16 ];
+        %tmp.35 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.36 24 17 25 ];
+        %tmp.36 = getv function %tmp.35 :setValue;
+        %tmp.37 = "progress_ring";
+        symbol [ Graphics %tmp.39 24 43 51 ];
+        %tmp.39 = getv ? :Graphics;
+        symbol [ Dc %tmp.40 24 52 54 ];
+        %tmp.40 = getv %tmp.39 :Dc;
+        %tmp.42 = const :drawArc;
+        symbol [ drawArc %tmp.42 24 60 67 const ];
+        %tmp.43 = canhazplz %tmp.40 %tmp.42;
+        invoke %tmp.35 %tmp.36(%tmp.37, %tmp.43);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_23_51_25_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_23_8_25_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_23_8_25_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 26 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_26_8_28_8_if_stmt:
+        symbol [ Disk %tmp.44 26 11 15 ];
+        %tmp.44 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.45 26 16 24 ];
+        %tmp.45 = getv function %tmp.44 :getValue;
+        %tmp.46 = "backlight";
+        %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
+        %tmp.48 = null;
+        %tmp.49 = eq %tmp.47 %tmp.48;
+        bf %tmp.49 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_26_8_28_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_26_8_28_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_26_47_28_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 27 12 ]
+        symbol [ Disk %tmp.50 27 12 16 ];
+        %tmp.50 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.51 27 17 25 ];
+        %tmp.51 = getv function %tmp.50 :setValue;
+        %tmp.52 = "backlight";
+        %tmp.53 = false;
+        invoke %tmp.50 %tmp.51(%tmp.52, %tmp.53);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_26_47_28_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_26_8_28_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_26_8_28_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 29 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_29_8_31_8_if_stmt:
+        symbol [ Disk %tmp.54 29 11 15 ];
+        %tmp.54 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.55 29 16 24 ];
+        %tmp.55 = getv function %tmp.54 :getValue;
+        %tmp.56 = "legacyMenu";
+        %tmp.57 = null;
+        %tmp.58 = eq %tmp.56 %tmp.57;
+        %tmp.59 = invoke %tmp.54 %tmp.55(%tmp.58);
+        bf %tmp.59 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_29_8_31_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_29_8_31_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_29_48_31_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 30 12 ]
+        symbol [ Disk %tmp.60 30 12 16 ];
+        %tmp.60 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.61 30 17 25 ];
+        %tmp.61 = getv function %tmp.60 :setValue;
+        %tmp.62 = "legacyMenu";
+        %tmp.63 = false;
+        invoke %tmp.60 %tmp.61(%tmp.62, %tmp.63);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_29_48_31_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_29_8_31_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_29_8_31_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 32 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_32_8_34_8_if_stmt:
+        symbol [ Disk %tmp.64 32 11 15 ];
+        %tmp.64 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.65 32 16 24 ];
+        %tmp.65 = getv function %tmp.64 :getValue;
+        %tmp.66 = "legacyView";
+        %tmp.67 = null;
+        %tmp.68 = eq %tmp.66 %tmp.67;
+        %tmp.69 = invoke %tmp.64 %tmp.65(%tmp.68);
+        bf %tmp.69 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_32_8_34_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_32_8_34_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_32_48_34_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 33 12 ]
+        symbol [ Disk %tmp.70 33 12 16 ];
+        %tmp.70 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.71 33 17 25 ];
+        %tmp.71 = getv function %tmp.70 :setValue;
+        %tmp.72 = "legacyView";
+        symbol [ Graphics %tmp.74 33 40 48 ];
+        %tmp.74 = getv ? :Graphics;
+        symbol [ Dc %tmp.75 33 49 51 ];
+        %tmp.75 = getv %tmp.74 :Dc;
+        %tmp.77 = const :drawAngledText;
+        symbol [ drawAngledText %tmp.77 33 57 71 const ];
+        %tmp.78 = canhazplz %tmp.75 %tmp.77;
+        invoke %tmp.70 %tmp.71(%tmp.72, %tmp.78);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_32_48_34_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_32_8_34_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_32_8_34_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 35 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_35_8_37_8_if_stmt:
+        symbol [ Disk %tmp.79 35 11 15 ];
+        %tmp.79 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.80 35 16 24 ];
+        %tmp.80 = getv function %tmp.79 :getValue;
+        %tmp.81 = "scalingTimeOut";
+        %tmp.82 = invoke %tmp.79 %tmp.80(%tmp.81);
+        %tmp.83 = null;
+        %tmp.84 = eq %tmp.82 %tmp.83;
+        bf %tmp.84 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_35_8_37_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_35_8_37_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_35_52_37_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 36 12 ]
+        symbol [ Disk %tmp.85 36 12 16 ];
+        %tmp.85 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.86 36 17 25 ];
+        %tmp.86 = getv function %tmp.85 :setValue;
+        %tmp.87 = "scalingTimeOut";
+        symbol [ Graphics %tmp.89 36 44 52 ];
+        %tmp.89 = getv ? :Graphics;
+        symbol [ Dc %tmp.90 36 53 55 ];
+        %tmp.90 = getv %tmp.89 :Dc;
+        %tmp.92 = const :drawAngledText;
+        symbol [ drawAngledText %tmp.92 36 61 75 const ];
+        %tmp.93 = canhazplz %tmp.90 %tmp.92;
+        invoke %tmp.85 %tmp.86(%tmp.87, %tmp.93);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_35_52_37_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_35_8_37_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_35_8_37_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 38 8 ]
+        %tmp.94 = lgetv %menu.1;
+        symbol [ menu %tmp.94 38 8 12 ];
+        symbol [ addItem %tmp.95 38 13 20 ];
+        %tmp.95 = getv function %tmp.94 :addItem;
+        symbol [ CheckboxMenuItem %tmp.99 39 16 32 ];
+        %tmp.99 = getv ? :CheckboxMenuItem;
+        %tmp.100 = self;
+        symbol [ loadResource %tmp.101 40 16 28 ];
+        %tmp.101 = getv function %tmp.100 :loadResource;
+        symbol [ Strings %tmp.102 40 29 36 ];
+        %tmp.102 = getm $.Rez.Strings;
+        symbol [ haptics_string %tmp.103 40 37 51 ];
+        %tmp.103 = getv %tmp.102 :haptics_string;
+        %tmp.104 = invoke %tmp.100 %tmp.101(%tmp.103);
+        %tmp.105 = "";
+        %tmp.107 = const :hp;
+        symbol [ hp %tmp.107 42 17 19 const ];
+        symbol [ Disk %tmp.108 43 16 20 ];
+        %tmp.108 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.109 43 21 29 ];
+        %tmp.109 = getv function %tmp.108 :getValue;
+        %tmp.110 = "haptics";
+        %tmp.111 = invoke %tmp.108 %tmp.109(%tmp.110);
+        %tmp.112 = newd 0;
+        %tmp.96 = newc %tmp.99 (%tmp.104, %tmp.105, %tmp.107, %tmp.111, %tmp.112);
+        invoke %tmp.94 %tmp.95(%tmp.96);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 47 8 ]
+        %tmp.113 = lgetv %menu.1;
+        symbol [ menu %tmp.113 47 8 12 ];
+        symbol [ addItem %tmp.114 47 13 20 ];
+        %tmp.114 = getv function %tmp.113 :addItem;
+        symbol [ CheckboxMenuItem %tmp.118 48 16 32 ];
+        %tmp.118 = getv ? :CheckboxMenuItem;
+        %tmp.119 = self;
+        symbol [ loadResource %tmp.120 49 16 28 ];
+        %tmp.120 = getv function %tmp.119 :loadResource;
+        symbol [ Strings %tmp.121 49 29 36 ];
+        %tmp.121 = getm $.Rez.Strings;
+        symbol [ progress_ring %tmp.122 49 37 50 ];
+        %tmp.122 = getv %tmp.121 :progress_ring;
+        %tmp.123 = invoke %tmp.119 %tmp.120(%tmp.122);
+        %tmp.124 = "";
+        %tmp.126 = const :pr;
+        symbol [ pr %tmp.126 51 17 19 const ];
+        symbol [ Disk %tmp.127 52 16 20 ];
+        %tmp.127 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.128 52 21 29 ];
+        %tmp.128 = getv function %tmp.127 :getValue;
+        %tmp.129 = "progressRing";
+        %tmp.130 = invoke %tmp.127 %tmp.128(%tmp.129);
+        %tmp.131 = newd 0;
+        %tmp.115 = newc %tmp.118 (%tmp.123, %tmp.124, %tmp.126, %tmp.130, %tmp.131);
+        invoke %tmp.113 %tmp.114(%tmp.115);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 56 8 ]
+        %tmp.132 = lgetv %menu.1;
+        symbol [ menu %tmp.132 56 8 12 ];
+        symbol [ addItem %tmp.133 56 13 20 ];
+        %tmp.133 = getv function %tmp.132 :addItem;
+        symbol [ CheckboxMenuItem %tmp.137 57 16 32 ];
+        %tmp.137 = getv ? :CheckboxMenuItem;
+        %tmp.138 = self;
+        symbol [ loadResource %tmp.139 58 16 28 ];
+        %tmp.139 = getv function %tmp.138 :loadResource;
+        symbol [ Strings %tmp.140 58 29 36 ];
+        %tmp.140 = getm $.Rez.Strings;
+        symbol [ toggle_backlight %tmp.141 58 37 53 ];
+        %tmp.141 = getv %tmp.140 :toggle_backlight;
+        %tmp.142 = invoke %tmp.138 %tmp.139(%tmp.141);
+        %tmp.143 = self;
+        symbol [ loadResource %tmp.144 59 16 28 ];
+        %tmp.144 = getv function %tmp.143 :loadResource;
+        symbol [ Strings %tmp.145 59 29 36 ];
+        %tmp.145 = getm $.Rez.Strings;
+        symbol [ uses_battery %tmp.146 59 37 49 ];
+        %tmp.146 = getv %tmp.145 :uses_battery;
+        %tmp.147 = invoke %tmp.143 %tmp.144(%tmp.146);
+        %tmp.149 = const :bk;
+        symbol [ bk %tmp.149 60 17 19 const ];
+        symbol [ Disk %tmp.150 61 16 20 ];
+        %tmp.150 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.151 61 21 29 ];
+        %tmp.151 = getv function %tmp.150 :getValue;
+        %tmp.152 = "backlight";
+        %tmp.153 = invoke %tmp.150 %tmp.151(%tmp.152);
+        %tmp.154 = newd 0;
+        %tmp.134 = newc %tmp.137 (%tmp.142, %tmp.147, %tmp.149, %tmp.153, %tmp.154);
+        invoke %tmp.132 %tmp.133(%tmp.134);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 65 8 ]
+        %tmp.155 = lgetv %menu.1;
+        symbol [ menu %tmp.155 65 8 12 ];
+        symbol [ addItem %tmp.156 65 13 20 ];
+        %tmp.156 = getv function %tmp.155 :addItem;
+        symbol [ CheckboxMenuItem %tmp.160 66 16 32 ];
+        %tmp.160 = getv ? :CheckboxMenuItem;
+        %tmp.161 = self;
+        symbol [ loadResource %tmp.162 67 16 28 ];
+        %tmp.162 = getv function %tmp.161 :loadResource;
+        symbol [ Strings %tmp.163 67 29 36 ];
+        %tmp.163 = getm $.Rez.Strings;
+        symbol [ scaling_time_out %tmp.164 67 37 53 ];
+        %tmp.164 = getv %tmp.163 :scaling_time_out;
+        %tmp.165 = invoke %tmp.161 %tmp.162(%tmp.164);
+        %tmp.166 = "";
+        %tmp.168 = const :to;
+        symbol [ to %tmp.168 69 17 19 const ];
+        symbol [ Disk %tmp.169 70 16 20 ];
+        %tmp.169 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.170 70 21 29 ];
+        %tmp.170 = getv function %tmp.169 :getValue;
+        %tmp.171 = "scalingTimeOut";
+        %tmp.172 = invoke %tmp.169 %tmp.170(%tmp.171);
+        %tmp.173 = newd 0;
+        %tmp.157 = newc %tmp.160 (%tmp.165, %tmp.166, %tmp.168, %tmp.172, %tmp.173);
+        invoke %tmp.155 %tmp.156(%tmp.157);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 74 8 ]
+        %tmp.174 = lgetv %menu.1;
+        symbol [ menu %tmp.174 74 8 12 ];
+        symbol [ addItem %tmp.175 74 13 20 ];
+        %tmp.175 = getv function %tmp.174 :addItem;
+        symbol [ CheckboxMenuItem %tmp.179 75 16 32 ];
+        %tmp.179 = getv ? :CheckboxMenuItem;
+        %tmp.180 = self;
+        symbol [ loadResource %tmp.181 76 16 28 ];
+        %tmp.181 = getv function %tmp.180 :loadResource;
+        symbol [ Strings %tmp.182 76 29 36 ];
+        %tmp.182 = getm $.Rez.Strings;
+        symbol [ use_menu1 %tmp.183 76 37 46 ];
+        %tmp.183 = getv %tmp.182 :use_menu1;
+        %tmp.184 = invoke %tmp.180 %tmp.181(%tmp.183);
+        %tmp.185 = self;
+        symbol [ loadResource %tmp.186 77 16 28 ];
+        %tmp.186 = getv function %tmp.185 :loadResource;
+        symbol [ Strings %tmp.187 77 29 36 ];
+        %tmp.187 = getm $.Rez.Strings;
+        symbol [ legacy_menu %tmp.188 77 37 48 ];
+        %tmp.188 = getv %tmp.187 :legacy_menu;
+        %tmp.189 = invoke %tmp.185 %tmp.186(%tmp.188);
+        %tmp.191 = const :mn;
+        symbol [ mn %tmp.191 78 17 19 const ];
+        symbol [ Disk %tmp.192 79 16 20 ];
+        %tmp.192 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.193 79 21 29 ];
+        %tmp.193 = getv function %tmp.192 :getValue;
+        %tmp.194 = "legacyMenu";
+        %tmp.195 = invoke %tmp.192 %tmp.193(%tmp.194);
+        %tmp.196 = newd 0;
+        %tmp.176 = newc %tmp.179 (%tmp.184, %tmp.189, %tmp.191, %tmp.195, %tmp.196);
+        invoke %tmp.174 %tmp.175(%tmp.176);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 83 8 ]
+        %tmp.197 = lgetv %menu.1;
+        symbol [ menu %tmp.197 83 8 12 ];
+        symbol [ addItem %tmp.198 83 13 20 ];
+        %tmp.198 = getv function %tmp.197 :addItem;
+        symbol [ CheckboxMenuItem %tmp.202 84 16 32 ];
+        %tmp.202 = getv ? :CheckboxMenuItem;
+        %tmp.203 = self;
+        symbol [ loadResource %tmp.204 85 16 28 ];
+        %tmp.204 = getv function %tmp.203 :loadResource;
+        symbol [ Strings %tmp.205 85 29 36 ];
+        %tmp.205 = getm $.Rez.Strings;
+        symbol [ use_legacy_view %tmp.206 85 37 52 ];
+        %tmp.206 = getv %tmp.205 :use_legacy_view;
+        %tmp.207 = invoke %tmp.203 %tmp.204(%tmp.206);
+        %tmp.208 = "";
+        %tmp.210 = const :cv;
+        symbol [ cv %tmp.210 87 17 19 const ];
+        symbol [ Disk %tmp.211 88 16 20 ];
+        %tmp.211 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.212 88 21 29 ];
+        %tmp.212 = getv function %tmp.211 :getValue;
+        %tmp.213 = "legacyView";
+        %tmp.214 = invoke %tmp.211 %tmp.212(%tmp.213);
+        %tmp.215 = newd 0;
+        %tmp.199 = newc %tmp.202 (%tmp.207, %tmp.208, %tmp.210, %tmp.214, %tmp.215);
+        invoke %tmp.197 %tmp.198(%tmp.199);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 92 8 ]
+        %tmp.216 = true;
+        symbol [ checkboxMenu ? 92 8 20 ];
+        putv self :checkboxMenu %tmp.216;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 93 8 ]
+        symbol [ Ui %tmp.217 93 8 10 ];
+        %tmp.217 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.218 93 11 19 ];
+        %tmp.218 = getv function %tmp.217 :pushView;
+        %tmp.219 = lgetv %menu.1;
+        symbol [ menu %tmp.219 93 20 24 ];
+        symbol [ $ %tmp.223 93 30 31 ];
+        %tmp.223 = getm $;
+        symbol [ RapidMenuDelegate %tmp.224 93 32 49 ];
+        %tmp.224 = getv %tmp.223 :RapidMenuDelegate;
+        %tmp.220 = newc %tmp.224 ();
+        symbol [ Ui %tmp.225 93 53 55 ];
+        %tmp.225 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.226 93 56 71 ];
+        %tmp.226 = getv %tmp.225 :SLIDE_IMMEDIATE;
+        invoke %tmp.217 %tmp.218(%tmp.219, %tmp.220, %tmp.226);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 95 8 ]
+        %tmp.227 = true;
+        ret %tmp.227;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_18_22_96_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 98; @symbol_functiondef = [onSelect,98,13,21]; @symbol_param<0> = [item,98,22,26]; @symbol_param<0>_type<0> = [Ui,98,30,32]; @symbol_param<0>_type<1> = [MenuItem,98,33,41]; ]
+    function onSelect(item as Ui.MenuItem) as Void {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_98_51_162_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 99 8 ]
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 99 15 19 ];
+        symbol [ getId %tmp.2 99 20 25 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        push %tmp.3;
+        switch %tmp.3 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtBegin:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 100 12 ]
+        %tmp.4 = dup %tmp.3;
+        %tmp.6 = const :sm;
+        symbol [ sm %tmp.6 100 18 20 const ];
+        %tmp.7 = getv function %tmp.4 :equals;
+        %tmp.8 = invoke %tmp.4 %tmp.7 (%tmp.6);
+        bt %tmp.8 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_100_12_102_22_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 103 12 ]
+        %tmp.9 = dup %tmp.3;
+        %tmp.11 = const :wt;
+        symbol [ wt %tmp.11 103 18 20 const ];
+        %tmp.12 = getv function %tmp.9 :equals;
+        %tmp.13 = invoke %tmp.9 %tmp.12 (%tmp.11);
+        bt %tmp.13 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_103_12_107_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 108 12 ]
+        %tmp.14 = dup %tmp.3;
+        %tmp.16 = const :bt;
+        symbol [ bt %tmp.16 108 18 20 const ];
+        %tmp.17 = getv function %tmp.14 :equals;
+        %tmp.18 = invoke %tmp.14 %tmp.17 (%tmp.16);
+        bt %tmp.18 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_108_12_112_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 113 12 ]
+        %tmp.19 = dup %tmp.3;
+        %tmp.21 = const :wi;
+        symbol [ wi %tmp.21 113 18 20 const ];
+        %tmp.22 = getv function %tmp.19 :equals;
+        %tmp.23 = invoke %tmp.19 %tmp.22 (%tmp.21);
+        bt %tmp.23 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_113_12_117_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 118 12 ]
+        %tmp.24 = dup %tmp.3;
+        %tmp.26 = const :bi;
+        symbol [ bi %tmp.26 118 18 20 const ];
+        %tmp.27 = getv function %tmp.24 :equals;
+        %tmp.28 = invoke %tmp.24 %tmp.27 (%tmp.26);
+        bt %tmp.28 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_118_12_122_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 123 12 ]
+        %tmp.29 = dup %tmp.3;
+        %tmp.31 = const :st;
+        symbol [ st %tmp.31 123 18 20 const ];
+        %tmp.32 = getv function %tmp.29 :equals;
+        %tmp.33 = invoke %tmp.29 %tmp.32 (%tmp.31);
+        bt %tmp.33 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_123_12_126_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 127 12 ]
+        %tmp.34 = dup %tmp.3;
+        %tmp.36 = const :si;
+        symbol [ si %tmp.36 127 18 20 const ];
+        %tmp.37 = getv function %tmp.34 :equals;
+        %tmp.38 = invoke %tmp.34 %tmp.37 (%tmp.36);
+        bt %tmp.38 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_127_12_130_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 131 12 ]
+        %tmp.39 = dup %tmp.3;
+        %tmp.41 = const :hp;
+        symbol [ hp %tmp.41 131 18 20 const ];
+        %tmp.42 = getv function %tmp.39 :equals;
+        %tmp.43 = invoke %tmp.39 %tmp.42 (%tmp.41);
+        bt %tmp.43 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_131_12_134_22_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 135 12 ]
+        %tmp.44 = dup %tmp.3;
+        %tmp.46 = const :to;
+        symbol [ to %tmp.46 135 18 20 const ];
+        %tmp.47 = getv function %tmp.44 :equals;
+        %tmp.48 = invoke %tmp.44 %tmp.47 (%tmp.46);
+        bt %tmp.48 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_135_12_138_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 139 12 ]
+        %tmp.49 = dup %tmp.3;
+        %tmp.51 = const :bk;
+        symbol [ bk %tmp.51 139 18 20 const ];
+        %tmp.52 = getv function %tmp.49 :equals;
+        %tmp.53 = invoke %tmp.49 %tmp.52 (%tmp.51);
+        bt %tmp.53 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_139_12_142_22_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 143 12 ]
+        %tmp.54 = dup %tmp.3;
+        %tmp.56 = const :pr;
+        symbol [ pr %tmp.56 143 18 20 const ];
+        %tmp.57 = getv function %tmp.54 :equals;
+        %tmp.58 = invoke %tmp.54 %tmp.57 (%tmp.56);
+        bt %tmp.58 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_143_12_146_22_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 147 12 ]
+        %tmp.59 = dup %tmp.3;
+        %tmp.61 = const :cv;
+        symbol [ cv %tmp.61 147 18 20 const ];
+        %tmp.62 = getv function %tmp.59 :equals;
+        %tmp.63 = invoke %tmp.59 %tmp.62 (%tmp.61);
+        bt %tmp.63 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_147_12_150_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 151 12 ]
+        %tmp.64 = dup %tmp.3;
+        %tmp.66 = const :mn;
+        symbol [ mn %tmp.66 151 18 20 const ];
+        %tmp.67 = getv function %tmp.64 :equals;
+        %tmp.68 = invoke %tmp.64 %tmp.67 (%tmp.66);
+        bt %tmp.68 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_151_12_154_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 155 12 ]
+        %tmp.69 = dup %tmp.3;
+        %tmp.71 = const :ex;
+        symbol [ ex %tmp.71 155 18 20 const ];
+        %tmp.72 = getv function %tmp.69 :equals;
+        %tmp.73 = invoke %tmp.69 %tmp.72 (%tmp.71);
+        bt %tmp.73 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_155_12_156_29_switchCase;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtDefault:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_defaultCodeBegin;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_100_12_102_22_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 101 16 ]
+        %tmp.74 = self;
+        symbol [ onMenu %tmp.75 101 16 22 ];
+        %tmp.75 = getv function %tmp.74 :onMenu;
+        invoke %tmp.74 %tmp.75();
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 102 16 ]
+        ret ?;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_103_12_107_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 104 16 ]
+        symbol [ Globals %tmp.76 104 16 23 ];
+        %tmp.76 = getv self :Globals;
+        symbol [ Globals %tmp.78 104 49 56 ];
+        %tmp.78 = getv ? :Globals;
+        symbol [ whiteTimeLeft %tmp.79 104 57 70 ];
+        %tmp.79 = getv %tmp.78 :whiteTimeLeft;
+        symbol [ changingTimeHoldingVar ? 104 24 46 ];
+        putv %tmp.76 :changingTimeHoldingVar %tmp.79;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 105 16 ]
+        symbol [ Globals %tmp.80 105 16 23 ];
+        %tmp.80 = getv self :Globals;
+        %tmp.81 = 'w';
+        symbol [ changingSideWithButton ? 105 24 46 ];
+        putv %tmp.80 :changingSideWithButton %tmp.81;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 106 16 ]
+        symbol [ Globals %tmp.82 106 16 23 ];
+        %tmp.82 = getv self :Globals;
+        %tmp.83 = true;
+        symbol [ isWhitesTurn ? 106 24 36 ];
+        putv %tmp.82 :isWhitesTurn %tmp.83;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 107 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_108_12_112_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 109 16 ]
+        symbol [ Globals %tmp.84 109 16 23 ];
+        %tmp.84 = getv self :Globals;
+        symbol [ Globals %tmp.86 109 49 56 ];
+        %tmp.86 = getv ? :Globals;
+        symbol [ blackTimeLeft %tmp.87 109 57 70 ];
+        %tmp.87 = getv %tmp.86 :blackTimeLeft;
+        symbol [ changingTimeHoldingVar ? 109 24 46 ];
+        putv %tmp.84 :changingTimeHoldingVar %tmp.87;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 110 16 ]
+        symbol [ Globals %tmp.88 110 16 23 ];
+        %tmp.88 = getv self :Globals;
+        %tmp.89 = 'b';
+        symbol [ changingSideWithButton ? 110 24 46 ];
+        putv %tmp.88 :changingSideWithButton %tmp.89;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 111 16 ]
+        symbol [ Globals %tmp.90 111 16 23 ];
+        %tmp.90 = getv self :Globals;
+        %tmp.91 = false;
+        symbol [ isWhitesTurn ? 111 24 36 ];
+        putv %tmp.90 :isWhitesTurn %tmp.91;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 112 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_113_12_117_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 114 16 ]
+        symbol [ Globals %tmp.92 114 16 23 ];
+        %tmp.92 = getv self :Globals;
+        %tmp.93 = true;
+        symbol [ changingIncrementWithButton ? 114 24 51 ];
+        putv %tmp.92 :changingIncrementWithButton %tmp.93;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 115 16 ]
+        symbol [ Globals %tmp.94 115 16 23 ];
+        %tmp.94 = getv self :Globals;
+        symbol [ Globals %tmp.96 115 46 53 ];
+        %tmp.96 = getv ? :Globals;
+        symbol [ whiteIncrement %tmp.97 115 54 68 ];
+        %tmp.97 = getv %tmp.96 :whiteIncrement;
+        symbol [ incrementHoldingVar ? 115 24 43 ];
+        putv %tmp.94 :incrementHoldingVar %tmp.97;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 116 16 ]
+        symbol [ Globals %tmp.98 116 16 23 ];
+        %tmp.98 = getv self :Globals;
+        %tmp.99 = true;
+        symbol [ isWhitesTurn ? 116 24 36 ];
+        putv %tmp.98 :isWhitesTurn %tmp.99;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 117 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_118_12_122_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 119 16 ]
+        symbol [ Globals %tmp.100 119 16 23 ];
+        %tmp.100 = getv self :Globals;
+        symbol [ Globals %tmp.102 119 46 53 ];
+        %tmp.102 = getv ? :Globals;
+        symbol [ blackIncrement %tmp.103 119 54 68 ];
+        %tmp.103 = getv %tmp.102 :blackIncrement;
+        symbol [ incrementHoldingVar ? 119 24 43 ];
+        putv %tmp.100 :incrementHoldingVar %tmp.103;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 120 16 ]
+        symbol [ Globals %tmp.104 120 16 23 ];
+        %tmp.104 = getv self :Globals;
+        %tmp.105 = true;
+        symbol [ changingIncrementWithButton ? 120 24 51 ];
+        putv %tmp.104 :changingIncrementWithButton %tmp.105;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 121 16 ]
+        symbol [ Globals %tmp.106 121 16 23 ];
+        %tmp.106 = getv self :Globals;
+        %tmp.107 = false;
+        symbol [ isWhitesTurn ? 121 24 36 ];
+        putv %tmp.106 :isWhitesTurn %tmp.107;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 122 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_123_12_126_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 124 16 ]
+        symbol [ Globals %tmp.108 124 16 23 ];
+        %tmp.108 = getv self :Globals;
+        %tmp.109 = true;
+        symbol [ changingStartingTimeWithButton ? 124 24 54 ];
+        putv %tmp.108 :changingStartingTimeWithButton %tmp.109;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 125 16 ]
+        symbol [ Globals %tmp.110 125 16 23 ];
+        %tmp.110 = getv self :Globals;
+        symbol [ Globals %tmp.112 125 49 56 ];
+        %tmp.112 = getv ? :Globals;
+        symbol [ whiteTimeLeft %tmp.113 125 57 70 ];
+        %tmp.113 = getv %tmp.112 :whiteTimeLeft;
+        symbol [ Globals %tmp.115 125 74 81 ];
+        %tmp.115 = getv ? :Globals;
+        symbol [ whiteIncrement %tmp.116 125 82 96 ];
+        %tmp.116 = getv %tmp.115 :whiteIncrement;
+        %tmp.117 = 1000;
+        %tmp.118 = mul %tmp.116 %tmp.117;
+        %tmp.119 = sub %tmp.113 %tmp.118;
+        symbol [ startingTimeHoldingVar ? 125 24 46 ];
+        putv %tmp.110 :startingTimeHoldingVar %tmp.119;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 126 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_127_12_130_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 128 16 ]
+        symbol [ Globals %tmp.120 128 16 23 ];
+        %tmp.120 = getv self :Globals;
+        %tmp.121 = true;
+        symbol [ changingIncrementWithButton ? 128 24 51 ];
+        putv %tmp.120 :changingIncrementWithButton %tmp.121;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 129 16 ]
+        symbol [ Globals %tmp.122 129 16 23 ];
+        %tmp.122 = getv self :Globals;
+        symbol [ Globals %tmp.124 129 46 53 ];
+        %tmp.124 = getv ? :Globals;
+        symbol [ whiteIncrement %tmp.125 129 54 68 ];
+        %tmp.125 = getv %tmp.124 :whiteIncrement;
+        symbol [ incrementHoldingVar ? 129 24 43 ];
+        putv %tmp.122 :incrementHoldingVar %tmp.125;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 130 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_131_12_134_22_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 132 16 ]
+        symbol [ Disk %tmp.126 132 16 20 ];
+        %tmp.126 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.127 132 21 29 ];
+        %tmp.127 = getv function %tmp.126 :setValue;
+        %tmp.128 = "haptics";
+        symbol [ Disk %tmp.129 132 42 46 ];
+        %tmp.129 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.130 132 47 55 ];
+        %tmp.130 = getv function %tmp.129 :getValue;
+        %tmp.131 = "haptics";
+        %tmp.132 = invoke %tmp.129 %tmp.130(%tmp.131);
+        %tmp.133 = not %tmp.132;
+        invoke %tmp.126 %tmp.127(%tmp.128, %tmp.133);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 133 16 ]
+        symbol [ Globals %tmp.134 133 16 23 ];
+        %tmp.134 = getv self :Globals;
+        %tmp.135 = true;
+        symbol [ settingChanged ? 133 24 38 ];
+        putv %tmp.134 :settingChanged %tmp.135;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 134 16 ]
+        ret ?;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_135_12_138_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 136 16 ]
+        symbol [ Disk %tmp.136 136 16 20 ];
+        %tmp.136 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.137 136 21 29 ];
+        %tmp.137 = getv function %tmp.136 :setValue;
+        %tmp.138 = "scalingTimeOut";
+        symbol [ Disk %tmp.139 136 49 53 ];
+        %tmp.139 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.140 136 54 62 ];
+        %tmp.140 = getv function %tmp.139 :getValue;
+        %tmp.141 = "scalingTimeOut";
+        %tmp.142 = invoke %tmp.139 %tmp.140(%tmp.141);
+        %tmp.143 = not %tmp.142;
+        invoke %tmp.136 %tmp.137(%tmp.138, %tmp.143);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 137 16 ]
+        symbol [ Globals %tmp.144 137 16 23 ];
+        %tmp.144 = getv self :Globals;
+        %tmp.145 = true;
+        symbol [ settingChanged ? 137 24 38 ];
+        putv %tmp.144 :settingChanged %tmp.145;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 138 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_139_12_142_22_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 140 16 ]
+        symbol [ Disk %tmp.146 140 16 20 ];
+        %tmp.146 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.147 140 21 29 ];
+        %tmp.147 = getv function %tmp.146 :setValue;
+        %tmp.148 = "backlight";
+        symbol [ Disk %tmp.149 140 44 48 ];
+        %tmp.149 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.150 140 49 57 ];
+        %tmp.150 = getv function %tmp.149 :getValue;
+        %tmp.151 = "backlight";
+        %tmp.152 = invoke %tmp.149 %tmp.150(%tmp.151);
+        %tmp.153 = not %tmp.152;
+        invoke %tmp.146 %tmp.147(%tmp.148, %tmp.153);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 141 16 ]
+        symbol [ Globals %tmp.154 141 16 23 ];
+        %tmp.154 = getv self :Globals;
+        %tmp.155 = true;
+        symbol [ settingChanged ? 141 24 38 ];
+        putv %tmp.154 :settingChanged %tmp.155;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 142 16 ]
+        ret ?;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_143_12_146_22_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 144 16 ]
+        symbol [ Disk %tmp.156 144 16 20 ];
+        %tmp.156 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.157 144 21 29 ];
+        %tmp.157 = getv function %tmp.156 :setValue;
+        %tmp.158 = "progressRing";
+        symbol [ Disk %tmp.159 144 47 51 ];
+        %tmp.159 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.160 144 52 60 ];
+        %tmp.160 = getv function %tmp.159 :getValue;
+        %tmp.161 = "progressRing";
+        %tmp.162 = invoke %tmp.159 %tmp.160(%tmp.161);
+        %tmp.163 = not %tmp.162;
+        invoke %tmp.156 %tmp.157(%tmp.158, %tmp.163);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 145 16 ]
+        symbol [ Globals %tmp.164 145 16 23 ];
+        %tmp.164 = getv self :Globals;
+        %tmp.165 = true;
+        symbol [ settingChanged ? 145 24 38 ];
+        putv %tmp.164 :settingChanged %tmp.165;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 146 16 ]
+        ret ?;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_147_12_150_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 148 16 ]
+        symbol [ Disk %tmp.166 148 16 20 ];
+        %tmp.166 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.167 148 21 29 ];
+        %tmp.167 = getv function %tmp.166 :setValue;
+        %tmp.168 = "legacyView";
+        symbol [ Disk %tmp.169 148 45 49 ];
+        %tmp.169 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.170 148 50 58 ];
+        %tmp.170 = getv function %tmp.169 :getValue;
+        %tmp.171 = "legacyView";
+        %tmp.172 = invoke %tmp.169 %tmp.170(%tmp.171);
+        %tmp.173 = not %tmp.172;
+        invoke %tmp.166 %tmp.167(%tmp.168, %tmp.173);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 149 16 ]
+        symbol [ Globals %tmp.174 149 16 23 ];
+        %tmp.174 = getv self :Globals;
+        %tmp.175 = true;
+        symbol [ settingChanged ? 149 24 38 ];
+        putv %tmp.174 :settingChanged %tmp.175;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 150 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_151_12_154_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 152 16 ]
+        symbol [ Disk %tmp.176 152 16 20 ];
+        %tmp.176 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.177 152 21 29 ];
+        %tmp.177 = getv function %tmp.176 :setValue;
+        %tmp.178 = "legacyMenu";
+        symbol [ Disk %tmp.179 152 45 49 ];
+        %tmp.179 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.180 152 50 58 ];
+        %tmp.180 = getv function %tmp.179 :getValue;
+        %tmp.181 = "legacyMenu";
+        %tmp.182 = invoke %tmp.179 %tmp.180(%tmp.181);
+        %tmp.183 = not %tmp.182;
+        invoke %tmp.176 %tmp.177(%tmp.178, %tmp.183);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 153 16 ]
+        symbol [ Globals %tmp.184 153 16 23 ];
+        %tmp.184 = getv self :Globals;
+        %tmp.185 = true;
+        symbol [ settingChanged ? 153 24 38 ];
+        putv %tmp.184 :settingChanged %tmp.185;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 154 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_155_12_156_29_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 156 16 ]
+        symbol [ System %tmp.186 156 16 22 ];
+        %tmp.186 = getm $.Toybox.System;
+        symbol [ exit %tmp.187 156 23 27 ];
+        %tmp.187 = getv function %tmp.186 :exit;
+        invoke %tmp.186 %tmp.187();
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_defaultCodeBegin:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_99_8_157_8_switchStmtEnd:
+        pop;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 158 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_158_8_160_8_if_stmt:
+        symbol [ checkboxMenu %tmp.189 158 12 24 ];
+        %tmp.189 = getv ? :checkboxMenu;
+        %tmp.190 = not %tmp.189;
+        bf %tmp.190 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_158_8_160_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_158_8_160_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_158_26_160_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 159 12 ]
+        %tmp.191 = self;
+        symbol [ onBack %tmp.192 159 12 18 ];
+        %tmp.192 = getv function %tmp.191 :onBack;
+        invoke %tmp.191 %tmp.192();
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_158_26_160_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_158_8_160_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_158_8_160_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc" 161 8 ]
+        ret ?;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidMenuDelegate_mc_98_51_162_4_stop:
+    }
+}
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

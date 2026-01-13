@@ -1,0 +1,138 @@
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [System,1,14,20]; ]
+import Toybox.System;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 5; @symbol_importdef<0> = [Constants,5,7,16]; ]
+import Constants;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 6; @symbol_importdef<0> = [Globals,6,7,14]; ]
+import Globals;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 8; @symbol_classdef = [LegacySettings,8,6,20]; @symbol_extends<0> = [Ui,8,29,31]; @symbol_extends<1> = [BehaviorDelegate,8,32,48]; ]
+class LegacySettings extends Ui.BehaviorDelegate {
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
+    function initialize() as Void {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_9_26_11_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 10 8 ]
+        symbol [ BehaviorDelegate %tmp.2 10 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 10 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_9_26_11_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 13; @symbol_functiondef = [onMenu,13,13,19]; ]
+    function onMenu() {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_13_22_29_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 14 8 ]
+        [ "_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_13_22_29_4_start" "_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_13_22_29_4_stop" ]
+        %menu.1 = local;
+        symbol [ menu %menu.1 14 12 16 ];
+        symbol [ WatchUi %tmp.4 14 23 30 ];
+        %tmp.4 = getv ? :WatchUi;
+        symbol [ Menu %tmp.5 14 31 35 ];
+        %tmp.5 = getv function ? %tmp.4 :Menu;
+        %tmp.1 = newc %tmp.5 ();
+        lputv %menu.1 %tmp.1;
+        symbol [ menu %menu.1 14 12 16 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 15 8 ]
+        [ "_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_13_22_29_4_start" "_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_13_22_29_4_stop" ]
+        %delegate.2 = local;
+        symbol [ delegate %delegate.2 15 12 20 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 17 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_17_8_27_8_if_stmt:
+        symbol [ Globals %tmp.6 17 11 18 ];
+        %tmp.6 = getm $.Globals;
+        symbol [ hasGameBeenStopped %tmp.7 17 19 37 ];
+        %tmp.7 = getv %tmp.6 :hasGameBeenStopped;
+        bf %tmp.7 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_17_8_27_8_if_else_false;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_17_8_27_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_17_39_23_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 18 12 ]
+        %tmp.8 = lgetv %menu.1;
+        symbol [ menu %tmp.8 18 12 16 ];
+        symbol [ setTitle %tmp.9 18 17 25 ];
+        %tmp.9 = getv function %tmp.8 :setTitle;
+        %tmp.10 = "Time Control";
+        invoke %tmp.8 %tmp.9(%tmp.10);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 19 12 ]
+        %tmp.11 = lgetv %menu.1;
+        symbol [ menu %tmp.11 19 12 16 ];
+        symbol [ addItem %tmp.12 19 17 24 ];
+        %tmp.12 = getv function %tmp.11 :addItem;
+        %tmp.13 = "Change White's Time";
+        %tmp.15 = const :wt;
+        symbol [ wt %tmp.15 19 49 51 const ];
+        invoke %tmp.11 %tmp.12(%tmp.13, %tmp.15);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 20 12 ]
+        %tmp.16 = lgetv %menu.1;
+        symbol [ menu %tmp.16 20 12 16 ];
+        symbol [ addItem %tmp.17 20 17 24 ];
+        %tmp.17 = getv function %tmp.16 :addItem;
+        %tmp.18 = "Change White's Increment";
+        %tmp.20 = const :wi;
+        symbol [ wi %tmp.20 20 54 56 const ];
+        invoke %tmp.16 %tmp.17(%tmp.18, %tmp.20);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 21 12 ]
+        %tmp.21 = lgetv %menu.1;
+        symbol [ menu %tmp.21 21 12 16 ];
+        symbol [ addItem %tmp.22 21 17 24 ];
+        %tmp.22 = getv function %tmp.21 :addItem;
+        %tmp.23 = "Change Black's Time";
+        %tmp.25 = const :bt;
+        symbol [ bt %tmp.25 21 49 51 const ];
+        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.25);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 22 12 ]
+        %tmp.26 = lgetv %menu.1;
+        symbol [ menu %tmp.26 22 12 16 ];
+        symbol [ addItem %tmp.27 22 17 24 ];
+        %tmp.27 = getv function %tmp.26 :addItem;
+        %tmp.28 = "Change Black's Increment";
+        %tmp.30 = const :bi;
+        symbol [ bi %tmp.30 22 54 56 const ];
+        invoke %tmp.26 %tmp.27(%tmp.28, %tmp.30);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_17_39_23_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_17_8_27_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_17_8_27_8_if_else_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_23_15_27_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 24 12 ]
+        %tmp.31 = lgetv %menu.1;
+        symbol [ menu %tmp.31 24 12 16 ];
+        symbol [ setTitle %tmp.32 24 17 25 ];
+        %tmp.32 = getv function %tmp.31 :setTitle;
+        %tmp.33 = "Settings";
+        invoke %tmp.31 %tmp.32(%tmp.33);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 25 12 ]
+        %tmp.34 = lgetv %menu.1;
+        symbol [ menu %tmp.34 25 12 16 ];
+        symbol [ addItem %tmp.35 25 17 24 ];
+        %tmp.35 = getv function %tmp.34 :addItem;
+        %tmp.36 = "Change Starting Time";
+        %tmp.38 = const :st;
+        symbol [ st %tmp.38 25 50 52 const ];
+        invoke %tmp.34 %tmp.35(%tmp.36, %tmp.38);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 26 12 ]
+        %tmp.39 = lgetv %menu.1;
+        symbol [ menu %tmp.39 26 12 16 ];
+        symbol [ addItem %tmp.40 26 17 24 ];
+        %tmp.40 = getv function %tmp.39 :addItem;
+        %tmp.41 = "Change Starting Increment";
+        %tmp.43 = const :si;
+        symbol [ si %tmp.43 26 55 57 const ];
+        invoke %tmp.39 %tmp.40(%tmp.41, %tmp.43);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_23_15_27_8_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_17_8_27_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc" 28 8 ]
+        %tmp.44 = true;
+        ret %tmp.44;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettings_mc_13_22_29_4_stop:
+    }
+}
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettings.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,58 @@
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Timer,1,14,19]; ]
+import Toybox.Timer;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Application,2,14,25]; ]
+import Toybox.Application;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Graphics,4,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [System,5,14,20]; ]
+import Toybox.System;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 7; @symbol_classdef = [Controller,7,6,16]; ]
+class Controller {
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 9; @position = 8; @symbol_vardef = [rModel,9,8,14]; ]
+    var rModel;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
+    function initialize() as Void {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_Controller_mc_11_26_13_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc" 12 8 ]
+        symbol [ Model %tmp.4 12 21 26 ];
+        %tmp.4 = getv ? :Model;
+        %tmp.1 = newc %tmp.4 ();
+        symbol [ rModel ? 12 8 14 ];
+        putv self :rModel %tmp.1;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_Controller_mc_11_26_13_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 15; @symbol_functiondef = [start,15,13,18]; ]
+    function start() {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_Controller_mc_15_21_17_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc" 16 8 ]
+        symbol [ rModel %tmp.2 16 8 14 ];
+        %tmp.2 = getv ? :rModel;
+        symbol [ start %tmp.3 16 15 20 ];
+        %tmp.3 = getv function %tmp.2 :start;
+        invoke %tmp.2 %tmp.3();
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_Controller_mc_15_21_17_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 19; @symbol_functiondef = [stop,19,13,17]; ]
+    function stop() {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_Controller_mc_19_20_21_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc" 20 8 ]
+        symbol [ rModel %tmp.2 20 8 14 ];
+        %tmp.2 = getv ? :rModel;
+        symbol [ stop %tmp.3 20 15 19 ];
+        %tmp.3 = getv function %tmp.2 :stop;
+        invoke %tmp.2 %tmp.3();
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_Controller_mc_19_20_21_4_stop:
+    }
+}
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Controller.mc"; @line = 1; ]
+<init> {
+}

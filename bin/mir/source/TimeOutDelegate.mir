@@ -1,0 +1,198 @@
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Math,2,14,18]; ]
+import Toybox.Math;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Timer,3,14,19]; ]
+import Toybox.Timer;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Attention,4,14,23]; ]
+import Toybox.Attention;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 6; @symbol_importdef<0> = [Globals,6,7,14]; ]
+import Globals;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 8; @symbol_usingdef<0> = [Toybox,8,6,12]; @symbol_usingdef<1> = [WatchUi,8,13,20]; @symbol_usingAlias = [Ui,8,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 10; @symbol_classdef = [TimeOutDelegate,10,6,21]; @symbol_extends<0> = [Ui,10,30,32]; @symbol_extends<1> = [BehaviorDelegate,10,33,49]; ]
+class TimeOutDelegate extends Ui.BehaviorDelegate {
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 10; ]
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 12; @position = 8; @symbol_vardef = [view,12,8,12]; ]
+    var view;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 14; @symbol_functiondef = [initialize,14,13,23]; @symbol_param<0> = [timeoutView,14,24,35]; ]
+    function initialize(timeoutView) as Void {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_14_37_17_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 15 8 ]
+        symbol [ Ui %tmp.1 15 8 10 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ BehaviorDelegate %tmp.2 15 11 27 ];
+        %tmp.2 = getv %tmp.1 :BehaviorDelegate;
+        symbol [ initialize %tmp.3 15 28 38 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 16 8 ]
+        %tmp.4 = lgetv %timeoutView;
+        symbol [ timeoutView %tmp.4 16 15 26 ];
+        symbol [ view ? 16 8 12 ];
+        putv self :view %tmp.4;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_14_37_17_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 19; @symbol_functiondef = [onMenu,19,13,19]; @symbol_return<0> = [Boolean,19,25,32]; ]
+    function onMenu() as Boolean {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_19_33_21_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 20 8 ]
+        symbol [ view %tmp.2 20 15 19 ];
+        %tmp.2 = getv ? :view;
+        ret %tmp.2;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_19_33_21_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 23; @symbol_functiondef = [onTap,23,13,18]; @symbol_param<0> = [clickEvent,23,19,29]; @symbol_return<0> = [Boolean,23,34,41]; ]
+    function onTap(clickEvent) as Boolean {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_23_42_25_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 24 8 ]
+        %tmp.1 = self;
+        symbol [ handleInteraction %tmp.2 24 15 32 ];
+        %tmp.2 = getv function %tmp.1 :handleInteraction;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        ret %tmp.3;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_23_42_25_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 27; @symbol_functiondef = [onKey,27,13,18]; @symbol_param<0> = [keyEvent,27,19,27]; @symbol_param<0>_type<0> = [Ui,27,31,33]; @symbol_param<0>_type<1> = [KeyEvent,27,34,42]; @symbol_return<0> = [Boolean,27,47,54]; ]
+    function onKey(keyEvent as Ui.KeyEvent) as Boolean {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_27_55_29_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 28 8 ]
+        %tmp.1 = self;
+        symbol [ handleInteraction %tmp.2 28 15 32 ];
+        %tmp.2 = getv function %tmp.1 :handleInteraction;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        ret %tmp.3;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_27_55_29_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 31; @symbol_functiondef = [handleInteraction,31,13,30]; @symbol_return<0> = [Boolean,31,36,43]; ]
+    function handleInteraction() as Boolean {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_31_44_45_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 32 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_32_8_34_8_if_stmt:
+        symbol [ Globals %tmp.1 32 11 18 ];
+        %tmp.1 = getm $.Globals;
+        symbol [ animationCounter %tmp.2 32 19 35 ];
+        %tmp.2 = getv %tmp.1 :animationCounter;
+        %tmp.3 = 9;
+        %tmp.4 = lte %tmp.2 %tmp.3;
+        bf %tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_32_8_34_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_32_8_34_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_32_42_34_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 33 12 ]
+        %tmp.5 = true;
+        ret %tmp.5;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_32_42_34_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_32_8_34_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_32_8_34_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 36 8 ]
+        %tmp.6 = self;
+        symbol [ resetVariables %tmp.7 36 8 22 ];
+        %tmp.7 = getv function %tmp.6 :resetVariables;
+        invoke %tmp.6 %tmp.7();
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 38 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_38_8_41_8_if_stmt:
+        symbol [ Graphics %tmp.9 38 11 19 ];
+        %tmp.9 = getv ? :Graphics;
+        symbol [ Dc %tmp.10 38 20 22 ];
+        %tmp.10 = getv %tmp.9 :Dc;
+        %tmp.12 = const :drawAngledText;
+        symbol [ drawAngledText %tmp.12 38 28 42 const ];
+        %tmp.13 = canhazplz %tmp.10 %tmp.12;
+        bf %tmp.13 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_38_8_41_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_38_8_41_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_38_44_41_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 39 12 ]
+        symbol [ Ui %tmp.14 39 12 14 ];
+        %tmp.14 = getm $.Toybox.WatchUi;
+        symbol [ switchToView %tmp.15 39 15 27 ];
+        %tmp.15 = getv function %tmp.14 :switchToView;
+        symbol [ $ %tmp.19 39 32 33 ];
+        %tmp.19 = getm $;
+        symbol [ RapidView %tmp.20 39 34 43 ];
+        %tmp.20 = getv %tmp.19 :RapidView;
+        %tmp.16 = newc %tmp.20 ();
+        symbol [ $ %tmp.24 39 51 52 ];
+        %tmp.24 = getm $;
+        symbol [ RapidDelegate %tmp.25 39 53 66 ];
+        %tmp.25 = getv %tmp.24 :RapidDelegate;
+        symbol [ Dictionary %tmp.27 39 67 77 ];
+        %tmp.27 = getv ? :Dictionary;
+        %tmp.21 = newc %tmp.25 (%tmp.27);
+        symbol [ Ui %tmp.28 39 80 82 ];
+        %tmp.28 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.29 39 83 98 ];
+        %tmp.29 = getv %tmp.28 :SLIDE_IMMEDIATE;
+        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.21, %tmp.29);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 40 12 ]
+        %tmp.30 = true;
+        ret %tmp.30;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_38_44_41_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_38_8_41_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_38_8_41_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 43 8 ]
+        symbol [ Ui %tmp.31 43 8 10 ];
+        %tmp.31 = getm $.Toybox.WatchUi;
+        symbol [ switchToView %tmp.32 43 11 23 ];
+        %tmp.32 = getv function %tmp.31 :switchToView;
+        symbol [ $ %tmp.36 43 28 29 ];
+        %tmp.36 = getm $;
+        symbol [ RapidLegacyView %tmp.37 43 30 45 ];
+        %tmp.37 = getv %tmp.36 :RapidLegacyView;
+        %tmp.33 = newc %tmp.37 ();
+        symbol [ $ %tmp.41 43 53 54 ];
+        %tmp.41 = getm $;
+        symbol [ RapidLegacyDelegate %tmp.42 43 55 74 ];
+        %tmp.42 = getv %tmp.41 :RapidLegacyDelegate;
+        symbol [ Dictionary %tmp.44 43 75 85 ];
+        %tmp.44 = getv ? :Dictionary;
+        %tmp.38 = newc %tmp.42 (%tmp.44);
+        symbol [ Ui %tmp.45 43 88 90 ];
+        %tmp.45 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.46 43 91 106 ];
+        %tmp.46 = getv %tmp.45 :SLIDE_IMMEDIATE;
+        invoke %tmp.31 %tmp.32(%tmp.33, %tmp.38, %tmp.46);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 44 8 ]
+        %tmp.47 = true;
+        ret %tmp.47;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_31_44_45_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 47; @symbol_functiondef = [resetVariables,47,21,35]; ]
+    private
+    function resetVariables() {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_47_38_52_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 48 8 ]
+        symbol [ Globals %tmp.1 48 8 15 ];
+        %tmp.1 = getm $.Globals;
+        %tmp.2 = true;
+        symbol [ isWhitesTurn ? 48 16 28 ];
+        putv %tmp.1 :isWhitesTurn %tmp.2;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 49 8 ]
+        symbol [ Globals %tmp.3 49 8 15 ];
+        %tmp.3 = getm $.Globals;
+        %tmp.4 = false;
+        symbol [ hasGameBeenStopped ? 49 16 34 ];
+        putv %tmp.3 :hasGameBeenStopped %tmp.4;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 50 8 ]
+        symbol [ Globals %tmp.5 50 8 15 ];
+        %tmp.5 = getm $.Globals;
+        %tmp.6 = 0;
+        symbol [ animationCounter ? 50 16 32 ];
+        putv %tmp.5 :animationCounter %tmp.6;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" 51 8 ]
+        symbol [ Globals %tmp.7 51 8 15 ];
+        %tmp.7 = getm $.Globals;
+        %tmp.8 = 0;
+        symbol [ turns ? 51 16 21 ];
+        putv %tmp.7 :turns %tmp.8;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutDelegate_mc_47_38_52_4_stop:
+    }
+}
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,83 @@
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 3; @symbol_moduledef = [Globals,3,7,14]; ]
+module Globals {
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 4; @position = 8; @symbol_vardef = [gameStarted,4,8,19]; @symbol_type<0> = [Boolean,4,23,30]; ]
+    var gameStarted as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 5; @position = 8; @symbol_vardef = [isWhitesTurn,5,8,20]; @symbol_type<0> = [Boolean,5,24,31]; ]
+    var isWhitesTurn as Boolean = true;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 6; @position = 8; @symbol_vardef = [hasGameBeenStopped,6,8,26]; @symbol_type<0> = [Boolean,6,30,37]; ]
+    var hasGameBeenStopped as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 7; @position = 8; @symbol_vardef = [settingChanged,7,8,22]; @symbol_type<0> = [Boolean,7,26,33]; ]
+    var settingChanged as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 9; @position = 8; @symbol_vardef = [whiteTimeLeft,9,8,21]; @symbol_type<0> = [Number,9,25,31]; ]
+    var whiteTimeLeft as Number = 605000;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 10; @position = 8; @symbol_vardef = [blackTimeLeft,10,8,21]; @symbol_type<0> = [Number,10,25,31]; ]
+    var blackTimeLeft as Number = 605000;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 12; @position = 8; @symbol_vardef = [drawString,12,8,18]; @symbol_type<0> = [Boolean,12,22,29]; ]
+    var drawString as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 14; @position = 8; @symbol_vardef = [startingTimeInSeconds,14,8,29]; @symbol_type<0> = [Number,14,33,39]; ]
+    var startingTimeInSeconds as Number = 600;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 16; @position = 8; @symbol_vardef = [isDragging,16,8,18]; @symbol_type<0> = [Boolean,16,22,29]; ]
+    var isDragging as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 17; @position = 8; @symbol_vardef = [axis,17,8,12]; @symbol_type<0> = [String,17,16,22]; ]
+    var axis as String = "N";
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 18; @position = 8; @symbol_vardef = [isDragVertical,18,8,22]; @symbol_type<0> = [Boolean,18,26,33]; ]
+    var isDragVertical as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 20; @position = 8; @symbol_vardef = [startingTimeHoldingVar,20,8,30]; @symbol_type<0> = [Integer,20,34,41]; ]
+    var startingTimeHoldingVar as Integer = 605000;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 20; @position = 52; @symbol_vardef = [changingTimeHoldingVar,20,52,74]; @symbol_type<0> = [Integer,20,78,85]; ]
+    var changingTimeHoldingVar as Integer = 605000;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 22; @position = 8; @symbol_vardef = [whiteLost,22,8,17]; @symbol_type<0> = [Boolean,22,21,28]; ]
+    var whiteLost as Boolean = true;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 23; @position = 8; @symbol_vardef = [turns,23,8,13]; @symbol_type<0> = [Integer,23,17,24]; ]
+    var turns as Integer = 0;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 23; @position = 30; @symbol_vardef = [totalTime,23,30,39]; @symbol_type<0> = [Integer,23,43,50]; ]
+    var totalTime as Integer = 0;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 25; @position = 8; @symbol_vardef = [animationTimer,25,8,22]; ]
+    var animationTimer;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 26; @position = 8; @symbol_vardef = [hasAnimationTimerStarted,26,8,32]; @symbol_type<0> = [Boolean,26,36,43]; ]
+    var hasAnimationTimerStarted as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 27; @position = 8; @symbol_vardef = [animationCounter,27,8,24]; @symbol_type<0> = [Integer,27,28,35]; ]
+    var animationCounter as Integer = 0;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 28; @position = 8; @symbol_vardef = [textGlideCounter,28,8,24]; @symbol_type<0> = [Integer,28,28,35]; ]
+    var textGlideCounter as Integer = 0;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 30; @position = 8; @symbol_vardef = [incrementHoldingVar,30,8,27]; @symbol_type<0> = [Integer,30,31,38]; ]
+    var incrementHoldingVar as Integer = 0;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 32; @position = 8; @symbol_vardef = [previousValue,32,8,21]; @symbol_type<0> = [Number,32,25,31]; ]
+    var previousValue as Number = 0;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 34; @position = 8; @symbol_vardef = [whiteIncrement,34,8,22]; @symbol_type<0> = [Integer,34,26,33]; ]
+    var whiteIncrement as Integer = 5;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 35; @position = 8; @symbol_vardef = [blackIncrement,35,8,22]; @symbol_type<0> = [Integer,35,26,33]; ]
+    var blackIncrement as Integer = 5;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 37; @position = 8; @symbol_vardef = [changingStartingTimeWithButton,37,8,38]; @symbol_type<0> = [Boolean,37,42,49]; ]
+    var changingStartingTimeWithButton as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 38; @position = 8; @symbol_vardef = [changingSideWithButton,38,8,30]; @symbol_type<0> = [Char,38,34,38]; ]
+    var changingSideWithButton as Char = 'n';
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 39; @position = 8; @symbol_vardef = [changingIncrementWithButton,39,8,35]; @symbol_type<0> = [Boolean,39,39,46]; ]
+    var changingIncrementWithButton as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 41; @position = 8; @symbol_vardef = [uninterestingCountingVariable,41,8,37]; @symbol_type<0> = [Number,41,41,47]; ]
+    var uninterestingCountingVariable as Number = 0;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 42; @position = 8; @symbol_vardef = [interestingCountingVariable,42,8,35]; @symbol_type<0> = [Number,42,39,45]; ]
+    var interestingCountingVariable as Number = 0;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 45; @position = 8; @symbol_vardef = [drawProgressRing,45,8,24]; @symbol_type<0> = [Boolean,45,28,35]; ]
+    var drawProgressRing as Boolean = true;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 46; @position = 8; @symbol_vardef = [backLightOn,46,8,19]; @symbol_type<0> = [Boolean,46,23,30]; ]
+    var backLightOn as Boolean = true;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 47; @position = 8; @symbol_vardef = [drawModernMenu,47,8,22]; @symbol_type<0> = [Boolean,47,26,33]; ]
+    var drawModernMenu as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 48; @position = 8; @symbol_vardef = [useLegacyView,48,8,21]; @symbol_type<0> = [Boolean,48,25,32]; ]
+    var useLegacyView as Boolean = true;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 49; @position = 8; @symbol_vardef = [useScalingTimeOut,49,8,25]; @symbol_type<0> = [Boolean,49,29,36]; ]
+    var useScalingTimeOut as Boolean = false;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 50; @position = 8; @symbol_vardef = [hasStorage,50,8,18]; @symbol_type<0> = [Boolean,50,22,29]; ]
+    var hasStorage as Boolean = true;
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 51; @position = 8; @symbol_vardef = [haptics,51,8,15]; @symbol_type<0> = [Boolean,51,19,26]; ]
+    var haptics as Boolean = true;
+}
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/Globals.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,65 @@
+<strings>
+    <string id="app_name">Rápido</string>
+
+    <string id="decimal_separator">,</string>
+
+    <string id="white_time_out">Tiempo Agotado: Blanco</string>
+    <string id="black_time_out">Tiempo Agotado: Negro</string>
+    <string id="turns">Turnos: </string>
+    <string id="time_left">Restante: </string>
+
+    <string id="total_time">Tiempo Total: </string>
+    <string id="white_time">Tiempo Blanco: </string>
+    <string id="black_time">Tiempo Negro: </string>
+    <string id="white_time_no_space">Tiempo Blanco:</string>
+    <string id="black_time_no_space">Tiempo Negro:</string>
+    <string id="increment">Incremento:</string>
+    <string id="white_increment">Inc. Blanco:</string>
+    <string id="black_increment">Inc. Negro:</string>
+    <string id="starting_time">T. Inicial:</string>
+
+    <!-- Cadenas Menú Casillas -->
+    <string id="haptics_string">Vibración</string>
+    <string id="progress_ring">Anillo de Progreso</string>
+    <string id="toggle_backlight">Retroiluminación</string>
+    <string id="scaling_time_out">Aviso Moderno</string>
+    <string id="use_menu1">Utilizar Menú1</string>
+    <string id="use_legacy_view">Utilizar Vista Clásica</string>
+
+    <string id="uses_battery">*Usa Batería</string>
+    <string id="legacy_menu">Menú Clásico</string>
+
+    <!-- Cadenas Menú2 -->
+    <string id="settings">Config.</string>
+    <string id="opens_settings_menu">Abre el Menú de Config.</string>
+    <string id="white_time_setting">Tiempo Blanco</string>
+    <string id="white_increment_setting">Inc. Blanco</string>
+    <string id="black_time_setting">Tiempo Negro</string>
+    <string id="black_increment_setting">Inc. Negro</string>
+
+    <string id="starting_time_setting">T. Inicial</string>
+    <string id="increment_setting">Incremento</string>
+
+    <string id="change_starting_time">Cambiar Incio</string>
+    <string id="change_increment">Cambiar Inc.</string>
+    <string id="kill_app">Salir</string>
+
+    <!-- Cadenas Menú1 -->
+    <string id="white_increment_short">Inc. Blanco</string>
+    <string id="black_increment_short">Inc. Negro</string>
+    <string id="starting_increment_short">Incremento</string>
+    <string id="use_modern_menu">Menú Moderno</string>
+    <string id="haptics_on">Vibración [S]</string>
+    <string id="haptics_off">Vibración [N]</string>
+    <string id="backlight_on">Luz [S]</string>
+    <string id="backlight_off">Luz [N]</string>
+    <string id="ring_on">Anillo [S]</string>
+    <string id="ring_off">Anillo [N]</string>
+    <string id="modern_view_on">Vista Moderna [S]</string>
+    <string id="modern_view_off">Vista Moderna [N]</string>
+
+    <string id="switch_sides">Cambiar Lados</string>
+
+    <string id="time_indicator_white">Tiempo Blanco:</string>
+    <string id="time_indicator_black">Tiempo Negro:</string>
+</strings>
