@@ -1,1 +1,123 @@
 project.manifest = manifest.xml
+
+approachs50.resourcePath = resources;resources-launcher-56-56
+# approachs60 res == 40x33
+approachs60.resourcePath = resources;resources-launcher-56-56
+# approachs62.resourcePath = resources;resources-launcher-35-35
+approachs7042mm.resourcePath = resources;resources-launcher-60-60
+approachs7047mm.resourcePath = resources;resources-launcher-70-70
+
+d2air.resourcePath = resources;resources-launcher-60-60
+d2airx10.resourcePath = resources;resources-launcher-70-70
+d2bravo.resourcePath = resources;resources-launcher-40-40
+d2charlie.resourcePath = resources;resources-launcher-40-40
+d2delta.resourcePath = resources;resources-launcher-40-40
+d2deltapx.resourcePath = resources;resources-launcher-40-40
+d2deltas.resourcePath = resources;resources-launcher-40-40
+d2mach1.resourcePath = resources;resources-launcher-60-60
+
+descentg2.resourcePath = resources;resources-launcher-60-60
+descentmk1.resourcePath = resources;resources-launcher-40-40
+descentmk2.resourcePath = resources;resources-launcher-40-40
+descentmk2s.resourcePath = resources;resources-launcher-40-40
+descentmk343mm.resourcePath = resources;resources-launcher-60-60
+descentmk351mm.resourcePath = resources;resources-launcher-60-60
+
+enduro.resourcePath = resources;resources-launcher-40-40
+enduro3.resourcePath = resources;resources-launcher-40-40
+
+epix2.resourcePath = resources;resources-launcher-60-60
+epix2pro42mm.resourcePath = resources;resources-launcher-60-60
+epix2pro47mm.resourcePath = resources;resources-launcher-60-60
+epix2pro51mm.resourcePath = resources;resources-launcher-60-60
+
+fenix3.resourcePath = resources;resources-launcher-40-40
+fenix3_hr.resourcePath = resources;resources-launcher-40-40
+fenix5.resourcePath = resources;resources-launcher-40-40
+fenix5plus.resourcePath = resources;resources-launcher-40-40
+# 36x36
+fenix5s.resourcePath = resources;resources-launcher-35-35
+fenix5splus.resourcePath = resources;resources-launcher-40-40
+fenix5x.resourcePath = resources;resources-launcher-40-40
+fenix5xplus.resourcePath = resources;resources-launcher-40-40
+fenix6.resourcePath = resources;resources-launcher-40-40
+fenix6pro.resourcePath = resources;resources-launcher-40-40
+fenix6s.resourcePath = resources;resources-launcher-40-40
+fenix6spro.resourcePath = resources;resources-launcher-40-40
+fenix6xpro.resourcePath = resources;resources-launcher-40-40
+fenix7.resourcePath = resources;resources-launcher-40-40
+fenix7pro.resourcePath = resources;resources-launcher-40-40
+fenix7pronowifi.resourcePath = resources;resources-launcher-40-40
+fenix7s.resourcePath = resources;resources-launcher-40-40
+fenix7spro.resourcePath = resources;resources-launcher-40-40
+fenix7x.resourcePath = resources;resources-launcher-40-40
+fenix7xpro.resourcePath = resources;resources-launcher-40-40
+fenix7xpronowifi.resourcePath = resources;resources-launcher-40-40
+fenix843mm.resourcePath = resources;resources-launcher-60-60
+fenix847mm.resourcePath = resources;resources-launcher-65-65
+fenix8solar47mm.resourcePath = resources;resources-launcher-40-40
+fenix8solar51mm.resourcePath = resources;resources-launcher-40-40
+# 36x36
+fenixchronos.resourcePath = resources;resources-launcher-35-35
+fenixe.resourcePath = resources;resources-launcher-60-60
+
+fr165.resourcePath = resources;resources-launcher-54-54
+fr165m.resourcePath = resources;resources-launcher-54-54
+fr230.resourcePath = resources;resources-launcher-40-40
+fr235.resourcePath = resources;resources-launcher-40-40
+fr245.resourcePath = resources;resources-launcher-40-40
+fr245m.resourcePath = resources;resources-launcher-40-40
+fr255.resourcePath = resources;resources-launcher-40-40
+fr255m.resourcePath = resources;resources-launcher-40-40
+fr255s.resourcePath = resources;resources-launcher-40-40
+fr255sm.resourcePath = resources;resources-launcher-40-40
+fr265.resourcePath = resources;resources-launcher-60-60
+fr265s.resourcePath = resources;resources-launcher-60-60
+fr55.resourcePath = resources;resources-launcher-35-35
+fr57042mm.resourcePath = resources;resources-launcher-54-54
+fr57047mm.resourcePath = resources;resources-launcher-65-65
+fr630.resourcePath = resources;resources-launcher-40-40
+fr645.resourcePath = resources;resources-launcher-40-40
+fr645m.resourcePath = resources;resources-launcher-40-40
+fr735xt.resourcePath = resources;resources-launcher-40-40
+fr745.resourcePath = resources;resources-launcher-40-40
+fr935.resourcePath = resources;resources-launcher-40-40
+fr945.resourcePath = resources;resources-launcher-40-40
+fr945lte.resourcePath = resources;resources-launcher-40-40
+fr955.resourcePath = resources;resources-launcher-40-40
+fr965.resourcePath = resources;resources-launcher-65-65
+fr970.resourcePath = resources;resources-launcher-65-65
+fr970.resourcePath = resources;resources-launcher-65-65
+
+instinct3amoled45mm.resourcePath = resources;resources-launcher-60-60
+instinct3amoled50mm.resourcePath = resources;resources-launcher-60-60
+
+# legacyherocaptainmarvel.resourcePath = resources;resources-launcher-30-30
+legacyherofirstavenger.resourcePath = resources;resources-launcher-35-35
+legacysagadarthvader.resourcePath = resources;resources-launcher-35-35
+legacysagarey.resourcePath = resources;resources-launcher-30-30
+
+marq2.resourcePath = resources;resources-launcher-60-60
+marq2aviator.resourcePath = resources;resources-launcher-60-60
+marqadventurer.resourcePath = resources;resources-launcher-40-40
+marqathlete.resourcePath = resources;resources-launcher-40-40
+marqaviator.resourcePath = resources;resources-launcher-40-40
+marqcaptain.resourcePath = resources;resources-launcher-40-40
+marqcommander.resourcePath = resources;resources-launcher-40-40
+marqdriver.resourcePath = resources;resources-launcher-40-40
+marqexpedition.resourcePath = resources;resources-launcher-40-40
+marqgolfer.resourcePath = resources;resources-launcher-40-40
+
+venu.resourcePath = resources;resources-launcher-60-60
+venu2.resourcePath = resources;resources-launcher-70-70
+venu2plus.resourcePath = resources;resources-launcher-70-70
+# 61x61
+venu2s.resourcePath = resources;resources-launcher-60-60
+venu3.resourcePath = resources;resources-launcher-70-70
+venu3s.resourcePath = resources;resources-launcher-70-70
+venud.resourcePath = resources;resources-launcher-60-60
+
+vivoactive4.resourcePath = resources;resources-launcher-35-35
+vivoactive4s.resourcePath = resources;resources-launcher-30-30
+vivoactive5.resourcePath = resources;resources-launcher-56-56
+vivoactive6.resourcePath = resources;resources-launcher-54-54

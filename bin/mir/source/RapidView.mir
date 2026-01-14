@@ -1401,7 +1401,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_beg
         %tmp.1 = getm $.Globals;
         symbol [ isWhitesTurn %tmp.2 236 28 40 ];
         %tmp.2 = getv %tmp.1 :isWhitesTurn;
-        bf %tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_false;
+        bf %tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_true:
         %tmp.3 = 360.0;
         symbol [ Globals %tmp.4 237 18 25 ];
@@ -1431,7 +1431,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_tru
         %tmp.20 = sub %tmp.18 %tmp.19;
         push %tmp.20;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_else_false:
         %tmp.21 = 360.0;
         symbol [ Globals %tmp.22 238 18 25 ];
         %tmp.22 = getm $.Globals;
@@ -1460,7 +1460,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_fal
         %tmp.38 = sub %tmp.36 %tmp.37;
         push %tmp.38;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_end:
-        %tmp.39 = phi [%tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_begin] [%tmp.20 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_true] [%tmp.38 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_false] [%tmp.39 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_end];
+        %tmp.39 = phi [%tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_begin] [%tmp.20 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_true] [%tmp.38 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_else_false] [%tmp.39 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_236_20_238_134_end];
         lputv %angle.1 %tmp.39;
         symbol [ angle %angle.1 236 12 17 ];
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 240 8 ]
@@ -1524,7 +1524,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_begi
         %tmp.1 = getm $.Globals;
         symbol [ isDragVertical %tmp.2 257 23 37 ];
         %tmp.2 = getv %tmp.1 :isDragVertical;
-        bf %tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_false;
+        bf %tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_true:
         %tmp.3 = self;
         symbol [ handleTimerTimeChange %tmp.4 257 40 61 ];
@@ -1534,7 +1534,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_true
         %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
         push %tmp.6;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_else_false:
         %tmp.7 = self;
         symbol [ handleTimerIncrementChange %tmp.8 257 68 94 ];
         %tmp.8 = getv function %tmp.7 :handleTimerIncrementChange;
@@ -1543,7 +1543,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_fals
         %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
         push %tmp.10;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_end:
-        %tmp.11 = phi [%tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_begin] [%tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_true] [%tmp.10 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_false] [%tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_end];
+        %tmp.11 = phi [%tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_begin] [%tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_true] [%tmp.10 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_else_false] [%tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_257_15_257_97_end];
         ret %tmp.11;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_256_35_258_4_stop:
     }
@@ -1624,14 +1624,14 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_begi
         %tmp.25 = getm $.Globals;
         symbol [ hasGameBeenStopped %tmp.26 271 28 46 ];
         %tmp.26 = getv %tmp.25 :hasGameBeenStopped;
-        bf %tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_false;
+        bf %tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_true:
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_begin:
         symbol [ Globals %tmp.27 272 11 18 ];
         %tmp.27 = getm $.Globals;
         symbol [ isWhitesTurn %tmp.28 272 19 31 ];
         %tmp.28 = getv %tmp.27 :isWhitesTurn;
-        bf %tmp.28 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_false;
+        bf %tmp.28 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_true:
         %tmp.29 = self;
         symbol [ loadResource %tmp.30 272 34 46 ];
@@ -1643,7 +1643,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_tru
         %tmp.33 = invoke %tmp.29 %tmp.30(%tmp.32);
         push %tmp.33;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_else_false:
         %tmp.34 = self;
         symbol [ loadResource %tmp.35 272 74 86 ];
         %tmp.35 = getv function %tmp.34 :loadResource;
@@ -1654,10 +1654,10 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_fal
         %tmp.38 = invoke %tmp.34 %tmp.35(%tmp.37);
         push %tmp.38;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_end:
-        %tmp.39 = phi [%tmp.28 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_begin] [%tmp.33 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_true] [%tmp.38 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_false] [%tmp.39 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_end];
+        %tmp.39 = phi [%tmp.28 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_begin] [%tmp.33 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_true] [%tmp.38 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_else_false] [%tmp.39 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_272_11_272_110_end];
         push %tmp.39;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_else_false:
         %tmp.40 = self;
         symbol [ loadResource %tmp.41 273 10 22 ];
         %tmp.41 = getv function %tmp.40 :loadResource;
@@ -1668,7 +1668,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_fals
         %tmp.44 = invoke %tmp.40 %tmp.41(%tmp.43);
         push %tmp.44;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_end:
-        %tmp.45 = phi [%tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_begin] [%tmp.39 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_true] [%tmp.44 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_false] [%tmp.45 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_end];
+        %tmp.45 = phi [%tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_begin] [%tmp.39 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_true] [%tmp.44 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_else_false] [%tmp.45 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_271_20_273_40_end];
         lputv %label.1 %tmp.45;
         symbol [ label %label.1 271 12 17 ];
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 275 8 ]
@@ -1781,7 +1781,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_begi
         symbol [ mins %tmp.24 292 35 39 ];
         %tmp.25 = 10;
         %tmp.26 = lt %tmp.24 %tmp.25;
-        bf %tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_false;
+        bf %tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_true:
         %tmp.27 = "0";
         %tmp.28 = lgetv %mins.2;
@@ -1789,7 +1789,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_true
         %tmp.29 = add %tmp.27 %tmp.28;
         push %tmp.29;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_else_false:
         %tmp.30 = lgetv %mins.2;
         symbol [ mins %tmp.30 292 60 64 ];
         symbol [ toString %tmp.31 292 65 73 ];
@@ -1797,7 +1797,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_fals
         %tmp.32 = invoke %tmp.30 %tmp.31();
         push %tmp.32;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_end:
-        %tmp.33 = phi [%tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_begin] [%tmp.29 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_true] [%tmp.32 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_false] [%tmp.33 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_end];
+        %tmp.33 = phi [%tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_begin] [%tmp.29 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_true] [%tmp.32 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_else_false] [%tmp.33 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_292_35_292_74_end];
         symbol [ whiteMinutesLeft ? 292 8 24 ];
         putv self :whiteMinutesLeft %tmp.33;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 293 8 ]
@@ -1806,7 +1806,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_begi
         symbol [ secs %tmp.34 293 35 39 ];
         %tmp.35 = 10;
         %tmp.36 = lt %tmp.34 %tmp.35;
-        bf %tmp.36 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_false;
+        bf %tmp.36 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_true:
         %tmp.37 = "0";
         %tmp.38 = lgetv %secs.3;
@@ -1814,7 +1814,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_true
         %tmp.39 = add %tmp.37 %tmp.38;
         push %tmp.39;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_else_false:
         %tmp.40 = lgetv %secs.3;
         symbol [ secs %tmp.40 293 60 64 ];
         symbol [ toString %tmp.41 293 65 73 ];
@@ -1822,7 +1822,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_fals
         %tmp.42 = invoke %tmp.40 %tmp.41();
         push %tmp.42;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_end:
-        %tmp.43 = phi [%tmp.36 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_begin] [%tmp.39 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_true] [%tmp.42 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_false] [%tmp.43 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_end];
+        %tmp.43 = phi [%tmp.36 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_begin] [%tmp.39 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_true] [%tmp.42 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_else_false] [%tmp.43 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_293_35_293_74_end];
         symbol [ whiteSecondsInMinuteLeft ? 293 8 32 ];
         putv self :whiteSecondsInMinuteLeft %tmp.43;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 294 8 ]
@@ -1831,7 +1831,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_begi
         symbol [ ms %tmp.44 294 35 37 ];
         %tmp.45 = 10;
         %tmp.46 = lt %tmp.44 %tmp.45;
-        bf %tmp.46 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_false;
+        bf %tmp.46 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_true:
         %tmp.47 = "0";
         %tmp.48 = lgetv %ms.4;
@@ -1839,13 +1839,13 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_true
         %tmp.49 = add %tmp.47 %tmp.48;
         push %tmp.49;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_else_false:
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_begin:
         %tmp.50 = lgetv %ms.4;
         symbol [ ms %tmp.50 294 61 63 ];
         %tmp.51 = 100;
         %tmp.52 = gte %tmp.50 %tmp.51;
-        bf %tmp.52 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_false;
+        bf %tmp.52 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_true:
         %tmp.53 = lgetv %ms.4;
         symbol [ ms %tmp.53 294 73 75 ];
@@ -1853,7 +1853,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_true
         %tmp.55 = div %tmp.53 %tmp.54;
         push %tmp.55;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_else_false:
         %tmp.56 = lgetv %ms.4;
         symbol [ ms %tmp.56 294 83 85 ];
         symbol [ toString %tmp.57 294 86 94 ];
@@ -1861,10 +1861,10 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_fals
         %tmp.58 = invoke %tmp.56 %tmp.57();
         push %tmp.58;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_end:
-        %tmp.59 = phi [%tmp.52 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_begin] [%tmp.55 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_true] [%tmp.58 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_false] [%tmp.59 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_end];
+        %tmp.59 = phi [%tmp.52 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_begin] [%tmp.55 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_true] [%tmp.58 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_else_false] [%tmp.59 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_61_294_95_end];
         push %tmp.59;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_end:
-        %tmp.60 = phi [%tmp.46 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_begin] [%tmp.49 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_true] [%tmp.59 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_false] [%tmp.60 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_end];
+        %tmp.60 = phi [%tmp.46 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_begin] [%tmp.49 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_true] [%tmp.59 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_else_false] [%tmp.60 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_294_35_294_96_end];
         symbol [ whiteMillisecondsLeft ? 294 8 29 ];
         putv self :whiteMillisecondsLeft %tmp.60;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 296 8 ]
@@ -1954,7 +1954,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_beg
         %tmp.90 = getm $.Globals;
         symbol [ isWhitesTurn %tmp.91 310 28 40 ];
         %tmp.91 = getv %tmp.90 :isWhitesTurn;
-        bf %tmp.91 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_false;
+        bf %tmp.91 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_true:
         %tmp.92 = self;
         symbol [ loadResource %tmp.93 310 43 55 ];
@@ -1966,7 +1966,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_tru
         %tmp.96 = invoke %tmp.92 %tmp.93(%tmp.95);
         push %tmp.96;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_else_false:
         %tmp.97 = self;
         symbol [ loadResource %tmp.98 310 87 99 ];
         %tmp.98 = getv function %tmp.97 :loadResource;
@@ -1977,7 +1977,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_fal
         %tmp.101 = invoke %tmp.97 %tmp.98(%tmp.100);
         push %tmp.101;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_end:
-        %tmp.102 = phi [%tmp.91 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_begin] [%tmp.96 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_true] [%tmp.101 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_false] [%tmp.102 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_end];
+        %tmp.102 = phi [%tmp.91 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_begin] [%tmp.96 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_true] [%tmp.101 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_else_false] [%tmp.102 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_310_20_310_127_end];
         lputv %label.5 %tmp.102;
         symbol [ label %label.5 310 12 17 ];
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_309_39_311_8_stop:
@@ -2060,7 +2060,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_begi
         %tmp.1 = getm $.Globals;
         symbol [ isWhitesTurn %tmp.2 326 34 46 ];
         %tmp.2 = getv %tmp.1 :isWhitesTurn;
-        bf %tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_false;
+        bf %tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_true:
         symbol [ Globals %tmp.3 326 49 56 ];
         %tmp.3 = getm $.Globals;
@@ -2068,14 +2068,14 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_true
         %tmp.4 = getv %tmp.3 :whiteTimeLeft;
         push %tmp.4;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_else_false:
         symbol [ Globals %tmp.5 326 73 80 ];
         %tmp.5 = getm $.Globals;
         symbol [ blackTimeLeft %tmp.6 326 81 94 ];
         %tmp.6 = getv %tmp.5 :blackTimeLeft;
         push %tmp.6;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_end:
-        %tmp.7 = phi [%tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_begin] [%tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_true] [%tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_false] [%tmp.7 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_end];
+        %tmp.7 = phi [%tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_begin] [%tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_true] [%tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_else_false] [%tmp.7 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_326_26_326_81_end];
         lputv %currentTime.1 %tmp.7;
         symbol [ currentTime %currentTime.1 326 12 23 ];
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 327 8 ]
@@ -2125,7 +2125,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_begi
         symbol [ mins %tmp.25 331 18 22 ];
         %tmp.26 = 10;
         %tmp.27 = lt %tmp.25 %tmp.26;
-        bf %tmp.27 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_false;
+        bf %tmp.27 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_true:
         %tmp.28 = "0";
         %tmp.29 = lgetv %mins.2;
@@ -2133,7 +2133,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_true
         %tmp.30 = add %tmp.28 %tmp.29;
         push %tmp.30;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_else_false:
         %tmp.31 = lgetv %mins.2;
         symbol [ mins %tmp.31 331 43 47 ];
         symbol [ toString %tmp.32 331 48 56 ];
@@ -2141,7 +2141,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_fals
         %tmp.33 = invoke %tmp.31 %tmp.32();
         push %tmp.33;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_end:
-        %tmp.34 = phi [%tmp.27 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_begin] [%tmp.30 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_true] [%tmp.33 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_false] [%tmp.34 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_end];
+        %tmp.34 = phi [%tmp.27 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_begin] [%tmp.30 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_true] [%tmp.33 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_else_false] [%tmp.34 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_331_18_331_57_end];
         symbol [ minsStr ? 331 8 15 ];
         putv self :minsStr %tmp.34;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 332 8 ]
@@ -2150,7 +2150,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_begi
         symbol [ secs %tmp.35 332 18 22 ];
         %tmp.36 = 10;
         %tmp.37 = lt %tmp.35 %tmp.36;
-        bf %tmp.37 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_false;
+        bf %tmp.37 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_true:
         %tmp.38 = "0";
         %tmp.39 = lgetv %secs.3;
@@ -2158,7 +2158,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_true
         %tmp.40 = add %tmp.38 %tmp.39;
         push %tmp.40;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_else_false:
         %tmp.41 = lgetv %secs.3;
         symbol [ secs %tmp.41 332 43 47 ];
         symbol [ toString %tmp.42 332 48 56 ];
@@ -2166,7 +2166,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_fals
         %tmp.43 = invoke %tmp.41 %tmp.42();
         push %tmp.43;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_end:
-        %tmp.44 = phi [%tmp.37 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_begin] [%tmp.40 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_true] [%tmp.43 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_false] [%tmp.44 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_end];
+        %tmp.44 = phi [%tmp.37 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_begin] [%tmp.40 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_true] [%tmp.43 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_else_false] [%tmp.44 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_332_18_332_57_end];
         symbol [ secsStr ? 332 8 15 ];
         putv self :secsStr %tmp.44;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 333 8 ]
@@ -2175,7 +2175,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_begi
         symbol [ ms %tmp.45 333 18 20 ];
         %tmp.46 = 10;
         %tmp.47 = lt %tmp.45 %tmp.46;
-        bf %tmp.47 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_false;
+        bf %tmp.47 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_true:
         %tmp.48 = "0";
         %tmp.49 = lgetv %ms.4;
@@ -2183,13 +2183,13 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_true
         %tmp.50 = add %tmp.48 %tmp.49;
         push %tmp.50;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_else_false:
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_begin:
         %tmp.51 = lgetv %ms.4;
         symbol [ ms %tmp.51 333 44 46 ];
         %tmp.52 = 100;
         %tmp.53 = gte %tmp.51 %tmp.52;
-        bf %tmp.53 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_false;
+        bf %tmp.53 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_true:
         %tmp.54 = lgetv %ms.4;
         symbol [ ms %tmp.54 333 56 58 ];
@@ -2197,7 +2197,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_true
         %tmp.56 = div %tmp.54 %tmp.55;
         push %tmp.56;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_else_false:
         %tmp.57 = lgetv %ms.4;
         symbol [ ms %tmp.57 333 66 68 ];
         symbol [ toString %tmp.58 333 69 77 ];
@@ -2205,10 +2205,10 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_fals
         %tmp.59 = invoke %tmp.57 %tmp.58();
         push %tmp.59;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_end:
-        %tmp.60 = phi [%tmp.53 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_begin] [%tmp.56 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_true] [%tmp.59 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_false] [%tmp.60 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_end];
+        %tmp.60 = phi [%tmp.53 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_begin] [%tmp.56 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_true] [%tmp.59 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_else_false] [%tmp.60 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_44_333_78_end];
         push %tmp.60;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_end:
-        %tmp.61 = phi [%tmp.47 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_begin] [%tmp.50 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_true] [%tmp.60 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_false] [%tmp.61 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_end];
+        %tmp.61 = phi [%tmp.47 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_begin] [%tmp.50 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_true] [%tmp.60 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_else_false] [%tmp.61 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_333_18_333_79_end];
         symbol [ msStr ? 333 8 13 ];
         putv self :msStr %tmp.61;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 335 8 ]
@@ -2570,7 +2570,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_begi
         symbol [ mins %tmp.52 430 22 26 ];
         %tmp.53 = 10;
         %tmp.54 = lt %tmp.52 %tmp.53;
-        bf %tmp.54 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_false;
+        bf %tmp.54 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_true:
         %tmp.55 = "0";
         %tmp.56 = lgetv %mins.1;
@@ -2578,7 +2578,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_true
         %tmp.57 = add %tmp.55 %tmp.56;
         push %tmp.57;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_else_false:
         %tmp.58 = lgetv %mins.1;
         symbol [ mins %tmp.58 430 47 51 ];
         symbol [ toString %tmp.59 430 52 60 ];
@@ -2586,7 +2586,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_fals
         %tmp.60 = invoke %tmp.58 %tmp.59();
         push %tmp.60;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_end:
-        %tmp.61 = phi [%tmp.54 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_begin] [%tmp.57 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_true] [%tmp.60 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_false] [%tmp.61 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_end];
+        %tmp.61 = phi [%tmp.54 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_begin] [%tmp.57 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_true] [%tmp.60 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_else_false] [%tmp.61 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_430_22_430_61_end];
         symbol [ minsStr ? 430 12 19 ];
         putv self :minsStr %tmp.61;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 431 12 ]
@@ -2595,7 +2595,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_begi
         symbol [ secs %tmp.62 431 22 26 ];
         %tmp.63 = 10;
         %tmp.64 = lt %tmp.62 %tmp.63;
-        bf %tmp.64 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_false;
+        bf %tmp.64 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_true:
         %tmp.65 = "0";
         %tmp.66 = lgetv %secs.2;
@@ -2603,7 +2603,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_true
         %tmp.67 = add %tmp.65 %tmp.66;
         push %tmp.67;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_else_false:
         %tmp.68 = lgetv %secs.2;
         symbol [ secs %tmp.68 431 47 51 ];
         symbol [ toString %tmp.69 431 52 60 ];
@@ -2611,7 +2611,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_fals
         %tmp.70 = invoke %tmp.68 %tmp.69();
         push %tmp.70;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_end:
-        %tmp.71 = phi [%tmp.64 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_begin] [%tmp.67 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_true] [%tmp.70 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_false] [%tmp.71 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_end];
+        %tmp.71 = phi [%tmp.64 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_begin] [%tmp.67 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_true] [%tmp.70 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_else_false] [%tmp.71 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_431_22_431_61_end];
         symbol [ secsStr ? 431 12 19 ];
         putv self :secsStr %tmp.71;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 432 12 ]
@@ -2620,7 +2620,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_begi
         symbol [ ms %tmp.72 432 22 24 ];
         %tmp.73 = 10;
         %tmp.74 = lt %tmp.72 %tmp.73;
-        bf %tmp.74 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_false;
+        bf %tmp.74 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_true:
         %tmp.75 = "0";
         %tmp.76 = lgetv %ms.3;
@@ -2628,13 +2628,13 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_true
         %tmp.77 = add %tmp.75 %tmp.76;
         push %tmp.77;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_else_false:
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_begin:
         %tmp.78 = lgetv %ms.3;
         symbol [ ms %tmp.78 432 48 50 ];
         %tmp.79 = 100;
         %tmp.80 = gte %tmp.78 %tmp.79;
-        bf %tmp.80 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_false;
+        bf %tmp.80 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_true:
         %tmp.81 = lgetv %ms.3;
         symbol [ ms %tmp.81 432 60 62 ];
@@ -2642,7 +2642,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_true
         %tmp.83 = div %tmp.81 %tmp.82;
         push %tmp.83;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_else_false:
         %tmp.84 = lgetv %ms.3;
         symbol [ ms %tmp.84 432 70 72 ];
         symbol [ toString %tmp.85 432 73 81 ];
@@ -2650,10 +2650,10 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_fals
         %tmp.86 = invoke %tmp.84 %tmp.85();
         push %tmp.86;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_end:
-        %tmp.87 = phi [%tmp.80 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_begin] [%tmp.83 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_true] [%tmp.86 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_false] [%tmp.87 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_end];
+        %tmp.87 = phi [%tmp.80 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_begin] [%tmp.83 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_true] [%tmp.86 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_else_false] [%tmp.87 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_48_432_82_end];
         push %tmp.87;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_end:
-        %tmp.88 = phi [%tmp.74 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_begin] [%tmp.77 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_true] [%tmp.87 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_false] [%tmp.88 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_end];
+        %tmp.88 = phi [%tmp.74 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_begin] [%tmp.77 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_true] [%tmp.87 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_else_false] [%tmp.88 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_432_22_432_83_end];
         symbol [ msStr ? 432 12 17 ];
         putv self :msStr %tmp.88;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 434 12 ]
@@ -2830,7 +2830,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_begi
         symbol [ mins %tmp.177 459 22 26 ];
         %tmp.178 = 10;
         %tmp.179 = lt %tmp.177 %tmp.178;
-        bf %tmp.179 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_false;
+        bf %tmp.179 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_true:
         %tmp.180 = "0";
         %tmp.181 = lgetv %mins.4;
@@ -2838,7 +2838,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_true
         %tmp.182 = add %tmp.180 %tmp.181;
         push %tmp.182;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_else_false:
         %tmp.183 = lgetv %mins.4;
         symbol [ mins %tmp.183 459 47 51 ];
         symbol [ toString %tmp.184 459 52 60 ];
@@ -2846,7 +2846,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_fals
         %tmp.185 = invoke %tmp.183 %tmp.184();
         push %tmp.185;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_end:
-        %tmp.186 = phi [%tmp.179 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_begin] [%tmp.182 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_true] [%tmp.185 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_false] [%tmp.186 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_end];
+        %tmp.186 = phi [%tmp.179 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_begin] [%tmp.182 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_true] [%tmp.185 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_else_false] [%tmp.186 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_459_22_459_61_end];
         symbol [ minsStr ? 459 12 19 ];
         putv self :minsStr %tmp.186;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 460 12 ]
@@ -2855,7 +2855,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_begi
         symbol [ secs %tmp.187 460 22 26 ];
         %tmp.188 = 10;
         %tmp.189 = lt %tmp.187 %tmp.188;
-        bf %tmp.189 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_false;
+        bf %tmp.189 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_true:
         %tmp.190 = "0";
         %tmp.191 = lgetv %secs.5;
@@ -2863,7 +2863,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_true
         %tmp.192 = add %tmp.190 %tmp.191;
         push %tmp.192;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_else_false:
         %tmp.193 = lgetv %secs.5;
         symbol [ secs %tmp.193 460 47 51 ];
         symbol [ toString %tmp.194 460 52 60 ];
@@ -2871,7 +2871,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_fals
         %tmp.195 = invoke %tmp.193 %tmp.194();
         push %tmp.195;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_end:
-        %tmp.196 = phi [%tmp.189 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_begin] [%tmp.192 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_true] [%tmp.195 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_false] [%tmp.196 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_end];
+        %tmp.196 = phi [%tmp.189 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_begin] [%tmp.192 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_true] [%tmp.195 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_else_false] [%tmp.196 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_460_22_460_61_end];
         symbol [ secsStr ? 460 12 19 ];
         putv self :secsStr %tmp.196;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 461 12 ]
@@ -2880,7 +2880,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_begi
         symbol [ ms %tmp.197 461 22 24 ];
         %tmp.198 = 10;
         %tmp.199 = lt %tmp.197 %tmp.198;
-        bf %tmp.199 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_false;
+        bf %tmp.199 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_true:
         %tmp.200 = "0";
         %tmp.201 = lgetv %ms.6;
@@ -2888,13 +2888,13 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_true
         %tmp.202 = add %tmp.200 %tmp.201;
         push %tmp.202;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_else_false:
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_begin:
         %tmp.203 = lgetv %ms.6;
         symbol [ ms %tmp.203 461 48 50 ];
         %tmp.204 = 100;
         %tmp.205 = gte %tmp.203 %tmp.204;
-        bf %tmp.205 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_false;
+        bf %tmp.205 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_true:
         %tmp.206 = lgetv %ms.6;
         symbol [ ms %tmp.206 461 60 62 ];
@@ -2902,7 +2902,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_true
         %tmp.208 = div %tmp.206 %tmp.207;
         push %tmp.208;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_else_false:
         %tmp.209 = lgetv %ms.6;
         symbol [ ms %tmp.209 461 70 72 ];
         symbol [ toString %tmp.210 461 73 81 ];
@@ -2910,10 +2910,10 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_fals
         %tmp.211 = invoke %tmp.209 %tmp.210();
         push %tmp.211;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_end:
-        %tmp.212 = phi [%tmp.205 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_begin] [%tmp.208 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_true] [%tmp.211 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_false] [%tmp.212 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_end];
+        %tmp.212 = phi [%tmp.205 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_begin] [%tmp.208 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_true] [%tmp.211 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_else_false] [%tmp.212 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_48_461_82_end];
         push %tmp.212;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_end:
-        %tmp.213 = phi [%tmp.199 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_begin] [%tmp.202 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_true] [%tmp.212 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_false] [%tmp.213 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_end];
+        %tmp.213 = phi [%tmp.199 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_begin] [%tmp.202 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_true] [%tmp.212 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_else_false] [%tmp.213 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_461_22_461_83_end];
         symbol [ msStr ? 461 12 17 ];
         putv self :msStr %tmp.213;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" 463 12 ]
@@ -3168,7 +3168,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_begi
         %tmp.3 = getm $.Globals;
         symbol [ isWhitesTurn %tmp.4 507 28 40 ];
         %tmp.4 = getv %tmp.3 :isWhitesTurn;
-        bf %tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_false;
+        bf %tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_true:
         symbol [ Graphics %tmp.5 507 43 51 ];
         %tmp.5 = getm $.Toybox.Graphics;
@@ -3176,20 +3176,20 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_true
         %tmp.6 = getv %tmp.5 :COLOR_BLACK;
         push %tmp.6;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_else_false:
         symbol [ Graphics %tmp.7 507 66 74 ];
         %tmp.7 = getm $.Toybox.Graphics;
         symbol [ COLOR_WHITE %tmp.8 507 75 86 ];
         %tmp.8 = getv %tmp.7 :COLOR_WHITE;
         push %tmp.8;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_end:
-        %tmp.9 = phi [%tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_begin] [%tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_true] [%tmp.8 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_false] [%tmp.9 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_end];
+        %tmp.9 = phi [%tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_begin] [%tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_true] [%tmp.8 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_else_false] [%tmp.9 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_507_20_507_75_end];
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_begin:
         symbol [ Globals %tmp.10 508 20 27 ];
         %tmp.10 = getm $.Globals;
         symbol [ isWhitesTurn %tmp.11 508 28 40 ];
         %tmp.11 = getv %tmp.10 :isWhitesTurn;
-        bf %tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_false;
+        bf %tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_true:
         symbol [ Graphics %tmp.12 508 43 51 ];
         %tmp.12 = getm $.Toybox.Graphics;
@@ -3197,14 +3197,14 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_true
         %tmp.13 = getv %tmp.12 :COLOR_WHITE;
         push %tmp.13;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_else_false:
         symbol [ Graphics %tmp.14 508 66 74 ];
         %tmp.14 = getm $.Toybox.Graphics;
         symbol [ COLOR_BLACK %tmp.15 508 75 86 ];
         %tmp.15 = getv %tmp.14 :COLOR_BLACK;
         push %tmp.15;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_end:
-        %tmp.16 = phi [%tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_begin] [%tmp.13 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_true] [%tmp.15 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_false] [%tmp.16 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_end];
+        %tmp.16 = phi [%tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_begin] [%tmp.13 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_true] [%tmp.15 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_else_false] [%tmp.16 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_508_20_508_75_end];
         invoke %tmp.1 %tmp.2(%tmp.9, %tmp.16);
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_506_30_509_4_stop:
     }
@@ -3221,7 +3221,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_begi
         %tmp.3 = getm $.Globals;
         symbol [ isWhitesTurn %tmp.4 512 28 40 ];
         %tmp.4 = getv %tmp.3 :isWhitesTurn;
-        bf %tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_false;
+        bf %tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_true:
         symbol [ Graphics %tmp.5 512 43 51 ];
         %tmp.5 = getm $.Toybox.Graphics;
@@ -3229,20 +3229,20 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_true
         %tmp.6 = getv %tmp.5 :COLOR_WHITE;
         push %tmp.6;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_else_false:
         symbol [ Graphics %tmp.7 512 66 74 ];
         %tmp.7 = getm $.Toybox.Graphics;
         symbol [ COLOR_BLACK %tmp.8 512 75 86 ];
         %tmp.8 = getv %tmp.7 :COLOR_BLACK;
         push %tmp.8;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_end:
-        %tmp.9 = phi [%tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_begin] [%tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_true] [%tmp.8 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_false] [%tmp.9 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_end];
+        %tmp.9 = phi [%tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_begin] [%tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_true] [%tmp.8 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_else_false] [%tmp.9 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_512_20_512_75_end];
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_begin:
         symbol [ Globals %tmp.10 513 20 27 ];
         %tmp.10 = getm $.Globals;
         symbol [ isWhitesTurn %tmp.11 513 28 40 ];
         %tmp.11 = getv %tmp.10 :isWhitesTurn;
-        bf %tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_false;
+        bf %tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_true:
         symbol [ Graphics %tmp.12 513 43 51 ];
         %tmp.12 = getm $.Toybox.Graphics;
@@ -3250,14 +3250,14 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_true
         %tmp.13 = getv %tmp.12 :COLOR_BLACK;
         push %tmp.13;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_else_false:
         symbol [ Graphics %tmp.14 513 66 74 ];
         %tmp.14 = getm $.Toybox.Graphics;
         symbol [ COLOR_WHITE %tmp.15 513 75 86 ];
         %tmp.15 = getv %tmp.14 :COLOR_WHITE;
         push %tmp.15;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_end:
-        %tmp.16 = phi [%tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_begin] [%tmp.13 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_true] [%tmp.15 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_false] [%tmp.16 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_end];
+        %tmp.16 = phi [%tmp.11 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_begin] [%tmp.13 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_true] [%tmp.15 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_else_false] [%tmp.16 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_513_20_513_75_end];
         invoke %tmp.1 %tmp.2(%tmp.9, %tmp.16);
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_RapidView_mc_511_31_514_4_stop:
     }

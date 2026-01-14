@@ -372,7 +372,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_1
         %tmp.145 = getm $.Globals;
         symbol [ whiteLost %tmp.146 90 31 40 ];
         %tmp.146 = getv %tmp.145 :whiteLost;
-        bf %tmp.146 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_false;
+        bf %tmp.146 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_else_false;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_true:
         %tmp.147 = self;
         symbol [ loadResource %tmp.148 90 43 55 ];
@@ -384,7 +384,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_1
         %tmp.151 = invoke %tmp.147 %tmp.148(%tmp.150);
         push %tmp.151;
         goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_else_false:
         %tmp.152 = self;
         symbol [ loadResource %tmp.153 90 78 90 ];
         %tmp.153 = getv function %tmp.152 :loadResource;
@@ -395,7 +395,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_1
         %tmp.156 = invoke %tmp.152 %tmp.153(%tmp.155);
         push %tmp.156;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_end:
-        %tmp.157 = phi [%tmp.146 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_begin] [%tmp.151 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_true] [%tmp.156 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_false] [%tmp.157 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_end];
+        %tmp.157 = phi [%tmp.146 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_begin] [%tmp.151 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_true] [%tmp.156 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_else_false] [%tmp.157 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutViewLegacy_mc_90_23_90_109_end];
         symbol [ timeLeftText ? 90 8 20 ];
         putv self :timeLeftText %tmp.157;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutViewLegacy.mc" 91 8 ]

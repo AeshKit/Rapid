@@ -6,31 +6,58 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var LauncherIcon as ResourceId;
+        (:initialized) var AppIcon as ResourceId;
     } // Drawables
 
-    module Layouts {
-        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_Timer = new WatchUi.Text({:identifier=>"Timer", :backgroundColor=>Graphics.COLOR_WHITE, :color=>Graphics.COLOR_BLACK, :locX=>(260 * 0.5), :locY=>((260 - dc.getFontHeight(Gfx.FONT_LARGE)) * 0.5), :text=>"10:05", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
-
-            return [rez_cmp_local_text_Timer] as Array<WatchUi.Drawable>;
-        }
-    } // Layouts
-
-    module Menus {
-        class MainMenu extends WatchUi.Menu {
-            function initialize() {
-                Menu.initialize();
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :item_1);
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_2) as String), :item_2);
-            }
-        }
-    } // Menus
-
     module Strings {
-        (:initialized) var menu_label_1 as ResourceId;
-        (:initialized) var menu_label_2 as ResourceId;
-        (:initialized) var prompt as ResourceId;
-        (:initialized) var AppName as ResourceId;
+        (:initialized) var modern_view_on as ResourceId;
+        (:initialized) var white_time_setting as ResourceId;
+        (:initialized) var increment_setting as ResourceId;
+        (:initialized) var modern_view_off as ResourceId;
+        (:initialized) var toggle_backlight as ResourceId;
+        (:initialized) var progress_ring as ResourceId;
+        (:initialized) var turns as ResourceId;
+        (:initialized) var time_left as ResourceId;
+        (:initialized) var black_increment_setting as ResourceId;
+        (:initialized) var opens_settings_menu as ResourceId;
+        (:initialized) var total_time as ResourceId;
+        (:initialized) var time_indicator_white as ResourceId;
+        (:initialized) var decimal_separator as ResourceId;
+        (:initialized) var settings as ResourceId;
+        (:initialized) var ring_off as ResourceId;
+        (:initialized) var black_time_out as ResourceId;
+        (:initialized) var time_indicator_black as ResourceId;
+        (:initialized) var white_increment as ResourceId;
+        (:initialized) var starting_increment_short as ResourceId;
+        (:initialized) var haptics_on as ResourceId;
+        (:initialized) var kill_app as ResourceId;
+        (:initialized) var black_time_no_space as ResourceId;
+        (:initialized) var use_modern_menu as ResourceId;
+        (:initialized) var white_increment_setting as ResourceId;
+        (:initialized) var ring_on as ResourceId;
+        (:initialized) var backlight_off as ResourceId;
+        (:initialized) var backlight_on as ResourceId;
+        (:initialized) var increment as ResourceId;
+        (:initialized) var black_increment as ResourceId;
+        (:initialized) var white_time as ResourceId;
+        (:initialized) var change_starting_time as ResourceId;
+        (:initialized) var switch_sides as ResourceId;
+        (:initialized) var white_time_out as ResourceId;
+        (:initialized) var black_time as ResourceId;
+        (:initialized) var legacy_menu as ResourceId;
+        (:initialized) var white_increment_short as ResourceId;
+        (:initialized) var starting_time as ResourceId;
+        (:initialized) var black_increment_short as ResourceId;
+        (:initialized) var change_increment as ResourceId;
+        (:initialized) var scaling_time_out as ResourceId;
+        (:initialized) var white_time_no_space as ResourceId;
+        (:initialized) var black_time_setting as ResourceId;
+        (:initialized) var haptics_string as ResourceId;
+        (:initialized) var use_legacy_view as ResourceId;
+        (:initialized) var uses_battery as ResourceId;
+        (:initialized) var app_name as ResourceId;
+        (:initialized) var use_menu1 as ResourceId;
+        (:initialized) var haptics_off as ResourceId;
+        (:initialized) var starting_time_setting as ResourceId;
     } // Strings
 } // Rez
