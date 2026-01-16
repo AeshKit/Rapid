@@ -3,7 +3,7 @@ project.manifest = manifest.xml
 approachs50.resourcePath = resources;resources-launcher-56-56
 # approachs60 res == 40x33
 approachs60.resourcePath = resources;resources-launcher-56-56
-# approachs62.resourcePath = resources;resources-launcher-35-35
+approachs62.resourcePath = resources;resources-launcher-35-35
 approachs7042mm.resourcePath = resources;resources-launcher-60-60
 approachs7047mm.resourcePath = resources;resources-launcher-70-70
 
@@ -92,7 +92,7 @@ fr970.resourcePath = resources;resources-launcher-65-65
 instinct3amoled45mm.resourcePath = resources;resources-launcher-60-60
 instinct3amoled50mm.resourcePath = resources;resources-launcher-60-60
 
-# legacyherocaptainmarvel.resourcePath = resources;resources-launcher-30-30
+legacyherocaptainmarvel.resourcePath = resources;resources-launcher-30-30
 legacyherofirstavenger.resourcePath = resources;resources-launcher-35-35
 legacysagadarthvader.resourcePath = resources;resources-launcher-35-35
 legacysagarey.resourcePath = resources;resources-launcher-30-30
