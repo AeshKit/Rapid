@@ -10,6 +10,7 @@ approachs7047mm.resourcePath = resources;resources-launcher-70-70
 d2air.resourcePath = resources;resources-launcher-60-60
 d2airx10.resourcePath = resources;resources-launcher-70-70
 d2bravo.resourcePath = resources;resources-launcher-40-40
+d2bravo_titanium.resourcePath = resources;resources-launcher-40-40
 d2charlie.resourcePath = resources;resources-launcher-40-40
 d2delta.resourcePath = resources;resources-launcher-40-40
 d2deltapx.resourcePath = resources;resources-launcher-40-40
