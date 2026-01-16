@@ -60,6 +60,11 @@ Assuming the text is facing upright, then:
 
 Just like in the full app, you can switch one side's time or increment in the settings menu after the game has started. Button controls remain unchanged
 
+## -- Installation --
+
+- You can download the published app in the [CIQ Store](https://apps.garmin.com/apps/721c1ce7-0fad-4d4c-84bd-5e59b5f5f371?tid=0) on a mobile device, or build from source using the Garmin SDK for the most recent features.
+
+If you don't want to use any Garmin services, the .iq files are just archives. Download it from the [releases](https://github.com/AeshKit/Rapid/releases/) page and find the folder with your device's part number. Then, transfer your `Rapid.prg` file to `$WATCHDIR/Internal Storage/GARMIN/Apps`. After unplugging the watch, it will install the application.
 
 ## -- Technical --
 - *Why can't I use this app in official settings ?*
