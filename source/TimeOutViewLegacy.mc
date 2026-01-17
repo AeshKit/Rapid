@@ -37,7 +37,7 @@ class TimeOutViewLegacy extends Ui.View {
 
     var winningSideTimeLeft as Integer;
 
-    var mainFont as FontType,
+    var mainFont,
         secondaryFont as FontType;
 
     var centerX,
@@ -62,7 +62,8 @@ class TimeOutViewLegacy extends Ui.View {
             winningSideTimeLeft = Globals.whiteTimeLeft;
         }
 
-        mainFont = Graphics.FONT_LARGE;
+        // mainFont = Graphics.FONT_LARGE;
+        // Previous Definition
         secondaryFont = Graphics.FONT_TINY;
 
         minutesLeft      = (winningSideTimeLeft / 60000).toString();
@@ -73,8 +74,6 @@ class TimeOutViewLegacy extends Ui.View {
         totalSeconds      = ((Globals.totalTime / 1000) % 60).toString();
         totalMilliseconds = (Globals.totalTime % 1000).toString();
 
-
-        // dunno what i was on when i wrote this. it's prolly slow as hell but whatever
         holdingArray      = standardizeTime(totalMinutes, totalSeconds, totalMilliseconds);
         totalMinutes      = holdingArray[0];
         totalSeconds      = holdingArray[1];
@@ -210,6 +209,14 @@ class TimeOutViewLegacy extends Ui.View {
     function onLayout(dc as $.Toybox.Graphics.Dc) as Void {
         centerX = (dc.getWidth() / 2).toNumber();
         centerY = (dc.getHeight() / 2).toNumber();
+
+        if(dc.getTextWidthInPixels(mainLoseString, Graphics.FONT_LARGE) <= dc.getWidth() - dc.getWidth() / 15) {
+            mainFont = Graphics.FONT_LARGE;
+        } else if(dc.getTextWidthInPixels(mainLoseString, Graphics.FONT_MEDIUM) <= dc.getWidth() - dc.getWidth() / 15) {
+            mainFont = Graphics.FONT_MEDIUM;
+        } else {
+            mainFont = Graphics.FONT_SMALL;
+        }
 
         turnsWidthOffset = (dc.getTextWidthInPixels(turnsText, secondaryFont) / 2).toNumber();
         timeTotalWidthOffset = (dc.getTextWidthInPixels(timeTotalText, secondaryFont) / 2).toNumber();
