@@ -1,4 +1,4 @@
-<?xml version="1.1"?>
+<?xml version="1.0"?>
 <iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
     <iq:application id="594bdbf1-befa-4289-8246-3b556a437bb3" type="watch-app" name="@Strings.app_name" entry="RapidApp" launcherIcon="@Drawables.AppIcon" minApiLevel="1.2.0">
         <iq:products>
