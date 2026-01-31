@@ -68,8 +68,6 @@ class RapidLegacyView extends Ui.View {
 
         Globals.animationTimer = new Timer.Timer();
 
-        System.println(Graphics.getFontHeight(Graphics.FONT_SYSTEM_NUMBER_THAI_HOT) + " " + System.getDeviceSettings().screenHeight / 2.2);
-
         View.initialize();
     }
 

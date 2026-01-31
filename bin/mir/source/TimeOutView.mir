@@ -68,7 +68,7 @@ class TimeOutView extends Ui.View {
     var lostVectorFontSize;
     [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 42; @symbol_functiondef = [initialize,42,13,23]; ]
     function initialize() as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_42_26_95_4_start:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_42_26_93_4_start:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 43 8 ]
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_43_8_45_8_if_stmt:
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_43_11_43_113_begin:
@@ -386,774 +386,761 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_52_8_68_8_if_end
         symbol [ textGlideCounter ? 89 8 24 ];
         putv self :textGlideCounter %tmp.161;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 91 8 ]
-        symbol [ System %tmp.163 91 8 14 ];
-        %tmp.163 = getv ? :System;
-        symbol [ println %tmp.164 91 15 22 ];
-        %tmp.164 = getv function %tmp.163 :println;
-        symbol [ System %tmp.166 91 23 29 ];
-        %tmp.166 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.167 91 30 47 ];
-        %tmp.167 = getv function %tmp.166 :getDeviceSettings;
-        %tmp.168 = invoke %tmp.166 %tmp.167();
-        symbol [ partNumber %tmp.169 91 50 60 ];
-        %tmp.169 = getv %tmp.168 :partNumber;
-        invoke %tmp.163 %tmp.164(%tmp.169);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 93 8 ]
-        symbol [ View %tmp.171 93 8 12 ];
-        %tmp.171 = getv ? :View;
-        symbol [ initialize %tmp.172 93 13 23 ];
-        %tmp.172 = getv function %tmp.171 :initialize;
-        invoke %tmp.171 %tmp.172();
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_42_26_95_4_stop:
+        symbol [ View %tmp.163 91 8 12 ];
+        %tmp.163 = getv ? :View;
+        symbol [ initialize %tmp.164 91 13 23 ];
+        %tmp.164 = getv function %tmp.163 :initialize;
+        invoke %tmp.163 %tmp.164();
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_42_26_93_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 97; @symbol_functiondef = [onUpdate,97,13,21]; @symbol_param<0> = [dc,97,22,24]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 95; @symbol_functiondef = [onUpdate,95,13,21]; @symbol_param<0> = [dc,95,22,24]; ]
     function onUpdate(dc) as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_97_34_205_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 98 8 ]
-        symbol [ Globals %tmp.1 98 15 22 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_95_34_203_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 96 8 ]
+        symbol [ Globals %tmp.1 96 15 22 ];
         %tmp.1 = getm $.Globals;
-        symbol [ animationCounter %tmp.2 98 23 39 ];
+        symbol [ animationCounter %tmp.2 96 23 39 ];
         %tmp.2 = getv %tmp.1 :animationCounter;
         push %tmp.2;
-        switch %tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtBegin:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 99 12 ]
+        switch %tmp.2 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtBegin:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 97 12 ]
         %tmp.3 = dup %tmp.2;
         %tmp.4 = 0;
         %tmp.5 = getv function %tmp.3 :equals;
         %tmp.6 = invoke %tmp.3 %tmp.5 (%tmp.4);
-        bt %tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_99_12_103_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 104 12 ]
+        bt %tmp.6 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_97_12_101_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 102 12 ]
         %tmp.7 = dup %tmp.2;
         %tmp.8 = 1;
         %tmp.9 = getv function %tmp.7 :equals;
         %tmp.10 = invoke %tmp.7 %tmp.9 (%tmp.8);
-        bt %tmp.10 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_104_12_108_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 109 12 ]
+        bt %tmp.10 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_102_12_106_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 107 12 ]
         %tmp.11 = dup %tmp.2;
         %tmp.12 = 2;
         %tmp.13 = getv function %tmp.11 :equals;
         %tmp.14 = invoke %tmp.11 %tmp.13 (%tmp.12);
-        bt %tmp.14 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_109_12_113_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 114 12 ]
+        bt %tmp.14 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_107_12_111_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 112 12 ]
         %tmp.15 = dup %tmp.2;
         %tmp.16 = 3;
         %tmp.17 = getv function %tmp.15 :equals;
         %tmp.18 = invoke %tmp.15 %tmp.17 (%tmp.16);
-        bt %tmp.18 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_114_12_126_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 127 12 ]
+        bt %tmp.18 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_112_12_124_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 125 12 ]
         %tmp.19 = dup %tmp.2;
         %tmp.20 = 4;
         %tmp.21 = getv function %tmp.19 :equals;
         %tmp.22 = invoke %tmp.19 %tmp.21 (%tmp.20);
-        bt %tmp.22 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_127_12_140_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 141 12 ]
+        bt %tmp.22 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_125_12_138_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 139 12 ]
         %tmp.23 = dup %tmp.2;
         %tmp.24 = 5;
         %tmp.25 = getv function %tmp.23 :equals;
         %tmp.26 = invoke %tmp.23 %tmp.25 (%tmp.24);
-        bt %tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_141_12_148_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 149 12 ]
+        bt %tmp.26 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_139_12_146_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 147 12 ]
         %tmp.27 = dup %tmp.2;
         %tmp.28 = 6;
         %tmp.29 = getv function %tmp.27 :equals;
         %tmp.30 = invoke %tmp.27 %tmp.29 (%tmp.28);
-        bt %tmp.30 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_149_12_159_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 160 12 ]
+        bt %tmp.30 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_147_12_157_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 158 12 ]
         %tmp.31 = dup %tmp.2;
         %tmp.32 = 7;
         %tmp.33 = getv function %tmp.31 :equals;
         %tmp.34 = invoke %tmp.31 %tmp.33 (%tmp.32);
-        bt %tmp.34 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_160_12_167_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 168 12 ]
+        bt %tmp.34 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_158_12_165_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 166 12 ]
         %tmp.35 = dup %tmp.2;
         %tmp.36 = 8;
         %tmp.37 = getv function %tmp.35 :equals;
         %tmp.38 = invoke %tmp.35 %tmp.37 (%tmp.36);
-        bt %tmp.38 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_168_12_179_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 180 12 ]
+        bt %tmp.38 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_166_12_177_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 178 12 ]
         %tmp.39 = dup %tmp.2;
         %tmp.40 = 9;
         %tmp.41 = getv function %tmp.39 :equals;
         %tmp.42 = invoke %tmp.39 %tmp.41 (%tmp.40);
-        bt %tmp.42 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_180_12_190_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 191 12 ]
+        bt %tmp.42 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_178_12_188_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 189 12 ]
         %tmp.43 = dup %tmp.2;
         %tmp.44 = 10;
         %tmp.45 = getv function %tmp.43 :equals;
         %tmp.46 = invoke %tmp.43 %tmp.45 (%tmp.44);
-        bt %tmp.46 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_191_12_199_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 200 12 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtDefault:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_defaultCodeBegin;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_99_12_103_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 100 16 ]
+        bt %tmp.46 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_189_12_197_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 198 12 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtDefault:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_defaultCodeBegin;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_97_12_101_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 98 16 ]
         %tmp.47 = lgetv %dc;
-        symbol [ dc %tmp.47 100 16 18 ];
-        symbol [ setColor %tmp.48 100 19 27 ];
+        symbol [ dc %tmp.47 98 16 18 ];
+        symbol [ setColor %tmp.48 98 19 27 ];
         %tmp.48 = getv function %tmp.47 :setColor;
-        symbol [ mainColor %tmp.50 100 28 37 ];
+        symbol [ mainColor %tmp.50 98 28 37 ];
         %tmp.50 = getv ? :mainColor;
-        symbol [ secondaryColor %tmp.52 100 39 53 ];
+        symbol [ secondaryColor %tmp.52 98 39 53 ];
         %tmp.52 = getv ? :secondaryColor;
         invoke %tmp.47 %tmp.48(%tmp.50, %tmp.52);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 101 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 99 16 ]
         %tmp.53 = lgetv %dc;
-        symbol [ dc %tmp.53 101 16 18 ];
-        symbol [ clear %tmp.54 101 19 24 ];
+        symbol [ dc %tmp.53 99 16 18 ];
+        symbol [ clear %tmp.54 99 19 24 ];
         %tmp.54 = getv function %tmp.53 :clear;
         invoke %tmp.53 %tmp.54();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 102 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 100 16 ]
         %tmp.55 = self;
-        symbol [ startAnimationTimer %tmp.56 102 16 35 ];
+        symbol [ startAnimationTimer %tmp.56 100 16 35 ];
         %tmp.56 = getv function %tmp.55 :startAnimationTimer;
         %tmp.57 = 100;
         %tmp.58 = 1;
         invoke %tmp.55 %tmp.56(%tmp.57, %tmp.58);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 101 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_102_12_106_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 103 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_104_12_108_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 105 16 ]
         %tmp.59 = lgetv %dc;
-        symbol [ dc %tmp.59 105 16 18 ];
-        symbol [ setColor %tmp.60 105 19 27 ];
+        symbol [ dc %tmp.59 103 16 18 ];
+        symbol [ setColor %tmp.60 103 19 27 ];
         %tmp.60 = getv function %tmp.59 :setColor;
-        symbol [ secondaryColor %tmp.62 105 28 42 ];
+        symbol [ secondaryColor %tmp.62 103 28 42 ];
         %tmp.62 = getv ? :secondaryColor;
-        symbol [ mainColor %tmp.64 105 44 53 ];
+        symbol [ mainColor %tmp.64 103 44 53 ];
         %tmp.64 = getv ? :mainColor;
         invoke %tmp.59 %tmp.60(%tmp.62, %tmp.64);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 106 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 104 16 ]
         %tmp.65 = lgetv %dc;
-        symbol [ dc %tmp.65 106 16 18 ];
-        symbol [ clear %tmp.66 106 19 24 ];
+        symbol [ dc %tmp.65 104 16 18 ];
+        symbol [ clear %tmp.66 104 19 24 ];
         %tmp.66 = getv function %tmp.65 :clear;
         invoke %tmp.65 %tmp.66();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 107 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 105 16 ]
         %tmp.67 = self;
-        symbol [ startAnimationTimer %tmp.68 107 16 35 ];
+        symbol [ startAnimationTimer %tmp.68 105 16 35 ];
         %tmp.68 = getv function %tmp.67 :startAnimationTimer;
         %tmp.69 = 100;
         %tmp.70 = 1;
         invoke %tmp.67 %tmp.68(%tmp.69, %tmp.70);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 106 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_107_12_111_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 108 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_109_12_113_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 110 16 ]
         %tmp.71 = lgetv %dc;
-        symbol [ dc %tmp.71 110 16 18 ];
-        symbol [ setColor %tmp.72 110 19 27 ];
+        symbol [ dc %tmp.71 108 16 18 ];
+        symbol [ setColor %tmp.72 108 19 27 ];
         %tmp.72 = getv function %tmp.71 :setColor;
-        symbol [ mainColor %tmp.74 110 28 37 ];
+        symbol [ mainColor %tmp.74 108 28 37 ];
         %tmp.74 = getv ? :mainColor;
-        symbol [ secondaryColor %tmp.76 110 39 53 ];
+        symbol [ secondaryColor %tmp.76 108 39 53 ];
         %tmp.76 = getv ? :secondaryColor;
         invoke %tmp.71 %tmp.72(%tmp.74, %tmp.76);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 111 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 109 16 ]
         %tmp.77 = lgetv %dc;
-        symbol [ dc %tmp.77 111 16 18 ];
-        symbol [ clear %tmp.78 111 19 24 ];
+        symbol [ dc %tmp.77 109 16 18 ];
+        symbol [ clear %tmp.78 109 19 24 ];
         %tmp.78 = getv function %tmp.77 :clear;
         invoke %tmp.77 %tmp.78();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 112 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 110 16 ]
         %tmp.79 = self;
-        symbol [ startAnimationTimer %tmp.80 112 16 35 ];
+        symbol [ startAnimationTimer %tmp.80 110 16 35 ];
         %tmp.80 = getv function %tmp.79 :startAnimationTimer;
         %tmp.81 = 100;
         %tmp.82 = 1;
         invoke %tmp.79 %tmp.80(%tmp.81, %tmp.82);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 111 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_112_12_124_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 113 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_114_12_126_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 115 16 ]
         %tmp.83 = lgetv %dc;
-        symbol [ dc %tmp.83 115 16 18 ];
-        symbol [ setColor %tmp.84 115 19 27 ];
+        symbol [ dc %tmp.83 113 16 18 ];
+        symbol [ setColor %tmp.84 113 19 27 ];
         %tmp.84 = getv function %tmp.83 :setColor;
-        symbol [ secondaryColor %tmp.86 115 28 42 ];
+        symbol [ secondaryColor %tmp.86 113 28 42 ];
         %tmp.86 = getv ? :secondaryColor;
-        symbol [ mainColor %tmp.88 115 44 53 ];
+        symbol [ mainColor %tmp.88 113 44 53 ];
         %tmp.88 = getv ? :mainColor;
         invoke %tmp.83 %tmp.84(%tmp.86, %tmp.88);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 116 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 114 16 ]
         %tmp.89 = lgetv %dc;
-        symbol [ dc %tmp.89 116 16 18 ];
-        symbol [ clear %tmp.90 116 19 24 ];
+        symbol [ dc %tmp.89 114 16 18 ];
+        symbol [ clear %tmp.90 114 19 24 ];
         %tmp.90 = getv function %tmp.89 :clear;
         invoke %tmp.89 %tmp.90();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 117 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 115 16 ]
         %tmp.91 = lgetv %dc;
-        symbol [ dc %tmp.91 117 16 18 ];
-        symbol [ drawAngledText %tmp.92 117 19 33 ];
+        symbol [ dc %tmp.91 115 16 18 ];
+        symbol [ drawAngledText %tmp.92 115 19 33 ];
         %tmp.92 = getv function %tmp.91 :drawAngledText;
         %tmp.93 = lgetv %dc;
-        symbol [ dc %tmp.93 118 20 22 ];
-        symbol [ getWidth %tmp.94 118 23 31 ];
+        symbol [ dc %tmp.93 116 20 22 ];
+        symbol [ getWidth %tmp.94 116 23 31 ];
         %tmp.94 = getv function %tmp.93 :getWidth;
         %tmp.95 = invoke %tmp.93 %tmp.94();
         %tmp.96 = 2;
         %tmp.97 = div %tmp.95 %tmp.96;
         %tmp.98 = lgetv %dc;
-        symbol [ dc %tmp.98 119 20 22 ];
-        symbol [ getHeight %tmp.99 119 23 32 ];
+        symbol [ dc %tmp.98 117 20 22 ];
+        symbol [ getHeight %tmp.99 117 23 32 ];
         %tmp.99 = getv function %tmp.98 :getHeight;
         %tmp.100 = invoke %tmp.98 %tmp.99();
         %tmp.101 = 2;
         %tmp.102 = div %tmp.100 %tmp.101;
-        symbol [ lostVectorFont %tmp.104 120 20 34 ];
+        symbol [ lostVectorFont %tmp.104 118 20 34 ];
         %tmp.104 = getv ? :lostVectorFont;
-        symbol [ mainLoseString %tmp.106 121 20 34 ];
+        symbol [ mainLoseString %tmp.106 119 20 34 ];
         %tmp.106 = getv ? :mainLoseString;
-        symbol [ Graphics %tmp.107 122 20 28 ];
+        symbol [ Graphics %tmp.107 120 20 28 ];
         %tmp.107 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.108 122 29 48 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.108 120 29 48 ];
         %tmp.108 = getv %tmp.107 :TEXT_JUSTIFY_CENTER;
         %tmp.109 = 90;
         invoke %tmp.91 %tmp.92(%tmp.97, %tmp.102, %tmp.104, %tmp.106, %tmp.108, %tmp.109);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 125 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 123 16 ]
         %tmp.110 = self;
-        symbol [ startAnimationTimer %tmp.111 125 16 35 ];
+        symbol [ startAnimationTimer %tmp.111 123 16 35 ];
         %tmp.111 = getv function %tmp.110 :startAnimationTimer;
         %tmp.112 = 500;
         %tmp.113 = 1;
         invoke %tmp.110 %tmp.111(%tmp.112, %tmp.113);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 124 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_125_12_138_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 126 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_127_12_140_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 128 16 ]
         %tmp.114 = lgetv %dc;
-        symbol [ dc %tmp.114 128 16 18 ];
-        symbol [ setColor %tmp.115 128 19 27 ];
+        symbol [ dc %tmp.114 126 16 18 ];
+        symbol [ setColor %tmp.115 126 19 27 ];
         %tmp.115 = getv function %tmp.114 :setColor;
-        symbol [ secondaryColor %tmp.117 128 28 42 ];
+        symbol [ secondaryColor %tmp.117 126 28 42 ];
         %tmp.117 = getv ? :secondaryColor;
-        symbol [ mainColor %tmp.119 128 44 53 ];
+        symbol [ mainColor %tmp.119 126 44 53 ];
         %tmp.119 = getv ? :mainColor;
         invoke %tmp.114 %tmp.115(%tmp.117, %tmp.119);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 129 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 127 16 ]
         %tmp.120 = lgetv %dc;
-        symbol [ dc %tmp.120 129 16 18 ];
-        symbol [ clear %tmp.121 129 19 24 ];
+        symbol [ dc %tmp.120 127 16 18 ];
+        symbol [ clear %tmp.121 127 19 24 ];
         %tmp.121 = getv function %tmp.120 :clear;
         invoke %tmp.120 %tmp.121();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 130 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 128 16 ]
         %tmp.122 = lgetv %dc;
-        symbol [ dc %tmp.122 130 16 18 ];
-        symbol [ drawAngledText %tmp.123 130 19 33 ];
+        symbol [ dc %tmp.122 128 16 18 ];
+        symbol [ drawAngledText %tmp.123 128 19 33 ];
         %tmp.123 = getv function %tmp.122 :drawAngledText;
         %tmp.124 = lgetv %dc;
-        symbol [ dc %tmp.124 131 20 22 ];
-        symbol [ getWidth %tmp.125 131 23 31 ];
+        symbol [ dc %tmp.124 129 20 22 ];
+        symbol [ getWidth %tmp.125 129 23 31 ];
         %tmp.125 = getv function %tmp.124 :getWidth;
         %tmp.126 = invoke %tmp.124 %tmp.125();
         %tmp.127 = 2;
         %tmp.128 = div %tmp.126 %tmp.127;
         %tmp.129 = lgetv %dc;
-        symbol [ dc %tmp.129 132 20 22 ];
-        symbol [ getHeight %tmp.130 132 23 32 ];
+        symbol [ dc %tmp.129 130 20 22 ];
+        symbol [ getHeight %tmp.130 130 23 32 ];
         %tmp.130 = getv function %tmp.129 :getHeight;
         %tmp.131 = invoke %tmp.129 %tmp.130();
         %tmp.132 = 2;
         %tmp.133 = div %tmp.131 %tmp.132;
-        symbol [ lostVectorFont %tmp.135 133 20 34 ];
+        symbol [ lostVectorFont %tmp.135 131 20 34 ];
         %tmp.135 = getv ? :lostVectorFont;
-        symbol [ mainLoseString %tmp.137 134 20 34 ];
+        symbol [ mainLoseString %tmp.137 132 20 34 ];
         %tmp.137 = getv ? :mainLoseString;
-        symbol [ Graphics %tmp.138 135 20 28 ];
+        symbol [ Graphics %tmp.138 133 20 28 ];
         %tmp.138 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.139 135 29 48 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.139 133 29 48 ];
         %tmp.139 = getv %tmp.138 :TEXT_JUSTIFY_CENTER;
         %tmp.140 = 90;
         invoke %tmp.122 %tmp.123(%tmp.128, %tmp.133, %tmp.135, %tmp.137, %tmp.139, %tmp.140);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 138 16 ]
-        symbol [ Globals %tmp.141 138 16 23 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 136 16 ]
+        symbol [ Globals %tmp.141 136 16 23 ];
         %tmp.141 = getm $.Globals;
-        symbol [ Globals %tmp.143 138 16 23 ];
+        symbol [ Globals %tmp.143 136 16 23 ];
         %tmp.143 = getm $.Globals;
-        symbol [ animationCounter %tmp.144 138 24 40 ];
+        symbol [ animationCounter %tmp.144 136 24 40 ];
         %tmp.144 = getv %tmp.143 :animationCounter;
         %tmp.145 = add %tmp.144 1;
-        symbol [ animationCounter ? 138 24 40 ];
+        symbol [ animationCounter ? 136 24 40 ];
         putv %tmp.141 :animationCounter dup %tmp.145;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 139 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 137 16 ]
         %tmp.146 = self;
-        symbol [ startTextSlideAnimation %tmp.147 139 16 39 ];
+        symbol [ startTextSlideAnimation %tmp.147 137 16 39 ];
         %tmp.147 = getv function %tmp.146 :startTextSlideAnimation;
         invoke %tmp.146 %tmp.147();
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 138 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_139_12_146_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 140 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_141_12_148_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 142 16 ]
         %tmp.148 = lgetv %dc;
-        symbol [ dc %tmp.148 142 16 18 ];
-        symbol [ clear %tmp.149 142 19 24 ];
+        symbol [ dc %tmp.148 140 16 18 ];
+        symbol [ clear %tmp.149 140 19 24 ];
         %tmp.149 = getv function %tmp.148 :clear;
         invoke %tmp.148 %tmp.149();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 143 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 141 16 ]
         %tmp.150 = self;
-        symbol [ callScalingAnimationsAndTimeLeftText %tmp.151 143 16 52 ];
+        symbol [ callScalingAnimationsAndTimeLeftText %tmp.151 141 16 52 ];
         %tmp.151 = getv function %tmp.150 :callScalingAnimationsAndTimeLeftText;
         %tmp.152 = lgetv %dc;
-        symbol [ dc %tmp.152 143 53 55 ];
+        symbol [ dc %tmp.152 141 53 55 ];
         invoke %tmp.150 %tmp.151(%tmp.152);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 145 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_145_16_147_16_if_stmt:
-        symbol [ textGlideCounter %tmp.154 145 19 35 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 143 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_143_16_145_16_if_stmt:
+        symbol [ textGlideCounter %tmp.154 143 19 35 ];
         %tmp.154 = getv ? :textGlideCounter;
         %tmp.155 = 16;
         %tmp.156 = eq %tmp.154 %tmp.155;
-        bf %tmp.156 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_145_16_147_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_145_16_147_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_145_43_147_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 146 20 ]
-        symbol [ Globals %tmp.157 146 20 27 ];
+        bf %tmp.156 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_143_16_145_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_143_16_145_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_143_43_145_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 144 20 ]
+        symbol [ Globals %tmp.157 144 20 27 ];
         %tmp.157 = getm $.Globals;
-        symbol [ Globals %tmp.159 146 20 27 ];
+        symbol [ Globals %tmp.159 144 20 27 ];
         %tmp.159 = getm $.Globals;
-        symbol [ animationCounter %tmp.160 146 28 44 ];
+        symbol [ animationCounter %tmp.160 144 28 44 ];
         %tmp.160 = getv %tmp.159 :animationCounter;
         %tmp.161 = add %tmp.160 1;
-        symbol [ animationCounter ? 146 28 44 ];
+        symbol [ animationCounter ? 144 28 44 ];
         putv %tmp.157 :animationCounter dup %tmp.161;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_145_43_147_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_145_16_147_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_145_16_147_16_if_end:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_143_43_145_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_143_16_145_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_143_16_145_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 146 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_147_12_157_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 148 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_149_12_159_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 150 16 ]
         %tmp.162 = lgetv %dc;
-        symbol [ dc %tmp.162 150 16 18 ];
-        symbol [ clear %tmp.163 150 19 24 ];
+        symbol [ dc %tmp.162 148 16 18 ];
+        symbol [ clear %tmp.163 148 19 24 ];
         %tmp.163 = getv function %tmp.162 :clear;
         invoke %tmp.162 %tmp.163();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 151 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 149 16 ]
         %tmp.164 = self;
-        symbol [ callScalingAnimationsAndTimeLeftText %tmp.165 151 16 52 ];
+        symbol [ callScalingAnimationsAndTimeLeftText %tmp.165 149 16 52 ];
         %tmp.165 = getv function %tmp.164 :callScalingAnimationsAndTimeLeftText;
         %tmp.166 = lgetv %dc;
-        symbol [ dc %tmp.166 151 53 55 ];
+        symbol [ dc %tmp.166 149 53 55 ];
         invoke %tmp.164 %tmp.165(%tmp.166);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 153 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 151 16 ]
         %tmp.167 = lgetv %dc;
-        symbol [ dc %tmp.167 153 16 18 ];
-        symbol [ setColor %tmp.168 153 19 27 ];
+        symbol [ dc %tmp.167 151 16 18 ];
+        symbol [ setColor %tmp.168 151 19 27 ];
         %tmp.168 = getv function %tmp.167 :setColor;
-        symbol [ greyColor %tmp.170 153 28 37 ];
+        symbol [ greyColor %tmp.170 151 28 37 ];
         %tmp.170 = getv ? :greyColor;
-        symbol [ mainColor %tmp.172 153 39 48 ];
+        symbol [ mainColor %tmp.172 151 39 48 ];
         %tmp.172 = getv ? :mainColor;
         invoke %tmp.167 %tmp.168(%tmp.170, %tmp.172);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 154 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 152 16 ]
         %tmp.173 = self;
-        symbol [ drawTurnsStat %tmp.174 154 16 29 ];
+        symbol [ drawTurnsStat %tmp.174 152 16 29 ];
         %tmp.174 = getv function %tmp.173 :drawTurnsStat;
         %tmp.175 = lgetv %dc;
-        symbol [ dc %tmp.175 154 30 32 ];
+        symbol [ dc %tmp.175 152 30 32 ];
         invoke %tmp.173 %tmp.174(%tmp.175);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 155 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 153 16 ]
         %tmp.176 = lgetv %dc;
-        symbol [ dc %tmp.176 155 16 18 ];
-        symbol [ setColor %tmp.177 155 19 27 ];
+        symbol [ dc %tmp.176 153 16 18 ];
+        symbol [ setColor %tmp.177 153 19 27 ];
         %tmp.177 = getv function %tmp.176 :setColor;
-        symbol [ secondaryColor %tmp.179 155 28 42 ];
+        symbol [ secondaryColor %tmp.179 153 28 42 ];
         %tmp.179 = getv ? :secondaryColor;
-        symbol [ mainColor %tmp.181 155 44 53 ];
+        symbol [ mainColor %tmp.181 153 44 53 ];
         %tmp.181 = getv ? :mainColor;
         invoke %tmp.176 %tmp.177(%tmp.179, %tmp.181);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 156 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_156_16_158_16_if_stmt:
-        symbol [ textGlideCounter %tmp.183 156 19 35 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 154 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_154_16_156_16_if_stmt:
+        symbol [ textGlideCounter %tmp.183 154 19 35 ];
         %tmp.183 = getv ? :textGlideCounter;
         %tmp.184 = 18;
         %tmp.185 = eq %tmp.183 %tmp.184;
-        bf %tmp.185 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_156_16_158_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_156_16_158_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_156_43_158_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 157 20 ]
-        symbol [ Globals %tmp.186 157 20 27 ];
+        bf %tmp.185 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_154_16_156_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_154_16_156_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_154_43_156_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 155 20 ]
+        symbol [ Globals %tmp.186 155 20 27 ];
         %tmp.186 = getm $.Globals;
-        symbol [ Globals %tmp.188 157 20 27 ];
+        symbol [ Globals %tmp.188 155 20 27 ];
         %tmp.188 = getm $.Globals;
-        symbol [ animationCounter %tmp.189 157 28 44 ];
+        symbol [ animationCounter %tmp.189 155 28 44 ];
         %tmp.189 = getv %tmp.188 :animationCounter;
         %tmp.190 = add %tmp.189 1;
-        symbol [ animationCounter ? 157 28 44 ];
+        symbol [ animationCounter ? 155 28 44 ];
         putv %tmp.186 :animationCounter dup %tmp.190;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_156_43_158_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_156_16_158_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_156_16_158_16_if_end:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_154_43_156_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_154_16_156_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_154_16_156_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 157 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_158_12_165_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 159 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_160_12_167_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 161 16 ]
         %tmp.191 = lgetv %dc;
-        symbol [ dc %tmp.191 161 16 18 ];
-        symbol [ clear %tmp.192 161 19 24 ];
+        symbol [ dc %tmp.191 159 16 18 ];
+        symbol [ clear %tmp.192 159 19 24 ];
         %tmp.192 = getv function %tmp.191 :clear;
         invoke %tmp.191 %tmp.192();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 162 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 160 16 ]
         %tmp.193 = self;
-        symbol [ callScalingAnimationsAndTimeLeftText %tmp.194 162 16 52 ];
+        symbol [ callScalingAnimationsAndTimeLeftText %tmp.194 160 16 52 ];
         %tmp.194 = getv function %tmp.193 :callScalingAnimationsAndTimeLeftText;
         %tmp.195 = lgetv %dc;
-        symbol [ dc %tmp.195 162 53 55 ];
+        symbol [ dc %tmp.195 160 53 55 ];
         invoke %tmp.193 %tmp.194(%tmp.195);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 164 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_164_16_166_16_if_stmt:
-        symbol [ textGlideCounter %tmp.197 164 19 35 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 162 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_162_16_164_16_if_stmt:
+        symbol [ textGlideCounter %tmp.197 162 19 35 ];
         %tmp.197 = getv ? :textGlideCounter;
         %tmp.198 = 20;
         %tmp.199 = eq %tmp.197 %tmp.198;
-        bf %tmp.199 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_164_16_166_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_164_16_166_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_164_43_166_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 165 20 ]
-        symbol [ Globals %tmp.200 165 20 27 ];
+        bf %tmp.199 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_162_16_164_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_162_16_164_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_162_43_164_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 163 20 ]
+        symbol [ Globals %tmp.200 163 20 27 ];
         %tmp.200 = getm $.Globals;
-        symbol [ Globals %tmp.202 165 20 27 ];
+        symbol [ Globals %tmp.202 163 20 27 ];
         %tmp.202 = getm $.Globals;
-        symbol [ animationCounter %tmp.203 165 28 44 ];
+        symbol [ animationCounter %tmp.203 163 28 44 ];
         %tmp.203 = getv %tmp.202 :animationCounter;
         %tmp.204 = add %tmp.203 1;
-        symbol [ animationCounter ? 165 28 44 ];
+        symbol [ animationCounter ? 163 28 44 ];
         putv %tmp.200 :animationCounter dup %tmp.204;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_164_43_166_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_164_16_166_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_164_16_166_16_if_end:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_162_43_164_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_162_16_164_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_162_16_164_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 165 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_166_12_177_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 167 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_168_12_179_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 169 16 ]
         %tmp.205 = lgetv %dc;
-        symbol [ dc %tmp.205 169 16 18 ];
-        symbol [ clear %tmp.206 169 19 24 ];
+        symbol [ dc %tmp.205 167 16 18 ];
+        symbol [ clear %tmp.206 167 19 24 ];
         %tmp.206 = getv function %tmp.205 :clear;
         invoke %tmp.205 %tmp.206();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 170 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 168 16 ]
         %tmp.207 = self;
-        symbol [ callScalingAnimationsAndTimeLeftText %tmp.208 170 16 52 ];
+        symbol [ callScalingAnimationsAndTimeLeftText %tmp.208 168 16 52 ];
         %tmp.208 = getv function %tmp.207 :callScalingAnimationsAndTimeLeftText;
         %tmp.209 = lgetv %dc;
-        symbol [ dc %tmp.209 170 53 55 ];
+        symbol [ dc %tmp.209 168 53 55 ];
         invoke %tmp.207 %tmp.208(%tmp.209);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 172 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 170 16 ]
         %tmp.210 = lgetv %dc;
-        symbol [ dc %tmp.210 172 16 18 ];
-        symbol [ setColor %tmp.211 172 19 27 ];
+        symbol [ dc %tmp.210 170 16 18 ];
+        symbol [ setColor %tmp.211 170 19 27 ];
         %tmp.211 = getv function %tmp.210 :setColor;
-        symbol [ greyColor %tmp.213 172 28 37 ];
+        symbol [ greyColor %tmp.213 170 28 37 ];
         %tmp.213 = getv ? :greyColor;
-        symbol [ mainColor %tmp.215 172 39 48 ];
+        symbol [ mainColor %tmp.215 170 39 48 ];
         %tmp.215 = getv ? :mainColor;
         invoke %tmp.210 %tmp.211(%tmp.213, %tmp.215);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 173 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 171 16 ]
         %tmp.216 = self;
-        symbol [ drawTurnsStat %tmp.217 173 16 29 ];
+        symbol [ drawTurnsStat %tmp.217 171 16 29 ];
         %tmp.217 = getv function %tmp.216 :drawTurnsStat;
         %tmp.218 = lgetv %dc;
-        symbol [ dc %tmp.218 173 30 32 ];
+        symbol [ dc %tmp.218 171 30 32 ];
         invoke %tmp.216 %tmp.217(%tmp.218);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 174 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 172 16 ]
         %tmp.219 = self;
-        symbol [ drawTimeTotalStat %tmp.220 174 16 33 ];
+        symbol [ drawTimeTotalStat %tmp.220 172 16 33 ];
         %tmp.220 = getv function %tmp.219 :drawTimeTotalStat;
         %tmp.221 = lgetv %dc;
-        symbol [ dc %tmp.221 174 34 36 ];
+        symbol [ dc %tmp.221 172 34 36 ];
         invoke %tmp.219 %tmp.220(%tmp.221);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 175 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 173 16 ]
         %tmp.222 = lgetv %dc;
-        symbol [ dc %tmp.222 175 16 18 ];
-        symbol [ setColor %tmp.223 175 19 27 ];
+        symbol [ dc %tmp.222 173 16 18 ];
+        symbol [ setColor %tmp.223 173 19 27 ];
         %tmp.223 = getv function %tmp.222 :setColor;
-        symbol [ secondaryColor %tmp.225 175 28 42 ];
+        symbol [ secondaryColor %tmp.225 173 28 42 ];
         %tmp.225 = getv ? :secondaryColor;
-        symbol [ mainColor %tmp.227 175 44 53 ];
+        symbol [ mainColor %tmp.227 173 44 53 ];
         %tmp.227 = getv ? :mainColor;
         invoke %tmp.222 %tmp.223(%tmp.225, %tmp.227);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 176 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_176_16_178_16_if_stmt:
-        symbol [ textGlideCounter %tmp.229 176 19 35 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 174 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_174_16_176_16_if_stmt:
+        symbol [ textGlideCounter %tmp.229 174 19 35 ];
         %tmp.229 = getv ? :textGlideCounter;
         %tmp.230 = 21;
         %tmp.231 = eq %tmp.229 %tmp.230;
-        bf %tmp.231 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_176_16_178_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_176_16_178_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_176_43_178_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 177 20 ]
-        symbol [ Globals %tmp.232 177 20 27 ];
+        bf %tmp.231 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_174_16_176_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_174_16_176_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_174_43_176_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 175 20 ]
+        symbol [ Globals %tmp.232 175 20 27 ];
         %tmp.232 = getm $.Globals;
-        symbol [ Globals %tmp.234 177 20 27 ];
+        symbol [ Globals %tmp.234 175 20 27 ];
         %tmp.234 = getm $.Globals;
-        symbol [ animationCounter %tmp.235 177 28 44 ];
+        symbol [ animationCounter %tmp.235 175 28 44 ];
         %tmp.235 = getv %tmp.234 :animationCounter;
         %tmp.236 = add %tmp.235 1;
-        symbol [ animationCounter ? 177 28 44 ];
+        symbol [ animationCounter ? 175 28 44 ];
         putv %tmp.232 :animationCounter dup %tmp.236;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_176_43_178_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_176_16_178_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_176_16_178_16_if_end:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_174_43_176_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_174_16_176_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_174_16_176_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 177 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_178_12_188_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 179 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_180_12_190_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 181 16 ]
         %tmp.237 = lgetv %dc;
-        symbol [ dc %tmp.237 181 16 18 ];
-        symbol [ clear %tmp.238 181 19 24 ];
+        symbol [ dc %tmp.237 179 16 18 ];
+        symbol [ clear %tmp.238 179 19 24 ];
         %tmp.238 = getv function %tmp.237 :clear;
         invoke %tmp.237 %tmp.238();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 182 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 180 16 ]
         %tmp.239 = self;
-        symbol [ callScalingAnimationsAndTimeLeftText %tmp.240 182 16 52 ];
+        symbol [ callScalingAnimationsAndTimeLeftText %tmp.240 180 16 52 ];
         %tmp.240 = getv function %tmp.239 :callScalingAnimationsAndTimeLeftText;
         %tmp.241 = lgetv %dc;
-        symbol [ dc %tmp.241 182 53 55 ];
+        symbol [ dc %tmp.241 180 53 55 ];
         invoke %tmp.239 %tmp.240(%tmp.241);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 184 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 182 16 ]
         %tmp.242 = lgetv %dc;
-        symbol [ dc %tmp.242 184 16 18 ];
-        symbol [ setColor %tmp.243 184 19 27 ];
+        symbol [ dc %tmp.242 182 16 18 ];
+        symbol [ setColor %tmp.243 182 19 27 ];
         %tmp.243 = getv function %tmp.242 :setColor;
-        symbol [ greyColor %tmp.245 184 28 37 ];
+        symbol [ greyColor %tmp.245 182 28 37 ];
         %tmp.245 = getv ? :greyColor;
-        symbol [ mainColor %tmp.247 184 39 48 ];
+        symbol [ mainColor %tmp.247 182 39 48 ];
         %tmp.247 = getv ? :mainColor;
         invoke %tmp.242 %tmp.243(%tmp.245, %tmp.247);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 185 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 183 16 ]
         %tmp.248 = self;
-        symbol [ drawTurnsStat %tmp.249 185 16 29 ];
+        symbol [ drawTurnsStat %tmp.249 183 16 29 ];
         %tmp.249 = getv function %tmp.248 :drawTurnsStat;
         %tmp.250 = lgetv %dc;
-        symbol [ dc %tmp.250 185 30 32 ];
+        symbol [ dc %tmp.250 183 30 32 ];
         invoke %tmp.248 %tmp.249(%tmp.250);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 186 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 184 16 ]
         %tmp.251 = lgetv %dc;
-        symbol [ dc %tmp.251 186 16 18 ];
-        symbol [ setColor %tmp.252 186 19 27 ];
+        symbol [ dc %tmp.251 184 16 18 ];
+        symbol [ setColor %tmp.252 184 19 27 ];
         %tmp.252 = getv function %tmp.251 :setColor;
-        symbol [ secondaryColor %tmp.254 186 28 42 ];
+        symbol [ secondaryColor %tmp.254 184 28 42 ];
         %tmp.254 = getv ? :secondaryColor;
-        symbol [ mainColor %tmp.256 186 44 53 ];
+        symbol [ mainColor %tmp.256 184 44 53 ];
         %tmp.256 = getv ? :mainColor;
         invoke %tmp.251 %tmp.252(%tmp.254, %tmp.256);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 187 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_187_16_189_16_if_stmt:
-        symbol [ textGlideCounter %tmp.258 187 19 35 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 185 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_185_16_187_16_if_stmt:
+        symbol [ textGlideCounter %tmp.258 185 19 35 ];
         %tmp.258 = getv ? :textGlideCounter;
         %tmp.259 = 23;
         %tmp.260 = eq %tmp.258 %tmp.259;
-        bf %tmp.260 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_187_16_189_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_187_16_189_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_187_43_189_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 188 20 ]
-        symbol [ Globals %tmp.261 188 20 27 ];
+        bf %tmp.260 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_185_16_187_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_185_16_187_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_185_43_187_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 186 20 ]
+        symbol [ Globals %tmp.261 186 20 27 ];
         %tmp.261 = getm $.Globals;
-        symbol [ Globals %tmp.263 188 20 27 ];
+        symbol [ Globals %tmp.263 186 20 27 ];
         %tmp.263 = getm $.Globals;
-        symbol [ animationCounter %tmp.264 188 28 44 ];
+        symbol [ animationCounter %tmp.264 186 28 44 ];
         %tmp.264 = getv %tmp.263 :animationCounter;
         %tmp.265 = add %tmp.264 1;
-        symbol [ animationCounter ? 188 28 44 ];
+        symbol [ animationCounter ? 186 28 44 ];
         putv %tmp.261 :animationCounter dup %tmp.265;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_187_43_189_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_187_16_189_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_187_16_189_16_if_end:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_185_43_187_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_185_16_187_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_185_16_187_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 188 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_189_12_197_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 190 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_191_12_199_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 192 16 ]
         %tmp.266 = lgetv %dc;
-        symbol [ dc %tmp.266 192 16 18 ];
-        symbol [ clear %tmp.267 192 19 24 ];
+        symbol [ dc %tmp.266 190 16 18 ];
+        symbol [ clear %tmp.267 190 19 24 ];
         %tmp.267 = getv function %tmp.266 :clear;
         invoke %tmp.266 %tmp.267();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 193 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 191 16 ]
         %tmp.268 = self;
-        symbol [ callScalingAnimationsAndTimeLeftText %tmp.269 193 16 52 ];
+        symbol [ callScalingAnimationsAndTimeLeftText %tmp.269 191 16 52 ];
         %tmp.269 = getv function %tmp.268 :callScalingAnimationsAndTimeLeftText;
         %tmp.270 = lgetv %dc;
-        symbol [ dc %tmp.270 193 53 55 ];
+        symbol [ dc %tmp.270 191 53 55 ];
         invoke %tmp.268 %tmp.269(%tmp.270);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 195 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 193 16 ]
         %tmp.271 = lgetv %dc;
-        symbol [ dc %tmp.271 195 16 18 ];
-        symbol [ setColor %tmp.272 195 19 27 ];
+        symbol [ dc %tmp.271 193 16 18 ];
+        symbol [ setColor %tmp.272 193 19 27 ];
         %tmp.272 = getv function %tmp.271 :setColor;
-        symbol [ greyColor %tmp.274 195 28 37 ];
+        symbol [ greyColor %tmp.274 193 28 37 ];
         %tmp.274 = getv ? :greyColor;
-        symbol [ mainColor %tmp.276 195 39 48 ];
+        symbol [ mainColor %tmp.276 193 39 48 ];
         %tmp.276 = getv ? :mainColor;
         invoke %tmp.271 %tmp.272(%tmp.274, %tmp.276);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 196 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 194 16 ]
         %tmp.277 = self;
-        symbol [ drawTurnsStat %tmp.278 196 16 29 ];
+        symbol [ drawTurnsStat %tmp.278 194 16 29 ];
         %tmp.278 = getv function %tmp.277 :drawTurnsStat;
         %tmp.279 = lgetv %dc;
-        symbol [ dc %tmp.279 196 30 32 ];
+        symbol [ dc %tmp.279 194 30 32 ];
         invoke %tmp.277 %tmp.278(%tmp.279);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 197 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 195 16 ]
         %tmp.280 = self;
-        symbol [ drawTimeTotalStat %tmp.281 197 16 33 ];
+        symbol [ drawTimeTotalStat %tmp.281 195 16 33 ];
         %tmp.281 = getv function %tmp.280 :drawTimeTotalStat;
         %tmp.282 = lgetv %dc;
-        symbol [ dc %tmp.282 197 34 36 ];
+        symbol [ dc %tmp.282 195 34 36 ];
         invoke %tmp.280 %tmp.281(%tmp.282);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 198 16 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 196 16 ]
         %tmp.283 = lgetv %dc;
-        symbol [ dc %tmp.283 198 16 18 ];
-        symbol [ setColor %tmp.284 198 19 27 ];
+        symbol [ dc %tmp.283 196 16 18 ];
+        symbol [ setColor %tmp.284 196 19 27 ];
         %tmp.284 = getv function %tmp.283 :setColor;
-        symbol [ secondaryColor %tmp.286 198 28 42 ];
+        symbol [ secondaryColor %tmp.286 196 28 42 ];
         %tmp.286 = getv ? :secondaryColor;
-        symbol [ mainColor %tmp.288 198 44 53 ];
+        symbol [ mainColor %tmp.288 196 44 53 ];
         %tmp.288 = getv ? :mainColor;
         invoke %tmp.283 %tmp.284(%tmp.286, %tmp.288);
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 197 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_198_12_201_21_switchCase:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_defaultCodeBegin:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 199 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_200_12_203_21_switchCase:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_defaultCodeBegin:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 201 16 ]
-        symbol [ Globals %tmp.289 201 16 23 ];
+        symbol [ Globals %tmp.289 199 16 23 ];
         %tmp.289 = getm $.Globals;
         %tmp.290 = 10;
-        symbol [ animationCounter ? 201 24 40 ];
+        symbol [ animationCounter ? 199 24 40 ];
         putv %tmp.289 :animationCounter %tmp.290;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 202 16 ]
-        symbol [ animationTimer %tmp.292 202 16 30 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 200 16 ]
+        symbol [ animationTimer %tmp.292 200 16 30 ];
         %tmp.292 = getv ? :animationTimer;
-        symbol [ stop %tmp.293 202 31 35 ];
+        symbol [ stop %tmp.293 200 31 35 ];
         %tmp.293 = getv function %tmp.292 :stop;
         invoke %tmp.292 %tmp.293();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 203 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_98_8_204_8_switchStmtEnd:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 201 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_96_8_202_8_switchStmtEnd:
         pop;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_97_34_205_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_95_34_203_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 207; @symbol_functiondef = [onLayout,207,13,21]; @symbol_param<0> = [dc,207,22,24]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 205; @symbol_functiondef = [onLayout,205,13,21]; @symbol_param<0> = [dc,205,22,24]; ]
     function onLayout(dc) as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_207_34_209_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 208 8 ]
-        symbol [ Timer %tmp.3 208 29 34 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_205_34_207_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 206 8 ]
+        symbol [ Timer %tmp.3 206 29 34 ];
         %tmp.3 = getm $.Toybox.Timer;
-        symbol [ Timer %tmp.4 208 35 40 ];
+        symbol [ Timer %tmp.4 206 35 40 ];
         %tmp.4 = getv function ? %tmp.3 :Timer;
         %tmp.1 = newc %tmp.4 ();
-        symbol [ animationTimer ? 208 8 22 ];
+        symbol [ animationTimer ? 206 8 22 ];
         putv self :animationTimer %tmp.1;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_207_34_209_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_205_34_207_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 211; @symbol_functiondef = [onShow,211,13,19]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 209; @symbol_functiondef = [onShow,209,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 214; @symbol_functiondef = [callScalingAnimationsAndTimeLeftText,214,21,57]; @symbol_param<0> = [dc,214,58,60]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 212; @symbol_functiondef = [callScalingAnimationsAndTimeLeftText,212,21,57]; @symbol_param<0> = [dc,212,58,60]; ]
     private
     function callScalingAnimationsAndTimeLeftText(dc) {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_214_62_224_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 215 8 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_215_8_216_46_if_stmt:
-        symbol [ textGlideCounter %tmp.2 215 11 27 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_212_62_222_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 213 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_213_8_214_46_if_stmt:
+        symbol [ textGlideCounter %tmp.2 213 11 27 ];
         %tmp.2 = getv ? :textGlideCounter;
         %tmp.3 = 20;
         %tmp.4 = lte %tmp.2 %tmp.3;
-        bf %tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_215_8_216_46_if_else_false;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_215_8_216_46_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_215_35_215_67_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 215 37 ]
+        bf %tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_213_8_214_46_if_else_false;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_213_8_214_46_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_213_35_213_67_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 213 37 ]
         %tmp.5 = self;
-        symbol [ resizeAndAnimateLoseText %tmp.6 215 37 61 ];
+        symbol [ resizeAndAnimateLoseText %tmp.6 213 37 61 ];
         %tmp.6 = getv function %tmp.5 :resizeAndAnimateLoseText;
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 215 62 64 ];
+        symbol [ dc %tmp.7 213 62 64 ];
         invoke %tmp.5 %tmp.6(%tmp.7);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_215_35_215_67_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_215_8_216_46_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_215_8_216_46_if_else_false:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_216_13_216_46_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 216 15 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_213_35_213_67_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_213_8_214_46_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_213_8_214_46_if_else_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_214_13_214_46_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 214 15 ]
         %tmp.8 = self;
-        symbol [ setLoseTextEndingPosition %tmp.9 216 15 40 ];
+        symbol [ setLoseTextEndingPosition %tmp.9 214 15 40 ];
         %tmp.9 = getv function %tmp.8 :setLoseTextEndingPosition;
         %tmp.10 = lgetv %dc;
-        symbol [ dc %tmp.10 216 41 43 ];
+        symbol [ dc %tmp.10 214 41 43 ];
         invoke %tmp.8 %tmp.9(%tmp.10);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_216_13_216_46_stop:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_215_8_216_46_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 218 8 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_218_8_218_71_if_stmt:
-        symbol [ textGlideCounter %tmp.12 218 11 27 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_214_13_214_46_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_213_8_214_46_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 216 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_216_8_216_71_if_stmt:
+        symbol [ textGlideCounter %tmp.12 216 11 27 ];
         %tmp.12 = getv ? :textGlideCounter;
         %tmp.13 = 8;
         %tmp.14 = gte %tmp.12 %tmp.13;
-        bf %tmp.14 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_218_8_218_71_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_218_8_218_71_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_218_34_218_71_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 218 36 ]
+        bf %tmp.14 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_216_8_216_71_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_216_8_216_71_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_216_34_216_71_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 216 36 ]
         %tmp.15 = self;
-        symbol [ resizeAndAnimateLoseRectangle %tmp.16 218 36 65 ];
+        symbol [ resizeAndAnimateLoseRectangle %tmp.16 216 36 65 ];
         %tmp.16 = getv function %tmp.15 :resizeAndAnimateLoseRectangle;
         %tmp.17 = lgetv %dc;
-        symbol [ dc %tmp.17 218 66 68 ];
+        symbol [ dc %tmp.17 216 66 68 ];
         invoke %tmp.15 %tmp.16(%tmp.17);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_218_34_218_71_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_218_8_218_71_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_218_8_218_71_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 220 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_216_34_216_71_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_216_8_216_71_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_216_8_216_71_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 218 8 ]
         %tmp.18 = lgetv %dc;
-        symbol [ dc %tmp.18 220 8 10 ];
-        symbol [ setColor %tmp.19 220 11 19 ];
+        symbol [ dc %tmp.18 218 8 10 ];
+        symbol [ setColor %tmp.19 218 11 19 ];
         %tmp.19 = getv function %tmp.18 :setColor;
-        symbol [ mainColor %tmp.21 220 20 29 ];
+        symbol [ mainColor %tmp.21 218 20 29 ];
         %tmp.21 = getv ? :mainColor;
-        symbol [ secondaryColor %tmp.23 220 31 45 ];
+        symbol [ secondaryColor %tmp.23 218 31 45 ];
         %tmp.23 = getv ? :secondaryColor;
         invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 221 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 219 8 ]
         %tmp.24 = self;
-        symbol [ drawTimeLeftName %tmp.25 221 8 24 ];
+        symbol [ drawTimeLeftName %tmp.25 219 8 24 ];
         %tmp.25 = getv function %tmp.24 :drawTimeLeftName;
         %tmp.26 = lgetv %dc;
-        symbol [ dc %tmp.26 221 25 27 ];
+        symbol [ dc %tmp.26 219 25 27 ];
         invoke %tmp.24 %tmp.25(%tmp.26);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 222 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 220 8 ]
         %tmp.27 = self;
-        symbol [ handleTimeLeftText %tmp.28 222 8 26 ];
+        symbol [ handleTimeLeftText %tmp.28 220 8 26 ];
         %tmp.28 = getv function %tmp.27 :handleTimeLeftText;
         %tmp.29 = lgetv %dc;
-        symbol [ dc %tmp.29 222 27 29 ];
+        symbol [ dc %tmp.29 220 27 29 ];
         invoke %tmp.27 %tmp.28(%tmp.29);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 223 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 221 8 ]
         %tmp.30 = lgetv %dc;
-        symbol [ dc %tmp.30 223 8 10 ];
-        symbol [ setColor %tmp.31 223 11 19 ];
+        symbol [ dc %tmp.30 221 8 10 ];
+        symbol [ setColor %tmp.31 221 11 19 ];
         %tmp.31 = getv function %tmp.30 :setColor;
-        symbol [ secondaryColor %tmp.33 223 20 34 ];
+        symbol [ secondaryColor %tmp.33 221 20 34 ];
         %tmp.33 = getv ? :secondaryColor;
-        symbol [ mainColor %tmp.35 223 36 45 ];
+        symbol [ mainColor %tmp.35 221 36 45 ];
         %tmp.35 = getv ? :mainColor;
         invoke %tmp.30 %tmp.31(%tmp.33, %tmp.35);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_214_62_224_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_212_62_222_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 226; @symbol_functiondef = [resizeAndAnimateLoseText,226,21,45]; @symbol_param<0> = [dc,226,46,48]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 224; @symbol_functiondef = [resizeAndAnimateLoseText,224,21,45]; @symbol_param<0> = [dc,224,46,48]; ]
     private
     function resizeAndAnimateLoseText(dc) as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_58_245_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 227 8 ]
-        symbol [ System %tmp.2 227 30 36 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_224_58_243_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 225 8 ]
+        symbol [ System %tmp.2 225 30 36 ];
         %tmp.2 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.3 227 37 54 ];
+        symbol [ getDeviceSettings %tmp.3 225 37 54 ];
         %tmp.3 = getv function %tmp.2 :getDeviceSettings;
         %tmp.4 = invoke %tmp.2 %tmp.3();
-        symbol [ screenHeight %tmp.5 227 57 69 ];
+        symbol [ screenHeight %tmp.5 225 57 69 ];
         %tmp.5 = getv %tmp.4 :screenHeight;
         %tmp.6 = 7.0;
         %tmp.7 = 1.0;
-        symbol [ Math %tmp.8 227 86 90 ];
+        symbol [ Math %tmp.8 225 86 90 ];
         %tmp.8 = getm $.Toybox.Math;
-        symbol [ pow %tmp.9 227 91 94 ];
+        symbol [ pow %tmp.9 225 91 94 ];
         %tmp.9 = getv function %tmp.8 :pow;
         %tmp.10 = 1.0;
-        symbol [ textGlideCounter %tmp.12 227 101 117 ];
+        symbol [ textGlideCounter %tmp.12 225 101 117 ];
         %tmp.12 = getv ? :textGlideCounter;
         %tmp.13 = 20.0;
         %tmp.14 = div %tmp.12 %tmp.13;
@@ -1163,41 +1150,41 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_58_245_4_sta
         %tmp.18 = sub %tmp.7 %tmp.17;
         %tmp.19 = add %tmp.6 %tmp.18;
         %tmp.20 = div %tmp.5 %tmp.19;
-        symbol [ lostVectorFontSize ? 227 8 26 ];
+        symbol [ lostVectorFontSize ? 225 8 26 ];
         putv self :lostVectorFontSize %tmp.20;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 228 8 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_8_230_8_if_stmt:
-        symbol [ System %tmp.22 228 11 17 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 226 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_8_228_8_if_stmt:
+        symbol [ System %tmp.22 226 11 17 ];
         %tmp.22 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.23 228 18 35 ];
+        symbol [ getDeviceSettings %tmp.23 226 18 35 ];
         %tmp.23 = getv function %tmp.22 :getDeviceSettings;
         %tmp.24 = invoke %tmp.22 %tmp.23();
-        symbol [ systemLanguage %tmp.25 228 38 52 ];
+        symbol [ systemLanguage %tmp.25 226 38 52 ];
         %tmp.25 = getv %tmp.24 :systemLanguage;
-        symbol [ System %tmp.27 228 56 62 ];
+        symbol [ System %tmp.27 226 56 62 ];
         %tmp.27 = getv ? :System;
-        symbol [ LANGUAGE_SPA %tmp.28 228 63 75 ];
+        symbol [ LANGUAGE_SPA %tmp.28 226 63 75 ];
         %tmp.28 = getv %tmp.27 :LANGUAGE_SPA;
         %tmp.29 = eq %tmp.25 %tmp.28;
-        bf %tmp.29 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_8_230_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_8_230_8_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_77_230_8_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 229 12 ]
-        symbol [ System %tmp.31 229 34 40 ];
+        bf %tmp.29 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_8_228_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_8_228_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_77_228_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 227 12 ]
+        symbol [ System %tmp.31 227 34 40 ];
         %tmp.31 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.32 229 41 58 ];
+        symbol [ getDeviceSettings %tmp.32 227 41 58 ];
         %tmp.32 = getv function %tmp.31 :getDeviceSettings;
         %tmp.33 = invoke %tmp.31 %tmp.32();
-        symbol [ screenHeight %tmp.34 229 61 73 ];
+        symbol [ screenHeight %tmp.34 227 61 73 ];
         %tmp.34 = getv %tmp.33 :screenHeight;
         %tmp.35 = 10.0;
         %tmp.36 = 1.0;
-        symbol [ Math %tmp.37 229 91 95 ];
+        symbol [ Math %tmp.37 227 91 95 ];
         %tmp.37 = getm $.Toybox.Math;
-        symbol [ pow %tmp.38 229 96 99 ];
+        symbol [ pow %tmp.38 227 96 99 ];
         %tmp.38 = getv function %tmp.37 :pow;
         %tmp.39 = 1.0;
-        symbol [ textGlideCounter %tmp.41 229 106 122 ];
+        symbol [ textGlideCounter %tmp.41 227 106 122 ];
         %tmp.41 = getv ? :textGlideCounter;
         %tmp.42 = 20.0;
         %tmp.43 = div %tmp.41 %tmp.42;
@@ -1207,19 +1194,19 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_77_230_8_sta
         %tmp.47 = sub %tmp.36 %tmp.46;
         %tmp.48 = add %tmp.35 %tmp.47;
         %tmp.49 = div %tmp.34 %tmp.48;
-        symbol [ lostVectorFontSize ? 229 12 30 ];
+        symbol [ lostVectorFontSize ? 227 12 30 ];
         putv self :lostVectorFontSize %tmp.49;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_77_230_8_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_8_230_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_8_230_8_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 232 8 ]
-        symbol [ Graphics %tmp.50 232 25 33 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_77_228_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_8_228_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_8_228_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 230 8 ]
+        symbol [ Graphics %tmp.50 230 25 33 ];
         %tmp.50 = getm $.Toybox.Graphics;
-        symbol [ getVectorFont %tmp.51 232 34 47 ];
+        symbol [ getVectorFont %tmp.51 230 34 47 ];
         %tmp.51 = getv function %tmp.50 :getVectorFont;
         %tmp.52 = newd 2;
         %tmp.54 = const :face;
-        symbol [ face %tmp.54 233 13 17 const ];
+        symbol [ face %tmp.54 231 13 17 const ];
         %tmp.55 = newa 3;
         %tmp.56 = "RobotoBlack";
         %tmp.57 = dup %tmp.55;
@@ -1233,32 +1220,32 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_8_230_8_if_e
         %tmp.65 = dup %tmp.52;
         %tmp.66 = aputv %tmp.65 %tmp.54 %tmp.64;
         %tmp.68 = const :size;
-        symbol [ size %tmp.68 234 13 17 const ];
-        symbol [ lostVectorFontSize %tmp.70 234 21 39 ];
+        symbol [ size %tmp.68 232 13 17 const ];
+        symbol [ lostVectorFontSize %tmp.70 232 21 39 ];
         %tmp.70 = getv ? :lostVectorFontSize;
         %tmp.71 = dup %tmp.66;
         %tmp.72 = aputv %tmp.71 %tmp.68 %tmp.70;
         %tmp.73 = invoke %tmp.50 %tmp.51(%tmp.72);
-        symbol [ lostVectorFont ? 232 8 22 ];
+        symbol [ lostVectorFont ? 230 8 22 ];
         putv self :lostVectorFont %tmp.73;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 237 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 235 8 ]
         %tmp.74 = lgetv %dc;
-        symbol [ dc %tmp.74 237 8 10 ];
-        symbol [ drawAngledText %tmp.75 237 11 25 ];
+        symbol [ dc %tmp.74 235 8 10 ];
+        symbol [ drawAngledText %tmp.75 235 11 25 ];
         %tmp.75 = getv function %tmp.74 :drawAngledText;
         %tmp.76 = lgetv %dc;
-        symbol [ dc %tmp.76 238 12 14 ];
-        symbol [ getWidth %tmp.77 238 15 23 ];
+        symbol [ dc %tmp.76 236 12 14 ];
+        symbol [ getWidth %tmp.77 236 15 23 ];
         %tmp.77 = getv function %tmp.76 :getWidth;
         %tmp.78 = invoke %tmp.76 %tmp.77();
         %tmp.79 = 2.0;
         %tmp.80 = 1.0;
-        symbol [ Math %tmp.81 238 42 46 ];
+        symbol [ Math %tmp.81 236 42 46 ];
         %tmp.81 = getm $.Toybox.Math;
-        symbol [ pow %tmp.82 238 47 50 ];
+        symbol [ pow %tmp.82 236 47 50 ];
         %tmp.82 = getv function %tmp.81 :pow;
         %tmp.83 = 1.0;
-        symbol [ textGlideCounter %tmp.85 238 57 73 ];
+        symbol [ textGlideCounter %tmp.85 236 57 73 ];
         %tmp.85 = getv ? :textGlideCounter;
         %tmp.86 = 20.0;
         %tmp.87 = div %tmp.85 %tmp.86;
@@ -1269,80 +1256,80 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_228_8_230_8_if_e
         %tmp.92 = add %tmp.79 %tmp.91;
         %tmp.93 = div %tmp.78 %tmp.92;
         %tmp.94 = lgetv %dc;
-        symbol [ dc %tmp.94 239 12 14 ];
-        symbol [ getHeight %tmp.95 239 15 24 ];
+        symbol [ dc %tmp.94 237 12 14 ];
+        symbol [ getHeight %tmp.95 237 15 24 ];
         %tmp.95 = getv function %tmp.94 :getHeight;
         %tmp.96 = invoke %tmp.94 %tmp.95();
         %tmp.97 = 2;
         %tmp.98 = div %tmp.96 %tmp.97;
-        symbol [ lostVectorFont %tmp.100 240 12 26 ];
+        symbol [ lostVectorFont %tmp.100 238 12 26 ];
         %tmp.100 = getv ? :lostVectorFont;
-        symbol [ mainLoseString %tmp.102 241 12 26 ];
+        symbol [ mainLoseString %tmp.102 239 12 26 ];
         %tmp.102 = getv ? :mainLoseString;
-        symbol [ Graphics %tmp.103 242 12 20 ];
+        symbol [ Graphics %tmp.103 240 12 20 ];
         %tmp.103 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.104 242 21 40 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.104 240 21 40 ];
         %tmp.104 = getv %tmp.103 :TEXT_JUSTIFY_CENTER;
         %tmp.105 = 90;
         invoke %tmp.74 %tmp.75(%tmp.93, %tmp.98, %tmp.100, %tmp.102, %tmp.104, %tmp.105);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_226_58_245_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_224_58_243_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 247; @symbol_functiondef = [setLoseTextEndingPosition,247,21,46]; @symbol_param<0> = [dc,247,47,49]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 245; @symbol_functiondef = [setLoseTextEndingPosition,245,21,46]; @symbol_param<0> = [dc,245,47,49]; ]
     private
     function setLoseTextEndingPosition(dc) as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_247_59_266_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 248 8 ]
-        symbol [ System %tmp.2 248 29 35 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_245_59_264_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 246 8 ]
+        symbol [ System %tmp.2 246 29 35 ];
         %tmp.2 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.3 248 36 53 ];
+        symbol [ getDeviceSettings %tmp.3 246 36 53 ];
         %tmp.3 = getv function %tmp.2 :getDeviceSettings;
         %tmp.4 = invoke %tmp.2 %tmp.3();
-        symbol [ screenHeight %tmp.5 248 56 68 ];
+        symbol [ screenHeight %tmp.5 246 56 68 ];
         %tmp.5 = getv %tmp.4 :screenHeight;
         %tmp.6 = 8;
         %tmp.7 = div %tmp.5 %tmp.6;
-        symbol [ lostVectorFontSize ? 248 8 26 ];
+        symbol [ lostVectorFontSize ? 246 8 26 ];
         putv self :lostVectorFontSize %tmp.7;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 249 8 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_249_8_251_8_if_stmt:
-        symbol [ System %tmp.9 249 11 17 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 247 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_247_8_249_8_if_stmt:
+        symbol [ System %tmp.9 247 11 17 ];
         %tmp.9 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.10 249 18 35 ];
+        symbol [ getDeviceSettings %tmp.10 247 18 35 ];
         %tmp.10 = getv function %tmp.9 :getDeviceSettings;
         %tmp.11 = invoke %tmp.9 %tmp.10();
-        symbol [ systemLanguage %tmp.12 249 38 52 ];
+        symbol [ systemLanguage %tmp.12 247 38 52 ];
         %tmp.12 = getv %tmp.11 :systemLanguage;
-        symbol [ System %tmp.14 249 56 62 ];
+        symbol [ System %tmp.14 247 56 62 ];
         %tmp.14 = getv ? :System;
-        symbol [ LANGUAGE_SPA %tmp.15 249 63 75 ];
+        symbol [ LANGUAGE_SPA %tmp.15 247 63 75 ];
         %tmp.15 = getv %tmp.14 :LANGUAGE_SPA;
         %tmp.16 = eq %tmp.12 %tmp.15;
-        bf %tmp.16 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_249_8_251_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_249_8_251_8_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_249_77_251_8_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 250 12 ]
-        symbol [ System %tmp.18 250 34 40 ];
+        bf %tmp.16 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_247_8_249_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_247_8_249_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_247_77_249_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 248 12 ]
+        symbol [ System %tmp.18 248 34 40 ];
         %tmp.18 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.19 250 41 58 ];
+        symbol [ getDeviceSettings %tmp.19 248 41 58 ];
         %tmp.19 = getv function %tmp.18 :getDeviceSettings;
         %tmp.20 = invoke %tmp.18 %tmp.19();
-        symbol [ screenHeight %tmp.21 250 61 73 ];
+        symbol [ screenHeight %tmp.21 248 61 73 ];
         %tmp.21 = getv %tmp.20 :screenHeight;
         %tmp.22 = 11;
         %tmp.23 = div %tmp.21 %tmp.22;
-        symbol [ lostVectorFontSize ? 250 12 30 ];
+        symbol [ lostVectorFontSize ? 248 12 30 ];
         putv self :lostVectorFontSize %tmp.23;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_249_77_251_8_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_249_8_251_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_249_8_251_8_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 253 8 ]
-        symbol [ Graphics %tmp.24 253 25 33 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_247_77_249_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_247_8_249_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_247_8_249_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 251 8 ]
+        symbol [ Graphics %tmp.24 251 25 33 ];
         %tmp.24 = getm $.Toybox.Graphics;
-        symbol [ getVectorFont %tmp.25 253 34 47 ];
+        symbol [ getVectorFont %tmp.25 251 34 47 ];
         %tmp.25 = getv function %tmp.24 :getVectorFont;
         %tmp.26 = newd 2;
         %tmp.28 = const :face;
-        symbol [ face %tmp.28 254 13 17 const ];
+        symbol [ face %tmp.28 252 13 17 const ];
         %tmp.29 = newa 3;
         %tmp.30 = "RobotoBlack";
         %tmp.31 = dup %tmp.29;
@@ -1356,192 +1343,192 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_249_8_251_8_if_e
         %tmp.39 = dup %tmp.26;
         %tmp.40 = aputv %tmp.39 %tmp.28 %tmp.38;
         %tmp.42 = const :size;
-        symbol [ size %tmp.42 255 13 17 const ];
-        symbol [ lostVectorFontSize %tmp.44 255 21 39 ];
+        symbol [ size %tmp.42 253 13 17 const ];
+        symbol [ lostVectorFontSize %tmp.44 253 21 39 ];
         %tmp.44 = getv ? :lostVectorFontSize;
         %tmp.45 = dup %tmp.40;
         %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
         %tmp.47 = invoke %tmp.24 %tmp.25(%tmp.46);
-        symbol [ lostVectorFont ? 253 8 22 ];
+        symbol [ lostVectorFont ? 251 8 22 ];
         putv self :lostVectorFont %tmp.47;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 258 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 256 8 ]
         %tmp.48 = lgetv %dc;
-        symbol [ dc %tmp.48 258 8 10 ];
-        symbol [ drawAngledText %tmp.49 258 11 25 ];
+        symbol [ dc %tmp.48 256 8 10 ];
+        symbol [ drawAngledText %tmp.49 256 11 25 ];
         %tmp.49 = getv function %tmp.48 :drawAngledText;
         %tmp.50 = lgetv %dc;
-        symbol [ dc %tmp.50 259 12 14 ];
-        symbol [ getWidth %tmp.51 259 15 23 ];
+        symbol [ dc %tmp.50 257 12 14 ];
+        symbol [ getWidth %tmp.51 257 15 23 ];
         %tmp.51 = getv function %tmp.50 :getWidth;
         %tmp.52 = invoke %tmp.50 %tmp.51();
         %tmp.53 = 3;
         %tmp.54 = div %tmp.52 %tmp.53;
         %tmp.55 = lgetv %dc;
-        symbol [ dc %tmp.55 260 12 14 ];
-        symbol [ getHeight %tmp.56 260 15 24 ];
+        symbol [ dc %tmp.55 258 12 14 ];
+        symbol [ getHeight %tmp.56 258 15 24 ];
         %tmp.56 = getv function %tmp.55 :getHeight;
         %tmp.57 = invoke %tmp.55 %tmp.56();
         %tmp.58 = 2;
         %tmp.59 = div %tmp.57 %tmp.58;
-        symbol [ lostVectorFont %tmp.61 261 12 26 ];
+        symbol [ lostVectorFont %tmp.61 259 12 26 ];
         %tmp.61 = getv ? :lostVectorFont;
-        symbol [ mainLoseString %tmp.63 262 12 26 ];
+        symbol [ mainLoseString %tmp.63 260 12 26 ];
         %tmp.63 = getv ? :mainLoseString;
-        symbol [ Graphics %tmp.64 263 12 20 ];
+        symbol [ Graphics %tmp.64 261 12 20 ];
         %tmp.64 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.65 263 21 40 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.65 261 21 40 ];
         %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_CENTER;
         %tmp.66 = 90;
         invoke %tmp.48 %tmp.49(%tmp.54, %tmp.59, %tmp.61, %tmp.63, %tmp.65, %tmp.66);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_247_59_266_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_245_59_264_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 268; @symbol_functiondef = [standardizeTime,268,21,36]; @symbol_param<0> = [minutes,268,37,44]; @symbol_param<0>_type<0> = [String,268,48,54]; @symbol_param<1> = [seconds,268,56,63]; @symbol_param<1>_type<0> = [String,268,67,73]; @symbol_param<2> = [milliseconds,268,75,87]; @symbol_param<2>_type<0> = [String,268,91,97]; @symbol_return<0> = [Array,268,102,107]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 266; @symbol_functiondef = [standardizeTime,266,21,36]; @symbol_param<0> = [minutes,266,37,44]; @symbol_param<0>_type<0> = [String,266,48,54]; @symbol_param<1> = [seconds,266,56,63]; @symbol_param<1>_type<0> = [String,266,67,73]; @symbol_param<2> = [milliseconds,266,75,87]; @symbol_param<2>_type<0> = [String,266,91,97]; @symbol_return<0> = [Array,266,102,107]; ]
     private
     function standardizeTime(minutes as String, seconds as String, milliseconds as String) as Array {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_268_108_284_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 269 8 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_269_8_271_8_if_stmt:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_266_108_282_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 267 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_267_8_269_8_if_stmt:
         %tmp.1 = lgetv %minutes;
-        symbol [ minutes %tmp.1 269 11 18 ];
-        symbol [ length %tmp.2 269 19 25 ];
+        symbol [ minutes %tmp.1 267 11 18 ];
+        symbol [ length %tmp.2 267 19 25 ];
         %tmp.2 = getv function %tmp.1 :length;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = 1;
         %tmp.5 = eq %tmp.3 %tmp.4;
-        bf %tmp.5 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_269_8_271_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_269_8_271_8_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_269_34_271_8_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 270 12 ]
+        bf %tmp.5 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_267_8_269_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_267_8_269_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_267_34_269_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 268 12 ]
         %tmp.6 = "0";
         %tmp.7 = lgetv %minutes;
-        symbol [ minutes %tmp.7 270 28 35 ];
+        symbol [ minutes %tmp.7 268 28 35 ];
         %tmp.8 = add %tmp.6 %tmp.7;
         lputv %minutes %tmp.8;
-        symbol [ minutes %minutes 270 12 19 ];
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_269_34_271_8_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_269_8_271_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_269_8_271_8_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 273 8 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_273_8_275_8_if_stmt:
+        symbol [ minutes %minutes 268 12 19 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_267_34_269_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_267_8_269_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_267_8_269_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 271 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_271_8_273_8_if_stmt:
         %tmp.9 = lgetv %seconds;
-        symbol [ seconds %tmp.9 273 11 18 ];
-        symbol [ length %tmp.10 273 19 25 ];
+        symbol [ seconds %tmp.9 271 11 18 ];
+        symbol [ length %tmp.10 271 19 25 ];
         %tmp.10 = getv function %tmp.9 :length;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         %tmp.12 = 1;
         %tmp.13 = eq %tmp.11 %tmp.12;
-        bf %tmp.13 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_273_8_275_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_273_8_275_8_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_273_34_275_8_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 274 12 ]
+        bf %tmp.13 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_271_8_273_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_271_8_273_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_271_34_273_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 272 12 ]
         %tmp.14 = "0";
         %tmp.15 = lgetv %seconds;
-        symbol [ seconds %tmp.15 274 28 35 ];
+        symbol [ seconds %tmp.15 272 28 35 ];
         %tmp.16 = add %tmp.14 %tmp.15;
         lputv %seconds %tmp.16;
-        symbol [ seconds %seconds 274 12 19 ];
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_273_34_275_8_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_273_8_275_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_273_8_275_8_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 277 8 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_8_281_8_if_stmt:
+        symbol [ seconds %seconds 272 12 19 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_271_34_273_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_271_8_273_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_271_8_273_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 275 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_275_8_279_8_if_stmt:
         %tmp.17 = lgetv %milliseconds;
-        symbol [ milliseconds %tmp.17 277 11 23 ];
-        symbol [ length %tmp.18 277 24 30 ];
+        symbol [ milliseconds %tmp.17 275 11 23 ];
+        symbol [ length %tmp.18 275 24 30 ];
         %tmp.18 = getv function %tmp.17 :length;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         %tmp.20 = 1;
         %tmp.21 = eq %tmp.19 %tmp.20;
-        bf %tmp.21 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_8_281_8_if_false;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_8_281_8_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_39_279_8_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 278 12 ]
+        bf %tmp.21 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_275_8_279_8_if_false;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_275_8_279_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_275_39_277_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 276 12 ]
         %tmp.22 = "0";
         %tmp.23 = lgetv %milliseconds;
-        symbol [ milliseconds %tmp.23 278 33 45 ];
+        symbol [ milliseconds %tmp.23 276 33 45 ];
         %tmp.24 = add %tmp.22 %tmp.23;
         lputv %milliseconds %tmp.24;
-        symbol [ milliseconds %milliseconds 278 12 24 ];
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_39_279_8_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_8_281_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_8_281_8_if_false:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 279 15 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_279_15_281_8_if_stmt:
+        symbol [ milliseconds %milliseconds 276 12 24 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_275_39_277_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_275_8_279_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_275_8_279_8_if_false:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 277 15 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_15_279_8_if_stmt:
         %tmp.25 = lgetv %milliseconds;
-        symbol [ milliseconds %tmp.25 279 18 30 ];
-        symbol [ length %tmp.26 279 31 37 ];
+        symbol [ milliseconds %tmp.25 277 18 30 ];
+        symbol [ length %tmp.26 277 31 37 ];
         %tmp.26 = getv function %tmp.25 :length;
         %tmp.27 = invoke %tmp.25 %tmp.26();
         %tmp.28 = 3;
         %tmp.29 = eq %tmp.27 %tmp.28;
-        bf %tmp.29 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_279_15_281_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_279_15_281_8_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_279_46_281_8_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 280 12 ]
+        bf %tmp.29 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_15_279_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_15_279_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_46_279_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 278 12 ]
         %tmp.30 = lgetv %milliseconds;
-        symbol [ milliseconds %tmp.30 280 27 39 ];
-        symbol [ substring %tmp.31 280 40 49 ];
+        symbol [ milliseconds %tmp.30 278 27 39 ];
+        symbol [ substring %tmp.31 278 40 49 ];
         %tmp.31 = getv function %tmp.30 :substring;
         %tmp.32 = 0;
         %tmp.33 = lgetv %milliseconds;
-        symbol [ milliseconds %tmp.33 280 53 65 ];
-        symbol [ length %tmp.34 280 66 72 ];
+        symbol [ milliseconds %tmp.33 278 53 65 ];
+        symbol [ length %tmp.34 278 66 72 ];
         %tmp.34 = getv function %tmp.33 :length;
         %tmp.35 = invoke %tmp.33 %tmp.34();
         %tmp.36 = 1;
         %tmp.37 = sub %tmp.35 %tmp.36;
         %tmp.38 = invoke %tmp.30 %tmp.31(%tmp.32, %tmp.37);
         lputv %milliseconds %tmp.38;
-        symbol [ milliseconds %milliseconds 280 12 24 ];
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_279_46_281_8_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_279_15_281_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_279_15_281_8_if_end:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_8_281_8_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 283 8 ]
+        symbol [ milliseconds %milliseconds 278 12 24 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_46_279_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_15_279_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_277_15_279_8_if_end:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_275_8_279_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 281 8 ]
         %tmp.39 = newa 3;
         %tmp.40 = lgetv %minutes;
-        symbol [ minutes %tmp.40 283 16 23 ];
+        symbol [ minutes %tmp.40 281 16 23 ];
         %tmp.41 = dup %tmp.39;
         %tmp.42 = aputv %tmp.41 0 %tmp.40;
         %tmp.43 = lgetv %seconds;
-        symbol [ seconds %tmp.43 283 25 32 ];
+        symbol [ seconds %tmp.43 281 25 32 ];
         %tmp.44 = dup %tmp.42;
         %tmp.45 = aputv %tmp.44 1 %tmp.43;
         %tmp.46 = lgetv %milliseconds;
-        symbol [ milliseconds %tmp.46 283 34 46 ];
+        symbol [ milliseconds %tmp.46 281 34 46 ];
         %tmp.47 = dup %tmp.45;
         %tmp.48 = aputv %tmp.47 2 %tmp.46;
         ret %tmp.48;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_268_108_284_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_266_108_282_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 286; @symbol_functiondef = [resizeAndAnimateLoseRectangle,286,21,50]; @symbol_param<0> = [dc,286,51,53]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 284; @symbol_functiondef = [resizeAndAnimateLoseRectangle,284,21,50]; @symbol_param<0> = [dc,284,51,53]; ]
     private
     function resizeAndAnimateLoseRectangle(dc) as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_286_63_304_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 287 8 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_8_295_8_if_stmt:
-        symbol [ textGlideCounter %tmp.2 287 11 27 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_284_63_302_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 285 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_285_8_293_8_if_stmt:
+        symbol [ textGlideCounter %tmp.2 285 11 27 ];
         %tmp.2 = getv ? :textGlideCounter;
         %tmp.3 = 38;
         %tmp.4 = gte %tmp.2 %tmp.3;
-        bf %tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_8_295_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_8_295_8_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_35_295_8_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 288 12 ]
+        bf %tmp.4 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_285_8_293_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_285_8_293_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_285_35_293_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 286 12 ]
         %tmp.5 = lgetv %dc;
-        symbol [ dc %tmp.5 288 12 14 ];
-        symbol [ fillRectangle %tmp.6 288 15 28 ];
+        symbol [ dc %tmp.5 286 12 14 ];
+        symbol [ fillRectangle %tmp.6 286 15 28 ];
         %tmp.6 = getv function %tmp.5 :fillRectangle;
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 289 16 18 ];
-        symbol [ getWidth %tmp.8 289 19 27 ];
+        symbol [ dc %tmp.7 287 16 18 ];
+        symbol [ getWidth %tmp.8 287 19 27 ];
         %tmp.8 = getv function %tmp.7 :getWidth;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = 2;
         %tmp.11 = div %tmp.9 %tmp.10;
         %tmp.12 = lgetv %dc;
-        symbol [ dc %tmp.12 289 37 39 ];
-        symbol [ getWidth %tmp.13 289 40 48 ];
+        symbol [ dc %tmp.12 287 37 39 ];
+        symbol [ getWidth %tmp.13 287 40 48 ];
         %tmp.13 = getv function %tmp.12 :getWidth;
         %tmp.14 = invoke %tmp.12 %tmp.13();
         %tmp.15 = 12;
@@ -1549,63 +1536,63 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_35_295_8_sta
         %tmp.17 = sub %tmp.11 %tmp.16;
         %tmp.18 = 0;
         %tmp.19 = lgetv %dc;
-        symbol [ dc %tmp.19 291 16 18 ];
-        symbol [ getWidth %tmp.20 291 19 27 ];
+        symbol [ dc %tmp.19 289 16 18 ];
+        symbol [ getWidth %tmp.20 289 19 27 ];
         %tmp.20 = getv function %tmp.19 :getWidth;
         %tmp.21 = invoke %tmp.19 %tmp.20();
         %tmp.22 = 6;
         %tmp.23 = div %tmp.21 %tmp.22;
         %tmp.24 = lgetv %dc;
-        symbol [ dc %tmp.24 292 16 18 ];
-        symbol [ getHeight %tmp.25 292 19 28 ];
+        symbol [ dc %tmp.24 290 16 18 ];
+        symbol [ getHeight %tmp.25 290 19 28 ];
         %tmp.25 = getv function %tmp.24 :getHeight;
         %tmp.26 = invoke %tmp.24 %tmp.25();
         invoke %tmp.5 %tmp.6(%tmp.17, %tmp.18, %tmp.23, %tmp.26);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 294 12 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 292 12 ]
         ret ?;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_35_295_8_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_8_295_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_8_295_8_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 297 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_285_35_293_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_285_8_293_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_285_8_293_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 295 8 ]
         %tmp.27 = lgetv %dc;
-        symbol [ dc %tmp.27 297 8 10 ];
-        symbol [ fillRectangle %tmp.28 297 11 24 ];
+        symbol [ dc %tmp.27 295 8 10 ];
+        symbol [ fillRectangle %tmp.28 295 11 24 ];
         %tmp.28 = getv function %tmp.27 :fillRectangle;
         %tmp.29 = lgetv %dc;
-        symbol [ dc %tmp.29 298 12 14 ];
-        symbol [ getWidth %tmp.30 298 15 23 ];
+        symbol [ dc %tmp.29 296 12 14 ];
+        symbol [ getWidth %tmp.30 296 15 23 ];
         %tmp.30 = getv function %tmp.29 :getWidth;
         %tmp.31 = invoke %tmp.29 %tmp.30();
         %tmp.32 = 2;
         %tmp.33 = div %tmp.31 %tmp.32;
         %tmp.34 = lgetv %dc;
-        symbol [ dc %tmp.34 298 33 35 ];
-        symbol [ getWidth %tmp.35 298 36 44 ];
+        symbol [ dc %tmp.34 296 33 35 ];
+        symbol [ getWidth %tmp.35 296 36 44 ];
         %tmp.35 = getv function %tmp.34 :getWidth;
         %tmp.36 = invoke %tmp.34 %tmp.35();
         %tmp.37 = 12;
         %tmp.38 = div %tmp.36 %tmp.37;
         %tmp.39 = sub %tmp.33 %tmp.38;
         %tmp.40 = lgetv %dc;
-        symbol [ dc %tmp.40 299 13 15 ];
-        symbol [ getHeight %tmp.41 299 16 25 ];
+        symbol [ dc %tmp.40 297 13 15 ];
+        symbol [ getHeight %tmp.41 297 16 25 ];
         %tmp.41 = getv function %tmp.40 :getHeight;
         %tmp.42 = invoke %tmp.40 %tmp.41();
         %tmp.43 = 2.0;
         %tmp.44 = div %tmp.42 %tmp.43;
         %tmp.45 = lgetv %dc;
-        symbol [ dc %tmp.45 299 38 40 ];
-        symbol [ getHeight %tmp.46 299 41 50 ];
+        symbol [ dc %tmp.45 297 38 40 ];
+        symbol [ getHeight %tmp.46 297 41 50 ];
         %tmp.46 = getv function %tmp.45 :getHeight;
         %tmp.47 = invoke %tmp.45 %tmp.46();
         %tmp.48 = 1.0;
-        symbol [ Math %tmp.49 299 62 66 ];
+        symbol [ Math %tmp.49 297 62 66 ];
         %tmp.49 = getm $.Toybox.Math;
-        symbol [ pow %tmp.50 299 67 70 ];
+        symbol [ pow %tmp.50 297 67 70 ];
         %tmp.50 = getv function %tmp.49 :pow;
         %tmp.51 = 2.0;
         %tmp.52 = -10.0;
-        symbol [ textGlideCounter %tmp.54 299 86 102 ];
+        symbol [ textGlideCounter %tmp.54 297 86 102 ];
         %tmp.54 = getv ? :textGlideCounter;
         %tmp.55 = 8.0;
         %tmp.56 = sub %tmp.54 %tmp.55;
@@ -1619,25 +1606,25 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_8_295_8_if_e
         %tmp.64 = div %tmp.62 %tmp.63;
         %tmp.65 = sub %tmp.44 %tmp.64;
         %tmp.66 = lgetv %dc;
-        symbol [ dc %tmp.66 301 12 14 ];
-        symbol [ getWidth %tmp.67 301 15 23 ];
+        symbol [ dc %tmp.66 299 12 14 ];
+        symbol [ getWidth %tmp.67 299 15 23 ];
         %tmp.67 = getv function %tmp.66 :getWidth;
         %tmp.68 = invoke %tmp.66 %tmp.67();
         %tmp.69 = 6;
         %tmp.70 = div %tmp.68 %tmp.69;
         %tmp.71 = lgetv %dc;
-        symbol [ dc %tmp.71 302 12 14 ];
-        symbol [ getHeight %tmp.72 302 15 24 ];
+        symbol [ dc %tmp.71 300 12 14 ];
+        symbol [ getHeight %tmp.72 300 15 24 ];
         %tmp.72 = getv function %tmp.71 :getHeight;
         %tmp.73 = invoke %tmp.71 %tmp.72();
         %tmp.74 = 1.0;
-        symbol [ Math %tmp.75 302 36 40 ];
+        symbol [ Math %tmp.75 300 36 40 ];
         %tmp.75 = getm $.Toybox.Math;
-        symbol [ pow %tmp.76 302 41 44 ];
+        symbol [ pow %tmp.76 300 41 44 ];
         %tmp.76 = getv function %tmp.75 :pow;
         %tmp.77 = 2.0;
         %tmp.78 = -10.0;
-        symbol [ textGlideCounter %tmp.80 302 60 76 ];
+        symbol [ textGlideCounter %tmp.80 300 60 76 ];
         %tmp.80 = getv ? :textGlideCounter;
         %tmp.81 = 8.0;
         %tmp.82 = sub %tmp.80 %tmp.81;
@@ -1648,32 +1635,32 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_287_8_295_8_if_e
         %tmp.87 = sub %tmp.74 %tmp.86;
         %tmp.88 = mul %tmp.73 %tmp.87;
         invoke %tmp.27 %tmp.28(%tmp.39, %tmp.65, %tmp.70, %tmp.88);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_286_63_304_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_284_63_302_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 306; @symbol_functiondef = [drawTurnsStat,306,21,34]; @symbol_param<0> = [dc,306,35,37]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 304; @symbol_functiondef = [drawTurnsStat,304,21,34]; @symbol_param<0> = [dc,304,35,37]; ]
     private
     function drawTurnsStat(dc) {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_306_39_323_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 308 8 ]
-        symbol [ System %tmp.2 308 29 35 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_304_39_321_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 306 8 ]
+        symbol [ System %tmp.2 306 29 35 ];
         %tmp.2 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.3 308 36 53 ];
+        symbol [ getDeviceSettings %tmp.3 306 36 53 ];
         %tmp.3 = getv function %tmp.2 :getDeviceSettings;
         %tmp.4 = invoke %tmp.2 %tmp.3();
-        symbol [ screenHeight %tmp.5 308 56 68 ];
+        symbol [ screenHeight %tmp.5 306 56 68 ];
         %tmp.5 = getv %tmp.4 :screenHeight;
         %tmp.6 = 16;
         %tmp.7 = div %tmp.5 %tmp.6;
-        symbol [ lostVectorFontSize ? 308 8 26 ];
+        symbol [ lostVectorFontSize ? 306 8 26 ];
         putv self :lostVectorFontSize %tmp.7;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 310 8 ]
-        symbol [ Graphics %tmp.8 310 25 33 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 308 8 ]
+        symbol [ Graphics %tmp.8 308 25 33 ];
         %tmp.8 = getm $.Toybox.Graphics;
-        symbol [ getVectorFont %tmp.9 310 34 47 ];
+        symbol [ getVectorFont %tmp.9 308 34 47 ];
         %tmp.9 = getv function %tmp.8 :getVectorFont;
         %tmp.10 = newd 2;
         %tmp.12 = const :face;
-        symbol [ face %tmp.12 311 13 17 const ];
+        symbol [ face %tmp.12 309 13 17 const ];
         %tmp.13 = newa 3;
         %tmp.14 = "RobotoBlack";
         %tmp.15 = dup %tmp.13;
@@ -1687,166 +1674,166 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_306_39_323_4_sta
         %tmp.23 = dup %tmp.10;
         %tmp.24 = aputv %tmp.23 %tmp.12 %tmp.22;
         %tmp.26 = const :size;
-        symbol [ size %tmp.26 312 13 17 const ];
-        symbol [ lostVectorFontSize %tmp.28 312 21 39 ];
+        symbol [ size %tmp.26 310 13 17 const ];
+        symbol [ lostVectorFontSize %tmp.28 310 21 39 ];
         %tmp.28 = getv ? :lostVectorFontSize;
         %tmp.29 = dup %tmp.24;
         %tmp.30 = aputv %tmp.29 %tmp.26 %tmp.28;
         %tmp.31 = invoke %tmp.8 %tmp.9(%tmp.30);
-        symbol [ lostVectorFont ? 310 8 22 ];
+        symbol [ lostVectorFont ? 308 8 22 ];
         putv self :lostVectorFont %tmp.31;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 315 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 313 8 ]
         %tmp.32 = lgetv %dc;
-        symbol [ dc %tmp.32 315 8 10 ];
-        symbol [ drawAngledText %tmp.33 315 11 25 ];
+        symbol [ dc %tmp.32 313 8 10 ];
+        symbol [ drawAngledText %tmp.33 313 11 25 ];
         %tmp.33 = getv function %tmp.32 :drawAngledText;
         %tmp.34 = lgetv %dc;
-        symbol [ dc %tmp.34 316 12 14 ];
-        symbol [ getWidth %tmp.35 316 15 23 ];
+        symbol [ dc %tmp.34 314 12 14 ];
+        symbol [ getWidth %tmp.35 314 15 23 ];
         %tmp.35 = getv function %tmp.34 :getWidth;
         %tmp.36 = invoke %tmp.34 %tmp.35();
         %tmp.37 = 2;
         %tmp.38 = div %tmp.36 %tmp.37;
         %tmp.39 = lgetv %dc;
-        symbol [ dc %tmp.39 316 32 34 ];
-        symbol [ getWidth %tmp.40 316 35 43 ];
+        symbol [ dc %tmp.39 314 32 34 ];
+        symbol [ getWidth %tmp.40 314 35 43 ];
         %tmp.40 = getv function %tmp.39 :getWidth;
         %tmp.41 = invoke %tmp.39 %tmp.40();
         %tmp.42 = 7;
         %tmp.43 = div %tmp.41 %tmp.42;
         %tmp.44 = add %tmp.38 %tmp.43;
         %tmp.45 = lgetv %dc;
-        symbol [ dc %tmp.45 317 12 14 ];
-        symbol [ getHeight %tmp.46 317 15 24 ];
+        symbol [ dc %tmp.45 315 12 14 ];
+        symbol [ getHeight %tmp.46 315 15 24 ];
         %tmp.46 = getv function %tmp.45 :getHeight;
         %tmp.47 = invoke %tmp.45 %tmp.46();
         %tmp.48 = lgetv %dc;
-        symbol [ dc %tmp.48 317 29 31 ];
-        symbol [ getHeight %tmp.49 317 32 41 ];
+        symbol [ dc %tmp.48 315 29 31 ];
+        symbol [ getHeight %tmp.49 315 32 41 ];
         %tmp.49 = getv function %tmp.48 :getHeight;
         %tmp.50 = invoke %tmp.48 %tmp.49();
         %tmp.51 = 14;
         %tmp.52 = div %tmp.50 %tmp.51;
         %tmp.53 = sub %tmp.47 %tmp.52;
-        symbol [ lostVectorFont %tmp.55 318 12 26 ];
+        symbol [ lostVectorFont %tmp.55 316 12 26 ];
         %tmp.55 = getv ? :lostVectorFont;
         %tmp.56 = self;
-        symbol [ loadResource %tmp.57 319 12 24 ];
+        symbol [ loadResource %tmp.57 317 12 24 ];
         %tmp.57 = getv function %tmp.56 :loadResource;
-        symbol [ Strings %tmp.58 319 25 32 ];
+        symbol [ Strings %tmp.58 317 25 32 ];
         %tmp.58 = getm $.Rez.Strings;
-        symbol [ turns %tmp.59 319 33 38 ];
+        symbol [ turns %tmp.59 317 33 38 ];
         %tmp.59 = getv %tmp.58 :turns;
         %tmp.60 = invoke %tmp.56 %tmp.57(%tmp.59);
-        symbol [ Globals %tmp.61 319 42 49 ];
+        symbol [ Globals %tmp.61 317 42 49 ];
         %tmp.61 = getm $.Globals;
-        symbol [ turns %tmp.62 319 50 55 ];
+        symbol [ turns %tmp.62 317 50 55 ];
         %tmp.62 = getv %tmp.61 :turns;
-        symbol [ toString %tmp.63 319 56 64 ];
+        symbol [ toString %tmp.63 317 56 64 ];
         %tmp.63 = getv function %tmp.62 :toString;
         %tmp.64 = invoke %tmp.62 %tmp.63();
         %tmp.65 = add %tmp.60 %tmp.64;
-        symbol [ Graphics %tmp.66 320 12 20 ];
+        symbol [ Graphics %tmp.66 318 12 20 ];
         %tmp.66 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_LEFT %tmp.67 320 21 38 ];
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.67 318 21 38 ];
         %tmp.67 = getv %tmp.66 :TEXT_JUSTIFY_LEFT;
         %tmp.68 = 90;
         invoke %tmp.32 %tmp.33(%tmp.44, %tmp.53, %tmp.55, %tmp.65, %tmp.67, %tmp.68);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_306_39_323_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_304_39_321_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 325; @symbol_functiondef = [drawTimeTotalStat,325,21,38]; @symbol_param<0> = [dc,325,39,41]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 323; @symbol_functiondef = [drawTimeTotalStat,323,21,38]; @symbol_param<0> = [dc,323,39,41]; ]
     private
     function drawTimeTotalStat(dc) {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_325_43_335_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 327 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_323_43_333_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 325 8 ]
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 327 8 10 ];
-        symbol [ drawAngledText %tmp.2 327 11 25 ];
+        symbol [ dc %tmp.1 325 8 10 ];
+        symbol [ drawAngledText %tmp.2 325 11 25 ];
         %tmp.2 = getv function %tmp.1 :drawAngledText;
         %tmp.3 = lgetv %dc;
-        symbol [ dc %tmp.3 328 12 14 ];
-        symbol [ getWidth %tmp.4 328 15 23 ];
+        symbol [ dc %tmp.3 326 12 14 ];
+        symbol [ getWidth %tmp.4 326 15 23 ];
         %tmp.4 = getv function %tmp.3 :getWidth;
         %tmp.5 = invoke %tmp.3 %tmp.4();
         %tmp.6 = 2;
         %tmp.7 = div %tmp.5 %tmp.6;
         %tmp.8 = lgetv %dc;
-        symbol [ dc %tmp.8 328 32 34 ];
-        symbol [ getWidth %tmp.9 328 35 43 ];
+        symbol [ dc %tmp.8 326 32 34 ];
+        symbol [ getWidth %tmp.9 326 35 43 ];
         %tmp.9 = getv function %tmp.8 :getWidth;
         %tmp.10 = invoke %tmp.8 %tmp.9();
         %tmp.11 = 7;
         %tmp.12 = div %tmp.10 %tmp.11;
         %tmp.13 = add %tmp.7 %tmp.12;
         %tmp.14 = lgetv %dc;
-        symbol [ dc %tmp.14 329 12 14 ];
-        symbol [ getHeight %tmp.15 329 15 24 ];
+        symbol [ dc %tmp.14 327 12 14 ];
+        symbol [ getHeight %tmp.15 327 15 24 ];
         %tmp.15 = getv function %tmp.14 :getHeight;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         %tmp.17 = 14;
         %tmp.18 = div %tmp.16 %tmp.17;
-        symbol [ lostVectorFont %tmp.20 330 12 26 ];
+        symbol [ lostVectorFont %tmp.20 328 12 26 ];
         %tmp.20 = getv ? :lostVectorFont;
         %tmp.21 = self;
-        symbol [ loadResource %tmp.22 331 12 24 ];
+        symbol [ loadResource %tmp.22 329 12 24 ];
         %tmp.22 = getv function %tmp.21 :loadResource;
-        symbol [ Strings %tmp.23 331 25 32 ];
+        symbol [ Strings %tmp.23 329 25 32 ];
         %tmp.23 = getm $.Rez.Strings;
-        symbol [ total_time %tmp.24 331 33 43 ];
+        symbol [ total_time %tmp.24 329 33 43 ];
         %tmp.24 = getv %tmp.23 :total_time;
         %tmp.25 = invoke %tmp.21 %tmp.22(%tmp.24);
-        symbol [ totalMinutes %tmp.27 331 47 59 ];
+        symbol [ totalMinutes %tmp.27 329 47 59 ];
         %tmp.27 = getv ? :totalMinutes;
         %tmp.28 = add %tmp.25 %tmp.27;
         %tmp.29 = ":";
         %tmp.30 = add %tmp.28 %tmp.29;
-        symbol [ totalSeconds %tmp.32 331 68 80 ];
+        symbol [ totalSeconds %tmp.32 329 68 80 ];
         %tmp.32 = getv ? :totalSeconds;
         %tmp.33 = add %tmp.30 %tmp.32;
         %tmp.34 = self;
-        symbol [ loadResource %tmp.35 331 83 95 ];
+        symbol [ loadResource %tmp.35 329 83 95 ];
         %tmp.35 = getv function %tmp.34 :loadResource;
-        symbol [ Strings %tmp.36 331 96 103 ];
+        symbol [ Strings %tmp.36 329 96 103 ];
         %tmp.36 = getm $.Rez.Strings;
-        symbol [ decimal_separator %tmp.37 331 104 121 ];
+        symbol [ decimal_separator %tmp.37 329 104 121 ];
         %tmp.37 = getv %tmp.36 :decimal_separator;
         %tmp.38 = invoke %tmp.34 %tmp.35(%tmp.37);
         %tmp.39 = add %tmp.33 %tmp.38;
-        symbol [ totalMilliseconds %tmp.41 331 125 142 ];
+        symbol [ totalMilliseconds %tmp.41 329 125 142 ];
         %tmp.41 = getv ? :totalMilliseconds;
         %tmp.42 = add %tmp.39 %tmp.41;
-        symbol [ Graphics %tmp.43 332 12 20 ];
+        symbol [ Graphics %tmp.43 330 12 20 ];
         %tmp.43 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_RIGHT %tmp.44 332 21 39 ];
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.44 330 21 39 ];
         %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_RIGHT;
         %tmp.45 = 90;
         invoke %tmp.1 %tmp.2(%tmp.13, %tmp.18, %tmp.20, %tmp.42, %tmp.44, %tmp.45);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_325_43_335_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_323_43_333_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 337; @symbol_functiondef = [handleTimeLeftText,337,21,39]; @symbol_param<0> = [dc,337,40,42]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 335; @symbol_functiondef = [handleTimeLeftText,335,21,39]; @symbol_param<0> = [dc,335,40,42]; ]
     private
     function handleTimeLeftText(dc) as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_337_52_354_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 338 8 ]
-        symbol [ System %tmp.2 338 29 35 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_335_52_352_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 336 8 ]
+        symbol [ System %tmp.2 336 29 35 ];
         %tmp.2 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.3 338 36 53 ];
+        symbol [ getDeviceSettings %tmp.3 336 36 53 ];
         %tmp.3 = getv function %tmp.2 :getDeviceSettings;
         %tmp.4 = invoke %tmp.2 %tmp.3();
-        symbol [ screenHeight %tmp.5 338 56 68 ];
+        symbol [ screenHeight %tmp.5 336 56 68 ];
         %tmp.5 = getv %tmp.4 :screenHeight;
         %tmp.6 = 6;
         %tmp.7 = div %tmp.5 %tmp.6;
-        symbol [ lostVectorFontSize ? 338 8 26 ];
+        symbol [ lostVectorFontSize ? 336 8 26 ];
         putv self :lostVectorFontSize %tmp.7;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 340 8 ]
-        symbol [ Graphics %tmp.8 340 25 33 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 338 8 ]
+        symbol [ Graphics %tmp.8 338 25 33 ];
         %tmp.8 = getm $.Toybox.Graphics;
-        symbol [ getVectorFont %tmp.9 340 34 47 ];
+        symbol [ getVectorFont %tmp.9 338 34 47 ];
         %tmp.9 = getv function %tmp.8 :getVectorFont;
         %tmp.10 = newd 2;
         %tmp.12 = const :face;
-        symbol [ face %tmp.12 341 13 17 const ];
+        symbol [ face %tmp.12 339 13 17 const ];
         %tmp.13 = newa 3;
         %tmp.14 = "BionicBold";
         %tmp.15 = dup %tmp.13;
@@ -1860,94 +1847,94 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_337_52_354_4_sta
         %tmp.23 = dup %tmp.10;
         %tmp.24 = aputv %tmp.23 %tmp.12 %tmp.22;
         %tmp.26 = const :size;
-        symbol [ size %tmp.26 342 13 17 const ];
-        symbol [ lostVectorFontSize %tmp.28 342 21 39 ];
+        symbol [ size %tmp.26 340 13 17 const ];
+        symbol [ lostVectorFontSize %tmp.28 340 21 39 ];
         %tmp.28 = getv ? :lostVectorFontSize;
         %tmp.29 = dup %tmp.24;
         %tmp.30 = aputv %tmp.29 %tmp.26 %tmp.28;
         %tmp.31 = invoke %tmp.8 %tmp.9(%tmp.30);
-        symbol [ lostVectorFont ? 340 8 22 ];
+        symbol [ lostVectorFont ? 338 8 22 ];
         putv self :lostVectorFont %tmp.31;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 345 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 343 8 ]
         %tmp.32 = lgetv %dc;
-        symbol [ dc %tmp.32 345 8 10 ];
-        symbol [ drawAngledText %tmp.33 345 11 25 ];
+        symbol [ dc %tmp.32 343 8 10 ];
+        symbol [ drawAngledText %tmp.33 343 11 25 ];
         %tmp.33 = getv function %tmp.32 :drawAngledText;
         %tmp.34 = lgetv %dc;
-        symbol [ dc %tmp.34 346 12 14 ];
-        symbol [ getWidth %tmp.35 346 15 23 ];
+        symbol [ dc %tmp.34 344 12 14 ];
+        symbol [ getWidth %tmp.35 344 15 23 ];
         %tmp.35 = getv function %tmp.34 :getWidth;
         %tmp.36 = invoke %tmp.34 %tmp.35();
         %tmp.37 = 2;
         %tmp.38 = div %tmp.36 %tmp.37;
         %tmp.39 = lgetv %dc;
-        symbol [ dc %tmp.39 346 32 34 ];
-        symbol [ getWidth %tmp.40 346 35 43 ];
+        symbol [ dc %tmp.39 344 32 34 ];
+        symbol [ getWidth %tmp.40 344 35 43 ];
         %tmp.40 = getv function %tmp.39 :getWidth;
         %tmp.41 = invoke %tmp.39 %tmp.40();
         %tmp.42 = 22;
         %tmp.43 = div %tmp.41 %tmp.42;
         %tmp.44 = add %tmp.38 %tmp.43;
         %tmp.45 = lgetv %dc;
-        symbol [ dc %tmp.45 347 12 14 ];
-        symbol [ getHeight %tmp.46 347 15 24 ];
+        symbol [ dc %tmp.45 345 12 14 ];
+        symbol [ getHeight %tmp.46 345 15 24 ];
         %tmp.46 = getv function %tmp.45 :getHeight;
         %tmp.47 = invoke %tmp.45 %tmp.46();
         %tmp.48 = 24;
         %tmp.49 = div %tmp.47 %tmp.48;
-        symbol [ lostVectorFont %tmp.51 348 12 26 ];
+        symbol [ lostVectorFont %tmp.51 346 12 26 ];
         %tmp.51 = getv ? :lostVectorFont;
-        symbol [ minutesLeft %tmp.53 349 12 23 ];
+        symbol [ minutesLeft %tmp.53 347 12 23 ];
         %tmp.53 = getv ? :minutesLeft;
         %tmp.54 = ":";
         %tmp.55 = add %tmp.53 %tmp.54;
-        symbol [ secondsLeft %tmp.57 349 32 43 ];
+        symbol [ secondsLeft %tmp.57 347 32 43 ];
         %tmp.57 = getv ? :secondsLeft;
         %tmp.58 = add %tmp.55 %tmp.57;
         %tmp.59 = self;
-        symbol [ loadResource %tmp.60 349 46 58 ];
+        symbol [ loadResource %tmp.60 347 46 58 ];
         %tmp.60 = getv function %tmp.59 :loadResource;
-        symbol [ Strings %tmp.61 349 59 66 ];
+        symbol [ Strings %tmp.61 347 59 66 ];
         %tmp.61 = getm $.Rez.Strings;
-        symbol [ decimal_separator %tmp.62 349 67 84 ];
+        symbol [ decimal_separator %tmp.62 347 67 84 ];
         %tmp.62 = getv %tmp.61 :decimal_separator;
         %tmp.63 = invoke %tmp.59 %tmp.60(%tmp.62);
         %tmp.64 = add %tmp.58 %tmp.63;
-        symbol [ millisecondsLeft %tmp.66 349 88 104 ];
+        symbol [ millisecondsLeft %tmp.66 347 88 104 ];
         %tmp.66 = getv ? :millisecondsLeft;
         %tmp.67 = add %tmp.64 %tmp.66;
-        symbol [ Graphics %tmp.68 350 12 20 ];
+        symbol [ Graphics %tmp.68 348 12 20 ];
         %tmp.68 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_RIGHT %tmp.69 350 21 39 ];
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.69 348 21 39 ];
         %tmp.69 = getv %tmp.68 :TEXT_JUSTIFY_RIGHT;
         %tmp.70 = 90;
         invoke %tmp.32 %tmp.33(%tmp.44, %tmp.49, %tmp.51, %tmp.67, %tmp.69, %tmp.70);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_337_52_354_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_335_52_352_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 356; @symbol_functiondef = [drawTimeLeftName,356,21,37]; @symbol_param<0> = [dc,356,38,40]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 354; @symbol_functiondef = [drawTimeLeftName,354,21,37]; @symbol_param<0> = [dc,354,38,40]; ]
     private
     function drawTimeLeftName(dc) {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_356_42_373_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 358 8 ]
-        symbol [ System %tmp.2 358 29 35 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_354_42_371_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 356 8 ]
+        symbol [ System %tmp.2 356 29 35 ];
         %tmp.2 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.3 358 36 53 ];
+        symbol [ getDeviceSettings %tmp.3 356 36 53 ];
         %tmp.3 = getv function %tmp.2 :getDeviceSettings;
         %tmp.4 = invoke %tmp.2 %tmp.3();
-        symbol [ screenHeight %tmp.5 358 56 68 ];
+        symbol [ screenHeight %tmp.5 356 56 68 ];
         %tmp.5 = getv %tmp.4 :screenHeight;
         %tmp.6 = 9;
         %tmp.7 = div %tmp.5 %tmp.6;
-        symbol [ lostVectorFontSize ? 358 8 26 ];
+        symbol [ lostVectorFontSize ? 356 8 26 ];
         putv self :lostVectorFontSize %tmp.7;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 360 8 ]
-        symbol [ Graphics %tmp.8 360 25 33 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 358 8 ]
+        symbol [ Graphics %tmp.8 358 25 33 ];
         %tmp.8 = getm $.Toybox.Graphics;
-        symbol [ getVectorFont %tmp.9 360 34 47 ];
+        symbol [ getVectorFont %tmp.9 358 34 47 ];
         %tmp.9 = getv function %tmp.8 :getVectorFont;
         %tmp.10 = newd 2;
         %tmp.12 = const :face;
-        symbol [ face %tmp.12 361 13 17 const ];
+        symbol [ face %tmp.12 359 13 17 const ];
         %tmp.13 = newa 3;
         %tmp.14 = "RobotoBlack";
         %tmp.15 = dup %tmp.13;
@@ -1961,182 +1948,182 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_356_42_373_4_sta
         %tmp.23 = dup %tmp.10;
         %tmp.24 = aputv %tmp.23 %tmp.12 %tmp.22;
         %tmp.26 = const :size;
-        symbol [ size %tmp.26 362 13 17 const ];
-        symbol [ lostVectorFontSize %tmp.28 362 21 39 ];
+        symbol [ size %tmp.26 360 13 17 const ];
+        symbol [ lostVectorFontSize %tmp.28 360 21 39 ];
         %tmp.28 = getv ? :lostVectorFontSize;
         %tmp.29 = dup %tmp.24;
         %tmp.30 = aputv %tmp.29 %tmp.26 %tmp.28;
         %tmp.31 = invoke %tmp.8 %tmp.9(%tmp.30);
-        symbol [ lostVectorFont ? 360 8 22 ];
+        symbol [ lostVectorFont ? 358 8 22 ];
         putv self :lostVectorFont %tmp.31;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 365 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 363 8 ]
         %tmp.32 = lgetv %dc;
-        symbol [ dc %tmp.32 365 8 10 ];
-        symbol [ drawAngledText %tmp.33 365 11 25 ];
+        symbol [ dc %tmp.32 363 8 10 ];
+        symbol [ drawAngledText %tmp.33 363 11 25 ];
         %tmp.33 = getv function %tmp.32 :drawAngledText;
         %tmp.34 = lgetv %dc;
-        symbol [ dc %tmp.34 366 12 14 ];
-        symbol [ getWidth %tmp.35 366 15 23 ];
+        symbol [ dc %tmp.34 364 12 14 ];
+        symbol [ getWidth %tmp.35 364 15 23 ];
         %tmp.35 = getv function %tmp.34 :getWidth;
         %tmp.36 = invoke %tmp.34 %tmp.35();
         %tmp.37 = 2;
         %tmp.38 = div %tmp.36 %tmp.37;
         %tmp.39 = lgetv %dc;
-        symbol [ dc %tmp.39 366 32 34 ];
-        symbol [ getWidth %tmp.40 366 35 43 ];
+        symbol [ dc %tmp.39 364 32 34 ];
+        symbol [ getWidth %tmp.40 364 35 43 ];
         %tmp.40 = getv function %tmp.39 :getWidth;
         %tmp.41 = invoke %tmp.39 %tmp.40();
         %tmp.42 = 24;
         %tmp.43 = div %tmp.41 %tmp.42;
         %tmp.44 = add %tmp.38 %tmp.43;
         %tmp.45 = lgetv %dc;
-        symbol [ dc %tmp.45 367 12 14 ];
-        symbol [ getHeight %tmp.46 367 15 24 ];
+        symbol [ dc %tmp.45 365 12 14 ];
+        symbol [ getHeight %tmp.46 365 15 24 ];
         %tmp.46 = getv function %tmp.45 :getHeight;
         %tmp.47 = invoke %tmp.45 %tmp.46();
         %tmp.48 = lgetv %dc;
-        symbol [ dc %tmp.48 367 29 31 ];
-        symbol [ getHeight %tmp.49 367 32 41 ];
+        symbol [ dc %tmp.48 365 29 31 ];
+        symbol [ getHeight %tmp.49 365 32 41 ];
         %tmp.49 = getv function %tmp.48 :getHeight;
         %tmp.50 = invoke %tmp.48 %tmp.49();
         %tmp.51 = 24;
         %tmp.52 = div %tmp.50 %tmp.51;
         %tmp.53 = sub %tmp.47 %tmp.52;
-        symbol [ lostVectorFont %tmp.55 368 12 26 ];
+        symbol [ lostVectorFont %tmp.55 366 12 26 ];
         %tmp.55 = getv ? :lostVectorFont;
         %tmp.56 = self;
-        symbol [ loadResource %tmp.57 369 12 24 ];
+        symbol [ loadResource %tmp.57 367 12 24 ];
         %tmp.57 = getv function %tmp.56 :loadResource;
-        symbol [ Strings %tmp.58 369 25 32 ];
+        symbol [ Strings %tmp.58 367 25 32 ];
         %tmp.58 = getm $.Rez.Strings;
-        symbol [ time_left %tmp.59 369 33 42 ];
+        symbol [ time_left %tmp.59 367 33 42 ];
         %tmp.59 = getv %tmp.58 :time_left;
         %tmp.60 = invoke %tmp.56 %tmp.57(%tmp.59);
-        symbol [ Graphics %tmp.61 370 12 20 ];
+        symbol [ Graphics %tmp.61 368 12 20 ];
         %tmp.61 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_LEFT %tmp.62 370 21 38 ];
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.62 368 21 38 ];
         %tmp.62 = getv %tmp.61 :TEXT_JUSTIFY_LEFT;
         %tmp.63 = 90;
         invoke %tmp.32 %tmp.33(%tmp.44, %tmp.53, %tmp.55, %tmp.60, %tmp.62, %tmp.63);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_356_42_373_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_354_42_371_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 375; @symbol_functiondef = [startAnimationTimer,375,21,40]; @symbol_param<0> = [milliseconds,375,41,53]; @symbol_param<1> = [addCounter,375,55,65]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 373; @symbol_functiondef = [startAnimationTimer,373,21,40]; @symbol_param<0> = [milliseconds,373,41,53]; @symbol_param<1> = [addCounter,373,55,65]; ]
     private
     function startAnimationTimer(milliseconds, addCounter) {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_375_67_378_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 376 8 ]
-        symbol [ Globals %tmp.1 376 8 15 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_373_67_376_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 374 8 ]
+        symbol [ Globals %tmp.1 374 8 15 ];
         %tmp.1 = getm $.Globals;
-        symbol [ Globals %tmp.2 376 8 15 ];
+        symbol [ Globals %tmp.2 374 8 15 ];
         %tmp.2 = getm $.Globals;
-        symbol [ animationCounter %tmp.3 376 16 32 ];
+        symbol [ animationCounter %tmp.3 374 16 32 ];
         %tmp.3 = getv %tmp.2 :animationCounter;
         %tmp.4 = lgetv %addCounter;
-        symbol [ addCounter %tmp.4 376 36 46 ];
+        symbol [ addCounter %tmp.4 374 36 46 ];
         %tmp.5 = add %tmp.3 %tmp.4;
-        symbol [ animationCounter ? 376 16 32 ];
+        symbol [ animationCounter ? 374 16 32 ];
         putv %tmp.1 :animationCounter dup %tmp.5;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 377 8 ]
-        symbol [ animationTimer %tmp.7 377 8 22 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 375 8 ]
+        symbol [ animationTimer %tmp.7 375 8 22 ];
         %tmp.7 = getv ? :animationTimer;
-        symbol [ start %tmp.8 377 23 28 ];
+        symbol [ start %tmp.8 375 23 28 ];
         %tmp.8 = getv function %tmp.7 :start;
         %tmp.9 = self;
-        symbol [ method %tmp.10 377 29 35 ];
+        symbol [ method %tmp.10 375 29 35 ];
         %tmp.10 = getv function %tmp.9 :method;
         %tmp.12 = const :AnimationTimerCallback;
-        symbol [ AnimationTimerCallback %tmp.12 377 37 59 const ];
+        symbol [ AnimationTimerCallback %tmp.12 375 37 59 const ];
         %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
         %tmp.14 = lgetv %milliseconds;
-        symbol [ milliseconds %tmp.14 377 62 74 ];
+        symbol [ milliseconds %tmp.14 375 62 74 ];
         %tmp.15 = false;
         invoke %tmp.7 %tmp.8(%tmp.13, %tmp.14, %tmp.15);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_375_67_378_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_373_67_376_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 380; @symbol_functiondef = [AnimationTimerCallback,380,13,35]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 378; @symbol_functiondef = [AnimationTimerCallback,378,13,35]; ]
     function AnimationTimerCallback() as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_380_46_382_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 381 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_378_46_380_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 379 8 ]
         %tmp.1 = self;
-        symbol [ requestUpdate %tmp.2 381 8 21 ];
+        symbol [ requestUpdate %tmp.2 379 8 21 ];
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_380_46_382_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_378_46_380_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 384; @symbol_functiondef = [startTextSlideAnimation,384,21,44]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 382; @symbol_functiondef = [startTextSlideAnimation,382,21,44]; ]
     private
     function startTextSlideAnimation() {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_384_47_386_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 385 8 ]
-        symbol [ animationTimer %tmp.2 385 8 22 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_382_47_384_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 383 8 ]
+        symbol [ animationTimer %tmp.2 383 8 22 ];
         %tmp.2 = getv ? :animationTimer;
-        symbol [ start %tmp.3 385 23 28 ];
+        symbol [ start %tmp.3 383 23 28 ];
         %tmp.3 = getv function %tmp.2 :start;
         %tmp.4 = self;
-        symbol [ method %tmp.5 385 29 35 ];
+        symbol [ method %tmp.5 383 29 35 ];
         %tmp.5 = getv function %tmp.4 :method;
         %tmp.7 = const :glideTimerCallback;
-        symbol [ glideTimerCallback %tmp.7 385 37 55 const ];
+        symbol [ glideTimerCallback %tmp.7 383 37 55 const ];
         %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
         %tmp.9 = 50;
         %tmp.10 = true;
         invoke %tmp.2 %tmp.3(%tmp.8, %tmp.9, %tmp.10);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_384_47_386_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_382_47_384_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 388; @symbol_functiondef = [glideTimerCallback,388,13,31]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 386; @symbol_functiondef = [glideTimerCallback,386,13,31]; ]
     function glideTimerCallback() as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_388_42_394_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 389 8 ]
-        symbol [ textGlideCounter %tmp.3 389 8 24 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_386_42_392_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 387 8 ]
+        symbol [ textGlideCounter %tmp.3 387 8 24 ];
         %tmp.3 = getv ? :textGlideCounter;
         %tmp.4 = add %tmp.3 1;
-        symbol [ textGlideCounter ? 389 8 24 ];
+        symbol [ textGlideCounter ? 387 8 24 ];
         putv self :textGlideCounter dup %tmp.4;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 390 8 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_390_8_392_8_if_stmt:
-        symbol [ textGlideCounter %tmp.6 390 11 27 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 388 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_388_8_390_8_if_stmt:
+        symbol [ textGlideCounter %tmp.6 388 11 27 ];
         %tmp.6 = getv ? :textGlideCounter;
         %tmp.7 = 200;
         %tmp.8 = gte %tmp.6 %tmp.7;
-        bf %tmp.8 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_390_8_392_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_390_8_392_8_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_390_36_392_8_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 391 12 ]
-        symbol [ animationTimer %tmp.10 391 12 26 ];
+        bf %tmp.8 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_388_8_390_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_388_8_390_8_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_388_36_390_8_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 389 12 ]
+        symbol [ animationTimer %tmp.10 389 12 26 ];
         %tmp.10 = getv ? :animationTimer;
-        symbol [ stop %tmp.11 391 27 31 ];
+        symbol [ stop %tmp.11 389 27 31 ];
         %tmp.11 = getv function %tmp.10 :stop;
         invoke %tmp.10 %tmp.11();
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_390_36_392_8_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_390_8_392_8_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_390_8_392_8_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 393 8 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_388_36_390_8_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_388_8_390_8_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_388_8_390_8_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 391 8 ]
         %tmp.12 = self;
-        symbol [ requestUpdate %tmp.13 393 8 21 ];
+        symbol [ requestUpdate %tmp.13 391 8 21 ];
         %tmp.13 = getv function %tmp.12 :requestUpdate;
         invoke %tmp.12 %tmp.13();
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_388_42_394_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_386_42_392_4_stop:
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 396; @symbol_functiondef = [onHide,396,13,19]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 394; @symbol_functiondef = [onHide,394,13,19]; ]
     function onHide() as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_396_30_400_4_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 397 8 ]
-        symbol [ animationTimer %tmp.2 397 8 22 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_394_30_398_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 395 8 ]
+        symbol [ animationTimer %tmp.2 395 8 22 ];
         %tmp.2 = getv ? :animationTimer;
-        symbol [ stop %tmp.3 397 23 27 ];
+        symbol [ stop %tmp.3 395 23 27 ];
         %tmp.3 = getv function %tmp.2 :stop;
         invoke %tmp.2 %tmp.3();
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 398 8 ]
-        symbol [ Globals %tmp.4 398 8 15 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 396 8 ]
+        symbol [ Globals %tmp.4 396 8 15 ];
         %tmp.4 = getm $.Globals;
         %tmp.5 = 0;
-        symbol [ totalTime ? 398 16 25 ];
+        symbol [ totalTime ? 396 16 25 ];
         putv %tmp.4 :totalTime %tmp.5;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 399 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" 397 8 ]
         %tmp.6 = null;
-        symbol [ lostVectorFont ? 399 8 22 ];
+        symbol [ lostVectorFont ? 397 8 22 ];
         putv self :lostVectorFont %tmp.6;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_396_30_400_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_TimeOutView_mc_394_30_398_4_stop:
     }
 }
 [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc"; @line = 6; ]

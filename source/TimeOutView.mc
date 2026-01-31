@@ -88,8 +88,6 @@ class TimeOutView extends Ui.View {
         Globals.animationCounter = 0;
         textGlideCounter = 0;
 
-        System.println(System.getDeviceSettings().partNumber);
-
         View.initialize();
 
     }
