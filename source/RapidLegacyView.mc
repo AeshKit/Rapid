@@ -71,11 +71,24 @@ class RapidLegacyView extends Ui.View {
         View.initialize();
     }
 
-    function onLayout(dc) as Void {
-        if(Graphics.getFontHeight(Graphics.FONT_SYSTEM_NUMBER_THAI_HOT) >= dc.getHeight() / 2.2) {
+    function onLayout(dc as Dc) as Void {
+        if(dc.getTextWidthInPixels("00:00", mainNumberFont) >= dc.getWidth() - dc.getWidth() / 8) {
             mainNumberFont = Graphics.FONT_NUMBER_HOT;
-            fontPadding = 1;
         }
+
+        if(dc.getTextWidthInPixels("00:00", mainNumberFont) >= dc.getWidth() - dc.getWidth() / 8) {
+            mainNumberFont = Graphics.FONT_NUMBER_MEDIUM;
+        }
+
+        if(dc.getTextWidthInPixels("00:00", mainNumberFont) >= dc.getWidth() - dc.getWidth() / 8) {
+            mainNumberFont = Graphics.FONT_NUMBER_MILD;
+        }
+
+        if(dc.getTextWidthInPixels("00:00", mainNumberFont) >= dc.getWidth() - dc.getWidth() / 8) {
+            mainNumberFont = Graphics.FONT_GLANCE_NUMBER;
+        }
+
+
 
         /*
         The names of these functions are only slightly descriptive, but that doesn't matter too much.
@@ -128,6 +141,7 @@ class RapidLegacyView extends Ui.View {
         arcWidth = (centerX / 6).toNumber();
 
         // Could've made a bunch of resources file, but that would be bloat to be honest this project is large enough
+        /*
         switch(System.getDeviceSettings().partNumber) {
             case Constants.fr55PartNumber:
                 tooBig = true;
@@ -413,6 +427,7 @@ class RapidLegacyView extends Ui.View {
                 break;
             // I am now suicidal.
         }
+        */
     }
 
     function onShow() as Void {
@@ -434,6 +449,7 @@ class RapidLegacyView extends Ui.View {
     }
 
     function onUpdate(dc) as Void {
+
         if(Globals.hasStorage) {
             if(isBacklightOn) {
                 Attention.backlight(true);
@@ -480,6 +496,35 @@ class RapidLegacyView extends Ui.View {
 
         handleTimerDrawingAndChecks(dc);
         drawGameIdleAddons(dc);
+
+        dc.drawLine(
+            centerX,
+            0,
+            centerX,
+            dc.getHeight()
+        );
+
+        dc.drawLine(
+            0,
+            centerY,
+            dc.getWidth(),
+            centerY
+        );
+
+        dc.drawLine(
+            dc.getWidth() - dc.getWidth() / 8,
+            0,
+            dc.getWidth() - dc.getWidth() / 8,
+            dc.getHeight()
+        );
+
+        dc.drawLine(
+            dc.getWidth() / 8,
+            0,
+            dc.getWidth() / 8,
+            dc.getHeight()
+        );
+
         return;
     }
 
@@ -523,7 +568,8 @@ class RapidLegacyView extends Ui.View {
     function drawProgressRing(dc as Dc) as Void {
 
         var angle = Globals.isWhitesTurn ?
-        (360.0 * (Globals.whiteTimeLeft.toFloat() / ((Globals.startingTimeInSeconds + Globals.whiteIncrement).toFloat() * 1000.0))) + 90.0:
+        (360.0 * (Globals.whiteTimeLeft.toFloat() / ((Globals.startingTimeInSeconds + Globals.whiteIncrement).toFloat() * 1000.0))) + 90.0
+        :
         (360.0 * (Globals.blackTimeLeft.toFloat() / ((Globals.startingTimeInSeconds + Globals.blackIncrement).toFloat() * 1000.0))) + 90.0;
 
         if(angle > 450) { angle = 450; }
@@ -748,17 +794,19 @@ class RapidLegacyView extends Ui.View {
     }
 
     function drawTimerFull(dc, minutesLeft, secondsLeft, millisecondsLeft) {
+        var smallNumberFont = Graphics.FONT_TINY;
+
         dc.drawText(
-            mainTimerX,
-            sometimesCenterY,
+            (dc.getWidth() - dc.getWidth() / 20) - dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + millisecondsLeft, smallNumberFont),
+            centerY,
             mainNumberFont,
             minutesLeft + ":" + secondsLeft,
             Graphics.TEXT_JUSTIFY_VCENTER
         );
 
         dc.drawText(
-            mainTimerMsX,
-            mainTimerMsY,
+            dc.getWidth() - dc.getWidth() / 20, // TODO: CHANGE TO ACCOUNT FOR RING
+            dc.getHeight() / 2 - dc.getFontHeight(smallNumberFont) + Graphics.getFontDescent(smallNumberFont) + dc.getFontHeight(mainNumberFont) / 2 - Graphics.getFontDescent(mainNumberFont),
             Graphics.FONT_TINY,
             loadResource(Strings.decimal_separator) + millisecondsLeft,
             Graphics.TEXT_JUSTIFY_RIGHT
@@ -767,16 +815,18 @@ class RapidLegacyView extends Ui.View {
 
     function drawTimerSeconds(dc, secondsLeft, millisecondsLeft) {
         dc.drawText(
-            secondsTimerX,
-            sometimesCenterY,
+            centerX,
+            (dc.getHeight() - dc.getFontHeight(mainNumberFont)) / 2,
             mainNumberFont,
             secondsLeft,
-            Graphics.TEXT_JUSTIFY_VCENTER
+            Graphics.TEXT_JUSTIFY_CENTER
         );
 
+        var smallNumberFont = Graphics.FONT_TINY;
+
         dc.drawText(
-            secondsTimerX,
-            mainTimerMsY,
+            (dc.getWidth() + dc.getTextWidthInPixels(secondsLeft, mainNumberFont)) / 2,
+            dc.getHeight() / 2 - dc.getFontHeight(smallNumberFont) + Graphics.getFontDescent(smallNumberFont) + dc.getFontHeight(mainNumberFont) / 2 - Graphics.getFontDescent(mainNumberFont),
             Graphics.FONT_TINY,
             loadResource(Strings.decimal_separator) + millisecondsLeft,
             Graphics.TEXT_JUSTIFY_LEFT
@@ -793,7 +843,7 @@ class RapidLegacyView extends Ui.View {
         if(Globals.drawString) {
             dc.drawText(
                 centerX,
-                heightOver6AndAHalf,
+                (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 4,
                 Graphics.FONT_SYSTEM_MEDIUM,
                 string,
                 Graphics.TEXT_JUSTIFY_CENTER
