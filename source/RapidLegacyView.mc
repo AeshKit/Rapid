@@ -604,15 +604,13 @@ class RapidLegacyView extends Ui.View {
                 font = Graphics.FONT_XTINY;
             }
             
-            if(!tooBig) {
-                dc.drawText(
-                    widthOver1_9,
-                    gameActiveAddonsTextY,
-                    font,
-                    loadResource(Strings.black_time_no_space),
-                    Graphics.TEXT_JUSTIFY_VCENTER
-                );
-            }
+            dc.drawText(
+                widthOver1_9,
+                gameActiveAddonsTextY,
+                font,
+                loadResource(Strings.black_time_no_space),
+                Graphics.TEXT_JUSTIFY_VCENTER
+            );
             
 
             var mins = (Globals.blackTimeLeft / 60000).toNumber();
@@ -671,28 +669,28 @@ class RapidLegacyView extends Ui.View {
         }
     }
 
-    function drawGameIdleAddons(dc) {
-        dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-
-        dc.fillRoundedRectangle(
-            idleRectangleX,
-            idleRectangleY,
-            dc.getWidth(),
-            idleRectangleHeight,
-            idleRectangleRadius
-        );
-
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-
+    function drawGameIdleAddons(dc as Dc) as Void {
         whiteMinutesLeft = ((Globals.whiteTimeLeft - Globals.whiteIncrement * 1000) / 60000).toNumber();
         whiteSecondsInMinuteLeft = (((Globals.whiteTimeLeft - Globals.whiteIncrement * 1000) / 1000) % 60).toNumber();
         if(whiteSecondsInMinuteLeft != 0) {
             secsStr = ":" + whiteSecondsInMinuteLeft;
         } else { secsStr = ""; }
 
+        dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+
+        dc.fillRoundedRectangle(
+            0,
+            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont),
+            dc.getWidth() / 2.5 + Graphics.getFontAscent(Graphics.FONT_TINY),
+            Graphics.getFontHeight(Graphics.FONT_TINY),
+            Graphics.getFontHeight(Graphics.FONT_TINY) / 2
+        );
+
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+
         dc.drawText(
-            widthOverTwoThreeFive,
-            idleTextHeight,
+            dc.getWidth() / 2.5,
+            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont),
             Graphics.FONT_TINY,
             whiteMinutesLeft.toString() + secsStr + "+" + Globals.whiteIncrement,
             Graphics.TEXT_JUSTIFY_RIGHT
@@ -724,7 +722,7 @@ class RapidLegacyView extends Ui.View {
         drawTimerSeconds(dc, "+" + Globals.incrementHoldingVar, 0);
     }
 
-    function handleTimerTimeChange(dc) {
+    function handleTimerTimeChange(dc as Dc) as Void {
         var tempTime;
 
         if(Globals.hasGameBeenStopped) {
@@ -770,7 +768,7 @@ class RapidLegacyView extends Ui.View {
     }
 
 
-    function handleTimerDrawingAndChecks(dc) as Void {
+    function handleTimerDrawingAndChecks(dc as Dc) as Void {
         var currentTime = Globals.isWhitesTurn ? Globals.whiteTimeLeft : Globals.blackTimeLeft;
         var mins = (currentTime / 60000).toNumber();
         var secs = ((currentTime / 1000) % 60).toNumber();
@@ -793,7 +791,7 @@ class RapidLegacyView extends Ui.View {
         }
     }
 
-    function drawTimerFull(dc, minutesLeft, secondsLeft, millisecondsLeft) {
+    function drawTimerFull(dc, minutesLeft, secondsLeft, millisecondsLeft) as Void {
         var smallNumberFont = Graphics.FONT_TINY;
 
         dc.drawText(
@@ -813,7 +811,7 @@ class RapidLegacyView extends Ui.View {
         );
     }
 
-    function drawTimerSeconds(dc, secondsLeft, millisecondsLeft) {
+    function drawTimerSeconds(dc as Dc, secondsLeft, millisecondsLeft) as Void {
         dc.drawText(
             centerX,
             (dc.getHeight() - dc.getFontHeight(mainNumberFont)) / 2,
@@ -833,7 +831,7 @@ class RapidLegacyView extends Ui.View {
         );
     }
 
-    function drawTimerFlashingString(dc as Dc, string as String) {
+    function drawTimerFlashingString(dc as Dc, string as String) as Void {
         if(!Globals.hasAnimationTimerStarted) {
             Globals.drawString = true;
             Globals.animationTimer.start(method(:incrementDrawStringState), 50, true);
@@ -843,7 +841,7 @@ class RapidLegacyView extends Ui.View {
         if(Globals.drawString) {
             dc.drawText(
                 centerX,
-                (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 4,
+                (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 4 - 2, // - 2 accounts for cutoff
                 Graphics.FONT_SYSTEM_MEDIUM,
                 string,
                 Graphics.TEXT_JUSTIFY_CENTER
@@ -851,7 +849,7 @@ class RapidLegacyView extends Ui.View {
         }
     }
 
-    function decideColors(dc) as Void {
+    function decideColors(dc as Dc) as Void {
         if(Globals.isWhitesTurn) {
             dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_WHITE);
         } else {
@@ -859,7 +857,7 @@ class RapidLegacyView extends Ui.View {
         }
     }
 
-    function reverseColors(dc) as Void {
+    function reverseColors(dc as Dc) as Void {
         if(Globals.isWhitesTurn) {
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         } else {
