@@ -170,22 +170,53 @@ class RapidLegacyDelegate extends Ui.BehaviorDelegate {
             menu.addItem(loadResource(Strings.starting_time_setting), :st);
             menu.addItem(loadResource(Strings.starting_increment_short), :si);
         }
-        if(Attention has :vibrate) {
+
+        if(Toybox.Application has :Storage) {
+            if(Attention has :vibrate) {
+                menu.addItem(
+                    Disk.getValue("haptics") ?
+                    loadResource(Strings.haptics_on) : loadResource(Strings.haptics_off), :hp
+                );
+            }
+
+
             menu.addItem(
-                Disk.getValue("haptics") ?
-                loadResource(Strings.haptics_on) : loadResource(Strings.haptics_off), :hp
+                Disk.getValue("backlight") ?
+                loadResource(Strings.backlight_on) : loadResource(Strings.backlight_off), :bk
             );
+
+            if(Graphics.Dc has :drawArc) {
+                menu.addItem(Disk.getValue("progressRing") ?
+                loadResource(Strings.ring_on) : loadResource(Strings.ring_off), :pr);
+            }
+            menu.addItem(loadResource(Strings.use_modern_menu), :mn);
+            menu.addItem(
+                Disk.getValue("legacyView") ?
+                loadResource(Strings.modern_view_off) : loadResource(Strings.modern_view_on), :cv
+            );
+        } else {
+            if(Attention has :vibrate) {
+                menu.addItem(
+                    Globals.haptics ?
+                    loadResource(Strings.haptics_on) : loadResource(Strings.haptics_off), :hp
+                );
+            }
+
+            menu.addItem(
+                Globals.backLightOn ?
+                loadResource(Strings.backlight_on) : loadResource(Strings.backlight_off), :bk
+            );
+
+            if(Graphics.Dc has :drawArc) {
+                menu.addItem(
+                    Globals.drawProgressRing ?
+                    loadResource(Strings.ring_on) : loadResource(Strings.ring_off), :pr
+                );
+            }
         }
-        menu.addItem(Disk.getValue("backlight") == true ?
-        loadResource(Strings.backlight_on) : loadResource(Strings.backlight_off), :bk);
-        if(Graphics.Dc has :drawArc) {
-            menu.addItem(Disk.getValue("progressRing") == true ?
-            loadResource(Strings.ring_on) : loadResource(Strings.ring_off), :pr);
-        }
-        menu.addItem(loadResource(Strings.use_modern_menu), :mn);
-        menu.addItem(Disk.getValue("legacyView") ?
-        loadResource(Strings.modern_view_off) : loadResource(Strings.modern_view_on), :cv);
+
         menu.addItem(loadResource(Strings.kill_app), :ex);
+        
         
 
         Ui.pushView(menu, delegate, Ui.SLIDE_IMMEDIATE);

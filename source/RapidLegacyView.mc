@@ -133,12 +133,7 @@ class RapidLegacyView extends Ui.View {
 
     function onShow() as Void {
         if(Globals.settingChanged) {
-            if(Globals.hasStorage && !Disk.getValue("legacyView")) {
-                Ui.switchToView(new $.RapidView(), new $.RapidDelegate(Dictionary), Ui.SLIDE_IMMEDIATE);
-                return;
-            }
-            
-            if(!Globals.useLegacyView) {
+            if((Globals.hasStorage && !Disk.getValue("legacyView")) || !Globals.useLegacyView) {
                 Ui.switchToView(new $.RapidView(), new $.RapidDelegate(Dictionary), Ui.SLIDE_IMMEDIATE);
             }
         }
