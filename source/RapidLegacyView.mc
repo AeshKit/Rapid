@@ -10,9 +10,8 @@ using Toybox.Application.Storage as Disk;
 using Toybox.WatchUi as Ui;
 
 class RapidLegacyView extends Ui.View {
-
-    var isBacklightOn as Boolean = Disk.getValue("backlight");
-    var progressRing as Boolean = Disk.getValue("progressRing");
+    var isBacklightOn;
+    var progressRing;
 
     var whiteMinutesLeft, blackMinutesLeft;
     var whiteSecondsInMinuteLeft, blackSecondsInMinuteLeft;
@@ -59,12 +58,20 @@ class RapidLegacyView extends Ui.View {
         arcWidth              as Number = 0;
 
     var isWatch = true;
-    // I planned to add support for other garmin devices
-    // I *might* in the future, but man I just wanna go learn a real programming language
 
     function initialize() {
 
-        Globals.haptics = Disk.getValue("haptics");
+        if(Globals.hasStorage) {
+            isBacklightOn = Disk.getValue("backlight");
+            progressRing = Disk.getValue("progressRing");
+            Globals.haptics = Disk.getValue("haptics");
+        } else if(System.getDeviceSettings() has :requiresBurnInProtection){
+            isBacklightOn = !System.getDeviceSettings().requiresBurnInProtection;
+            progressRing = true;
+        } else {
+            isBacklightOn = true;
+            progressRing = true;
+        }
 
         Globals.animationTimer = new Timer.Timer();
 
@@ -441,10 +448,6 @@ class RapidLegacyView extends Ui.View {
                 Ui.switchToView(new $.RapidView(), new $.RapidDelegate(Dictionary), Ui.SLIDE_IMMEDIATE);
                 return;
             }
-            
-            Globals.haptics = Disk.getValue("haptics");
-            isBacklightOn = Disk.getValue("backlight");
-            progressRing = Disk.getValue("progressRing");
         }
     }
 
@@ -690,7 +693,7 @@ class RapidLegacyView extends Ui.View {
 
         dc.drawText(
             dc.getWidth() / 2.5,
-            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont),
+            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2,
             Graphics.FONT_TINY,
             whiteMinutesLeft.toString() + secsStr + "+" + Globals.whiteIncrement,
             Graphics.TEXT_JUSTIFY_RIGHT
@@ -793,9 +796,15 @@ class RapidLegacyView extends Ui.View {
 
     function drawTimerFull(dc, minutesLeft, secondsLeft, millisecondsLeft) as Void {
         var smallNumberFont = Graphics.FONT_TINY;
+        var mainTextXPos = (dc.getWidth() - dc.getWidth() / 20) - dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + millisecondsLeft, smallNumberFont);
+        var msTextXPos   =  dc.getWidth() - dc.getWidth() / 20;
+        if(mainTextXPos  > (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2) {
+            mainTextXPos = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2;
+            msTextXPos   = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2 + dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", Graphics.FONT_TINY);
+        }
 
         dc.drawText(
-            (dc.getWidth() - dc.getWidth() / 20) - dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + millisecondsLeft, smallNumberFont),
+            mainTextXPos,
             centerY,
             mainNumberFont,
             minutesLeft + ":" + secondsLeft,
@@ -803,7 +812,7 @@ class RapidLegacyView extends Ui.View {
         );
 
         dc.drawText(
-            dc.getWidth() - dc.getWidth() / 20, // TODO: CHANGE TO ACCOUNT FOR RING
+            msTextXPos,
             dc.getHeight() / 2 - dc.getFontHeight(smallNumberFont) + Graphics.getFontDescent(smallNumberFont) + dc.getFontHeight(mainNumberFont) / 2 - Graphics.getFontDescent(mainNumberFont),
             Graphics.FONT_TINY,
             loadResource(Strings.decimal_separator) + millisecondsLeft,

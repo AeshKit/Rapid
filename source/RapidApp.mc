@@ -17,9 +17,9 @@ public class RapidApp extends Application.AppBase {
 
     function initialize() {
 
-        Storage.setValue("firstStart", true);
-
         if(Toybox.Application has :Storage) {
+            Storage.setValue("firstStart", true);
+            
             if(Storage.getValue("firstStart") || Storage.getValue("firstStart") == null) {
                 runSystemChecks();
             }
