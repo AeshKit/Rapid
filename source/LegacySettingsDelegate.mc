@@ -47,7 +47,11 @@ class LegacySettingsDelegate extends Ui.MenuInputDelegate {
                 Globals.incrementHoldingVar = Globals.whiteIncrement;
                 break;
             case :hp:
-                Disk.setValue("haptics", !Disk.getValue("haptics"));
+                if(Globals.hasStorage) {
+                    Disk.setValue("haptics", !Disk.getValue("haptics"));
+                } else {
+                    Globals.haptics = !Globals.haptics;
+                }
                 Globals.settingChanged = true;
                 return;
             case :bk:

@@ -32,13 +32,13 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_12_26
     }
     [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc"; @line = 16; @symbol_functiondef = [onMenuItem,16,13,23]; @symbol_param<0> = [item,16,24,28]; @symbol_param<0>_type<0> = [$,16,32,33]; @symbol_param<0>_type<1> = [Toybox,16,34,40]; @symbol_param<0>_type<2> = [Lang,16,41,45]; @symbol_param<0>_type<3> = [Symbol,16,46,52]; ]
     function onMenuItem(item as $.Toybox.Lang.Symbol) as Void {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_16_62_97_4_start:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_16_62_101_4_start:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 17 8 ]
         %tmp.1 = lgetv %item;
         symbol [ item %tmp.1 17 15 19 ];
         push %tmp.1;
-        switch %tmp.1 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtBegin:
+        switch %tmp.1 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtBegin:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 18 12 ]
         %tmp.2 = dup %tmp.1;
         %tmp.4 = const :sm;
@@ -94,51 +94,51 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_
         symbol [ hp %tmp.39 49 18 20 const ];
         %tmp.40 = getv function %tmp.37 :equals;
         %tmp.41 = invoke %tmp.37 %tmp.40 (%tmp.39);
-        bt %tmp.41 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_49_12_52_22_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 53 12 ]
+        bt %tmp.41 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_49_12_56_22_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 57 12 ]
         %tmp.42 = dup %tmp.1;
         %tmp.44 = const :bk;
-        symbol [ bk %tmp.44 53 18 20 const ];
+        symbol [ bk %tmp.44 57 18 20 const ];
         %tmp.45 = getv function %tmp.42 :equals;
         %tmp.46 = invoke %tmp.42 %tmp.45 (%tmp.44);
-        bt %tmp.46 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_53_12_60_22_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 61 12 ]
+        bt %tmp.46 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_57_12_64_22_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 65 12 ]
         %tmp.47 = dup %tmp.1;
         %tmp.49 = const :pr;
-        symbol [ pr %tmp.49 61 18 20 const ];
+        symbol [ pr %tmp.49 65 18 20 const ];
         %tmp.50 = getv function %tmp.47 :equals;
         %tmp.51 = invoke %tmp.47 %tmp.50 (%tmp.49);
-        bt %tmp.51 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_61_12_68_22_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 69 12 ]
+        bt %tmp.51 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_65_12_72_22_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 73 12 ]
         %tmp.52 = dup %tmp.1;
         %tmp.54 = const :cv;
-        symbol [ cv %tmp.54 69 18 20 const ];
+        symbol [ cv %tmp.54 73 18 20 const ];
         %tmp.55 = getv function %tmp.52 :equals;
         %tmp.56 = invoke %tmp.52 %tmp.55 (%tmp.54);
-        bt %tmp.56 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_69_12_76_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 77 12 ]
+        bt %tmp.56 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_73_12_80_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 81 12 ]
         %tmp.57 = dup %tmp.1;
         %tmp.59 = const :to;
-        symbol [ to %tmp.59 77 18 20 const ];
+        symbol [ to %tmp.59 81 18 20 const ];
         %tmp.60 = getv function %tmp.57 :equals;
         %tmp.61 = invoke %tmp.57 %tmp.60 (%tmp.59);
-        bt %tmp.61 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_77_12_84_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 85 12 ]
+        bt %tmp.61 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_81_12_88_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 89 12 ]
         %tmp.62 = dup %tmp.1;
         %tmp.64 = const :mn;
-        symbol [ mn %tmp.64 85 18 20 const ];
+        symbol [ mn %tmp.64 89 18 20 const ];
         %tmp.65 = getv function %tmp.62 :equals;
         %tmp.66 = invoke %tmp.62 %tmp.65 (%tmp.64);
-        bt %tmp.66 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_85_12_92_21_switchCase;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 93 12 ]
+        bt %tmp.66 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_89_12_96_21_switchCase;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 97 12 ]
         %tmp.67 = dup %tmp.1;
         %tmp.69 = const :ex;
-        symbol [ ex %tmp.69 93 18 20 const ];
+        symbol [ ex %tmp.69 97 18 20 const ];
         %tmp.70 = getv function %tmp.67 :equals;
         %tmp.71 = invoke %tmp.67 %tmp.70 (%tmp.69);
-        bt %tmp.71 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_93_12_94_29_switchCase;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtDefault:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_defaultCodeBegin;
+        bt %tmp.71 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_97_12_98_29_switchCase;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtDefault:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_defaultCodeBegin;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_18_12_20_22_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 19 16 ]
         %tmp.72 = self;
@@ -170,7 +170,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_21_12
         symbol [ isWhitesTurn ? 24 24 36 ];
         putv %tmp.79 :isWhitesTurn %tmp.80;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 25 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_26_12_30_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 27 16 ]
         symbol [ Globals %tmp.81 27 16 23 ];
@@ -194,7 +194,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_26_12
         symbol [ isWhitesTurn ? 29 24 36 ];
         putv %tmp.86 :isWhitesTurn %tmp.87;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 30 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_31_12_35_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 32 16 ]
         symbol [ Globals %tmp.88 32 16 23 ];
@@ -218,7 +218,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_31_12
         symbol [ isWhitesTurn ? 34 24 36 ];
         putv %tmp.93 :isWhitesTurn %tmp.94;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 35 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_36_12_40_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 37 16 ]
         symbol [ Globals %tmp.95 37 16 23 ];
@@ -242,7 +242,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_36_12
         symbol [ isWhitesTurn ? 39 24 36 ];
         putv %tmp.100 :isWhitesTurn %tmp.101;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 40 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_41_12_44_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 42 16 ]
         symbol [ Globals %tmp.102 42 16 23 ];
@@ -267,7 +267,7 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_41_12
         symbol [ startingTimeHoldingVar ? 43 24 46 ];
         putv %tmp.104 :startingTimeHoldingVar %tmp.111;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 44 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
 _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_45_12_48_21_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 46 16 ]
         symbol [ Globals %tmp.112 46 16 23 ];
@@ -285,508 +285,533 @@ _home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_45_12
         symbol [ incrementHoldingVar ? 47 24 43 ];
         putv %tmp.114 :incrementHoldingVar %tmp.116;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 48 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_49_12_52_22_switchCase:
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_49_12_56_22_switchCase:
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 50 16 ]
-        symbol [ Disk %tmp.117 50 16 20 ];
-        %tmp.117 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.118 50 21 29 ];
-        %tmp.118 = getv function %tmp.117 :setValue;
-        %tmp.119 = "haptics";
-        symbol [ Disk %tmp.120 50 42 46 ];
-        %tmp.120 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.121 50 47 55 ];
-        %tmp.121 = getv function %tmp.120 :getValue;
-        %tmp.122 = "haptics";
-        %tmp.123 = invoke %tmp.120 %tmp.121(%tmp.122);
-        %tmp.124 = not %tmp.123;
-        invoke %tmp.117 %tmp.118(%tmp.119, %tmp.124);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 51 16 ]
-        symbol [ Globals %tmp.125 51 16 23 ];
-        %tmp.125 = getm $.Globals;
-        %tmp.126 = true;
-        symbol [ settingChanged ? 51 24 38 ];
-        putv %tmp.125 :settingChanged %tmp.126;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 52 16 ]
-        ret ?;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_53_12_60_22_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 54 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_54_16_58_16_if_stmt:
-        symbol [ Globals %tmp.127 54 19 26 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_50_16_54_16_if_stmt:
+        symbol [ Globals %tmp.117 50 19 26 ];
+        %tmp.117 = getm $.Globals;
+        symbol [ hasStorage %tmp.118 50 27 37 ];
+        %tmp.118 = getv %tmp.117 :hasStorage;
+        bf %tmp.118 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_50_16_54_16_if_else_false;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_50_16_54_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_50_39_52_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 51 20 ]
+        symbol [ Disk %tmp.119 51 20 24 ];
+        %tmp.119 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.120 51 25 33 ];
+        %tmp.120 = getv function %tmp.119 :setValue;
+        %tmp.121 = "haptics";
+        symbol [ Disk %tmp.122 51 46 50 ];
+        %tmp.122 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.123 51 51 59 ];
+        %tmp.123 = getv function %tmp.122 :getValue;
+        %tmp.124 = "haptics";
+        %tmp.125 = invoke %tmp.122 %tmp.123(%tmp.124);
+        %tmp.126 = not %tmp.125;
+        invoke %tmp.119 %tmp.120(%tmp.121, %tmp.126);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_50_39_52_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_50_16_54_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_50_16_54_16_if_else_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_52_23_54_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 53 20 ]
+        symbol [ Globals %tmp.127 53 20 27 ];
         %tmp.127 = getm $.Globals;
-        symbol [ hasStorage %tmp.128 54 27 37 ];
-        %tmp.128 = getv %tmp.127 :hasStorage;
-        bf %tmp.128 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_54_16_58_16_if_else_false;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_54_16_58_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_54_39_56_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 55 20 ]
-        symbol [ Disk %tmp.129 55 20 24 ];
-        %tmp.129 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.130 55 25 33 ];
-        %tmp.130 = getv function %tmp.129 :setValue;
-        %tmp.131 = "backlight";
-        symbol [ Disk %tmp.132 55 48 52 ];
-        %tmp.132 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.133 55 53 61 ];
-        %tmp.133 = getv function %tmp.132 :getValue;
-        %tmp.134 = "backlight";
-        %tmp.135 = invoke %tmp.132 %tmp.133(%tmp.134);
-        %tmp.136 = not %tmp.135;
-        invoke %tmp.129 %tmp.130(%tmp.131, %tmp.136);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_54_39_56_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_54_16_58_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_54_16_58_16_if_else_false:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_56_23_58_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 57 20 ]
-        symbol [ Globals %tmp.137 57 20 27 ];
-        %tmp.137 = getm $.Globals;
-        symbol [ Globals %tmp.138 57 43 50 ];
-        %tmp.138 = getm $.Globals;
-        symbol [ backLightOn %tmp.139 57 51 62 ];
-        %tmp.139 = getv %tmp.138 :backLightOn;
-        %tmp.140 = not %tmp.139;
-        symbol [ backLightOn ? 57 28 39 ];
-        putv %tmp.137 :backLightOn %tmp.140;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_56_23_58_16_stop:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_54_16_58_16_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 59 16 ]
-        symbol [ Globals %tmp.141 59 16 23 ];
-        %tmp.141 = getm $.Globals;
-        %tmp.142 = true;
-        symbol [ settingChanged ? 59 24 38 ];
-        putv %tmp.141 :settingChanged %tmp.142;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 60 16 ]
+        symbol [ Globals %tmp.128 53 39 46 ];
+        %tmp.128 = getm $.Globals;
+        symbol [ haptics %tmp.129 53 47 54 ];
+        %tmp.129 = getv %tmp.128 :haptics;
+        %tmp.130 = not %tmp.129;
+        symbol [ haptics ? 53 28 35 ];
+        putv %tmp.127 :haptics %tmp.130;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_52_23_54_16_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_50_16_54_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 55 16 ]
+        symbol [ Globals %tmp.131 55 16 23 ];
+        %tmp.131 = getm $.Globals;
+        %tmp.132 = true;
+        symbol [ settingChanged ? 55 24 38 ];
+        putv %tmp.131 :settingChanged %tmp.132;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 56 16 ]
         ret ?;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_61_12_68_22_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 62 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_62_16_66_16_if_stmt:
-        symbol [ Globals %tmp.143 62 19 26 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_57_12_64_22_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 58 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_58_16_62_16_if_stmt:
+        symbol [ Globals %tmp.133 58 19 26 ];
+        %tmp.133 = getm $.Globals;
+        symbol [ hasStorage %tmp.134 58 27 37 ];
+        %tmp.134 = getv %tmp.133 :hasStorage;
+        bf %tmp.134 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_58_16_62_16_if_else_false;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_58_16_62_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_58_39_60_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 59 20 ]
+        symbol [ Disk %tmp.135 59 20 24 ];
+        %tmp.135 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.136 59 25 33 ];
+        %tmp.136 = getv function %tmp.135 :setValue;
+        %tmp.137 = "backlight";
+        symbol [ Disk %tmp.138 59 48 52 ];
+        %tmp.138 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.139 59 53 61 ];
+        %tmp.139 = getv function %tmp.138 :getValue;
+        %tmp.140 = "backlight";
+        %tmp.141 = invoke %tmp.138 %tmp.139(%tmp.140);
+        %tmp.142 = not %tmp.141;
+        invoke %tmp.135 %tmp.136(%tmp.137, %tmp.142);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_58_39_60_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_58_16_62_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_58_16_62_16_if_else_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_60_23_62_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 61 20 ]
+        symbol [ Globals %tmp.143 61 20 27 ];
         %tmp.143 = getm $.Globals;
-        symbol [ hasStorage %tmp.144 62 27 37 ];
-        %tmp.144 = getv %tmp.143 :hasStorage;
-        bf %tmp.144 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_62_16_66_16_if_else_false;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_62_16_66_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_62_39_64_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 63 20 ]
-        symbol [ Disk %tmp.145 63 20 24 ];
-        %tmp.145 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.146 63 25 33 ];
-        %tmp.146 = getv function %tmp.145 :setValue;
-        %tmp.147 = "progressRing";
-        symbol [ Disk %tmp.148 63 51 55 ];
-        %tmp.148 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.149 63 56 64 ];
-        %tmp.149 = getv function %tmp.148 :getValue;
-        %tmp.150 = "progressRing";
-        %tmp.151 = invoke %tmp.148 %tmp.149(%tmp.150);
-        %tmp.152 = not %tmp.151;
-        invoke %tmp.145 %tmp.146(%tmp.147, %tmp.152);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_62_39_64_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_62_16_66_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_62_16_66_16_if_else_false:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_64_23_66_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 65 20 ]
-        symbol [ Globals %tmp.153 65 20 27 ];
-        %tmp.153 = getm $.Globals;
-        symbol [ Globals %tmp.154 65 48 55 ];
-        %tmp.154 = getm $.Globals;
-        symbol [ drawProgressRing %tmp.155 65 56 72 ];
-        %tmp.155 = getv %tmp.154 :drawProgressRing;
-        %tmp.156 = not %tmp.155;
-        symbol [ drawProgressRing ? 65 28 44 ];
-        putv %tmp.153 :drawProgressRing %tmp.156;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_64_23_66_16_stop:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_62_16_66_16_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 67 16 ]
-        symbol [ Globals %tmp.157 67 16 23 ];
-        %tmp.157 = getm $.Globals;
-        %tmp.158 = true;
-        symbol [ settingChanged ? 67 24 38 ];
-        putv %tmp.157 :settingChanged %tmp.158;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 68 16 ]
+        symbol [ Globals %tmp.144 61 43 50 ];
+        %tmp.144 = getm $.Globals;
+        symbol [ backLightOn %tmp.145 61 51 62 ];
+        %tmp.145 = getv %tmp.144 :backLightOn;
+        %tmp.146 = not %tmp.145;
+        symbol [ backLightOn ? 61 28 39 ];
+        putv %tmp.143 :backLightOn %tmp.146;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_60_23_62_16_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_58_16_62_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 63 16 ]
+        symbol [ Globals %tmp.147 63 16 23 ];
+        %tmp.147 = getm $.Globals;
+        %tmp.148 = true;
+        symbol [ settingChanged ? 63 24 38 ];
+        putv %tmp.147 :settingChanged %tmp.148;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 64 16 ]
         ret ?;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_69_12_76_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 70 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_70_16_74_16_if_stmt:
-        symbol [ Globals %tmp.159 70 19 26 ];
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_65_12_72_22_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 66 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_66_16_70_16_if_stmt:
+        symbol [ Globals %tmp.149 66 19 26 ];
+        %tmp.149 = getm $.Globals;
+        symbol [ hasStorage %tmp.150 66 27 37 ];
+        %tmp.150 = getv %tmp.149 :hasStorage;
+        bf %tmp.150 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_66_16_70_16_if_else_false;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_66_16_70_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_66_39_68_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 67 20 ]
+        symbol [ Disk %tmp.151 67 20 24 ];
+        %tmp.151 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.152 67 25 33 ];
+        %tmp.152 = getv function %tmp.151 :setValue;
+        %tmp.153 = "progressRing";
+        symbol [ Disk %tmp.154 67 51 55 ];
+        %tmp.154 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.155 67 56 64 ];
+        %tmp.155 = getv function %tmp.154 :getValue;
+        %tmp.156 = "progressRing";
+        %tmp.157 = invoke %tmp.154 %tmp.155(%tmp.156);
+        %tmp.158 = not %tmp.157;
+        invoke %tmp.151 %tmp.152(%tmp.153, %tmp.158);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_66_39_68_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_66_16_70_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_66_16_70_16_if_else_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_68_23_70_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 69 20 ]
+        symbol [ Globals %tmp.159 69 20 27 ];
         %tmp.159 = getm $.Globals;
-        symbol [ hasStorage %tmp.160 70 27 37 ];
-        %tmp.160 = getv %tmp.159 :hasStorage;
-        bf %tmp.160 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_70_16_74_16_if_else_false;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_70_16_74_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_70_39_72_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 71 20 ]
-        symbol [ Disk %tmp.161 71 20 24 ];
-        %tmp.161 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.162 71 25 33 ];
-        %tmp.162 = getv function %tmp.161 :setValue;
-        %tmp.163 = "legacyView";
-        symbol [ Disk %tmp.164 71 49 53 ];
-        %tmp.164 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.165 71 54 62 ];
-        %tmp.165 = getv function %tmp.164 :getValue;
-        %tmp.166 = "legacyView";
-        %tmp.167 = invoke %tmp.164 %tmp.165(%tmp.166);
-        %tmp.168 = not %tmp.167;
-        invoke %tmp.161 %tmp.162(%tmp.163, %tmp.168);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_70_39_72_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_70_16_74_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_70_16_74_16_if_else_false:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_72_23_74_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 73 20 ]
-        symbol [ Globals %tmp.169 73 20 27 ];
-        %tmp.169 = getm $.Globals;
-        symbol [ Globals %tmp.170 73 45 52 ];
-        %tmp.170 = getm $.Globals;
-        symbol [ useLegacyView %tmp.171 73 53 66 ];
-        %tmp.171 = getv %tmp.170 :useLegacyView;
-        %tmp.172 = not %tmp.171;
-        symbol [ useLegacyView ? 73 28 41 ];
-        putv %tmp.169 :useLegacyView %tmp.172;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_72_23_74_16_stop:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_70_16_74_16_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 75 16 ]
-        symbol [ Globals %tmp.173 75 16 23 ];
-        %tmp.173 = getm $.Globals;
-        %tmp.174 = true;
-        symbol [ settingChanged ? 75 24 38 ];
-        putv %tmp.173 :settingChanged %tmp.174;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 76 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_77_12_84_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 78 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_78_16_82_16_if_stmt:
-        symbol [ Globals %tmp.175 78 19 26 ];
-        %tmp.175 = getm $.Globals;
-        symbol [ hasStorage %tmp.176 78 27 37 ];
-        %tmp.176 = getv %tmp.175 :hasStorage;
-        bf %tmp.176 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_78_16_82_16_if_else_false;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_78_16_82_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_78_39_80_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 79 20 ]
-        symbol [ Disk %tmp.177 79 20 24 ];
-        %tmp.177 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.178 79 25 33 ];
-        %tmp.178 = getv function %tmp.177 :setValue;
-        %tmp.179 = "scalingTimeOut";
-        symbol [ Disk %tmp.180 79 53 57 ];
-        %tmp.180 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.181 79 58 66 ];
-        %tmp.181 = getv function %tmp.180 :getValue;
-        %tmp.182 = "scalingTimeOut";
-        %tmp.183 = invoke %tmp.180 %tmp.181(%tmp.182);
-        %tmp.184 = not %tmp.183;
-        invoke %tmp.177 %tmp.178(%tmp.179, %tmp.184);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_78_39_80_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_78_16_82_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_78_16_82_16_if_else_false:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_80_23_82_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 81 20 ]
-        symbol [ Globals %tmp.185 81 20 27 ];
-        %tmp.185 = getm $.Globals;
-        symbol [ Globals %tmp.186 81 49 56 ];
-        %tmp.186 = getm $.Globals;
-        symbol [ useScalingTimeOut %tmp.187 81 57 74 ];
-        %tmp.187 = getv %tmp.186 :useScalingTimeOut;
-        %tmp.188 = not %tmp.187;
-        symbol [ useScalingTimeOut ? 81 28 45 ];
-        putv %tmp.185 :useScalingTimeOut %tmp.188;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_80_23_82_16_stop:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_78_16_82_16_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 83 16 ]
-        symbol [ Globals %tmp.189 83 16 23 ];
-        %tmp.189 = getm $.Globals;
-        %tmp.190 = true;
-        symbol [ settingChanged ? 83 24 38 ];
-        putv %tmp.189 :settingChanged %tmp.190;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 84 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_85_12_92_21_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 86 16 ]
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_86_16_90_16_if_stmt:
-        symbol [ Globals %tmp.191 86 19 26 ];
-        %tmp.191 = getm $.Globals;
-        symbol [ hasStorage %tmp.192 86 27 37 ];
-        %tmp.192 = getv %tmp.191 :hasStorage;
-        bf %tmp.192 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_86_16_90_16_if_else_false;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_86_16_90_16_if_true:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_86_39_88_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 87 20 ]
-        symbol [ Disk %tmp.193 87 20 24 ];
-        %tmp.193 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.194 87 25 33 ];
-        %tmp.194 = getv function %tmp.193 :setValue;
-        %tmp.195 = "legacyMenu";
-        symbol [ Disk %tmp.196 87 49 53 ];
-        %tmp.196 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.197 87 54 62 ];
-        %tmp.197 = getv function %tmp.196 :getValue;
-        %tmp.198 = "legacyMenu";
-        %tmp.199 = invoke %tmp.196 %tmp.197(%tmp.198);
-        %tmp.200 = not %tmp.199;
-        invoke %tmp.193 %tmp.194(%tmp.195, %tmp.200);
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_86_39_88_16_stop:
-        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_86_16_90_16_if_end;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_86_16_90_16_if_else_false:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_88_23_90_16_start:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 89 20 ]
-        symbol [ Globals %tmp.201 89 20 27 ];
-        %tmp.201 = getm $.Globals;
-        symbol [ Globals %tmp.202 89 46 53 ];
-        %tmp.202 = getm $.Globals;
-        symbol [ drawModernMenu %tmp.203 89 54 68 ];
-        %tmp.203 = getv %tmp.202 :drawModernMenu;
-        %tmp.204 = not %tmp.203;
-        symbol [ drawModernMenu ? 89 28 42 ];
-        putv %tmp.201 :drawModernMenu %tmp.204;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_88_23_90_16_stop:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_86_16_90_16_if_end:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 91 16 ]
-        symbol [ Globals %tmp.205 91 16 23 ];
-        %tmp.205 = getm $.Globals;
-        %tmp.206 = true;
-        symbol [ settingChanged ? 91 24 38 ];
-        putv %tmp.205 :settingChanged %tmp.206;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 92 16 ]
-        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_93_12_94_29_switchCase:
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 94 16 ]
-        symbol [ System %tmp.207 94 16 22 ];
-        %tmp.207 = getm $.Toybox.System;
-        symbol [ exit %tmp.208 94 23 27 ];
-        %tmp.208 = getv function %tmp.207 :exit;
-        invoke %tmp.207 %tmp.208();
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_defaultCodeBegin:
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_95_8_switchStmtEnd:
-        pop;
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 96 8 ]
+        symbol [ Globals %tmp.160 69 48 55 ];
+        %tmp.160 = getm $.Globals;
+        symbol [ drawProgressRing %tmp.161 69 56 72 ];
+        %tmp.161 = getv %tmp.160 :drawProgressRing;
+        %tmp.162 = not %tmp.161;
+        symbol [ drawProgressRing ? 69 28 44 ];
+        putv %tmp.159 :drawProgressRing %tmp.162;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_68_23_70_16_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_66_16_70_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 71 16 ]
+        symbol [ Globals %tmp.163 71 16 23 ];
+        %tmp.163 = getm $.Globals;
+        %tmp.164 = true;
+        symbol [ settingChanged ? 71 24 38 ];
+        putv %tmp.163 :settingChanged %tmp.164;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 72 16 ]
         ret ?;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_16_62_97_4_stop:
-    }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc"; @line = 99; @symbol_functiondef = [onMenu,99,13,19]; ]
-    function onMenu() {
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_99_22_158_4_start:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_73_12_80_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 74 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_74_16_78_16_if_stmt:
+        symbol [ Globals %tmp.165 74 19 26 ];
+        %tmp.165 = getm $.Globals;
+        symbol [ hasStorage %tmp.166 74 27 37 ];
+        %tmp.166 = getv %tmp.165 :hasStorage;
+        bf %tmp.166 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_74_16_78_16_if_else_false;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_74_16_78_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_74_39_76_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 75 20 ]
+        symbol [ Disk %tmp.167 75 20 24 ];
+        %tmp.167 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.168 75 25 33 ];
+        %tmp.168 = getv function %tmp.167 :setValue;
+        %tmp.169 = "legacyView";
+        symbol [ Disk %tmp.170 75 49 53 ];
+        %tmp.170 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.171 75 54 62 ];
+        %tmp.171 = getv function %tmp.170 :getValue;
+        %tmp.172 = "legacyView";
+        %tmp.173 = invoke %tmp.170 %tmp.171(%tmp.172);
+        %tmp.174 = not %tmp.173;
+        invoke %tmp.167 %tmp.168(%tmp.169, %tmp.174);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_74_39_76_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_74_16_78_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_74_16_78_16_if_else_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_76_23_78_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 77 20 ]
+        symbol [ Globals %tmp.175 77 20 27 ];
+        %tmp.175 = getm $.Globals;
+        symbol [ Globals %tmp.176 77 45 52 ];
+        %tmp.176 = getm $.Globals;
+        symbol [ useLegacyView %tmp.177 77 53 66 ];
+        %tmp.177 = getv %tmp.176 :useLegacyView;
+        %tmp.178 = not %tmp.177;
+        symbol [ useLegacyView ? 77 28 41 ];
+        putv %tmp.175 :useLegacyView %tmp.178;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_76_23_78_16_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_74_16_78_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 79 16 ]
+        symbol [ Globals %tmp.179 79 16 23 ];
+        %tmp.179 = getm $.Globals;
+        %tmp.180 = true;
+        symbol [ settingChanged ? 79 24 38 ];
+        putv %tmp.179 :settingChanged %tmp.180;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 80 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_81_12_88_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 82 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_82_16_86_16_if_stmt:
+        symbol [ Globals %tmp.181 82 19 26 ];
+        %tmp.181 = getm $.Globals;
+        symbol [ hasStorage %tmp.182 82 27 37 ];
+        %tmp.182 = getv %tmp.181 :hasStorage;
+        bf %tmp.182 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_82_16_86_16_if_else_false;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_82_16_86_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_82_39_84_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 83 20 ]
+        symbol [ Disk %tmp.183 83 20 24 ];
+        %tmp.183 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.184 83 25 33 ];
+        %tmp.184 = getv function %tmp.183 :setValue;
+        %tmp.185 = "scalingTimeOut";
+        symbol [ Disk %tmp.186 83 53 57 ];
+        %tmp.186 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.187 83 58 66 ];
+        %tmp.187 = getv function %tmp.186 :getValue;
+        %tmp.188 = "scalingTimeOut";
+        %tmp.189 = invoke %tmp.186 %tmp.187(%tmp.188);
+        %tmp.190 = not %tmp.189;
+        invoke %tmp.183 %tmp.184(%tmp.185, %tmp.190);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_82_39_84_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_82_16_86_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_82_16_86_16_if_else_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_84_23_86_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 85 20 ]
+        symbol [ Globals %tmp.191 85 20 27 ];
+        %tmp.191 = getm $.Globals;
+        symbol [ Globals %tmp.192 85 49 56 ];
+        %tmp.192 = getm $.Globals;
+        symbol [ useScalingTimeOut %tmp.193 85 57 74 ];
+        %tmp.193 = getv %tmp.192 :useScalingTimeOut;
+        %tmp.194 = not %tmp.193;
+        symbol [ useScalingTimeOut ? 85 28 45 ];
+        putv %tmp.191 :useScalingTimeOut %tmp.194;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_84_23_86_16_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_82_16_86_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 87 16 ]
+        symbol [ Globals %tmp.195 87 16 23 ];
+        %tmp.195 = getm $.Globals;
+        %tmp.196 = true;
+        symbol [ settingChanged ? 87 24 38 ];
+        putv %tmp.195 :settingChanged %tmp.196;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 88 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_89_12_96_21_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 90 16 ]
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_90_16_94_16_if_stmt:
+        symbol [ Globals %tmp.197 90 19 26 ];
+        %tmp.197 = getm $.Globals;
+        symbol [ hasStorage %tmp.198 90 27 37 ];
+        %tmp.198 = getv %tmp.197 :hasStorage;
+        bf %tmp.198 @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_90_16_94_16_if_else_false;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_90_16_94_16_if_true:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_90_39_92_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 91 20 ]
+        symbol [ Disk %tmp.199 91 20 24 ];
+        %tmp.199 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.200 91 25 33 ];
+        %tmp.200 = getv function %tmp.199 :setValue;
+        %tmp.201 = "legacyMenu";
+        symbol [ Disk %tmp.202 91 49 53 ];
+        %tmp.202 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.203 91 54 62 ];
+        %tmp.203 = getv function %tmp.202 :getValue;
+        %tmp.204 = "legacyMenu";
+        %tmp.205 = invoke %tmp.202 %tmp.203(%tmp.204);
+        %tmp.206 = not %tmp.205;
+        invoke %tmp.199 %tmp.200(%tmp.201, %tmp.206);
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_90_39_92_16_stop:
+        goto @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_90_16_94_16_if_end;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_90_16_94_16_if_else_false:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_92_23_94_16_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 93 20 ]
+        symbol [ Globals %tmp.207 93 20 27 ];
+        %tmp.207 = getm $.Globals;
+        symbol [ Globals %tmp.208 93 46 53 ];
+        %tmp.208 = getm $.Globals;
+        symbol [ drawModernMenu %tmp.209 93 54 68 ];
+        %tmp.209 = getv %tmp.208 :drawModernMenu;
+        %tmp.210 = not %tmp.209;
+        symbol [ drawModernMenu ? 93 28 42 ];
+        putv %tmp.207 :drawModernMenu %tmp.210;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_92_23_94_16_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_90_16_94_16_if_end:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 95 16 ]
+        symbol [ Globals %tmp.211 95 16 23 ];
+        %tmp.211 = getm $.Globals;
+        %tmp.212 = true;
+        symbol [ settingChanged ? 95 24 38 ];
+        putv %tmp.211 :settingChanged %tmp.212;
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 96 16 ]
+        goto break @_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_97_12_98_29_switchCase:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 98 16 ]
+        symbol [ System %tmp.213 98 16 22 ];
+        %tmp.213 = getm $.Toybox.System;
+        symbol [ exit %tmp.214 98 23 27 ];
+        %tmp.214 = getv function %tmp.213 :exit;
+        invoke %tmp.213 %tmp.214();
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_defaultCodeBegin:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_17_8_99_8_switchStmtEnd:
+        pop;
 [ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 100 8 ]
-        [ "_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_99_22_158_4_start" "_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_99_22_158_4_stop" ]
+        ret ?;
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_16_62_101_4_stop:
+    }
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc"; @line = 103; @symbol_functiondef = [onMenu,103,13,19]; ]
+    function onMenu() {
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_103_22_162_4_start:
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 104 8 ]
+        [ "_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_103_22_162_4_start" "_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_103_22_162_4_stop" ]
         %menu.1 = local;
-        symbol [ menu %menu.1 100 12 16 ];
-        symbol [ Ui %tmp.3 100 23 25 ];
+        symbol [ menu %menu.1 104 12 16 ];
+        symbol [ Ui %tmp.3 104 23 25 ];
         %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ CheckboxMenu %tmp.4 100 26 38 ];
+        symbol [ CheckboxMenu %tmp.4 104 26 38 ];
         %tmp.4 = getv function ? %tmp.3 :CheckboxMenu;
         %tmp.5 = newd 1;
         %tmp.7 = const :title;
-        symbol [ title %tmp.7 100 41 46 const ];
+        symbol [ title %tmp.7 104 41 46 const ];
         %tmp.8 = self;
-        symbol [ loadResource %tmp.9 100 48 60 ];
+        symbol [ loadResource %tmp.9 104 48 60 ];
         %tmp.9 = getv function %tmp.8 :loadResource;
-        symbol [ Strings %tmp.10 100 61 68 ];
+        symbol [ Strings %tmp.10 104 61 68 ];
         %tmp.10 = getm $.Rez.Strings;
-        symbol [ settings %tmp.11 100 69 77 ];
+        symbol [ settings %tmp.11 104 69 77 ];
         %tmp.11 = getv %tmp.10 :settings;
         %tmp.12 = invoke %tmp.8 %tmp.9(%tmp.11);
         %tmp.13 = dup %tmp.5;
         %tmp.14 = aputv %tmp.13 %tmp.7 %tmp.12;
         %tmp.1 = newc %tmp.4 (%tmp.14);
         lputv %menu.1 %tmp.1;
-        symbol [ menu %menu.1 100 12 16 ];
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 101 8 ]
+        symbol [ menu %menu.1 104 12 16 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 105 8 ]
         %tmp.15 = lgetv %menu.1;
-        symbol [ menu %tmp.15 101 8 12 ];
-        symbol [ addItem %tmp.16 101 13 20 ];
+        symbol [ menu %tmp.15 105 8 12 ];
+        symbol [ addItem %tmp.16 105 13 20 ];
         %tmp.16 = getv function %tmp.15 :addItem;
-        symbol [ CheckboxMenuItem %tmp.20 102 16 32 ];
+        symbol [ CheckboxMenuItem %tmp.20 106 16 32 ];
         %tmp.20 = getv ? :CheckboxMenuItem;
         %tmp.21 = self;
-        symbol [ loadResource %tmp.22 103 16 28 ];
+        symbol [ loadResource %tmp.22 107 16 28 ];
         %tmp.22 = getv function %tmp.21 :loadResource;
-        symbol [ Strings %tmp.23 103 29 36 ];
+        symbol [ Strings %tmp.23 107 29 36 ];
         %tmp.23 = getm $.Rez.Strings;
-        symbol [ haptics_string %tmp.24 103 37 51 ];
+        symbol [ haptics_string %tmp.24 107 37 51 ];
         %tmp.24 = getv %tmp.23 :haptics_string;
         %tmp.25 = invoke %tmp.21 %tmp.22(%tmp.24);
         %tmp.26 = "";
         %tmp.28 = const :hp;
-        symbol [ hp %tmp.28 105 17 19 const ];
-        symbol [ Disk %tmp.29 106 16 20 ];
+        symbol [ hp %tmp.28 109 17 19 const ];
+        symbol [ Disk %tmp.29 110 16 20 ];
         %tmp.29 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.30 106 21 29 ];
+        symbol [ getValue %tmp.30 110 21 29 ];
         %tmp.30 = getv function %tmp.29 :getValue;
         %tmp.31 = "haptics";
         %tmp.32 = invoke %tmp.29 %tmp.30(%tmp.31);
         %tmp.33 = newd 0;
         %tmp.17 = newc %tmp.20 (%tmp.25, %tmp.26, %tmp.28, %tmp.32, %tmp.33);
         invoke %tmp.15 %tmp.16(%tmp.17);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 110 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 114 8 ]
         %tmp.34 = lgetv %menu.1;
-        symbol [ menu %tmp.34 110 8 12 ];
-        symbol [ addItem %tmp.35 110 13 20 ];
+        symbol [ menu %tmp.34 114 8 12 ];
+        symbol [ addItem %tmp.35 114 13 20 ];
         %tmp.35 = getv function %tmp.34 :addItem;
-        symbol [ CheckboxMenuItem %tmp.39 111 16 32 ];
+        symbol [ CheckboxMenuItem %tmp.39 115 16 32 ];
         %tmp.39 = getv ? :CheckboxMenuItem;
         %tmp.40 = self;
-        symbol [ loadResource %tmp.41 112 16 28 ];
+        symbol [ loadResource %tmp.41 116 16 28 ];
         %tmp.41 = getv function %tmp.40 :loadResource;
-        symbol [ Strings %tmp.42 112 29 36 ];
+        symbol [ Strings %tmp.42 116 29 36 ];
         %tmp.42 = getm $.Rez.Strings;
-        symbol [ progress_ring %tmp.43 112 37 50 ];
+        symbol [ progress_ring %tmp.43 116 37 50 ];
         %tmp.43 = getv %tmp.42 :progress_ring;
         %tmp.44 = invoke %tmp.40 %tmp.41(%tmp.43);
         %tmp.45 = "";
         %tmp.47 = const :pr;
-        symbol [ pr %tmp.47 114 17 19 const ];
-        symbol [ Disk %tmp.48 115 16 20 ];
+        symbol [ pr %tmp.47 118 17 19 const ];
+        symbol [ Disk %tmp.48 119 16 20 ];
         %tmp.48 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.49 115 21 29 ];
+        symbol [ getValue %tmp.49 119 21 29 ];
         %tmp.49 = getv function %tmp.48 :getValue;
         %tmp.50 = "progressRing";
         %tmp.51 = invoke %tmp.48 %tmp.49(%tmp.50);
         %tmp.52 = newd 0;
         %tmp.36 = newc %tmp.39 (%tmp.44, %tmp.45, %tmp.47, %tmp.51, %tmp.52);
         invoke %tmp.34 %tmp.35(%tmp.36);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 119 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 123 8 ]
         %tmp.53 = lgetv %menu.1;
-        symbol [ menu %tmp.53 119 8 12 ];
-        symbol [ addItem %tmp.54 119 13 20 ];
+        symbol [ menu %tmp.53 123 8 12 ];
+        symbol [ addItem %tmp.54 123 13 20 ];
         %tmp.54 = getv function %tmp.53 :addItem;
-        symbol [ CheckboxMenuItem %tmp.58 120 16 32 ];
+        symbol [ CheckboxMenuItem %tmp.58 124 16 32 ];
         %tmp.58 = getv ? :CheckboxMenuItem;
         %tmp.59 = self;
-        symbol [ loadResource %tmp.60 121 16 28 ];
+        symbol [ loadResource %tmp.60 125 16 28 ];
         %tmp.60 = getv function %tmp.59 :loadResource;
-        symbol [ Strings %tmp.61 121 29 36 ];
+        symbol [ Strings %tmp.61 125 29 36 ];
         %tmp.61 = getm $.Rez.Strings;
-        symbol [ toggle_backlight %tmp.62 121 37 53 ];
+        symbol [ toggle_backlight %tmp.62 125 37 53 ];
         %tmp.62 = getv %tmp.61 :toggle_backlight;
         %tmp.63 = invoke %tmp.59 %tmp.60(%tmp.62);
         %tmp.64 = self;
-        symbol [ loadResource %tmp.65 122 16 28 ];
+        symbol [ loadResource %tmp.65 126 16 28 ];
         %tmp.65 = getv function %tmp.64 :loadResource;
-        symbol [ Strings %tmp.66 122 29 36 ];
+        symbol [ Strings %tmp.66 126 29 36 ];
         %tmp.66 = getm $.Rez.Strings;
-        symbol [ uses_battery %tmp.67 122 37 49 ];
+        symbol [ uses_battery %tmp.67 126 37 49 ];
         %tmp.67 = getv %tmp.66 :uses_battery;
         %tmp.68 = invoke %tmp.64 %tmp.65(%tmp.67);
         %tmp.70 = const :bk;
-        symbol [ bk %tmp.70 123 17 19 const ];
-        symbol [ Disk %tmp.71 124 16 20 ];
+        symbol [ bk %tmp.70 127 17 19 const ];
+        symbol [ Disk %tmp.71 128 16 20 ];
         %tmp.71 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.72 124 21 29 ];
+        symbol [ getValue %tmp.72 128 21 29 ];
         %tmp.72 = getv function %tmp.71 :getValue;
         %tmp.73 = "backlight";
         %tmp.74 = invoke %tmp.71 %tmp.72(%tmp.73);
         %tmp.75 = newd 0;
         %tmp.55 = newc %tmp.58 (%tmp.63, %tmp.68, %tmp.70, %tmp.74, %tmp.75);
         invoke %tmp.53 %tmp.54(%tmp.55);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 128 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 132 8 ]
         %tmp.76 = lgetv %menu.1;
-        symbol [ menu %tmp.76 128 8 12 ];
-        symbol [ addItem %tmp.77 128 13 20 ];
+        symbol [ menu %tmp.76 132 8 12 ];
+        symbol [ addItem %tmp.77 132 13 20 ];
         %tmp.77 = getv function %tmp.76 :addItem;
-        symbol [ CheckboxMenuItem %tmp.81 129 16 32 ];
+        symbol [ CheckboxMenuItem %tmp.81 133 16 32 ];
         %tmp.81 = getv ? :CheckboxMenuItem;
         %tmp.82 = self;
-        symbol [ loadResource %tmp.83 130 16 28 ];
+        symbol [ loadResource %tmp.83 134 16 28 ];
         %tmp.83 = getv function %tmp.82 :loadResource;
-        symbol [ Strings %tmp.84 130 29 36 ];
+        symbol [ Strings %tmp.84 134 29 36 ];
         %tmp.84 = getm $.Rez.Strings;
-        symbol [ scaling_time_out %tmp.85 130 37 53 ];
+        symbol [ scaling_time_out %tmp.85 134 37 53 ];
         %tmp.85 = getv %tmp.84 :scaling_time_out;
         %tmp.86 = invoke %tmp.82 %tmp.83(%tmp.85);
         %tmp.87 = "";
         %tmp.89 = const :to;
-        symbol [ to %tmp.89 132 17 19 const ];
-        symbol [ Disk %tmp.90 133 16 20 ];
+        symbol [ to %tmp.89 136 17 19 const ];
+        symbol [ Disk %tmp.90 137 16 20 ];
         %tmp.90 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.91 133 21 29 ];
+        symbol [ getValue %tmp.91 137 21 29 ];
         %tmp.91 = getv function %tmp.90 :getValue;
         %tmp.92 = "scalingTimeOut";
         %tmp.93 = invoke %tmp.90 %tmp.91(%tmp.92);
         %tmp.94 = newd 0;
         %tmp.78 = newc %tmp.81 (%tmp.86, %tmp.87, %tmp.89, %tmp.93, %tmp.94);
         invoke %tmp.76 %tmp.77(%tmp.78);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 137 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 141 8 ]
         %tmp.95 = lgetv %menu.1;
-        symbol [ menu %tmp.95 137 8 12 ];
-        symbol [ addItem %tmp.96 137 13 20 ];
+        symbol [ menu %tmp.95 141 8 12 ];
+        symbol [ addItem %tmp.96 141 13 20 ];
         %tmp.96 = getv function %tmp.95 :addItem;
-        symbol [ CheckboxMenuItem %tmp.100 138 16 32 ];
+        symbol [ CheckboxMenuItem %tmp.100 142 16 32 ];
         %tmp.100 = getv ? :CheckboxMenuItem;
         %tmp.101 = self;
-        symbol [ loadResource %tmp.102 139 16 28 ];
+        symbol [ loadResource %tmp.102 143 16 28 ];
         %tmp.102 = getv function %tmp.101 :loadResource;
-        symbol [ Strings %tmp.103 139 29 36 ];
+        symbol [ Strings %tmp.103 143 29 36 ];
         %tmp.103 = getm $.Rez.Strings;
-        symbol [ use_menu1 %tmp.104 139 37 46 ];
+        symbol [ use_menu1 %tmp.104 143 37 46 ];
         %tmp.104 = getv %tmp.103 :use_menu1;
         %tmp.105 = invoke %tmp.101 %tmp.102(%tmp.104);
         %tmp.106 = self;
-        symbol [ loadResource %tmp.107 140 16 28 ];
+        symbol [ loadResource %tmp.107 144 16 28 ];
         %tmp.107 = getv function %tmp.106 :loadResource;
-        symbol [ Strings %tmp.108 140 29 36 ];
+        symbol [ Strings %tmp.108 144 29 36 ];
         %tmp.108 = getm $.Rez.Strings;
-        symbol [ legacy_menu %tmp.109 140 37 48 ];
+        symbol [ legacy_menu %tmp.109 144 37 48 ];
         %tmp.109 = getv %tmp.108 :legacy_menu;
         %tmp.110 = invoke %tmp.106 %tmp.107(%tmp.109);
         %tmp.112 = const :mn;
-        symbol [ mn %tmp.112 141 17 19 const ];
-        symbol [ Disk %tmp.113 142 16 20 ];
+        symbol [ mn %tmp.112 145 17 19 const ];
+        symbol [ Disk %tmp.113 146 16 20 ];
         %tmp.113 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.114 142 21 29 ];
+        symbol [ getValue %tmp.114 146 21 29 ];
         %tmp.114 = getv function %tmp.113 :getValue;
         %tmp.115 = "legacyMenu";
         %tmp.116 = invoke %tmp.113 %tmp.114(%tmp.115);
         %tmp.117 = newd 0;
         %tmp.97 = newc %tmp.100 (%tmp.105, %tmp.110, %tmp.112, %tmp.116, %tmp.117);
         invoke %tmp.95 %tmp.96(%tmp.97);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 146 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 150 8 ]
         %tmp.118 = lgetv %menu.1;
-        symbol [ menu %tmp.118 146 8 12 ];
-        symbol [ addItem %tmp.119 146 13 20 ];
+        symbol [ menu %tmp.118 150 8 12 ];
+        symbol [ addItem %tmp.119 150 13 20 ];
         %tmp.119 = getv function %tmp.118 :addItem;
-        symbol [ CheckboxMenuItem %tmp.123 147 16 32 ];
+        symbol [ CheckboxMenuItem %tmp.123 151 16 32 ];
         %tmp.123 = getv ? :CheckboxMenuItem;
         %tmp.124 = self;
-        symbol [ loadResource %tmp.125 148 16 28 ];
+        symbol [ loadResource %tmp.125 152 16 28 ];
         %tmp.125 = getv function %tmp.124 :loadResource;
-        symbol [ Strings %tmp.126 148 29 36 ];
+        symbol [ Strings %tmp.126 152 29 36 ];
         %tmp.126 = getm $.Rez.Strings;
-        symbol [ use_legacy_view %tmp.127 148 37 52 ];
+        symbol [ use_legacy_view %tmp.127 152 37 52 ];
         %tmp.127 = getv %tmp.126 :use_legacy_view;
         %tmp.128 = invoke %tmp.124 %tmp.125(%tmp.127);
         %tmp.129 = "";
         %tmp.131 = const :cv;
-        symbol [ cv %tmp.131 150 17 19 const ];
-        symbol [ Disk %tmp.132 151 16 20 ];
+        symbol [ cv %tmp.131 154 17 19 const ];
+        symbol [ Disk %tmp.132 155 16 20 ];
         %tmp.132 = getm $.Toybox.Application.Storage;
-        symbol [ getValue %tmp.133 151 21 29 ];
+        symbol [ getValue %tmp.133 155 21 29 ];
         %tmp.133 = getv function %tmp.132 :getValue;
         %tmp.134 = "legacyView";
         %tmp.135 = invoke %tmp.132 %tmp.133(%tmp.134);
         %tmp.136 = newd 0;
         %tmp.120 = newc %tmp.123 (%tmp.128, %tmp.129, %tmp.131, %tmp.135, %tmp.136);
         invoke %tmp.118 %tmp.119(%tmp.120);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 155 8 ]
-        symbol [ Ui %tmp.137 155 8 10 ];
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 159 8 ]
+        symbol [ Ui %tmp.137 159 8 10 ];
         %tmp.137 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.138 155 11 19 ];
+        symbol [ pushView %tmp.138 159 11 19 ];
         %tmp.138 = getv function %tmp.137 :pushView;
         %tmp.139 = lgetv %menu.1;
-        symbol [ menu %tmp.139 155 20 24 ];
-        symbol [ $ %tmp.143 155 30 31 ];
+        symbol [ menu %tmp.139 159 20 24 ];
+        symbol [ $ %tmp.143 159 30 31 ];
         %tmp.143 = getm $;
-        symbol [ RapidMenuDelegate %tmp.144 155 32 49 ];
+        symbol [ RapidMenuDelegate %tmp.144 159 32 49 ];
         %tmp.144 = getv %tmp.143 :RapidMenuDelegate;
         %tmp.140 = newc %tmp.144 ();
-        symbol [ Ui %tmp.145 155 53 55 ];
+        symbol [ Ui %tmp.145 159 53 55 ];
         %tmp.145 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_IMMEDIATE %tmp.146 155 56 71 ];
+        symbol [ SLIDE_IMMEDIATE %tmp.146 159 56 71 ];
         %tmp.146 = getv %tmp.145 :SLIDE_IMMEDIATE;
         invoke %tmp.137 %tmp.138(%tmp.139, %tmp.140, %tmp.146);
-[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 157 8 ]
+[ "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" 161 8 ]
         %tmp.147 = true;
         ret %tmp.147;
-_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_99_22_158_4_stop:
+_home_aesh_Coding_VSCodium_Projects_Rapid_source_LegacySettingsDelegate_mc_103_22_162_4_stop:
     }
 }
 [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc"; @line = 1; ]
