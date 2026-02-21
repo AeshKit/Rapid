@@ -157,7 +157,6 @@ class LegacySettingsDelegate extends Ui.MenuInputDelegate {
             )
         );
         Ui.pushView(menu, new $.RapidMenuDelegate(), Ui.SLIDE_IMMEDIATE);
-        // Yes, it calls the same delegate that we're using right now. I am lazy
         return true;
     }
 }

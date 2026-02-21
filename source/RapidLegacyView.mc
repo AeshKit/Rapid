@@ -1,6 +1,7 @@
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.Timer;
+import Toybox.Math;
 
 import Rez.Strings;
 import Globals;
@@ -24,8 +25,6 @@ class RapidLegacyView extends Ui.View {
     var mainNumberFont      as Graphics.FontDefinition = Graphics.FONT_SYSTEM_NUMBER_THAI_HOT;
     var incrementNumberFont as Graphics.FontDefinition = Graphics.FONT_TINY;
     var fontPadding as Number = 0;
-
-    var tooBig = false;
 
     var centerX as Number = 0, centerY as Number = 0;
 
@@ -234,24 +233,13 @@ class RapidLegacyView extends Ui.View {
 
         reverseColors(dc);
 
-
-        if(System.getDeviceSettings().screenShape == System.SCREEN_SHAPE_RECTANGLE && !isWatch) {
-            dc.drawText(
-                centerX,
-                onePlusQuarterHeight,
-                Graphics.FONT_SYSTEM_MEDIUM,
-                "Switch Sides  Reset",
-                Graphics.TEXT_JUSTIFY_CENTER
-            );
-        } else {
-            dc.drawText(
-                centerX,
-                onePlusHalfHeight,
-                Graphics.FONT_SYSTEM_LARGE,
-                loadResource(Strings.switch_sides),
-                Graphics.TEXT_JUSTIFY_CENTER
-            );
-        }
+        dc.drawText(
+            centerX,
+            onePlusHalfHeight,
+            Graphics.FONT_SYSTEM_LARGE,
+            loadResource(Strings.switch_sides),
+            Graphics.TEXT_JUSTIFY_CENTER
+        );
 
         reverseColors(dc);
     }
@@ -280,29 +268,63 @@ class RapidLegacyView extends Ui.View {
     }
 
     function drawGameActiveAddons(dc as Dc) {
+        var font = Graphics.FONT_LARGE;
+        var topOfRectangle = 0;
+        var rectangleTextX = 0;
+        var blackRectangleTimeTextX = 0;
+        var whiteRectangleTimeTextX = 0;
+
+        while(true) {
+            topOfRectangle = (dc.getHeight() + Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont) + Graphics.getFontDescent(Graphics.FONT_MEDIUM);
+            rectangleTextX = centerX - Math.sqrt(Math.pow(centerX, 2) - Math.pow(topOfRectangle + Graphics.getFontHeight(font) - centerY, 2)) + arcWidth / 2;
+            blackRectangleTimeTextX = rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font);
+            whiteRectangleTimeTextX = rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.white_time_no_space) + " ", font);
+
+            if(
+                rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font) + dc.getTextWidthInPixels("00:00" + loadResource(Strings.decimal_separator) + "00", font)
+                >
+                dc.getWidth() - rectangleTextX * 2
+                ||
+                rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.white_time_no_space) + " ", font) + dc.getTextWidthInPixels("00:00" + loadResource(Strings.decimal_separator) + "00", font)
+                >
+                dc.getWidth() - rectangleTextX * 2
+            ) {
+                if(font == Graphics.FONT_LARGE) {
+                    font = Graphics.FONT_MEDIUM;
+                    continue;
+                }
+                if(font == Graphics.FONT_MEDIUM) {
+                    font = Graphics.FONT_SMALL;
+                    continue;
+                }
+                if(font == Graphics.FONT_SMALL) {
+                    font = Graphics.FONT_TINY;
+                    continue;
+                }
+                throw Exception;
+            }
+            break;
+        }
+        
+
         dc.fillRectangle(
             0,
-            gameActiveAddonsRect1,
+            topOfRectangle,
             dc.getWidth(),
-            heightOver8
+            Graphics.getFontHeight(font) + Graphics.getFontDescent(font)
         );
 
         reverseColors(dc);
 
         if(Globals.isWhitesTurn) {
-            var font = Graphics.FONT_TINY;
-            if(System.getDeviceSettings() has :systemLanguage && System.getDeviceSettings().systemLanguage == System.LANGUAGE_SPA) {
-                font = Graphics.FONT_XTINY;
-            }
             
             dc.drawText(
-                widthOver1_9,
-                gameActiveAddonsTextY,
+                rectangleTextX,
+                topOfRectangle,
                 font,
                 loadResource(Strings.black_time_no_space),
-                Graphics.TEXT_JUSTIFY_VCENTER
+                Graphics.TEXT_JUSTIFY_LEFT
             );
-            
 
             var mins = (Globals.blackTimeLeft / 60000).toNumber();
             var secs = ((Globals.blackTimeLeft / 1000) % 60).toNumber();
@@ -312,31 +334,27 @@ class RapidLegacyView extends Ui.View {
             secsStr = secs < 10 ? "0" + secs : secs.toString();
             msStr   = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
 
+            // WOWWW GREAT NAMING CONVENTION ME 2 YEARS AGO
+            // * UninterestingCountingVariable increments every tick. This code controls the flashing number
             if(!(Globals.uninterestingCountingVariable >= 3 && Globals.uninterestingCountingVariable <= 6) &&
                !(Globals.uninterestingCountingVariable >= 9 && Globals.uninterestingCountingVariable <= 12)) {
                 dc.drawText(
-                    gameActiveAddonsTextX,
-                    gameActiveAddonsTextY,
-                    Graphics.FONT_TINY,
+                    blackRectangleTimeTextX,
+                    topOfRectangle,
+                    font,
                     minsStr + ":" + secsStr + loadResource(Strings.decimal_separator) + msStr,
-                    Graphics.TEXT_JUSTIFY_VCENTER
+                    Graphics.TEXT_JUSTIFY_LEFT
                 );
             }
         } else {
-            var font = Graphics.FONT_TINY;
-            if(System.getDeviceSettings() has :systemLanguage && System.getDeviceSettings().systemLanguage == System.LANGUAGE_SPA) {
-                font = Graphics.FONT_XTINY;
-            }
 
-            if(!tooBig) {
-                dc.drawText(
-                    widthOver1_9,
-                    gameActiveAddonsTextY,
-                    font,
-                    loadResource(Strings.white_time_no_space),
-                    Graphics.TEXT_JUSTIFY_VCENTER
-                );
-            }
+            dc.drawText(
+                rectangleTextX,
+                topOfRectangle,
+                font,
+                loadResource(Strings.white_time_no_space),
+                Graphics.TEXT_JUSTIFY_VCENTER
+            );
             
 
             var mins = (Globals.whiteTimeLeft / 60000).toNumber();
@@ -350,9 +368,9 @@ class RapidLegacyView extends Ui.View {
             if(!(Globals.uninterestingCountingVariable >= 3 && Globals.uninterestingCountingVariable <= 6) &&
                !(Globals.uninterestingCountingVariable >= 9 && Globals.uninterestingCountingVariable <= 12)) {
                 dc.drawText(
-                    gameActiveAddonsTextX,
-                    gameActiveAddonsTextY,
-                    Graphics.FONT_TINY,
+                    whiteRectangleTimeTextX,
+                    topOfRectangle,
+                    font,
                     minsStr + ":" + secsStr + loadResource(Strings.decimal_separator) + msStr,
                     Graphics.TEXT_JUSTIFY_VCENTER
                 );
@@ -370,18 +388,22 @@ class RapidLegacyView extends Ui.View {
         dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
 
         dc.fillRoundedRectangle(
-            0,
-            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont),
-            dc.getWidth() / 2.5 + Graphics.getFontAscent(Graphics.FONT_TINY),
+            -centerX,
+            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontHeight(Graphics.FONT_TINY),
+            dc.getWidth() / 2.35 + dc.getTextWidthInPixels("0", Graphics.FONT_TINY) + centerX,
             Graphics.getFontHeight(Graphics.FONT_TINY),
             Graphics.getFontHeight(Graphics.FONT_TINY) / 2
         );
 
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
 
+        System.println(Graphics.getFontDescent(mainNumberFont));
+        System.println(Graphics.getFontAscent(mainNumberFont));
+        System.println(dc.getFontHeight(mainNumberFont));
+
         dc.drawText(
-            dc.getWidth() / 2.5,
-            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2,
+            dc.getWidth() / 2.35,
+            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontHeight(Graphics.FONT_TINY),
             Graphics.FONT_TINY,
             whiteMinutesLeft.toString() + secsStr + "+" + Globals.whiteIncrement,
             Graphics.TEXT_JUSTIFY_RIGHT

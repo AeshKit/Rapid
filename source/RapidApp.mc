@@ -19,7 +19,7 @@ public class RapidApp extends Application.AppBase {
 
         if(Toybox.Application has :Storage) {
             Storage.setValue("firstStart", true);
-            
+
             if(Storage.getValue("firstStart") || Storage.getValue("firstStart") == null) {
                 runSystemChecks();
             }
@@ -64,7 +64,7 @@ public class RapidApp extends Application.AppBase {
             "legacyMenu",
             true
             // !(Graphics.Dc has :drawAngledText)
-            // [ Menu2 has stability issues on certain watches. ]
+            // [ Menu2 has stability issues for some reason. ]
         );
 
         Storage.setValue(
