@@ -1548,364 +1548,373 @@
         <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" id="102" lineNum="461" parent="globals/RapidView" pc="268465938" symbol="gameActiveAddons"/>
         <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" id="102" lineNum="463" parent="globals/RapidView" pc="268465987" symbol="gameActiveAddons"/>
         <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" id="102" lineNum="465" parent="globals/RapidView" pc="268466055" symbol="gameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="551" parent="globals/RapidLegacyView" pc="268466139" symbol="drawTimerFlashingString"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="552" parent="globals/RapidLegacyView" pc="268466141" symbol="drawTimerFlashingString"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="553" parent="globals/RapidLegacyView" pc="268466154" symbol="drawTimerFlashingString"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="554" parent="globals/RapidLegacyView" pc="268466167" symbol="drawTimerFlashingString"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="555" parent="globals/RapidLegacyView" pc="268466201" symbol="drawTimerFlashingString"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="558" parent="globals/RapidLegacyView" pc="268466217" symbol="drawTimerFlashingString"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="559" parent="globals/RapidLegacyView" pc="268466229" symbol="drawTimerFlashingString"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="436" parent="globals/RapidLegacyView" pc="268466285" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="439" parent="globals/RapidLegacyView" pc="268466288" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="440" parent="globals/RapidLegacyView" pc="268466300" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="442" parent="globals/RapidLegacyView" pc="268466314" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="445" parent="globals/RapidLegacyView" pc="268466325" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="446" parent="globals/RapidLegacyView" pc="268466340" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="447" parent="globals/RapidLegacyView" pc="268466357" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="449" parent="globals/RapidLegacyView" pc="268466371" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="450" parent="globals/RapidLegacyView" pc="268466404" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="451" parent="globals/RapidLegacyView" pc="268466437" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="453" parent="globals/RapidLegacyView" pc="268466486" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="455" parent="globals/RapidLegacyView" pc="268466500" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="456" parent="globals/RapidLegacyView" pc="268466511" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="458" parent="globals/RapidLegacyView" pc="268466519" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="459" parent="globals/RapidLegacyView" pc="268466557" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="460" parent="globals/RapidLegacyView" pc="268466573" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="463" parent="globals/RapidLegacyView" pc="268466589" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="466" parent="globals/RapidLegacyView" pc="268466601" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="467" parent="globals/RapidLegacyView" pc="268466613" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="469" parent="globals/RapidLegacyView" pc="268466687" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="472" parent="globals/RapidLegacyView" pc="268466716" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="474" parent="globals/RapidLegacyView" pc="268466729" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="475" parent="globals/RapidLegacyView" pc="268466738" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="477" parent="globals/RapidLegacyView" pc="268466767" symbol="handleTimerTimeChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="379" parent="globals/RapidLegacyView" pc="268466789" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="380" parent="globals/RapidLegacyView" pc="268466791" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="381" parent="globals/RapidLegacyView" pc="268466832" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="382" parent="globals/RapidLegacyView" pc="268466875" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="383" parent="globals/RapidLegacyView" pc="268466885" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="384" parent="globals/RapidLegacyView" pc="268466906" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="386" parent="globals/RapidLegacyView" pc="268466918" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="388" parent="globals/RapidLegacyView" pc="268466935" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="396" parent="globals/RapidLegacyView" pc="268467062" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="398" parent="globals/RapidLegacyView" pc="268467075" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="399" parent="globals/RapidLegacyView" pc="268467105" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="400" parent="globals/RapidLegacyView" pc="268467135" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="402" parent="globals/RapidLegacyView" pc="268467162" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="410" parent="globals/RapidLegacyView" pc="268467264" symbol="drawGameIdleAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="106" lineNum="577" parent="globals/RapidLegacyView" pc="268467276" symbol="reverseColors"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="106" lineNum="578" parent="globals/RapidLegacyView" pc="268467278" symbol="reverseColors"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="106" lineNum="579" parent="globals/RapidLegacyView" pc="268467290" symbol="reverseColors"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="106" lineNum="581" parent="globals/RapidLegacyView" pc="268467309" symbol="reverseColors"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="82" parent="globals/RapidLegacyView" pc="268467326" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="83" parent="globals/RapidLegacyView" pc="268467328" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="84" parent="globals/RapidLegacyView" pc="268467369" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="87" parent="globals/RapidLegacyView" pc="268467381" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="88" parent="globals/RapidLegacyView" pc="268467422" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="91" parent="globals/RapidLegacyView" pc="268467434" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="92" parent="globals/RapidLegacyView" pc="268467475" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="95" parent="globals/RapidLegacyView" pc="268467487" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="96" parent="globals/RapidLegacyView" pc="268467528" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="99" parent="globals/RapidLegacyView" pc="268467540" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="100" parent="globals/RapidLegacyView" pc="268467564" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="101" parent="globals/RapidLegacyView" pc="268467591" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="102" parent="globals/RapidLegacyView" pc="268467623" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="104" parent="globals/RapidLegacyView" pc="268467655" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="105" parent="globals/RapidLegacyView" pc="268467678" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="106" parent="globals/RapidLegacyView" pc="268467701" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="108" parent="globals/RapidLegacyView" pc="268467719" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="109" parent="globals/RapidLegacyView" pc="268467742" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="110" parent="globals/RapidLegacyView" pc="268467768" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="111" parent="globals/RapidLegacyView" pc="268467794" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="112" parent="globals/RapidLegacyView" pc="268467820" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="114" parent="globals/RapidLegacyView" pc="268467846" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="115" parent="globals/RapidLegacyView" pc="268467872" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="117" parent="globals/RapidLegacyView" pc="268467898" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="118" parent="globals/RapidLegacyView" pc="268467932" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="119" parent="globals/RapidLegacyView" pc="268467980" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="121" parent="globals/RapidLegacyView" pc="268468014" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="122" parent="globals/RapidLegacyView" pc="268468043" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="123" parent="globals/RapidLegacyView" pc="268468069" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="124" parent="globals/RapidLegacyView" pc="268468092" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="125" parent="globals/RapidLegacyView" pc="268468115" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="127" parent="globals/RapidLegacyView" pc="268468148" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="128" parent="globals/RapidLegacyView" pc="268468175" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="129" parent="globals/RapidLegacyView" pc="268468199" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="130" parent="globals/RapidLegacyView" pc="268468258" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="132" parent="globals/RapidLegacyView" pc="268468314" symbol="onLayout"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="226" parent="globals/RapidLegacyView" pc="268468336" symbol="drawGameStoppedScreen"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="227" parent="globals/RapidLegacyView" pc="268468338" symbol="drawGameStoppedScreen"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="229" parent="globals/RapidLegacyView" pc="268468349" symbol="drawGameStoppedScreen"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="236" parent="globals/RapidLegacyView" pc="268468377" symbol="drawGameStoppedScreen"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="238" parent="globals/RapidLegacyView" pc="268468388" symbol="drawGameStoppedScreen"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="246" parent="globals/RapidLegacyView" pc="268468439" symbol="drawGameStoppedScreen"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="417" parent="globals/RapidLegacyView" pc="268468451" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="418" parent="globals/RapidLegacyView" pc="268468454" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="419" parent="globals/RapidLegacyView" pc="268468465" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="421" parent="globals/RapidLegacyView" pc="268468473" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="422" parent="globals/RapidLegacyView" pc="268468515" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="423" parent="globals/RapidLegacyView" pc="268468531" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="426" parent="globals/RapidLegacyView" pc="268468547" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="428" parent="globals/RapidLegacyView" pc="268468563" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="432" parent="globals/RapidLegacyView" pc="268468676" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="433" parent="globals/RapidLegacyView" pc="268468689" symbol="handleTimerIncrementChange"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="110" lineNum="531" parent="globals/RapidLegacyView" pc="268468717" symbol="drawTimerSeconds"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="110" lineNum="532" parent="globals/RapidLegacyView" pc="268468720" symbol="drawTimerSeconds"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="110" lineNum="540" parent="globals/RapidLegacyView" pc="268468769" symbol="drawTimerSeconds"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="110" lineNum="542" parent="globals/RapidLegacyView" pc="268468773" symbol="drawTimerSeconds"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="505" parent="globals/RapidLegacyView" pc="268468918" symbol="drawTimerFull"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="506" parent="globals/RapidLegacyView" pc="268468921" symbol="drawTimerFull"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="507" parent="globals/RapidLegacyView" pc="268468925" symbol="drawTimerFull"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="508" parent="globals/RapidLegacyView" pc="268468987" symbol="drawTimerFull"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="509" parent="globals/RapidLegacyView" pc="268469007" symbol="drawTimerFull"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="510" parent="globals/RapidLegacyView" pc="268469043" symbol="drawTimerFull"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="511" parent="globals/RapidLegacyView" pc="268469075" symbol="drawTimerFull"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="514" parent="globals/RapidLegacyView" pc="268469155" symbol="drawTimerFull"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="522" parent="globals/RapidLegacyView" pc="268469190" symbol="drawTimerFull"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="482" parent="globals/RapidLegacyView" pc="268469309" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="483" parent="globals/RapidLegacyView" pc="268469312" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="484" parent="globals/RapidLegacyView" pc="268469347" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="485" parent="globals/RapidLegacyView" pc="268469362" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="486" parent="globals/RapidLegacyView" pc="268469379" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="488" parent="globals/RapidLegacyView" pc="268469393" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="489" parent="globals/RapidLegacyView" pc="268469421" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="490" parent="globals/RapidLegacyView" pc="268469449" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="492" parent="globals/RapidLegacyView" pc="268469493" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="494" parent="globals/RapidLegacyView" pc="268469507" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="496" parent="globals/RapidLegacyView" pc="268469559" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="498" parent="globals/RapidLegacyView" pc="268469567" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="499" parent="globals/RapidLegacyView" pc="268469576" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="501" parent="globals/RapidLegacyView" pc="268469596" symbol="handleTimerDrawingAndChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="249" parent="globals/RapidLegacyView" pc="268469612" symbol="drawProgressRing"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="251" parent="globals/RapidLegacyView" pc="268469615" symbol="drawProgressRing"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="256" parent="globals/RapidLegacyView" pc="268469750" symbol="drawProgressRing"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="256" parent="globals/RapidLegacyView" pc="268469759" symbol="drawProgressRing"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="258" parent="globals/RapidLegacyView" pc="268469767" symbol="drawProgressRing"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="260" parent="globals/RapidLegacyView" pc="268469782" symbol="drawProgressRing"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="269" parent="globals/RapidLegacyView" pc="268469814" symbol="drawProgressRing"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="115" lineNum="135" parent="globals/RapidLegacyView" pc="268469827" symbol="onShow"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="115" lineNum="136" parent="globals/RapidLegacyView" pc="268469829" symbol="onShow"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="115" lineNum="137" parent="globals/RapidLegacyView" pc="268469841" symbol="onShow"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="115" lineNum="138" parent="globals/RapidLegacyView" pc="268469887" symbol="onShow"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="272" parent="globals/RapidLegacyView" pc="268469961" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="273" parent="globals/RapidLegacyView" pc="268469964" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="274" parent="globals/RapidLegacyView" pc="268469968" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="275" parent="globals/RapidLegacyView" pc="268469971" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="276" parent="globals/RapidLegacyView" pc="268469974" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="278" parent="globals/RapidLegacyView" pc="268469977" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="279" parent="globals/RapidLegacyView" pc="268469981" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="280" parent="globals/RapidLegacyView" pc="268470044" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="281" parent="globals/RapidLegacyView" pc="268470130" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="283" parent="globals/RapidLegacyView" pc="268470179" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="288" parent="globals/RapidLegacyView" pc="268470294" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="289" parent="globals/RapidLegacyView" pc="268470302" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="290" parent="globals/RapidLegacyView" pc="268470306" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="292" parent="globals/RapidLegacyView" pc="268470312" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="293" parent="globals/RapidLegacyView" pc="268470320" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="294" parent="globals/RapidLegacyView" pc="268470324" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="296" parent="globals/RapidLegacyView" pc="268470330" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="297" parent="globals/RapidLegacyView" pc="268470338" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="300" parent="globals/RapidLegacyView" pc="268470348" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="304" parent="globals/RapidLegacyView" pc="268470354" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="311" parent="globals/RapidLegacyView" pc="268470403" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="313" parent="globals/RapidLegacyView" pc="268470414" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="315" parent="globals/RapidLegacyView" pc="268470426" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="323" parent="globals/RapidLegacyView" pc="268470471" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="324" parent="globals/RapidLegacyView" pc="268470493" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="325" parent="globals/RapidLegacyView" pc="268470517" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="327" parent="globals/RapidLegacyView" pc="268470538" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="328" parent="globals/RapidLegacyView" pc="268470571" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="329" parent="globals/RapidLegacyView" pc="268470604" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="335" parent="globals/RapidLegacyView" pc="268470653" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="337" parent="globals/RapidLegacyView" pc="268470721" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="347" parent="globals/RapidLegacyView" pc="268470796" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="348" parent="globals/RapidLegacyView" pc="268470805" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="358" parent="globals/RapidLegacyView" pc="268470859" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="359" parent="globals/RapidLegacyView" pc="268470881" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="360" parent="globals/RapidLegacyView" pc="268470905" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="362" parent="globals/RapidLegacyView" pc="268470926" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="363" parent="globals/RapidLegacyView" pc="268470959" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="364" parent="globals/RapidLegacyView" pc="268470992" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="366" parent="globals/RapidLegacyView" pc="268471041" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="368" parent="globals/RapidLegacyView" pc="268471109" symbol="drawGameActiveAddons"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="63" parent="globals/RapidLegacyView" pc="268471188" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="65" parent="globals/RapidLegacyView" pc="268471190" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="66" parent="globals/RapidLegacyView" pc="268471202" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="67" parent="globals/RapidLegacyView" pc="268471226" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="68" parent="globals/RapidLegacyView" pc="268471250" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="69" parent="globals/RapidLegacyView" pc="268471282" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="70" parent="globals/RapidLegacyView" pc="268471301" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="71" parent="globals/RapidLegacyView" pc="268471324" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="73" parent="globals/RapidLegacyView" pc="268471335" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="74" parent="globals/RapidLegacyView" pc="268471343" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="77" parent="globals/RapidLegacyView" pc="268471351" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="79" parent="globals/RapidLegacyView" pc="268471385" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="585" parent="globals/RapidLegacyView" pc="268471398" symbol="incrementDrawStringState"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="586" parent="globals/RapidLegacyView" pc="268471400" symbol="incrementDrawStringState"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="587" parent="globals/RapidLegacyView" pc="268471420" symbol="incrementDrawStringState"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="588" parent="globals/RapidLegacyView" pc="268471438" symbol="incrementDrawStringState"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="589" parent="globals/RapidLegacyView" pc="268471454" symbol="incrementDrawStringState"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="590" parent="globals/RapidLegacyView" pc="268471467" symbol="incrementDrawStringState"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="143" parent="globals/RapidLegacyView" pc="268471479" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="145" parent="globals/RapidLegacyView" pc="268471481" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="146" parent="globals/RapidLegacyView" pc="268471493" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="147" parent="globals/RapidLegacyView" pc="268471501" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="150" parent="globals/RapidLegacyView" pc="268471521" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="151" parent="globals/RapidLegacyView" pc="268471533" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="155" parent="globals/RapidLegacyView" pc="268471550" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="156" parent="globals/RapidLegacyView" pc="268471562" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="157" parent="globals/RapidLegacyView" pc="268471573" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="158" parent="globals/RapidLegacyView" pc="268471585" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="158" parent="globals/RapidLegacyView" pc="268471593" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="160" parent="globals/RapidLegacyView" pc="268471610" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="160" parent="globals/RapidLegacyView" pc="268471622" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="162" parent="globals/RapidLegacyView" pc="268471636" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="163" parent="globals/RapidLegacyView" pc="268471647" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="166" parent="globals/RapidLegacyView" pc="268471651" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="167" parent="globals/RapidLegacyView" pc="268471663" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="168" parent="globals/RapidLegacyView" pc="268471674" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="171" parent="globals/RapidLegacyView" pc="268471678" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="172" parent="globals/RapidLegacyView" pc="268471708" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="173" parent="globals/RapidLegacyView" pc="268471719" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="176" parent="globals/RapidLegacyView" pc="268471723" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="177" parent="globals/RapidLegacyView" pc="268471735" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="178" parent="globals/RapidLegacyView" pc="268471746" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="181" parent="globals/RapidLegacyView" pc="268471750" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="182" parent="globals/RapidLegacyView" pc="268471762" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="183" parent="globals/RapidLegacyView" pc="268471774" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="183" parent="globals/RapidLegacyView" pc="268471782" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="184" parent="globals/RapidLegacyView" pc="268471799" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="184" parent="globals/RapidLegacyView" pc="268471811" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="185" parent="globals/RapidLegacyView" pc="268471825" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="186" parent="globals/RapidLegacyView" pc="268471836" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="189" parent="globals/RapidLegacyView" pc="268471840" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="190" parent="globals/RapidLegacyView" pc="268471851" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="192" parent="globals/RapidLegacyView" pc="268471862" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="199" parent="globals/RapidLegacyView" pc="268471890" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="206" parent="globals/RapidLegacyView" pc="268471918" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="213" parent="globals/RapidLegacyView" pc="268471972" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="220" parent="globals/RapidLegacyView" pc="268472010" symbol="onUpdate"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="120" lineNum="569" parent="globals/RapidLegacyView" pc="268472011" symbol="decideColors"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="120" lineNum="570" parent="globals/RapidLegacyView" pc="268472013" symbol="decideColors"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="120" lineNum="571" parent="globals/RapidLegacyView" pc="268472025" symbol="decideColors"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="120" lineNum="573" parent="globals/RapidLegacyView" pc="268472044" symbol="decideColors"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="121" lineNum="413" parent="globals/RapidLegacyView" pc="268472061" symbol="draggingDrawEvent"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="121" lineNum="414" parent="globals/RapidLegacyView" pc="268472063" symbol="draggingDrawEvent"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="103" parent="globals/LegacySettingsDelegate" pc="268472099" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="104" parent="globals/LegacySettingsDelegate" pc="268472102" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="105" parent="globals/LegacySettingsDelegate" pc="268472164" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="114" parent="globals/LegacySettingsDelegate" pc="268472248" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="123" parent="globals/LegacySettingsDelegate" pc="268472332" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="132" parent="globals/LegacySettingsDelegate" pc="268472438" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="141" parent="globals/LegacySettingsDelegate" pc="268472522" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="150" parent="globals/LegacySettingsDelegate" pc="268472628" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="159" parent="globals/LegacySettingsDelegate" pc="268472712" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="160" parent="globals/LegacySettingsDelegate" pc="268472750" symbol="onMenu"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="16" parent="globals/LegacySettingsDelegate" pc="268472752" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="17" parent="globals/LegacySettingsDelegate" pc="268472754" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="18" parent="globals/LegacySettingsDelegate" pc="268472756" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="21" parent="globals/LegacySettingsDelegate" pc="268472775" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="26" parent="globals/LegacySettingsDelegate" pc="268472794" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="31" parent="globals/LegacySettingsDelegate" pc="268472813" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="36" parent="globals/LegacySettingsDelegate" pc="268472832" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="41" parent="globals/LegacySettingsDelegate" pc="268472851" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="45" parent="globals/LegacySettingsDelegate" pc="268472870" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="49" parent="globals/LegacySettingsDelegate" pc="268472889" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="57" parent="globals/LegacySettingsDelegate" pc="268472908" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="65" parent="globals/LegacySettingsDelegate" pc="268472927" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="73" parent="globals/LegacySettingsDelegate" pc="268472946" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="81" parent="globals/LegacySettingsDelegate" pc="268472965" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="89" parent="globals/LegacySettingsDelegate" pc="268472984" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="97" parent="globals/LegacySettingsDelegate" pc="268473003" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="19" parent="globals/LegacySettingsDelegate" pc="268473025" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="20" parent="globals/LegacySettingsDelegate" pc="268473032" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="22" parent="globals/LegacySettingsDelegate" pc="268473033" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="23" parent="globals/LegacySettingsDelegate" pc="268473054" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="24" parent="globals/LegacySettingsDelegate" pc="268473071" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="25" parent="globals/LegacySettingsDelegate" pc="268473084" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="27" parent="globals/LegacySettingsDelegate" pc="268473087" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="28" parent="globals/LegacySettingsDelegate" pc="268473108" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="29" parent="globals/LegacySettingsDelegate" pc="268473125" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="30" parent="globals/LegacySettingsDelegate" pc="268473138" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="32" parent="globals/LegacySettingsDelegate" pc="268473141" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="33" parent="globals/LegacySettingsDelegate" pc="268473154" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="34" parent="globals/LegacySettingsDelegate" pc="268473175" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="35" parent="globals/LegacySettingsDelegate" pc="268473188" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="37" parent="globals/LegacySettingsDelegate" pc="268473191" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="38" parent="globals/LegacySettingsDelegate" pc="268473212" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="39" parent="globals/LegacySettingsDelegate" pc="268473225" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="40" parent="globals/LegacySettingsDelegate" pc="268473238" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="42" parent="globals/LegacySettingsDelegate" pc="268473241" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="43" parent="globals/LegacySettingsDelegate" pc="268473254" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="44" parent="globals/LegacySettingsDelegate" pc="268473289" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="46" parent="globals/LegacySettingsDelegate" pc="268473292" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="47" parent="globals/LegacySettingsDelegate" pc="268473305" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="48" parent="globals/LegacySettingsDelegate" pc="268473326" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="50" parent="globals/LegacySettingsDelegate" pc="268473329" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="51" parent="globals/LegacySettingsDelegate" pc="268473341" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="53" parent="globals/LegacySettingsDelegate" pc="268473380" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="55" parent="globals/LegacySettingsDelegate" pc="268473402" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="56" parent="globals/LegacySettingsDelegate" pc="268473415" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="58" parent="globals/LegacySettingsDelegate" pc="268473416" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="59" parent="globals/LegacySettingsDelegate" pc="268473428" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="61" parent="globals/LegacySettingsDelegate" pc="268473467" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="63" parent="globals/LegacySettingsDelegate" pc="268473489" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="64" parent="globals/LegacySettingsDelegate" pc="268473502" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="66" parent="globals/LegacySettingsDelegate" pc="268473503" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="67" parent="globals/LegacySettingsDelegate" pc="268473515" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="69" parent="globals/LegacySettingsDelegate" pc="268473554" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="71" parent="globals/LegacySettingsDelegate" pc="268473576" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="72" parent="globals/LegacySettingsDelegate" pc="268473589" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="74" parent="globals/LegacySettingsDelegate" pc="268473590" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="75" parent="globals/LegacySettingsDelegate" pc="268473602" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="77" parent="globals/LegacySettingsDelegate" pc="268473641" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="79" parent="globals/LegacySettingsDelegate" pc="268473663" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="80" parent="globals/LegacySettingsDelegate" pc="268473676" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="82" parent="globals/LegacySettingsDelegate" pc="268473679" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="83" parent="globals/LegacySettingsDelegate" pc="268473691" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="85" parent="globals/LegacySettingsDelegate" pc="268473730" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="87" parent="globals/LegacySettingsDelegate" pc="268473752" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="88" parent="globals/LegacySettingsDelegate" pc="268473765" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="90" parent="globals/LegacySettingsDelegate" pc="268473768" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="91" parent="globals/LegacySettingsDelegate" pc="268473780" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="93" parent="globals/LegacySettingsDelegate" pc="268473819" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="95" parent="globals/LegacySettingsDelegate" pc="268473841" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="96" parent="globals/LegacySettingsDelegate" pc="268473854" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="98" parent="globals/LegacySettingsDelegate" pc="268473857" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="100" parent="globals/LegacySettingsDelegate" pc="268473869" symbol="onMenuItem"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="124" lineNum="12" parent="globals/LegacySettingsDelegate" pc="268473870" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="124" lineNum="13" parent="globals/LegacySettingsDelegate" pc="268473872" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="125" lineNum="76" parent="globals/RapidApp" pc="268473885" symbol="onStart"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="126" lineNum="82" parent="globals/RapidApp" pc="268473888" symbol="getInitialView"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="126" lineNum="83" parent="globals/RapidApp" pc="268473890" symbol="getInitialView"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="43" parent="globals/RapidApp" pc="268473911" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="44" parent="globals/RapidApp" pc="268473913" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="45" parent="globals/RapidApp" pc="268473932" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="47" parent="globals/RapidApp" pc="268473969" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="50" parent="globals/RapidApp" pc="268473999" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="52" parent="globals/RapidApp" pc="268474032" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="53" parent="globals/RapidApp" pc="268474051" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="58" parent="globals/RapidApp" pc="268474085" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="63" parent="globals/RapidApp" pc="268474115" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="70" parent="globals/RapidApp" pc="268474134" symbol="runSystemChecks"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="18" parent="globals/RapidApp" pc="268474168" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="20" parent="globals/RapidApp" pc="268474170" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="21" parent="globals/RapidApp" pc="268474185" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="23" parent="globals/RapidApp" pc="268474204" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="24" parent="globals/RapidApp" pc="268474245" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="27" parent="globals/RapidApp" pc="268474255" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="28" parent="globals/RapidApp" pc="268474276" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="29" parent="globals/RapidApp" pc="268474301" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="31" parent="globals/RapidApp" pc="268474334" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="32" parent="globals/RapidApp" pc="268474359" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="35" parent="globals/RapidApp" pc="268474392" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="36" parent="globals/RapidApp" pc="268474405" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="37" parent="globals/RapidApp" pc="268474430" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="40" parent="globals/RapidApp" pc="268474460" symbol="initialize"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="129" lineNum="79" parent="globals/RapidApp" pc="268474473" symbol="onStop"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="562" parent="globals/RapidLegacyView" pc="268466139" symbol="drawTimerFlashingString"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="563" parent="globals/RapidLegacyView" pc="268466141" symbol="drawTimerFlashingString"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="564" parent="globals/RapidLegacyView" pc="268466154" symbol="drawTimerFlashingString"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="565" parent="globals/RapidLegacyView" pc="268466167" symbol="drawTimerFlashingString"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="566" parent="globals/RapidLegacyView" pc="268466201" symbol="drawTimerFlashingString"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="569" parent="globals/RapidLegacyView" pc="268466217" symbol="drawTimerFlashingString"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="103" lineNum="570" parent="globals/RapidLegacyView" pc="268466229" symbol="drawTimerFlashingString"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="447" parent="globals/RapidLegacyView" pc="268466285" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="450" parent="globals/RapidLegacyView" pc="268466288" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="451" parent="globals/RapidLegacyView" pc="268466300" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="453" parent="globals/RapidLegacyView" pc="268466314" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="456" parent="globals/RapidLegacyView" pc="268466325" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="457" parent="globals/RapidLegacyView" pc="268466340" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="458" parent="globals/RapidLegacyView" pc="268466357" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="460" parent="globals/RapidLegacyView" pc="268466371" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="461" parent="globals/RapidLegacyView" pc="268466404" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="462" parent="globals/RapidLegacyView" pc="268466437" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="464" parent="globals/RapidLegacyView" pc="268466486" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="466" parent="globals/RapidLegacyView" pc="268466500" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="467" parent="globals/RapidLegacyView" pc="268466511" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="469" parent="globals/RapidLegacyView" pc="268466519" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="470" parent="globals/RapidLegacyView" pc="268466557" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="471" parent="globals/RapidLegacyView" pc="268466573" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="474" parent="globals/RapidLegacyView" pc="268466589" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="477" parent="globals/RapidLegacyView" pc="268466601" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="478" parent="globals/RapidLegacyView" pc="268466613" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="480" parent="globals/RapidLegacyView" pc="268466687" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="483" parent="globals/RapidLegacyView" pc="268466716" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="485" parent="globals/RapidLegacyView" pc="268466729" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="486" parent="globals/RapidLegacyView" pc="268466738" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="104" lineNum="488" parent="globals/RapidLegacyView" pc="268466767" symbol="handleTimerTimeChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="390" parent="globals/RapidLegacyView" pc="268466789" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="391" parent="globals/RapidLegacyView" pc="268466791" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="392" parent="globals/RapidLegacyView" pc="268466832" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="393" parent="globals/RapidLegacyView" pc="268466875" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="394" parent="globals/RapidLegacyView" pc="268466885" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="395" parent="globals/RapidLegacyView" pc="268466906" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="397" parent="globals/RapidLegacyView" pc="268466918" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="399" parent="globals/RapidLegacyView" pc="268466935" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="407" parent="globals/RapidLegacyView" pc="268467062" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="409" parent="globals/RapidLegacyView" pc="268467075" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="410" parent="globals/RapidLegacyView" pc="268467105" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="411" parent="globals/RapidLegacyView" pc="268467135" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="413" parent="globals/RapidLegacyView" pc="268467162" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="105" lineNum="421" parent="globals/RapidLegacyView" pc="268467264" symbol="drawGameIdleAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="106" lineNum="588" parent="globals/RapidLegacyView" pc="268467276" symbol="reverseColors"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="106" lineNum="589" parent="globals/RapidLegacyView" pc="268467278" symbol="reverseColors"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="106" lineNum="590" parent="globals/RapidLegacyView" pc="268467290" symbol="reverseColors"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="106" lineNum="592" parent="globals/RapidLegacyView" pc="268467309" symbol="reverseColors"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="80" parent="globals/RapidLegacyView" pc="268467326" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="81" parent="globals/RapidLegacyView" pc="268467328" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="82" parent="globals/RapidLegacyView" pc="268467369" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="85" parent="globals/RapidLegacyView" pc="268467381" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="86" parent="globals/RapidLegacyView" pc="268467422" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="89" parent="globals/RapidLegacyView" pc="268467434" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="90" parent="globals/RapidLegacyView" pc="268467475" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="93" parent="globals/RapidLegacyView" pc="268467487" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="94" parent="globals/RapidLegacyView" pc="268467528" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="97" parent="globals/RapidLegacyView" pc="268467540" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="98" parent="globals/RapidLegacyView" pc="268467564" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="99" parent="globals/RapidLegacyView" pc="268467591" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="100" parent="globals/RapidLegacyView" pc="268467623" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="102" parent="globals/RapidLegacyView" pc="268467655" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="103" parent="globals/RapidLegacyView" pc="268467678" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="104" parent="globals/RapidLegacyView" pc="268467701" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="106" parent="globals/RapidLegacyView" pc="268467719" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="107" parent="globals/RapidLegacyView" pc="268467742" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="108" parent="globals/RapidLegacyView" pc="268467768" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="109" parent="globals/RapidLegacyView" pc="268467794" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="110" parent="globals/RapidLegacyView" pc="268467820" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="112" parent="globals/RapidLegacyView" pc="268467846" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="113" parent="globals/RapidLegacyView" pc="268467872" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="115" parent="globals/RapidLegacyView" pc="268467898" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="116" parent="globals/RapidLegacyView" pc="268467932" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="117" parent="globals/RapidLegacyView" pc="268467980" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="119" parent="globals/RapidLegacyView" pc="268468014" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="120" parent="globals/RapidLegacyView" pc="268468043" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="121" parent="globals/RapidLegacyView" pc="268468069" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="122" parent="globals/RapidLegacyView" pc="268468092" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="123" parent="globals/RapidLegacyView" pc="268468115" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="125" parent="globals/RapidLegacyView" pc="268468148" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="126" parent="globals/RapidLegacyView" pc="268468175" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="127" parent="globals/RapidLegacyView" pc="268468199" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="128" parent="globals/RapidLegacyView" pc="268468258" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="107" lineNum="130" parent="globals/RapidLegacyView" pc="268468314" symbol="onLayout"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="224" parent="globals/RapidLegacyView" pc="268468336" symbol="drawGameStoppedScreen"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="225" parent="globals/RapidLegacyView" pc="268468338" symbol="drawGameStoppedScreen"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="227" parent="globals/RapidLegacyView" pc="268468349" symbol="drawGameStoppedScreen"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="234" parent="globals/RapidLegacyView" pc="268468377" symbol="drawGameStoppedScreen"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="236" parent="globals/RapidLegacyView" pc="268468388" symbol="drawGameStoppedScreen"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="108" lineNum="244" parent="globals/RapidLegacyView" pc="268468439" symbol="drawGameStoppedScreen"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="428" parent="globals/RapidLegacyView" pc="268468451" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="429" parent="globals/RapidLegacyView" pc="268468454" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="430" parent="globals/RapidLegacyView" pc="268468465" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="432" parent="globals/RapidLegacyView" pc="268468473" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="433" parent="globals/RapidLegacyView" pc="268468515" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="434" parent="globals/RapidLegacyView" pc="268468531" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="437" parent="globals/RapidLegacyView" pc="268468547" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="439" parent="globals/RapidLegacyView" pc="268468563" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="443" parent="globals/RapidLegacyView" pc="268468676" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="109" lineNum="444" parent="globals/RapidLegacyView" pc="268468689" symbol="handleTimerIncrementChange"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="110" lineNum="542" parent="globals/RapidLegacyView" pc="268468717" symbol="drawTimerSeconds"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="110" lineNum="543" parent="globals/RapidLegacyView" pc="268468720" symbol="drawTimerSeconds"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="110" lineNum="551" parent="globals/RapidLegacyView" pc="268468769" symbol="drawTimerSeconds"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="110" lineNum="553" parent="globals/RapidLegacyView" pc="268468773" symbol="drawTimerSeconds"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="516" parent="globals/RapidLegacyView" pc="268468918" symbol="drawTimerFull"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="517" parent="globals/RapidLegacyView" pc="268468921" symbol="drawTimerFull"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="518" parent="globals/RapidLegacyView" pc="268468925" symbol="drawTimerFull"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="519" parent="globals/RapidLegacyView" pc="268468987" symbol="drawTimerFull"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="520" parent="globals/RapidLegacyView" pc="268469007" symbol="drawTimerFull"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="521" parent="globals/RapidLegacyView" pc="268469043" symbol="drawTimerFull"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="522" parent="globals/RapidLegacyView" pc="268469075" symbol="drawTimerFull"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="525" parent="globals/RapidLegacyView" pc="268469155" symbol="drawTimerFull"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="111" lineNum="533" parent="globals/RapidLegacyView" pc="268469190" symbol="drawTimerFull"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="493" parent="globals/RapidLegacyView" pc="268469309" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="494" parent="globals/RapidLegacyView" pc="268469312" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="495" parent="globals/RapidLegacyView" pc="268469347" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="496" parent="globals/RapidLegacyView" pc="268469362" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="497" parent="globals/RapidLegacyView" pc="268469379" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="499" parent="globals/RapidLegacyView" pc="268469393" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="500" parent="globals/RapidLegacyView" pc="268469421" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="501" parent="globals/RapidLegacyView" pc="268469449" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="503" parent="globals/RapidLegacyView" pc="268469493" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="505" parent="globals/RapidLegacyView" pc="268469507" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="507" parent="globals/RapidLegacyView" pc="268469559" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="509" parent="globals/RapidLegacyView" pc="268469567" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="510" parent="globals/RapidLegacyView" pc="268469576" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="112" lineNum="512" parent="globals/RapidLegacyView" pc="268469596" symbol="handleTimerDrawingAndChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="247" parent="globals/RapidLegacyView" pc="268469612" symbol="drawProgressRing"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="249" parent="globals/RapidLegacyView" pc="268469615" symbol="drawProgressRing"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="254" parent="globals/RapidLegacyView" pc="268469750" symbol="drawProgressRing"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="254" parent="globals/RapidLegacyView" pc="268469759" symbol="drawProgressRing"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="256" parent="globals/RapidLegacyView" pc="268469767" symbol="drawProgressRing"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="258" parent="globals/RapidLegacyView" pc="268469782" symbol="drawProgressRing"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="113" lineNum="267" parent="globals/RapidLegacyView" pc="268469814" symbol="drawProgressRing"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="115" lineNum="133" parent="globals/RapidLegacyView" pc="268469827" symbol="onShow"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="115" lineNum="134" parent="globals/RapidLegacyView" pc="268469829" symbol="onShow"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="115" lineNum="135" parent="globals/RapidLegacyView" pc="268469841" symbol="onShow"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="115" lineNum="136" parent="globals/RapidLegacyView" pc="268469887" symbol="onShow"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="270" parent="globals/RapidLegacyView" pc="268469961" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="271" parent="globals/RapidLegacyView" pc="268469964" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="272" parent="globals/RapidLegacyView" pc="268469968" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="273" parent="globals/RapidLegacyView" pc="268469971" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="274" parent="globals/RapidLegacyView" pc="268469974" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="275" parent="globals/RapidLegacyView" pc="268469977" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="276" parent="globals/RapidLegacyView" pc="268469980" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="278" parent="globals/RapidLegacyView" pc="268469983" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="279" parent="globals/RapidLegacyView" pc="268469987" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="280" parent="globals/RapidLegacyView" pc="268470050" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="281" parent="globals/RapidLegacyView" pc="268470136" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="282" parent="globals/RapidLegacyView" pc="268470185" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="284" parent="globals/RapidLegacyView" pc="268470234" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="293" parent="globals/RapidLegacyView" pc="268470458" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="294" parent="globals/RapidLegacyView" pc="268470466" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="295" parent="globals/RapidLegacyView" pc="268470470" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="297" parent="globals/RapidLegacyView" pc="268470476" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="298" parent="globals/RapidLegacyView" pc="268470484" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="299" parent="globals/RapidLegacyView" pc="268470488" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="301" parent="globals/RapidLegacyView" pc="268470494" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="302" parent="globals/RapidLegacyView" pc="268470502" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="303" parent="globals/RapidLegacyView" pc="268470506" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="305" parent="globals/RapidLegacyView" pc="268470512" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="306" parent="globals/RapidLegacyView" pc="268470529" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="307" parent="globals/RapidLegacyView" pc="268470544" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="309" parent="globals/RapidLegacyView" pc="268470550" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="311" parent="globals/RapidLegacyView" pc="268470556" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="315" parent="globals/RapidLegacyView" pc="268470562" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="322" parent="globals/RapidLegacyView" pc="268470611" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="324" parent="globals/RapidLegacyView" pc="268470622" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="326" parent="globals/RapidLegacyView" pc="268470634" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="334" parent="globals/RapidLegacyView" pc="268470697" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="335" parent="globals/RapidLegacyView" pc="268470719" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="337" parent="globals/RapidLegacyView" pc="268470743" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="338" parent="globals/RapidLegacyView" pc="268470776" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="339" parent="globals/RapidLegacyView" pc="268470809" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="340" parent="globals/RapidLegacyView" pc="268470814" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="341" parent="globals/RapidLegacyView" pc="268470835" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="346" parent="globals/RapidLegacyView" pc="268470887" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="348" parent="globals/RapidLegacyView" pc="268470955" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="358" parent="globals/RapidLegacyView" pc="268471061" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="367" parent="globals/RapidLegacyView" pc="268471124" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="368" parent="globals/RapidLegacyView" pc="268471146" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="370" parent="globals/RapidLegacyView" pc="268471170" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="371" parent="globals/RapidLegacyView" pc="268471203" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="372" parent="globals/RapidLegacyView" pc="268471236" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="373" parent="globals/RapidLegacyView" pc="268471241" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="374" parent="globals/RapidLegacyView" pc="268471262" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="377" parent="globals/RapidLegacyView" pc="268471314" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="116" lineNum="379" parent="globals/RapidLegacyView" pc="268471382" symbol="drawGameActiveAddons"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="61" parent="globals/RapidLegacyView" pc="268471486" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="63" parent="globals/RapidLegacyView" pc="268471488" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="64" parent="globals/RapidLegacyView" pc="268471500" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="65" parent="globals/RapidLegacyView" pc="268471524" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="66" parent="globals/RapidLegacyView" pc="268471548" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="67" parent="globals/RapidLegacyView" pc="268471580" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="68" parent="globals/RapidLegacyView" pc="268471599" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="69" parent="globals/RapidLegacyView" pc="268471622" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="71" parent="globals/RapidLegacyView" pc="268471633" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="72" parent="globals/RapidLegacyView" pc="268471641" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="75" parent="globals/RapidLegacyView" pc="268471649" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="117" lineNum="77" parent="globals/RapidLegacyView" pc="268471683" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="596" parent="globals/RapidLegacyView" pc="268471696" symbol="incrementDrawStringState"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="597" parent="globals/RapidLegacyView" pc="268471698" symbol="incrementDrawStringState"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="598" parent="globals/RapidLegacyView" pc="268471718" symbol="incrementDrawStringState"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="599" parent="globals/RapidLegacyView" pc="268471736" symbol="incrementDrawStringState"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="600" parent="globals/RapidLegacyView" pc="268471752" symbol="incrementDrawStringState"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="118" lineNum="601" parent="globals/RapidLegacyView" pc="268471765" symbol="incrementDrawStringState"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="141" parent="globals/RapidLegacyView" pc="268471777" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="143" parent="globals/RapidLegacyView" pc="268471779" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="144" parent="globals/RapidLegacyView" pc="268471791" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="145" parent="globals/RapidLegacyView" pc="268471799" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="148" parent="globals/RapidLegacyView" pc="268471819" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="149" parent="globals/RapidLegacyView" pc="268471831" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="153" parent="globals/RapidLegacyView" pc="268471848" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="154" parent="globals/RapidLegacyView" pc="268471860" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="155" parent="globals/RapidLegacyView" pc="268471871" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="156" parent="globals/RapidLegacyView" pc="268471883" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="156" parent="globals/RapidLegacyView" pc="268471891" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="158" parent="globals/RapidLegacyView" pc="268471908" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="158" parent="globals/RapidLegacyView" pc="268471920" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="160" parent="globals/RapidLegacyView" pc="268471934" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="161" parent="globals/RapidLegacyView" pc="268471945" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="164" parent="globals/RapidLegacyView" pc="268471949" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="165" parent="globals/RapidLegacyView" pc="268471961" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="166" parent="globals/RapidLegacyView" pc="268471972" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="169" parent="globals/RapidLegacyView" pc="268471976" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="170" parent="globals/RapidLegacyView" pc="268472006" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="171" parent="globals/RapidLegacyView" pc="268472017" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="174" parent="globals/RapidLegacyView" pc="268472021" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="175" parent="globals/RapidLegacyView" pc="268472033" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="176" parent="globals/RapidLegacyView" pc="268472044" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="179" parent="globals/RapidLegacyView" pc="268472048" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="180" parent="globals/RapidLegacyView" pc="268472060" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="181" parent="globals/RapidLegacyView" pc="268472072" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="181" parent="globals/RapidLegacyView" pc="268472080" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="182" parent="globals/RapidLegacyView" pc="268472097" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="182" parent="globals/RapidLegacyView" pc="268472109" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="183" parent="globals/RapidLegacyView" pc="268472123" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="184" parent="globals/RapidLegacyView" pc="268472134" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="187" parent="globals/RapidLegacyView" pc="268472138" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="188" parent="globals/RapidLegacyView" pc="268472149" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="190" parent="globals/RapidLegacyView" pc="268472160" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="197" parent="globals/RapidLegacyView" pc="268472188" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="204" parent="globals/RapidLegacyView" pc="268472216" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="211" parent="globals/RapidLegacyView" pc="268472270" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="119" lineNum="218" parent="globals/RapidLegacyView" pc="268472308" symbol="onUpdate"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="120" lineNum="580" parent="globals/RapidLegacyView" pc="268472309" symbol="decideColors"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="120" lineNum="581" parent="globals/RapidLegacyView" pc="268472311" symbol="decideColors"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="120" lineNum="582" parent="globals/RapidLegacyView" pc="268472323" symbol="decideColors"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="120" lineNum="584" parent="globals/RapidLegacyView" pc="268472342" symbol="decideColors"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="121" lineNum="424" parent="globals/RapidLegacyView" pc="268472359" symbol="draggingDrawEvent"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyView.mc" id="121" lineNum="425" parent="globals/RapidLegacyView" pc="268472361" symbol="draggingDrawEvent"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="103" parent="globals/LegacySettingsDelegate" pc="268472397" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="104" parent="globals/LegacySettingsDelegate" pc="268472400" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="105" parent="globals/LegacySettingsDelegate" pc="268472462" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="114" parent="globals/LegacySettingsDelegate" pc="268472546" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="123" parent="globals/LegacySettingsDelegate" pc="268472630" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="132" parent="globals/LegacySettingsDelegate" pc="268472736" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="141" parent="globals/LegacySettingsDelegate" pc="268472820" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="150" parent="globals/LegacySettingsDelegate" pc="268472926" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="159" parent="globals/LegacySettingsDelegate" pc="268473010" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="122" lineNum="160" parent="globals/LegacySettingsDelegate" pc="268473048" symbol="onMenu"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="16" parent="globals/LegacySettingsDelegate" pc="268473050" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="17" parent="globals/LegacySettingsDelegate" pc="268473052" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="18" parent="globals/LegacySettingsDelegate" pc="268473054" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="21" parent="globals/LegacySettingsDelegate" pc="268473073" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="26" parent="globals/LegacySettingsDelegate" pc="268473092" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="31" parent="globals/LegacySettingsDelegate" pc="268473111" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="36" parent="globals/LegacySettingsDelegate" pc="268473130" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="41" parent="globals/LegacySettingsDelegate" pc="268473149" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="45" parent="globals/LegacySettingsDelegate" pc="268473168" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="49" parent="globals/LegacySettingsDelegate" pc="268473187" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="57" parent="globals/LegacySettingsDelegate" pc="268473206" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="65" parent="globals/LegacySettingsDelegate" pc="268473225" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="73" parent="globals/LegacySettingsDelegate" pc="268473244" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="81" parent="globals/LegacySettingsDelegate" pc="268473263" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="89" parent="globals/LegacySettingsDelegate" pc="268473282" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="97" parent="globals/LegacySettingsDelegate" pc="268473301" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="19" parent="globals/LegacySettingsDelegate" pc="268473323" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="20" parent="globals/LegacySettingsDelegate" pc="268473330" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="22" parent="globals/LegacySettingsDelegate" pc="268473331" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="23" parent="globals/LegacySettingsDelegate" pc="268473352" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="24" parent="globals/LegacySettingsDelegate" pc="268473369" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="25" parent="globals/LegacySettingsDelegate" pc="268473382" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="27" parent="globals/LegacySettingsDelegate" pc="268473385" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="28" parent="globals/LegacySettingsDelegate" pc="268473406" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="29" parent="globals/LegacySettingsDelegate" pc="268473423" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="30" parent="globals/LegacySettingsDelegate" pc="268473436" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="32" parent="globals/LegacySettingsDelegate" pc="268473439" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="33" parent="globals/LegacySettingsDelegate" pc="268473452" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="34" parent="globals/LegacySettingsDelegate" pc="268473473" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="35" parent="globals/LegacySettingsDelegate" pc="268473486" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="37" parent="globals/LegacySettingsDelegate" pc="268473489" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="38" parent="globals/LegacySettingsDelegate" pc="268473510" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="39" parent="globals/LegacySettingsDelegate" pc="268473523" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="40" parent="globals/LegacySettingsDelegate" pc="268473536" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="42" parent="globals/LegacySettingsDelegate" pc="268473539" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="43" parent="globals/LegacySettingsDelegate" pc="268473552" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="44" parent="globals/LegacySettingsDelegate" pc="268473587" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="46" parent="globals/LegacySettingsDelegate" pc="268473590" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="47" parent="globals/LegacySettingsDelegate" pc="268473603" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="48" parent="globals/LegacySettingsDelegate" pc="268473624" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="50" parent="globals/LegacySettingsDelegate" pc="268473627" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="51" parent="globals/LegacySettingsDelegate" pc="268473639" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="53" parent="globals/LegacySettingsDelegate" pc="268473678" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="55" parent="globals/LegacySettingsDelegate" pc="268473700" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="56" parent="globals/LegacySettingsDelegate" pc="268473713" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="58" parent="globals/LegacySettingsDelegate" pc="268473714" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="59" parent="globals/LegacySettingsDelegate" pc="268473726" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="61" parent="globals/LegacySettingsDelegate" pc="268473765" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="63" parent="globals/LegacySettingsDelegate" pc="268473787" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="64" parent="globals/LegacySettingsDelegate" pc="268473800" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="66" parent="globals/LegacySettingsDelegate" pc="268473801" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="67" parent="globals/LegacySettingsDelegate" pc="268473813" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="69" parent="globals/LegacySettingsDelegate" pc="268473852" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="71" parent="globals/LegacySettingsDelegate" pc="268473874" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="72" parent="globals/LegacySettingsDelegate" pc="268473887" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="74" parent="globals/LegacySettingsDelegate" pc="268473888" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="75" parent="globals/LegacySettingsDelegate" pc="268473900" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="77" parent="globals/LegacySettingsDelegate" pc="268473939" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="79" parent="globals/LegacySettingsDelegate" pc="268473961" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="80" parent="globals/LegacySettingsDelegate" pc="268473974" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="82" parent="globals/LegacySettingsDelegate" pc="268473977" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="83" parent="globals/LegacySettingsDelegate" pc="268473989" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="85" parent="globals/LegacySettingsDelegate" pc="268474028" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="87" parent="globals/LegacySettingsDelegate" pc="268474050" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="88" parent="globals/LegacySettingsDelegate" pc="268474063" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="90" parent="globals/LegacySettingsDelegate" pc="268474066" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="91" parent="globals/LegacySettingsDelegate" pc="268474078" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="93" parent="globals/LegacySettingsDelegate" pc="268474117" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="95" parent="globals/LegacySettingsDelegate" pc="268474139" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="96" parent="globals/LegacySettingsDelegate" pc="268474152" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="98" parent="globals/LegacySettingsDelegate" pc="268474155" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="123" lineNum="100" parent="globals/LegacySettingsDelegate" pc="268474167" symbol="onMenuItem"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="124" lineNum="12" parent="globals/LegacySettingsDelegate" pc="268474168" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/LegacySettingsDelegate.mc" id="124" lineNum="13" parent="globals/LegacySettingsDelegate" pc="268474170" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="125" lineNum="76" parent="globals/RapidApp" pc="268474183" symbol="onStart"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="126" lineNum="82" parent="globals/RapidApp" pc="268474186" symbol="getInitialView"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="126" lineNum="83" parent="globals/RapidApp" pc="268474188" symbol="getInitialView"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="43" parent="globals/RapidApp" pc="268474209" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="44" parent="globals/RapidApp" pc="268474211" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="45" parent="globals/RapidApp" pc="268474230" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="47" parent="globals/RapidApp" pc="268474267" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="50" parent="globals/RapidApp" pc="268474297" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="52" parent="globals/RapidApp" pc="268474330" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="53" parent="globals/RapidApp" pc="268474349" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="58" parent="globals/RapidApp" pc="268474383" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="63" parent="globals/RapidApp" pc="268474413" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="127" lineNum="70" parent="globals/RapidApp" pc="268474432" symbol="runSystemChecks"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="18" parent="globals/RapidApp" pc="268474466" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="20" parent="globals/RapidApp" pc="268474468" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="21" parent="globals/RapidApp" pc="268474483" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="23" parent="globals/RapidApp" pc="268474502" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="24" parent="globals/RapidApp" pc="268474543" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="27" parent="globals/RapidApp" pc="268474553" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="28" parent="globals/RapidApp" pc="268474574" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="29" parent="globals/RapidApp" pc="268474599" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="31" parent="globals/RapidApp" pc="268474632" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="32" parent="globals/RapidApp" pc="268474657" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="35" parent="globals/RapidApp" pc="268474690" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="36" parent="globals/RapidApp" pc="268474703" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="37" parent="globals/RapidApp" pc="268474728" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="128" lineNum="40" parent="globals/RapidApp" pc="268474758" symbol="initialize"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidApp.mc" id="129" lineNum="79" parent="globals/RapidApp" pc="268474771" symbol="onStop"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="271" symbol="total_time"/>
+        <entry field="true" id="270" symbol="total_time"/>
         <entry id="142" method="true" symbol="drawVectorTimerFull"/>
         <entry id="194" method="true" symbol="drawGameActiveAddons"/>
         <entry field="true" id="40" symbol="isDragVertical"/>
@@ -1915,7 +1924,7 @@
         <entry id="137" method="true" symbol="decideColors"/>
         <entry field="true" id="203" symbol="fontTinyHeight"/>
         <entry field="true" id="43" symbol="previousValue"/>
-        <entry field="true" id="241" symbol="black_time"/>
+        <entry field="true" id="240" symbol="black_time"/>
         <entry field="true" id="202" symbol="fontPadding"/>
         <entry id="107" method="true" symbol="&lt;globals/TimeOutView/&lt;&gt;resizeAndAnimateLoseText&gt;"/>
         <entry field="true" id="178" symbol="timerVectorFont"/>
@@ -1924,10 +1933,10 @@
         <entry field="true" id="214" symbol="idleTextHeight"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry field="true" id="87" symbol="halfScreenWidth"/>
-        <entry field="true" id="278" symbol="white_increment_short"/>
-        <entry field="true" id="227" symbol="widthOverTwoThreeFive"/>
+        <entry field="true" id="277" symbol="white_increment_short"/>
+        <entry field="true" id="226" symbol="widthOverTwoThreeFive"/>
         <entry id="98" method="true" symbol="&lt;globals/TimeOutView/&lt;&gt;handleTimeLeftText&gt;"/>
-        <entry field="true" id="246" symbol="change_starting_time"/>
+        <entry field="true" id="245" symbol="change_starting_time"/>
         <entry field="true" id="223" symbol="secondsTimerX"/>
         <entry id="118" method="true" symbol="&lt;globals/TimeOutViewLegacy/&lt;&gt;callAnimation&gt;"/>
         <entry field="true" id="49" symbol="turns"/>
@@ -1936,7 +1945,7 @@
         <entry id="145" method="true" symbol="gameActiveAddons"/>
         <entry field="true" id="68" symbol="hapticDelayCounter"/>
         <entry field="true" id="81" symbol="timer"/>
-        <entry field="true" id="269" symbol="time_left"/>
+        <entry field="true" id="268" symbol="time_left"/>
         <entry field="true" id="50" symbol="uninterestingCountingVariable"/>
         <entry field="true" id="200" symbol="fontMainTimerWidth"/>
         <entry field="true" id="211" symbol="idleRectangleRadius"/>
@@ -1945,21 +1954,21 @@
         <entry field="true" id="56" symbol="backTimer"/>
         <entry id="88" method="true" symbol="handleSideDetection"/>
         <entry id="195" method="true" symbol="drawGameIdleAddons"/>
-        <entry field="true" id="238" symbol="black_increment"/>
+        <entry field="true" id="237" symbol="black_increment"/>
         <entry field="true" id="24" symbol="blackIncrement"/>
         <entry field="true" id="37" symbol="hasStorage"/>
         <entry field="true" id="146" symbol="gameActiveAddonsRectangleWidth"/>
         <entry field="true" id="217" symbol="mainNumberFont"/>
-        <entry field="true" id="235" symbol="app_name"/>
+        <entry field="true" id="234" symbol="app_name"/>
         <entry field="true" id="159" symbol="heightOverOneNine"/>
-        <entry field="true" id="275" symbol="uses_battery"/>
+        <entry field="true" id="274" symbol="uses_battery"/>
         <entry id="8390424" module="true" symbol="Storage"/>
         <entry field="true" id="54" symbol="whiteLost"/>
         <entry field="true" id="189" symbol="widthOverOneAndAQuarter"/>
         <entry field="true" id="78" symbol="swipeThreshold"/>
         <entry field="true" id="126" symbol="timeLeftWidthOffset"/>
         <entry id="93" method="true" symbol="&lt;globals/TimeOutView/&lt;&gt;drawTimeLeftName&gt;"/>
-        <entry field="true" id="234" symbol="AppIcon"/>
+        <entry field="true" id="233" symbol="AppIcon"/>
         <entry id="124" method="true" symbol="&lt;globals/TimeOutViewLegacy/&lt;&gt;startAnimationTimer&gt;"/>
         <entry id="14" object="true" symbol="RapidMenuDelegate"/>
         <entry field="true" id="215" symbol="incrementNumberFont"/>
@@ -1967,9 +1976,9 @@
         <entry field="true" id="115" symbol="totalMinutes"/>
         <entry id="62" method="true" symbol="changeSidesAndAddIncrement"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="232" symbol="sView"/>
+        <entry field="true" id="231" symbol="sView"/>
         <entry field="true" id="109" symbol="secondsLeft"/>
-        <entry field="true" id="253" symbol="kill_app"/>
+        <entry field="true" id="252" symbol="kill_app"/>
         <entry id="84" method="true" symbol="whiteDecrement"/>
         <entry field="true" id="19" symbol="languageString"/>
         <entry field="true" id="102" symbol="mainColor"/>
@@ -1984,33 +1993,32 @@
         <entry field="true" id="171" symbol="progressRing"/>
         <entry field="true" id="8388782" method="true" symbol="size"/>
         <entry field="true" id="147" symbol="gameActiveAddonsTextWidth"/>
-        <entry field="true" id="239" symbol="black_increment_setting"/>
+        <entry field="true" id="238" symbol="black_increment_setting"/>
         <entry id="27" symbol="changingSideWithButton"/>
-        <entry field="true" id="259" symbol="ring_off"/>
+        <entry field="true" id="258" symbol="ring_off"/>
         <entry id="111" method="true" symbol="&lt;globals/TimeOutView/&lt;&gt;standardizeTime&gt;"/>
         <entry field="true" id="22" symbol="axis"/>
         <entry field="true" id="38" symbol="incrementHoldingVar"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
-        <entry field="true" id="228" symbol="mainDelegate"/>
-        <entry field="true" id="266" symbol="switch_sides"/>
+        <entry field="true" id="227" symbol="mainDelegate"/>
+        <entry field="true" id="265" symbol="switch_sides"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry field="true" id="51" symbol="useLegacyView"/>
         <entry id="2" module="true" symbol="globals/Constants"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry field="true" id="225" symbol="tooBig"/>
-        <entry field="true" id="268" symbol="time_indicator_white"/>
-        <entry field="true" id="248" symbol="haptics_off"/>
-        <entry field="true" id="245" symbol="change_increment"/>
+        <entry field="true" id="267" symbol="time_indicator_white"/>
+        <entry field="true" id="247" symbol="haptics_off"/>
+        <entry field="true" id="244" symbol="change_increment"/>
         <entry field="true" id="174" symbol="switchSidesVectorFont"/>
         <entry field="true" id="36" symbol="hasGameBeenStopped"/>
-        <entry field="true" id="229" symbol="mainView"/>
-        <entry field="true" id="226" symbol="widthOver1_9"/>
+        <entry field="true" id="228" symbol="mainView"/>
+        <entry field="true" id="225" symbol="widthOver1_9"/>
         <entry field="true" id="220" symbol="mainTimerX"/>
-        <entry field="true" id="280" symbol="white_time_no_space"/>
+        <entry field="true" id="279" symbol="white_time_no_space"/>
         <entry field="true" id="35" symbol="hasAnimationTimerStarted"/>
-        <entry field="true" id="267" symbol="time_indicator_black"/>
+        <entry field="true" id="266" symbol="time_indicator_black"/>
         <entry id="4" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="277" symbol="white_increment_setting"/>
+        <entry field="true" id="276" symbol="white_increment_setting"/>
         <entry id="11" object="true" symbol="RapidDelegate"/>
         <entry id="196" method="true" symbol="drawTimerFlashingString"/>
         <entry id="17" object="true" symbol="TimeOutView"/>
@@ -2020,19 +2028,19 @@
         <entry field="true" id="114" symbol="totalMilliseconds"/>
         <entry id="7" module="true" symbol="Constants"/>
         <entry field="true" id="104" symbol="millisecondsLeft"/>
-        <entry id="283" symbol="wt"/>
+        <entry id="282" symbol="wt"/>
         <entry id="8389687" method="true" symbol="drawArc"/>
-        <entry id="284" symbol="wi"/>
+        <entry id="283" symbol="wi"/>
         <entry field="true" id="53" symbol="whiteIncrement"/>
         <entry id="8392172" method="true" symbol="scale"/>
         <entry field="true" id="69" symbol="screenHeightOver10"/>
-        <entry field="true" id="231" symbol="sDelegate"/>
-        <entry id="296" symbol="to"/>
-        <entry id="287" symbol="st"/>
+        <entry field="true" id="230" symbol="sDelegate"/>
+        <entry id="295" symbol="to"/>
+        <entry id="286" symbol="st"/>
         <entry field="true" id="170" symbol="otherSideTimeSizeText"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry id="295" symbol="sm"/>
-        <entry id="288" symbol="si"/>
+        <entry id="294" symbol="sm"/>
+        <entry id="287" symbol="si"/>
         <entry id="8389348" symbol="font"/>
         <entry field="true" id="76" symbol="startY"/>
         <entry field="true" id="75" symbol="startX"/>
@@ -2043,42 +2051,42 @@
         <entry id="8392215" method="true" symbol="drawAngledText"/>
         <entry field="true" id="44" symbol="settingChanged"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry id="291" symbol="pr"/>
+        <entry id="290" symbol="pr"/>
         <entry field="true" id="100" symbol="lostVectorFont"/>
-        <entry field="true" id="263" symbol="starting_increment_short"/>
+        <entry field="true" id="262" symbol="starting_increment_short"/>
         <entry field="true" id="128" symbol="timeTotalWidthOffset"/>
-        <entry field="true" id="258" symbol="progress_ring"/>
+        <entry field="true" id="257" symbol="progress_ring"/>
         <entry field="true" id="30" method="true" symbol="drawModernMenu"/>
-        <entry field="true" id="261" symbol="scaling_time_out"/>
-        <entry id="292" symbol="mn"/>
-        <entry field="true" id="255" symbol="modern_view_off"/>
-        <entry field="true" id="243" symbol="black_time_out"/>
-        <entry field="true" id="279" symbol="white_time"/>
+        <entry field="true" id="260" symbol="scaling_time_out"/>
+        <entry id="291" symbol="mn"/>
+        <entry field="true" id="254" symbol="modern_view_off"/>
+        <entry field="true" id="242" symbol="black_time_out"/>
+        <entry field="true" id="278" symbol="white_time"/>
         <entry field="true" id="8389672" symbol="screenHeight"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="282" symbol="white_time_setting"/>
-        <entry field="true" id="276" symbol="white_increment"/>
+        <entry field="true" id="281" symbol="white_time_setting"/>
+        <entry field="true" id="275" symbol="white_increment"/>
         <entry id="13" object="true" symbol="RapidLegacyView"/>
-        <entry field="true" id="281" symbol="white_time_out"/>
-        <entry field="true" id="251" symbol="increment"/>
-        <entry id="289" symbol="hp"/>
+        <entry field="true" id="280" symbol="white_time_out"/>
+        <entry field="true" id="250" symbol="increment"/>
+        <entry id="288" symbol="hp"/>
         <entry field="true" id="65" symbol="endY"/>
         <entry field="true" id="64" symbol="endX"/>
-        <entry field="true" id="250" symbol="haptics_string"/>
-        <entry field="true" id="242" symbol="black_time_no_space"/>
+        <entry field="true" id="249" symbol="haptics_string"/>
+        <entry field="true" id="241" symbol="black_time_no_space"/>
         <entry field="true" id="21" symbol="animationTimer"/>
         <entry field="true" id="28" symbol="changingStartingTimeWithButton"/>
-        <entry id="294" symbol="ex"/>
-        <entry field="true" id="265" symbol="starting_time_setting"/>
+        <entry id="293" symbol="ex"/>
+        <entry field="true" id="264" symbol="starting_time_setting"/>
         <entry id="8389098" method="true" symbol="onTap"/>
         <entry field="true" id="42" symbol="isWhitesTurn"/>
-        <entry field="true" id="252" symbol="increment_setting"/>
-        <entry id="293" symbol="cv"/>
+        <entry field="true" id="251" symbol="increment_setting"/>
+        <entry id="292" symbol="cv"/>
         <entry id="8388987" method="true" symbol="vibrate"/>
         <entry field="true" id="55" symbol="whiteTimeLeft"/>
-        <entry id="285" symbol="bt"/>
-        <entry id="290" symbol="bk"/>
-        <entry id="286" symbol="bi"/>
+        <entry id="284" symbol="bt"/>
+        <entry id="289" symbol="bk"/>
+        <entry id="285" symbol="bi"/>
         <entry id="132" method="true" symbol="&lt;globals/TimeOutDelegate/&lt;&gt;resetVariables&gt;"/>
         <entry field="true" id="185" symbol="vectorTimeSecondsMsWidth"/>
         <entry id="141" method="true" symbol="drawVectorTimerFlashingString"/>
@@ -2086,10 +2094,10 @@
         <entry field="true" id="23" symbol="backLightOn"/>
         <entry field="true" id="190" symbol="widthOverOneFiveFive"/>
         <entry id="198" method="true" symbol="drawTimerSeconds"/>
-        <entry field="true" id="233" symbol="swipeHandler"/>
+        <entry field="true" id="232" symbol="swipeHandler"/>
         <entry id="10" object="true" symbol="RapidApp"/>
         <entry field="true" id="177" symbol="timerSecondsOnlyVectorFont"/>
-        <entry field="true" id="254" symbol="legacy_menu"/>
+        <entry field="true" id="253" symbol="legacy_menu"/>
         <entry id="131" method="true" symbol="handleInteraction"/>
         <entry id="5" module="true" symbol="globals/Rez/Drawables"/>
         <entry field="true" id="41" symbol="isDragging"/>
@@ -2103,11 +2111,11 @@
         <entry field="true" id="127" symbol="timeTotalText"/>
         <entry field="true" id="224" symbol="sometimesCenterY"/>
         <entry field="true" id="175" symbol="timeChangePreviousValue"/>
-        <entry field="true" id="274" symbol="use_modern_menu"/>
+        <entry field="true" id="273" symbol="use_modern_menu"/>
         <entry id="91" method="true" symbol="AnimationTimerCallback"/>
         <entry field="true" id="169" symbol="otherSideTimeSize"/>
-        <entry field="true" id="260" symbol="ring_on"/>
-        <entry field="true" id="257" symbol="opens_settings_menu"/>
+        <entry field="true" id="259" symbol="ring_on"/>
+        <entry field="true" id="256" symbol="opens_settings_menu"/>
         <entry id="92" method="true" symbol="&lt;globals/TimeOutView/&lt;&gt;callScalingAnimationsAndTimeLeftText&gt;"/>
         <entry field="true" id="158" symbol="heightOverFiveFive"/>
         <entry field="true" id="105" symbol="minutesLeft"/>
@@ -2157,13 +2165,13 @@
         <entry field="true" id="71" symbol="screenWidthOver155"/>
         <entry id="74" method="true" symbol="startTimer"/>
         <entry field="true" id="73" symbol="sideTimeThenWhite"/>
-        <entry id="230" method="true" symbol="runSystemChecks"/>
+        <entry id="229" method="true" symbol="runSystemChecks"/>
         <entry field="true" id="125" symbol="timeLeftText"/>
         <entry id="77" method="true" symbol="stopTimer"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry field="true" id="72" symbol="sideTimeThenBlack"/>
         <entry field="true" id="8391194" symbol="requiresBurnInProtection"/>
-        <entry field="true" id="247" symbol="decimal_separator"/>
+        <entry field="true" id="246" symbol="decimal_separator"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry field="true" id="219" symbol="mainTimerMsY"/>
         <entry field="true" id="130" symbol="turnsWidthOffset"/>
@@ -2171,27 +2179,27 @@
         <entry id="163" method="true" symbol="incrementDrawStringState"/>
         <entry field="true" id="144" symbol="flashingStringVectorFont"/>
         <entry field="true" id="208" symbol="heightOver6AndAHalf"/>
-        <entry field="true" id="236" symbol="backlight_off"/>
-        <entry field="true" id="264" symbol="starting_time"/>
+        <entry field="true" id="235" symbol="backlight_off"/>
+        <entry field="true" id="263" symbol="starting_time"/>
         <entry field="true" id="120" symbol="centerY"/>
         <entry field="true" id="119" symbol="centerX"/>
         <entry field="true" id="59" symbol="backVibeProfile"/>
-        <entry field="true" id="244" symbol="black_time_setting"/>
+        <entry field="true" id="243" symbol="black_time_setting"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry field="true" id="222" symbol="onePlusQuarterHeight"/>
         <entry field="true" id="173" symbol="secsStr"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry id="110" method="true" symbol="&lt;globals/TimeOutView/&lt;&gt;setLoseTextEndingPosition&gt;"/>
         <entry field="true" id="138" symbol="displayOnlySeconds"/>
-        <entry field="true" id="249" symbol="haptics_on"/>
+        <entry field="true" id="248" symbol="haptics_on"/>
         <entry field="true" id="83" symbol="view"/>
         <entry field="true" id="26" symbol="changingIncrementWithButton"/>
-        <entry field="true" id="272" symbol="use_legacy_view"/>
+        <entry field="true" id="271" symbol="use_legacy_view"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry field="true" id="191" symbol="widthOverTen"/>
         <entry id="157" method="true" symbol="handleTimerTimeChange"/>
-        <entry field="true" id="270" symbol="toggle_backlight"/>
-        <entry field="true" id="262" symbol="settings"/>
+        <entry field="true" id="269" symbol="toggle_backlight"/>
+        <entry field="true" id="261" symbol="settings"/>
         <entry field="true" id="122" symbol="secondaryFont"/>
         <entry id="139" method="true" symbol="draggingDrawEvent"/>
         <entry field="true" id="99" symbol="holdingArray"/>
@@ -2203,7 +2211,7 @@
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="117" symbol="winningSideTimeLeft"/>
         <entry field="true" id="160" symbol="heightOverSevenAndThreeQuarters"/>
-        <entry field="true" id="256" symbol="modern_view_on"/>
+        <entry field="true" id="255" symbol="modern_view_on"/>
         <entry id="8389097" method="true" symbol="onKey"/>
         <entry field="true" id="80" symbol="timeThen"/>
         <entry field="true" id="108" symbol="secondaryColor"/>
@@ -2222,10 +2230,10 @@
         <entry field="true" id="133" symbol="arcwidth"/>
         <entry field="true" id="192" symbol="widthOverThreeAndAQuarter"/>
         <entry field="true" id="121" symbol="mainFont"/>
-        <entry field="true" id="273" symbol="use_menu1"/>
+        <entry field="true" id="272" symbol="use_menu1"/>
         <entry field="true" id="206" symbol="gameActiveAddonsTextY"/>
         <entry field="true" id="205" symbol="gameActiveAddonsTextX"/>
-        <entry field="true" id="237" symbol="backlight_on"/>
+        <entry field="true" id="236" symbol="backlight_on"/>
         <entry field="true" id="199" symbol="fontMainHeight"/>
         <entry field="true" id="101" symbol="lostVectorFontSize"/>
         <entry field="true" id="186" symbol="whiteMillisecondsLeft"/>
@@ -2235,7 +2243,7 @@
         <entry id="8391828" method="true" symbol="onDrag"/>
         <entry field="true" id="60" symbol="base"/>
         <entry field="true" id="207" symbol="gameStoppedRectangleY"/>
-        <entry field="true" id="240" symbol="black_increment_short"/>
+        <entry field="true" id="239" symbol="black_increment_short"/>
         <entry id="8" module="true" symbol="Globals"/>
         <entry field="true" id="45" symbol="startingTimeHoldingVar"/>
         <entry id="8388635" module="true" symbol="Application"/>
@@ -2383,22 +2391,24 @@
         <entry endPc="268469610" name="msStr" stackId="8" startPc="268469312"/>
         <entry arg="true" endPc="268469826" name="dc" stackId="1" startPc="268469612"/>
         <entry endPc="268469825" name="angle" stackId="2" startPc="268469615"/>
-        <entry arg="true" endPc="268471187" name="dc" stackId="1" startPc="268469961"/>
-        <entry endPc="268471186" name="font" stackId="2" startPc="268469964"/>
-        <entry endPc="268471186" name="topOfRectangle" stackId="3" startPc="268469964"/>
-        <entry endPc="268471186" name="rectangleTextX" stackId="4" startPc="268469964"/>
-        <entry endPc="268471186" name="blackRectangleTimeTextX" stackId="5" startPc="268469964"/>
-        <entry endPc="268470792" name="mins" stackId="6" startPc="268470426"/>
-        <entry endPc="268470792" name="secs" stackId="7" startPc="268470426"/>
-        <entry endPc="268470792" name="ms" stackId="8" startPc="268470426"/>
-        <entry endPc="268471186" name="mins" stackId="9" startPc="268470796"/>
-        <entry endPc="268471186" name="secs" stackId="10" startPc="268470796"/>
-        <entry endPc="268471186" name="ms" stackId="11" startPc="268470796"/>
-        <entry arg="true" endPc="268472010" name="dc" stackId="1" startPc="268471479"/>
-        <entry arg="true" endPc="268472060" name="dc" stackId="1" startPc="268472011"/>
-        <entry arg="true" endPc="268472098" name="dc" stackId="1" startPc="268472061"/>
-        <entry endPc="268472751" name="menu" stackId="1" startPc="268472102"/>
-        <entry arg="true" endPc="268473869" name="item" stackId="1" startPc="268472752"/>
+        <entry arg="true" endPc="268471485" name="dc" stackId="1" startPc="268469961"/>
+        <entry endPc="268471484" name="font" stackId="2" startPc="268469964"/>
+        <entry endPc="268471484" name="topOfRectangle" stackId="3" startPc="268469964"/>
+        <entry endPc="268471484" name="rectangleTextX" stackId="4" startPc="268469964"/>
+        <entry endPc="268471484" name="blackRectangleTimeTextX" stackId="5" startPc="268469964"/>
+        <entry endPc="268471484" name="whiteRectangleTimeTextX" stackId="6" startPc="268469964"/>
+        <entry endPc="268471484" name="extraDecimal" stackId="7" startPc="268469964"/>
+        <entry endPc="268471057" name="mins" stackId="8" startPc="268470634"/>
+        <entry endPc="268471057" name="secs" stackId="9" startPc="268470634"/>
+        <entry endPc="268470883" name="ms" stackId="10" startPc="268470814"/>
+        <entry endPc="268471484" name="mins" stackId="11" startPc="268471061"/>
+        <entry endPc="268471484" name="secs" stackId="12" startPc="268471061"/>
+        <entry endPc="268471310" name="ms" stackId="13" startPc="268471241"/>
+        <entry arg="true" endPc="268472308" name="dc" stackId="1" startPc="268471777"/>
+        <entry arg="true" endPc="268472358" name="dc" stackId="1" startPc="268472309"/>
+        <entry arg="true" endPc="268472396" name="dc" stackId="1" startPc="268472359"/>
+        <entry endPc="268473049" name="menu" stackId="1" startPc="268472400"/>
+        <entry arg="true" endPc="268474167" name="item" stackId="1" startPc="268473050"/>
     </localVars>
     <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B4656-00"/>
     <annotations>
@@ -2466,10 +2476,10 @@
         <dataEntry label="globals/TimeOutDelegate" offset="2169" parentId="globals" symbolId="TimeOutDelegate" type="class"/>
         <dataEntry label="globals/RapidView" offset="2267" parentId="globals" symbolId="RapidView" type="class"/>
         <dataEntry label="globals/RapidLegacyView" offset="2914" parentId="globals" symbolId="RapidLegacyView" type="class"/>
-        <dataEntry label="globals/LegacySettingsDelegate" offset="3525" parentId="globals" symbolId="LegacySettingsDelegate" type="class"/>
-        <dataEntry label="globals/RapidApp" offset="3587" parentId="globals" symbolId="RapidApp" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="3712" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="3747" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/LegacySettingsDelegate" offset="3516" parentId="globals" symbolId="LegacySettingsDelegate" type="class"/>
+        <dataEntry label="globals/RapidApp" offset="3578" parentId="globals" symbolId="RapidApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="3703" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="3738" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Globals">
@@ -2909,52 +2919,52 @@
         <functionEntry accessMode="public" endPc="268469960" name="onShow" parent="RapidLegacyView" startPc="268469827">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268471187" name="drawGameActiveAddons" parent="RapidLegacyView" startPc="268469961">
+        <functionEntry accessMode="public" endPc="268471485" name="drawGameActiveAddons" parent="RapidLegacyView" startPc="268469961">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268471397" name="initialize" parent="RapidLegacyView" startPc="268471188">
+        <functionEntry accessMode="public" endPc="268471695" name="initialize" parent="RapidLegacyView" startPc="268471486">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268471478" name="incrementDrawStringState" parent="RapidLegacyView" startPc="268471398">
+        <functionEntry accessMode="public" endPc="268471776" name="incrementDrawStringState" parent="RapidLegacyView" startPc="268471696">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268472010" name="onUpdate" parent="RapidLegacyView" startPc="268471479">
+        <functionEntry accessMode="public" endPc="268472308" name="onUpdate" parent="RapidLegacyView" startPc="268471777">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268472060" name="decideColors" parent="RapidLegacyView" startPc="268472011">
+        <functionEntry accessMode="public" endPc="268472358" name="decideColors" parent="RapidLegacyView" startPc="268472309">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268472098" name="draggingDrawEvent" parent="RapidLegacyView" startPc="268472061">
+        <functionEntry accessMode="public" endPc="268472396" name="draggingDrawEvent" parent="RapidLegacyView" startPc="268472359">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268472751" name="onMenu" parent="LegacySettingsDelegate" startPc="268472099">
+        <functionEntry accessMode="public" endPc="268473049" name="onMenu" parent="LegacySettingsDelegate" startPc="268472397">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268473869" name="onMenuItem" parent="LegacySettingsDelegate" startPc="268472752">
+        <functionEntry accessMode="public" endPc="268474167" name="onMenuItem" parent="LegacySettingsDelegate" startPc="268473050">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268473884" name="initialize" parent="LegacySettingsDelegate" startPc="268473870">
+        <functionEntry accessMode="public" endPc="268474182" name="initialize" parent="LegacySettingsDelegate" startPc="268474168">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268473887" name="onStart" parent="RapidApp" startPc="268473885">
+        <functionEntry accessMode="public" endPc="268474185" name="onStart" parent="RapidApp" startPc="268474183">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268473910" name="getInitialView" parent="RapidApp" startPc="268473888">
+        <functionEntry accessMode="public" endPc="268474208" name="getInitialView" parent="RapidApp" startPc="268474186">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268474167" name="runSystemChecks" parent="RapidApp" startPc="268473911">
+        <functionEntry accessMode="public" endPc="268474465" name="runSystemChecks" parent="RapidApp" startPc="268474209">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268474472" name="initialize" parent="RapidApp" startPc="268474168">
+        <functionEntry accessMode="public" endPc="268474770" name="initialize" parent="RapidApp" startPc="268474466">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268474475" name="onStop" parent="RapidApp" startPc="268474473">
+        <functionEntry accessMode="public" endPc="268474773" name="onStop" parent="RapidApp" startPc="268474771">
             <param id="state"/>
             <documentation/>
         </functionEntry>

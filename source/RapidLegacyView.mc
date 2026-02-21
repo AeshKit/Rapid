@@ -273,6 +273,7 @@ class RapidLegacyView extends Ui.View {
         var rectangleTextX = 0;
         var blackRectangleTimeTextX = 0;
         var whiteRectangleTimeTextX = 0;
+        var extraDecimal = true;
 
         while(true) {
             topOfRectangle = (dc.getHeight() + Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont) + Graphics.getFontDescent(Graphics.FONT_MEDIUM);
@@ -283,11 +284,11 @@ class RapidLegacyView extends Ui.View {
             if(
                 rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font) + dc.getTextWidthInPixels("00:00" + loadResource(Strings.decimal_separator) + "00", font)
                 >
-                dc.getWidth() - rectangleTextX * 2
+                dc.getWidth() - rectangleTextX
                 ||
                 rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.white_time_no_space) + " ", font) + dc.getTextWidthInPixels("00:00" + loadResource(Strings.decimal_separator) + "00", font)
                 >
-                dc.getWidth() - rectangleTextX * 2
+                dc.getWidth() - rectangleTextX
             ) {
                 if(font == Graphics.FONT_LARGE) {
                     font = Graphics.FONT_MEDIUM;
@@ -301,7 +302,11 @@ class RapidLegacyView extends Ui.View {
                     font = Graphics.FONT_TINY;
                     continue;
                 }
-                throw Exception;
+                if(arcWidth == centerX / 6) {
+                    arcWidth = centerX / 8;
+                    continue;
+                }
+                extraDecimal = false;
             }
             break;
         }
@@ -320,7 +325,7 @@ class RapidLegacyView extends Ui.View {
             
             dc.drawText(
                 rectangleTextX,
-                topOfRectangle,
+                topOfRectangle + Graphics.getFontDescent(font) / 2,
                 font,
                 loadResource(Strings.black_time_no_space),
                 Graphics.TEXT_JUSTIFY_LEFT
@@ -328,11 +333,13 @@ class RapidLegacyView extends Ui.View {
 
             var mins = (Globals.blackTimeLeft / 60000).toNumber();
             var secs = ((Globals.blackTimeLeft / 1000) % 60).toNumber();
-            var ms   = (Globals.blackTimeLeft % 1000).toNumber();
 
             minsStr = mins < 10 ? "0" + mins : mins.toString();
             secsStr = secs < 10 ? "0" + secs : secs.toString();
-            msStr   = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
+            if(extraDecimal) {
+                var ms = (Globals.blackTimeLeft % 1000).toNumber();
+                msStr = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
+            }
 
             // WOWWW GREAT NAMING CONVENTION ME 2 YEARS AGO
             // * UninterestingCountingVariable increments every tick. This code controls the flashing number
@@ -340,9 +347,9 @@ class RapidLegacyView extends Ui.View {
                !(Globals.uninterestingCountingVariable >= 9 && Globals.uninterestingCountingVariable <= 12)) {
                 dc.drawText(
                     blackRectangleTimeTextX,
-                    topOfRectangle,
+                    topOfRectangle + Graphics.getFontDescent(font) / 2,
                     font,
-                    minsStr + ":" + secsStr + loadResource(Strings.decimal_separator) + msStr,
+                    minsStr + ":" + secsStr + (extraDecimal ? loadResource(Strings.decimal_separator) + msStr : ""),
                     Graphics.TEXT_JUSTIFY_LEFT
                 );
             }
@@ -350,29 +357,31 @@ class RapidLegacyView extends Ui.View {
 
             dc.drawText(
                 rectangleTextX,
-                topOfRectangle,
+                topOfRectangle + Graphics.getFontDescent(font) / 2,
                 font,
                 loadResource(Strings.white_time_no_space),
-                Graphics.TEXT_JUSTIFY_VCENTER
+                Graphics.TEXT_JUSTIFY_LEFT
             );
             
 
             var mins = (Globals.whiteTimeLeft / 60000).toNumber();
             var secs = ((Globals.whiteTimeLeft / 1000) % 60).toNumber();
-            var ms   = (Globals.whiteTimeLeft % 1000).toNumber();
 
             minsStr = mins < 10 ? "0" + mins : mins.toString();
             secsStr = secs < 10 ? "0" + secs : secs.toString();
-            msStr   = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
-
+            if(extraDecimal) {
+                var ms = (Globals.whiteTimeLeft % 1000).toNumber();
+                msStr = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
+            }
+            
             if(!(Globals.uninterestingCountingVariable >= 3 && Globals.uninterestingCountingVariable <= 6) &&
                !(Globals.uninterestingCountingVariable >= 9 && Globals.uninterestingCountingVariable <= 12)) {
                 dc.drawText(
                     whiteRectangleTimeTextX,
-                    topOfRectangle,
+                    topOfRectangle + Graphics.getFontDescent(font) / 2,
                     font,
-                    minsStr + ":" + secsStr + loadResource(Strings.decimal_separator) + msStr,
-                    Graphics.TEXT_JUSTIFY_VCENTER
+                    minsStr + ":" + secsStr + (extraDecimal ? loadResource(Strings.decimal_separator) + msStr : ""),
+                    Graphics.TEXT_JUSTIFY_LEFT
                 );
             }
         }
@@ -510,7 +519,7 @@ class RapidLegacyView extends Ui.View {
         var msTextXPos   =  dc.getWidth() - dc.getWidth() / 20;
         if(mainTextXPos  > (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2) {
             mainTextXPos = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2;
-            msTextXPos   = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2 + dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", Graphics.FONT_TINY);
+            msTextXPos   = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2 + dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", smallNumberFont);
         }
 
         dc.drawText(
@@ -524,7 +533,7 @@ class RapidLegacyView extends Ui.View {
         dc.drawText(
             msTextXPos,
             dc.getHeight() / 2 - dc.getFontHeight(smallNumberFont) + Graphics.getFontDescent(smallNumberFont) + dc.getFontHeight(mainNumberFont) / 2 - Graphics.getFontDescent(mainNumberFont),
-            Graphics.FONT_TINY,
+            smallNumberFont,
             loadResource(Strings.decimal_separator) + millisecondsLeft,
             Graphics.TEXT_JUSTIFY_RIGHT
         );
@@ -544,7 +553,7 @@ class RapidLegacyView extends Ui.View {
         dc.drawText(
             (dc.getWidth() + dc.getTextWidthInPixels(secondsLeft, mainNumberFont)) / 2,
             dc.getHeight() / 2 - dc.getFontHeight(smallNumberFont) + Graphics.getFontDescent(smallNumberFont) + dc.getFontHeight(mainNumberFont) / 2 - Graphics.getFontDescent(mainNumberFont),
-            Graphics.FONT_TINY,
+            smallNumberFont,
             loadResource(Strings.decimal_separator) + millisecondsLeft,
             Graphics.TEXT_JUSTIFY_LEFT
         );
