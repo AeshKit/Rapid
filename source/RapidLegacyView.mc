@@ -30,33 +30,22 @@ class RapidLegacyView extends Ui.View {
 
     var minsStr, secsStr, msStr;
 
-    var gameStoppedRectangleY as Number = 0,
-        onePlusHalfHeight     as Number = 0,
-        onePlusQuarterHeight  as Number = 0,
-        gameActiveAddonsRect1 as Number = 0,
-        heightOver8           as Number = 0,
-        widthOver1_9          as Number = 0,
-        gameActiveAddonsTextY as Number = 0,
-        gameActiveAddonsTextX as Number = 0,
-        idleRectangleX        as Number = 0,
-        idleRectangleY        as Number = 0,
-        idleRectangleRadius   as Number = 0,
-        idleRectangleHeight   as Number = 0,
-        idleTextHeight        as Number = 0,
-        fontTinyHeight        as Number = 0,
-        fontMainHeight        as Number = 0,
-        fontMainWidth         as Number = 0,
-        fontMainTimerWidth    as Number = 0,
-        mainTimerX            as Number = 0,
-        mainTimerMsX          as Number = 0,
-        mainTimerMsY          as Number = 0,
-        secondsTimerX         as Number = 0,
-        sometimesCenterY      as Number = 0,
-        heightOver6AndAHalf   as Number = 0,
-        widthOverTwoThreeFive as Number = 0,
-        arcWidth              as Number = 0;
+    var gameStoppedRectangleY,
+        switchSidesTextHeight,
+        arcWidth;
 
-    var isWatch = true;
+    // Game Active Addons
+    var font = Graphics.FONT_LARGE;
+    var topOfRectangle = 0;
+    var rectangleTextX = 0;
+    var blackRectangleTimeTextX = 0;
+    var whiteRectangleTimeTextX = 0;
+    var extraDecimal = true;
+
+    // Draw Timer Full
+    var smallNumberFont = Graphics.FONT_TINY;
+    var mainTextXPos = 0;
+    var msTextXPos   = 0;
 
     function initialize() {
 
@@ -94,40 +83,58 @@ class RapidLegacyView extends Ui.View {
             mainNumberFont = Graphics.FONT_GLANCE_NUMBER;
         }
 
-        fontTinyHeight = (dc.getFontHeight(Graphics.FONT_TINY)).toNumber();
-        fontMainHeight = (dc.getFontHeight(mainNumberFont)).toNumber();
-        fontMainWidth  = (dc.getTextWidthInPixels("0", mainNumberFont)).toNumber();
-        fontMainTimerWidth  = (dc.getTextWidthInPixels("00:00", mainNumberFont)).toNumber();
-
         centerX = (dc.getWidth()  / 2).toNumber();
         centerY = (dc.getHeight() / 2).toNumber();
-        sometimesCenterY = centerY.toNumber();
 
-        heightOver8 =           (dc.getHeight() / 8   ).toNumber(); // Used for lower time display rectangle height
-        onePlusHalfHeight =     (dc.getHeight() / 1.5 ).toNumber();
-        onePlusQuarterHeight =  (dc.getHeight() / 1.25).toNumber();
+        switchSidesTextHeight = (dc.getHeight() / 1.5 ).toNumber();
         gameStoppedRectangleY = (dc.getHeight() / 1.55).toNumber();
-        heightOver6AndAHalf =   (dc.getHeight() / 6.5 ).toNumber();
-
-        widthOver1_9 =          (dc.getWidth() / 1.9 ).toNumber();
-        widthOverTwoThreeFive = (dc.getWidth() / 2.35).toNumber();
-
-        gameActiveAddonsRect1 = (dc.getHeight() - dc.getHeight() / 2.8).toNumber();
-        gameActiveAddonsTextY = (dc.getHeight() - dc.getHeight() / 2.8 + (dc.getHeight() / 10) / 2).toNumber();
-        gameActiveAddonsTextX = (dc.getWidth() - (dc.getWidth() / 7.75)).toNumber();
-
-        idleRectangleX =      (dc.getWidth() / 1.85 * -1).toNumber();
-        idleRectangleY =      (dc.getHeight() / 3.95).toNumber();
-        idleRectangleHeight = (dc.getHeight() / 12).toNumber();
-        idleRectangleRadius = (dc.getHeight() / 28).toNumber();
-        idleTextHeight =      (idleRectangleY + (idleRectangleHeight - fontTinyHeight) / 2).toNumber();
-
-        mainTimerX =      (centerX + fontMainTimerWidth / 2).toNumber();
-        secondsTimerX   = (centerX + fontMainWidth).toNumber();
-        mainTimerMsX =    (centerX + Graphics.getFontHeight(mainNumberFont) * 1.25 + (fontPadding * (dc.getWidth() / 22))).toNumber();
-        mainTimerMsY =    (centerY + Graphics.getFontHeight(mainNumberFont) / 8    - (fontPadding * (dc.getHeight() / 56))).toNumber();
 
         arcWidth = (centerX / 6).toNumber();
+
+        // Game Active Addons
+        while(true) {
+            topOfRectangle = (dc.getHeight() + Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont) + Graphics.getFontDescent(Graphics.FONT_MEDIUM);
+            rectangleTextX = centerX - Math.sqrt(Math.pow(centerX, 2) - Math.pow(topOfRectangle + Graphics.getFontHeight(font) - centerY, 2)) + arcWidth / 2;
+            blackRectangleTimeTextX = rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font);
+            whiteRectangleTimeTextX = rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.white_time_no_space) + " ", font);
+
+            if(
+                rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font) + dc.getTextWidthInPixels("00:00" + loadResource(Strings.decimal_separator) + "00", font)
+                >
+                dc.getWidth() - rectangleTextX
+                ||
+                rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.white_time_no_space) + " ", font) + dc.getTextWidthInPixels("00:00" + loadResource(Strings.decimal_separator) + "00", font)
+                >
+                dc.getWidth() - rectangleTextX
+            ) {
+                if(font == Graphics.FONT_LARGE) {
+                    font = Graphics.FONT_MEDIUM;
+                    continue;
+                }
+                if(font == Graphics.FONT_MEDIUM) {
+                    font = Graphics.FONT_SMALL;
+                    continue;
+                }
+                if(font == Graphics.FONT_SMALL) {
+                    font = Graphics.FONT_TINY;
+                    continue;
+                }
+                if(arcWidth == centerX / 6) {
+                    arcWidth = centerX / 8;
+                    continue;
+                }
+                extraDecimal = false;
+            }
+            break;
+        }
+
+        // Draw Timer Full
+        mainTextXPos = (dc.getWidth() - dc.getWidth() / 20) - dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", smallNumberFont);
+        msTextXPos   =  dc.getWidth() - dc.getWidth() / 20;
+        if(mainTextXPos  > (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2) {
+            mainTextXPos = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2;
+            msTextXPos   = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2 + dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", smallNumberFont);
+        }
     }
 
     function onShow() as Void {
@@ -235,7 +242,7 @@ class RapidLegacyView extends Ui.View {
 
         dc.drawText(
             centerX,
-            onePlusHalfHeight,
+            switchSidesTextHeight,
             Graphics.FONT_SYSTEM_LARGE,
             loadResource(Strings.switch_sides),
             Graphics.TEXT_JUSTIFY_CENTER
@@ -268,50 +275,6 @@ class RapidLegacyView extends Ui.View {
     }
 
     function drawGameActiveAddons(dc as Dc) {
-        var font = Graphics.FONT_LARGE;
-        var topOfRectangle = 0;
-        var rectangleTextX = 0;
-        var blackRectangleTimeTextX = 0;
-        var whiteRectangleTimeTextX = 0;
-        var extraDecimal = true;
-
-        while(true) {
-            topOfRectangle = (dc.getHeight() + Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont) + Graphics.getFontDescent(Graphics.FONT_MEDIUM);
-            rectangleTextX = centerX - Math.sqrt(Math.pow(centerX, 2) - Math.pow(topOfRectangle + Graphics.getFontHeight(font) - centerY, 2)) + arcWidth / 2;
-            blackRectangleTimeTextX = rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font);
-            whiteRectangleTimeTextX = rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.white_time_no_space) + " ", font);
-
-            if(
-                rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font) + dc.getTextWidthInPixels("00:00" + loadResource(Strings.decimal_separator) + "00", font)
-                >
-                dc.getWidth() - rectangleTextX
-                ||
-                rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.white_time_no_space) + " ", font) + dc.getTextWidthInPixels("00:00" + loadResource(Strings.decimal_separator) + "00", font)
-                >
-                dc.getWidth() - rectangleTextX
-            ) {
-                if(font == Graphics.FONT_LARGE) {
-                    font = Graphics.FONT_MEDIUM;
-                    continue;
-                }
-                if(font == Graphics.FONT_MEDIUM) {
-                    font = Graphics.FONT_SMALL;
-                    continue;
-                }
-                if(font == Graphics.FONT_SMALL) {
-                    font = Graphics.FONT_TINY;
-                    continue;
-                }
-                if(arcWidth == centerX / 6) {
-                    arcWidth = centerX / 8;
-                    continue;
-                }
-                extraDecimal = false;
-            }
-            break;
-        }
-        
-
         dc.fillRectangle(
             0,
             topOfRectangle,
@@ -514,13 +477,6 @@ class RapidLegacyView extends Ui.View {
     }
 
     function drawTimerFull(dc, minutesLeft, secondsLeft, millisecondsLeft) as Void {
-        var smallNumberFont = Graphics.FONT_TINY;
-        var mainTextXPos = (dc.getWidth() - dc.getWidth() / 20) - dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + millisecondsLeft, smallNumberFont);
-        var msTextXPos   =  dc.getWidth() - dc.getWidth() / 20;
-        if(mainTextXPos  > (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2) {
-            mainTextXPos = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2;
-            msTextXPos   = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2 + dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", smallNumberFont);
-        }
 
         dc.drawText(
             mainTextXPos,
