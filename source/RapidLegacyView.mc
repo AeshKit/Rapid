@@ -44,8 +44,16 @@ class RapidLegacyView extends Ui.View {
 
     // Draw Timer Full
     var smallNumberFont = Graphics.FONT_TINY;
-    var mainTextXPos = 0;
-    var msTextXPos   = 0;
+    var mainTextXPos    = 0;
+    var msTextXPos      = 0;
+    var msTextYPos      = 0;
+
+    // Yellow Rectangle / Gamemode
+    var yellowRectangleHeight;
+    var gamemodeTextX;
+    var yellowRectangleEndX;
+
+    var flashingStringY = 0;
 
     function initialize() {
 
@@ -89,14 +97,17 @@ class RapidLegacyView extends Ui.View {
         switchSidesTextHeight = (dc.getHeight() / 1.5 ).toNumber();
         gameStoppedRectangleY = (dc.getHeight() / 1.55).toNumber();
 
+        flashingStringY = ((dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 4 - 2).toNumber();
+        // -2 accounts for the slight overlap with the main font
+
         arcWidth = (centerX / 6).toNumber();
 
         // Game Active Addons
         while(true) {
-            topOfRectangle = (dc.getHeight() + Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont) + Graphics.getFontDescent(Graphics.FONT_MEDIUM);
-            rectangleTextX = centerX - Math.sqrt(Math.pow(centerX, 2) - Math.pow(topOfRectangle + Graphics.getFontHeight(font) - centerY, 2)) + arcWidth / 2;
-            blackRectangleTimeTextX = rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font);
-            whiteRectangleTimeTextX = rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.white_time_no_space) + " ", font);
+            topOfRectangle = ((dc.getHeight() + Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontDescent(mainNumberFont) + Graphics.getFontDescent(Graphics.FONT_MEDIUM)).toNumber();
+            rectangleTextX = (centerX - Math.sqrt(Math.pow(centerX, 2) - Math.pow(topOfRectangle + Graphics.getFontHeight(font) - centerY, 2)) + arcWidth / 2).toNumber();
+            blackRectangleTimeTextX = (rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font)).toNumber();
+            whiteRectangleTimeTextX = (rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.white_time_no_space) + " ", font)).toNumber();
 
             if(
                 rectangleTextX + dc.getTextWidthInPixels(loadResource(Strings.black_time_no_space) + " ", font) + dc.getTextWidthInPixels("00:00" + loadResource(Strings.decimal_separator) + "00", font)
@@ -120,20 +131,36 @@ class RapidLegacyView extends Ui.View {
                     continue;
                 }
                 if(arcWidth == centerX / 6) {
-                    arcWidth = centerX / 8;
+                    arcWidth = (centerX / 9).toNumber();
                     continue;
                 }
+                // else
                 extraDecimal = false;
             }
             break;
         }
 
+        yellowRectangleHeight   = ((dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontHeight(Graphics.FONT_TINY)).toNumber();
+        gamemodeTextX           = (dc.getWidth() / 2.35).toNumber();
+        yellowRectangleEndX     = (gamemodeTextX + dc.getTextWidthInPixels("0", Graphics.FONT_TINY) + centerX).toNumber();
+
         // Draw Timer Full
-        mainTextXPos = (dc.getWidth() - dc.getWidth() / 20) - dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", smallNumberFont);
-        msTextXPos   =  dc.getWidth() - dc.getWidth() / 20;
+        msTextYPos   = (dc.getHeight() / 2 - dc.getFontHeight(smallNumberFont) + Graphics.getFontDescent(smallNumberFont) + dc.getFontHeight(mainNumberFont) / 2 - Graphics.getFontDescent(mainNumberFont)).toNumber();
+        var leftwardOffset = 0;
+        mainTextXPos = ((dc.getWidth() - leftwardOffset) - dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", smallNumberFont)).toNumber();
+        msTextXPos   = ( dc.getWidth() - leftwardOffset).toNumber();
+        // Center text in case it is further on the right
         if(mainTextXPos  > (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2) {
             mainTextXPos = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2;
             msTextXPos   = (dc.getWidth() + dc.getTextWidthInPixels("00:00", mainNumberFont)) / 2 + dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", smallNumberFont);
+        }
+
+        // Device Specific Config 
+        // Mainly for devices with poor or incorrect font descent numbers.
+        switch(System.getDeviceSettings().partNumber) {
+            case Constants.d2charliePartNumber:
+                yellowRectangleHeight -= 16;
+                break;
         }
     }
 
@@ -301,7 +328,7 @@ class RapidLegacyView extends Ui.View {
             secsStr = secs < 10 ? "0" + secs : secs.toString();
             if(extraDecimal) {
                 var ms = (Globals.blackTimeLeft % 1000).toNumber();
-                msStr = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
+                msStr  = ms < 10 ? "0" + ms : (ms < 100 ? "0" + ms / 10 : ms / 10);
             }
 
             // WOWWW GREAT NAMING CONVENTION ME 2 YEARS AGO
@@ -334,7 +361,7 @@ class RapidLegacyView extends Ui.View {
             secsStr = secs < 10 ? "0" + secs : secs.toString();
             if(extraDecimal) {
                 var ms = (Globals.whiteTimeLeft % 1000).toNumber();
-                msStr = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
+                msStr  = ms < 10 ? "0" + ms : (ms < 100 ? "0" + ms / 10 : ms / 10);
             }
             
             if(!(Globals.uninterestingCountingVariable >= 3 && Globals.uninterestingCountingVariable <= 6) &&
@@ -361,8 +388,8 @@ class RapidLegacyView extends Ui.View {
 
         dc.fillRoundedRectangle(
             -centerX,
-            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontHeight(Graphics.FONT_TINY),
-            dc.getWidth() / 2.35 + dc.getTextWidthInPixels("0", Graphics.FONT_TINY) + centerX,
+            yellowRectangleHeight,
+            yellowRectangleEndX,
             Graphics.getFontHeight(Graphics.FONT_TINY),
             Graphics.getFontHeight(Graphics.FONT_TINY) / 2
         );
@@ -374,8 +401,8 @@ class RapidLegacyView extends Ui.View {
         System.println(dc.getFontHeight(mainNumberFont));
 
         dc.drawText(
-            dc.getWidth() / 2.35,
-            (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 2 - Graphics.getFontHeight(Graphics.FONT_TINY),
+            gamemodeTextX,
+            yellowRectangleHeight,
             Graphics.FONT_TINY,
             whiteMinutesLeft.toString() + secsStr + "+" + Globals.whiteIncrement,
             Graphics.TEXT_JUSTIFY_RIGHT
@@ -461,7 +488,7 @@ class RapidLegacyView extends Ui.View {
 
         var minsStr = mins < 10 ? "0" + mins : mins.toString();
         var secsStr = secs < 10 ? "0" + secs : secs.toString();
-        var msStr   = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
+        var msStr   = ms   < 10 ? "0" + ms   : (ms < 100 ? "0" + ms / 10 : ms / 10);
 
         displayOnlySeconds = currentTime < 60000;
 
@@ -488,7 +515,15 @@ class RapidLegacyView extends Ui.View {
 
         dc.drawText(
             msTextXPos,
-            dc.getHeight() / 2 - dc.getFontHeight(smallNumberFont) + Graphics.getFontDescent(smallNumberFont) + dc.getFontHeight(mainNumberFont) / 2 - Graphics.getFontDescent(mainNumberFont),
+            msTextYPos,
+            smallNumberFont,
+            loadResource(Strings.decimal_separator) + millisecondsLeft,
+            Graphics.TEXT_JUSTIFY_RIGHT
+        );
+
+        dc.drawText(
+            centerX,
+            centerY,
             smallNumberFont,
             loadResource(Strings.decimal_separator) + millisecondsLeft,
             Graphics.TEXT_JUSTIFY_RIGHT
@@ -525,7 +560,7 @@ class RapidLegacyView extends Ui.View {
         if(Globals.drawString) {
             dc.drawText(
                 centerX,
-                (dc.getHeight() - Graphics.getFontHeight(mainNumberFont)) / 4 - 2, // - 2 accounts for cutoff
+                flashingStringY,
                 Graphics.FONT_SYSTEM_MEDIUM,
                 string,
                 Graphics.TEXT_JUSTIFY_CENTER
