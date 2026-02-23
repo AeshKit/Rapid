@@ -330,7 +330,7 @@ class RapidView extends Ui.View {
 
         minsStr = mins < 10 ? "0" + mins : mins.toString();
         secsStr = secs < 10 ? "0" + secs : secs.toString();
-        msStr   = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
+        msStr   = ms   < 10 ? "0" + ms   : (ms < 100 ? "0" + ms / 10 : ms / 10);
 
         displayOnlySeconds = currentTime < 60000;
 
@@ -429,7 +429,7 @@ class RapidView extends Ui.View {
 
             minsStr = mins < 10 ? "0" + mins : mins.toString();
             secsStr = secs < 10 ? "0" + secs : secs.toString();
-            msStr   = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
+            msStr   = ms   < 10 ? "0" + ms   : (ms < 100 ? "0" + ms / 10 : ms / 10);
 
             if(!(Globals.uninterestingCountingVariable >= 3 && Globals.uninterestingCountingVariable <= 6) &&
                !(Globals.uninterestingCountingVariable >= 9 && Globals.uninterestingCountingVariable <= 12)) {
@@ -458,7 +458,7 @@ class RapidView extends Ui.View {
 
             minsStr = mins < 10 ? "0" + mins : mins.toString();
             secsStr = secs < 10 ? "0" + secs : secs.toString();
-            msStr   = ms   < 10 ? "0" + ms   : (ms >= 100 ? ms / 10 : ms.toString());
+            msStr   = ms   < 10 ? "0" + ms   : (ms < 100 ? "0" + ms / 10 : ms / 10);
 
             if(!(Globals.uninterestingCountingVariable >= 3 && Globals.uninterestingCountingVariable <= 6) &&
                !(Globals.uninterestingCountingVariable >= 9 && Globals.uninterestingCountingVariable <= 12)) {
