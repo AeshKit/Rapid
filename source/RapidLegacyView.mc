@@ -134,7 +134,6 @@ class RapidLegacyView extends Ui.View {
                     arcWidth = (centerX / 9).toNumber();
                     continue;
                 }
-                // else
                 extraDecimal = false;
             }
             break;
@@ -146,7 +145,7 @@ class RapidLegacyView extends Ui.View {
 
         // Draw Timer Full
         msTextYPos   = (dc.getHeight() / 2 - dc.getFontHeight(smallNumberFont) + Graphics.getFontDescent(smallNumberFont) + dc.getFontHeight(mainNumberFont) / 2 - Graphics.getFontDescent(mainNumberFont)).toNumber();
-        var leftwardOffset = 0;
+        var leftwardOffset = centerX - Math.sqrt(Math.pow(centerX, 2) - Math.pow(msTextXPos + dc.getFontHeight(smallNumberFont), 2)) + arcWidth / 2;
         mainTextXPos = ((dc.getWidth() - leftwardOffset) - dc.getTextWidthInPixels(loadResource(Strings.decimal_separator) + "00", smallNumberFont)).toNumber();
         msTextXPos   = ( dc.getWidth() - leftwardOffset).toNumber();
         // Center text in case it is further on the right
@@ -156,8 +155,11 @@ class RapidLegacyView extends Ui.View {
         }
 
         // Device Specific Config 
-        // Mainly for devices with poor or incorrect font descent numbers.
+        // Mainly for devices with poor, large or no font descent numbers.
         switch(System.getDeviceSettings().partNumber) {
+            case Constants.approachs60PartNumber:
+                yellowRectangleHeight += 12;
+                break;
             case Constants.d2charliePartNumber:
                 yellowRectangleHeight -= 16;
                 break;
@@ -220,34 +222,6 @@ class RapidLegacyView extends Ui.View {
 
         handleTimerDrawingAndChecks(dc);
         drawGameIdleAddons(dc);
-
-        dc.drawLine(
-            centerX,
-            0,
-            centerX,
-            dc.getHeight()
-        );
-
-        dc.drawLine(
-            0,
-            centerY,
-            dc.getWidth(),
-            centerY
-        );
-
-        dc.drawLine(
-            dc.getWidth() - dc.getWidth() / 8,
-            0,
-            dc.getWidth() - dc.getWidth() / 8,
-            dc.getHeight()
-        );
-
-        dc.drawLine(
-            dc.getWidth() / 8,
-            0,
-            dc.getWidth() / 8,
-            dc.getHeight()
-        );
 
         return;
     }
@@ -516,14 +490,6 @@ class RapidLegacyView extends Ui.View {
         dc.drawText(
             msTextXPos,
             msTextYPos,
-            smallNumberFont,
-            loadResource(Strings.decimal_separator) + millisecondsLeft,
-            Graphics.TEXT_JUSTIFY_RIGHT
-        );
-
-        dc.drawText(
-            centerX,
-            centerY,
             smallNumberFont,
             loadResource(Strings.decimal_separator) + millisecondsLeft,
             Graphics.TEXT_JUSTIFY_RIGHT
