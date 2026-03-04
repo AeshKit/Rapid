@@ -10,7 +10,7 @@
         <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidLegacyDelegate.mc" id="5" lineNum="13" parent="globals/RapidLegacyDelegate" pc="268435538" symbol="&lt;init&gt;"/>
         <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" id="6" lineNum="17" parent="globals/TimeOutView" pc="268435557" symbol="&lt;init&gt;"/>
         <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutView.mc" id="6" lineNum="40" parent="globals/TimeOutView" pc="268435575" symbol="&lt;init&gt;"/>
-        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268435611" symbol="&lt;init&gt;"/>
+        <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen" id="7" lineNum="7" parent="globals/Rez" pc="268435611" symbol="&lt;init&gt;"/>
         <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutViewLegacy.mc" id="8" lineNum="12" parent="globals/TimeOutViewLegacy" pc="268435635" symbol="&lt;init&gt;"/>
         <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/TimeOutDelegate.mc" id="9" lineNum="10" parent="globals/TimeOutDelegate" pc="268435654" symbol="&lt;init&gt;"/>
         <entry filename="/home/aesh/Coding/VSCodium-Projects/Rapid/source/RapidView.mc" id="10" lineNum="12" parent="globals/RapidView" pc="268435673" symbol="&lt;init&gt;"/>
@@ -2373,7 +2373,7 @@
         <entry endPc="268483724" name="menu" stackId="1" startPc="268482906"/>
         <entry arg="true" endPc="268484975" name="item" stackId="1" startPc="268483725"/>
     </localVars>
-    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3499-00"/>
+    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3226-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="white_increment_short"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="settings"/>

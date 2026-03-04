@@ -1,131 +1,131 @@
-[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
 import Toybox.Lang;
-[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
 using Toybox.WatchUi;
-[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
 using Toybox.Graphics;
-[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
 module Rez {
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 7; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
     module Drawables {
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 8; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [AppIcon,9,27,34]; @symbol_type<0> = [ResourceId,9,38,48]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [AppIcon,9,27,34]; @symbol_type<0> = [ResourceId,9,38,48]; ]
         var AppIcon as ResourceId;
     }
-    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Strings,12,11,18]; ]
+    [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Strings,12,11,18]; ]
     module Strings {
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 12; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 12; ]
         <init> {
         }
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [modern_view_on,13,27,41]; @symbol_type<0> = [ResourceId,13,45,55]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [modern_view_on,13,27,41]; @symbol_type<0> = [ResourceId,13,45,55]; ]
         var modern_view_on as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [white_time_setting,14,27,45]; @symbol_type<0> = [ResourceId,14,49,59]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [white_time_setting,14,27,45]; @symbol_type<0> = [ResourceId,14,49,59]; ]
         var white_time_setting as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [increment_setting,15,27,44]; @symbol_type<0> = [ResourceId,15,48,58]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [increment_setting,15,27,44]; @symbol_type<0> = [ResourceId,15,48,58]; ]
         var increment_setting as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [modern_view_off,16,27,42]; @symbol_type<0> = [ResourceId,16,46,56]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [modern_view_off,16,27,42]; @symbol_type<0> = [ResourceId,16,46,56]; ]
         var modern_view_off as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [toggle_backlight,17,27,43]; @symbol_type<0> = [ResourceId,17,47,57]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [toggle_backlight,17,27,43]; @symbol_type<0> = [ResourceId,17,47,57]; ]
         var toggle_backlight as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [progress_ring,18,27,40]; @symbol_type<0> = [ResourceId,18,44,54]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [progress_ring,18,27,40]; @symbol_type<0> = [ResourceId,18,44,54]; ]
         var progress_ring as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [turns,19,27,32]; @symbol_type<0> = [ResourceId,19,36,46]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [turns,19,27,32]; @symbol_type<0> = [ResourceId,19,36,46]; ]
         var turns as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [time_left,20,27,36]; @symbol_type<0> = [ResourceId,20,40,50]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [time_left,20,27,36]; @symbol_type<0> = [ResourceId,20,40,50]; ]
         var time_left as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [black_increment_setting,21,27,50]; @symbol_type<0> = [ResourceId,21,54,64]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [black_increment_setting,21,27,50]; @symbol_type<0> = [ResourceId,21,54,64]; ]
         var black_increment_setting as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [opens_settings_menu,22,27,46]; @symbol_type<0> = [ResourceId,22,50,60]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [opens_settings_menu,22,27,46]; @symbol_type<0> = [ResourceId,22,50,60]; ]
         var opens_settings_menu as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [total_time,23,27,37]; @symbol_type<0> = [ResourceId,23,41,51]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [total_time,23,27,37]; @symbol_type<0> = [ResourceId,23,41,51]; ]
         var total_time as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [time_indicator_white,24,27,47]; @symbol_type<0> = [ResourceId,24,51,61]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [time_indicator_white,24,27,47]; @symbol_type<0> = [ResourceId,24,51,61]; ]
         var time_indicator_white as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [decimal_separator,25,27,44]; @symbol_type<0> = [ResourceId,25,48,58]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [decimal_separator,25,27,44]; @symbol_type<0> = [ResourceId,25,48,58]; ]
         var decimal_separator as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [settings,26,27,35]; @symbol_type<0> = [ResourceId,26,39,49]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [settings,26,27,35]; @symbol_type<0> = [ResourceId,26,39,49]; ]
         var settings as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [ring_off,27,27,35]; @symbol_type<0> = [ResourceId,27,39,49]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [ring_off,27,27,35]; @symbol_type<0> = [ResourceId,27,39,49]; ]
         var ring_off as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [black_time_out,28,27,41]; @symbol_type<0> = [ResourceId,28,45,55]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [black_time_out,28,27,41]; @symbol_type<0> = [ResourceId,28,45,55]; ]
         var black_time_out as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 29; @position = 27; initialized = true; @symbol_vardef = [time_indicator_black,29,27,47]; @symbol_type<0> = [ResourceId,29,51,61]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 29; @position = 27; initialized = true; @symbol_vardef = [time_indicator_black,29,27,47]; @symbol_type<0> = [ResourceId,29,51,61]; ]
         var time_indicator_black as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [white_increment,30,27,42]; @symbol_type<0> = [ResourceId,30,46,56]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; @symbol_vardef = [white_increment,30,27,42]; @symbol_type<0> = [ResourceId,30,46,56]; ]
         var white_increment as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [starting_increment_short,31,27,51]; @symbol_type<0> = [ResourceId,31,55,65]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; @symbol_vardef = [starting_increment_short,31,27,51]; @symbol_type<0> = [ResourceId,31,55,65]; ]
         var starting_increment_short as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [haptics_on,32,27,37]; @symbol_type<0> = [ResourceId,32,41,51]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; @symbol_vardef = [haptics_on,32,27,37]; @symbol_type<0> = [ResourceId,32,41,51]; ]
         var haptics_on as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [kill_app,33,27,35]; @symbol_type<0> = [ResourceId,33,39,49]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; @symbol_vardef = [kill_app,33,27,35]; @symbol_type<0> = [ResourceId,33,39,49]; ]
         var kill_app as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [black_time_no_space,34,27,46]; @symbol_type<0> = [ResourceId,34,50,60]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 34; @position = 27; initialized = true; @symbol_vardef = [black_time_no_space,34,27,46]; @symbol_type<0> = [ResourceId,34,50,60]; ]
         var black_time_no_space as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [use_modern_menu,35,27,42]; @symbol_type<0> = [ResourceId,35,46,56]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; @symbol_vardef = [use_modern_menu,35,27,42]; @symbol_type<0> = [ResourceId,35,46,56]; ]
         var use_modern_menu as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [white_increment_setting,36,27,50]; @symbol_type<0> = [ResourceId,36,54,64]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; @symbol_vardef = [white_increment_setting,36,27,50]; @symbol_type<0> = [ResourceId,36,54,64]; ]
         var white_increment_setting as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; @symbol_vardef = [ring_on,37,27,34]; @symbol_type<0> = [ResourceId,37,38,48]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; @symbol_vardef = [ring_on,37,27,34]; @symbol_type<0> = [ResourceId,37,38,48]; ]
         var ring_on as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 38; @position = 27; initialized = true; @symbol_vardef = [backlight_off,38,27,40]; @symbol_type<0> = [ResourceId,38,44,54]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 38; @position = 27; initialized = true; @symbol_vardef = [backlight_off,38,27,40]; @symbol_type<0> = [ResourceId,38,44,54]; ]
         var backlight_off as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 39; @position = 27; initialized = true; @symbol_vardef = [backlight_on,39,27,39]; @symbol_type<0> = [ResourceId,39,43,53]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 39; @position = 27; initialized = true; @symbol_vardef = [backlight_on,39,27,39]; @symbol_type<0> = [ResourceId,39,43,53]; ]
         var backlight_on as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; @symbol_vardef = [increment,40,27,36]; @symbol_type<0> = [ResourceId,40,40,50]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; @symbol_vardef = [increment,40,27,36]; @symbol_type<0> = [ResourceId,40,40,50]; ]
         var increment as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; @symbol_vardef = [black_increment,41,27,42]; @symbol_type<0> = [ResourceId,41,46,56]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; @symbol_vardef = [black_increment,41,27,42]; @symbol_type<0> = [ResourceId,41,46,56]; ]
         var black_increment as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; @symbol_vardef = [white_time,42,27,37]; @symbol_type<0> = [ResourceId,42,41,51]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; @symbol_vardef = [white_time,42,27,37]; @symbol_type<0> = [ResourceId,42,41,51]; ]
         var white_time as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 43; @position = 27; initialized = true; @symbol_vardef = [change_starting_time,43,27,47]; @symbol_type<0> = [ResourceId,43,51,61]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 43; @position = 27; initialized = true; @symbol_vardef = [change_starting_time,43,27,47]; @symbol_type<0> = [ResourceId,43,51,61]; ]
         var change_starting_time as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 44; @position = 27; initialized = true; @symbol_vardef = [switch_sides,44,27,39]; @symbol_type<0> = [ResourceId,44,43,53]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 44; @position = 27; initialized = true; @symbol_vardef = [switch_sides,44,27,39]; @symbol_type<0> = [ResourceId,44,43,53]; ]
         var switch_sides as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 45; @position = 27; initialized = true; @symbol_vardef = [white_time_out,45,27,41]; @symbol_type<0> = [ResourceId,45,45,55]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 45; @position = 27; initialized = true; @symbol_vardef = [white_time_out,45,27,41]; @symbol_type<0> = [ResourceId,45,45,55]; ]
         var white_time_out as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 46; @position = 27; initialized = true; @symbol_vardef = [black_time,46,27,37]; @symbol_type<0> = [ResourceId,46,41,51]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 46; @position = 27; initialized = true; @symbol_vardef = [black_time,46,27,37]; @symbol_type<0> = [ResourceId,46,41,51]; ]
         var black_time as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 47; @position = 27; initialized = true; @symbol_vardef = [legacy_menu,47,27,38]; @symbol_type<0> = [ResourceId,47,42,52]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 47; @position = 27; initialized = true; @symbol_vardef = [legacy_menu,47,27,38]; @symbol_type<0> = [ResourceId,47,42,52]; ]
         var legacy_menu as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 48; @position = 27; initialized = true; @symbol_vardef = [white_increment_short,48,27,48]; @symbol_type<0> = [ResourceId,48,52,62]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 48; @position = 27; initialized = true; @symbol_vardef = [white_increment_short,48,27,48]; @symbol_type<0> = [ResourceId,48,52,62]; ]
         var white_increment_short as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 49; @position = 27; initialized = true; @symbol_vardef = [starting_time,49,27,40]; @symbol_type<0> = [ResourceId,49,44,54]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 49; @position = 27; initialized = true; @symbol_vardef = [starting_time,49,27,40]; @symbol_type<0> = [ResourceId,49,44,54]; ]
         var starting_time as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 50; @position = 27; initialized = true; @symbol_vardef = [black_increment_short,50,27,48]; @symbol_type<0> = [ResourceId,50,52,62]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 50; @position = 27; initialized = true; @symbol_vardef = [black_increment_short,50,27,48]; @symbol_type<0> = [ResourceId,50,52,62]; ]
         var black_increment_short as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 51; @position = 27; initialized = true; @symbol_vardef = [change_increment,51,27,43]; @symbol_type<0> = [ResourceId,51,47,57]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 51; @position = 27; initialized = true; @symbol_vardef = [change_increment,51,27,43]; @symbol_type<0> = [ResourceId,51,47,57]; ]
         var change_increment as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 52; @position = 27; initialized = true; @symbol_vardef = [scaling_time_out,52,27,43]; @symbol_type<0> = [ResourceId,52,47,57]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 52; @position = 27; initialized = true; @symbol_vardef = [scaling_time_out,52,27,43]; @symbol_type<0> = [ResourceId,52,47,57]; ]
         var scaling_time_out as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 53; @position = 27; initialized = true; @symbol_vardef = [white_time_no_space,53,27,46]; @symbol_type<0> = [ResourceId,53,50,60]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 53; @position = 27; initialized = true; @symbol_vardef = [white_time_no_space,53,27,46]; @symbol_type<0> = [ResourceId,53,50,60]; ]
         var white_time_no_space as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 54; @position = 27; initialized = true; @symbol_vardef = [black_time_setting,54,27,45]; @symbol_type<0> = [ResourceId,54,49,59]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 54; @position = 27; initialized = true; @symbol_vardef = [black_time_setting,54,27,45]; @symbol_type<0> = [ResourceId,54,49,59]; ]
         var black_time_setting as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 55; @position = 27; initialized = true; @symbol_vardef = [haptics_string,55,27,41]; @symbol_type<0> = [ResourceId,55,45,55]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 55; @position = 27; initialized = true; @symbol_vardef = [haptics_string,55,27,41]; @symbol_type<0> = [ResourceId,55,45,55]; ]
         var haptics_string as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 56; @position = 27; initialized = true; @symbol_vardef = [use_legacy_view,56,27,42]; @symbol_type<0> = [ResourceId,56,46,56]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 56; @position = 27; initialized = true; @symbol_vardef = [use_legacy_view,56,27,42]; @symbol_type<0> = [ResourceId,56,46,56]; ]
         var use_legacy_view as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 57; @position = 27; initialized = true; @symbol_vardef = [uses_battery,57,27,39]; @symbol_type<0> = [ResourceId,57,43,53]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 57; @position = 27; initialized = true; @symbol_vardef = [uses_battery,57,27,39]; @symbol_type<0> = [ResourceId,57,43,53]; ]
         var uses_battery as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 58; @position = 27; initialized = true; @symbol_vardef = [app_name,58,27,35]; @symbol_type<0> = [ResourceId,58,39,49]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 58; @position = 27; initialized = true; @symbol_vardef = [app_name,58,27,35]; @symbol_type<0> = [ResourceId,58,39,49]; ]
         var app_name as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 59; @position = 27; initialized = true; @symbol_vardef = [use_menu1,59,27,36]; @symbol_type<0> = [ResourceId,59,40,50]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 59; @position = 27; initialized = true; @symbol_vardef = [use_menu1,59,27,36]; @symbol_type<0> = [ResourceId,59,40,50]; ]
         var use_menu1 as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 60; @position = 27; initialized = true; @symbol_vardef = [haptics_off,60,27,38]; @symbol_type<0> = [ResourceId,60,42,52]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 60; @position = 27; initialized = true; @symbol_vardef = [haptics_off,60,27,38]; @symbol_type<0> = [ResourceId,60,42,52]; ]
         var haptics_off as ResourceId;
-        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 61; @position = 27; initialized = true; @symbol_vardef = [starting_time_setting,61,27,48]; @symbol_type<0> = [ResourceId,61,52,62]; ]
+        [ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 61; @position = 27; initialized = true; @symbol_vardef = [starting_time_setting,61,27,48]; @symbol_type<0> = [ResourceId,61,52,62]; ]
         var starting_time_setting as ResourceId;
     }
 }
-[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3499-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/home/aesh/Coding/VSCodium-Projects/Rapid/bin/gen/006-B3226-00/source/Rez.mcgen"; @line = 1; ]
 <init> {
 }

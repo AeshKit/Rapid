@@ -85,7 +85,7 @@ This will make the current time displayed incorrect until the user switches side
 ## -- License --
 
 ```
-Copyright (C) 2026  Kaiden Santos
+Copyright (C) 2026  AeshKit
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
