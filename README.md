@@ -1,4 +1,4 @@
-<p align="left">
+<p align="center">
   <img 
     src="https://raw.githubusercontent.com/AeshKit/Rapid/main/CoverImage500x500.png"
     width="250"
