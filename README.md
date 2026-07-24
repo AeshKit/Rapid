@@ -1,7 +1,7 @@
-<p align="center">
+<p align="left">
   <img 
     src="https://raw.githubusercontent.com/AeshKit/Rapid/main/CoverImage500x500.png"
-    width="112"
+    width="250"
     style="image-rendering: pixelated;">
 </p>
 
