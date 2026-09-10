@@ -29,7 +29,7 @@ Inspired by the FOSS Android application [Blitz](https://github.com/ldeso/blitz)
 * **Back**: Stops the game. Double-clicking exits the application
 * **Up / Menu**: Holding opens the settings menu
 * **Down**: Pauses the game if pressed while running
-* **Up / Down**: Changes the time or increment if in changing mode [ Accessable in the settings menu ]
+* **Up / Down**: Changes the time or increment if in changing mode [ Accessible in the settings menu ]
 
 **Touchscreen Controls**
 
@@ -64,12 +64,12 @@ Just like in the full app, you can switch one side's time or increment in the se
 
 - You can download the published app in the [CIQ Store](https://apps.garmin.com/apps/721c1ce7-0fad-4d4c-84bd-5e59b5f5f371?tid=0) on a mobile device, or build from source using the Garmin SDK for the most recent features.
 
-If you don't want to use any Garmin services, the .iq files are just archives. Download it from the [releases](https://github.com/AeshKit/Rapid/releases/) page and find the folder with your device's part number. Then, transfer your `Rapid.prg` file to `$WATCHDIR/Internal Storage/GARMIN/Apps`. After unplugging the watch, it will install the application.
+If you don't want to use any Garmin services, the *.iq* files are just archives. Download it from the [releases](https://github.com/AeshKit/Rapid/releases/) page and find the folder with your device's part number. Then, transfer your `Rapid.prg` file to `$WATCHDIR/Internal Storage/GARMIN/Apps`. After unplugging the watch, it will install the application.
 
 ## -- Technical --
 - *Why can't I use this app in official settings ?*
 
-*Fide has [strict rules](https://handbook.fide.com/files/handbook/C02Standards.pdf) as to what qualities a digital clock must have to be considered for tournament use. Even if we made the perfect application, the limitations of Monkey C and the Garmin watches still make it impossible to be completely FIDE-Compliant. Here are some standards that Rapid could realistically never achieve:
+*Fide has [strict rules](https://handbook.fide.com/files/handbook/C02Standards.pdf) as to what qualities a digital clock must have to be considered for tournament use. Even if we made the perfect application, the limitations of Monkey C and the Garmin watches still make it impossible to be completely FIDE-Compliant. Here are some standards that Rapid could never realistically achieve:
 
 * **5.4.3.3**: The displays must be legible from a distance of at least 3 meters.
 * **5.4.3.11**: It must be impossible to erase or change the data in display with a simple manipulation.
@@ -89,8 +89,8 @@ Copyright (C) 2026  AeshKit
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
+as published by the Free Software Foundation; version 2 of the
+License.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
